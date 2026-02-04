@@ -1,170 +1,164 @@
-# Public DNS Servers
+<div align="center">
 
-[![Last Updated](https://img.shields.io/github/last-commit/pingproxies/public-dns-servers?label=updated)](https://github.com/pingproxies/public-dns-servers/commits/main)
-[![License](https://img.shields.io/github/license/pingproxies/public-dns-servers)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/pingproxies/public-dns-servers?style=social)](https://github.com/pingproxies/public-dns-servers)
+# Public DNS Servers List by Ping Proxies
 
-The most comprehensive and data-rich public DNS server list on GitHub. Daily-updated, organized by 160+ countries, with uptime metrics, DNSSEC status, and filtering capabilities that no other repository provides.
+### The most comprehensive public DNS server list on GitHub
+
+[![Servers](https://img.shields.io/badge/servers-9,879-blue?style=for-the-badge)](data/stats.json)
+[![Countries](https://img.shields.io/badge/countries-153-green?style=for-the-badge)](resolvers/by-country/)
+[![Updated](https://img.shields.io/github/last-commit/pingproxies/public-dns-directory?style=for-the-badge&label=updated)](https://github.com/pingproxies/public-dns-directory/commits/main)
+
+[![License](https://img.shields.io/github/license/pingproxies/public-dns-directory?style=flat-square)](LICENSE)
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/pingproxies/public-dns-directory/update-resolvers.yml?style=flat-square&label=auto-update)](https://github.com/pingproxies/public-dns-directory/actions)
+[![Stars](https://img.shields.io/github/stars/pingproxies/public-dns-directory?style=flat-square)](https://github.com/pingproxies/public-dns-directory/stargazers)
+
+<br/>
+
+![About Ping Illustration](images/About%20Ping%20Illustration.svg)
+
+<br/>
+
+**Daily-updated DNS resolvers organized by 153 countries with uptime metrics, DNSSEC status, and content filtering capabilities.**
+
+[Quick Start](#quick-start) · [Available Lists](#available-lists) · [Usage Examples](#usage-examples) · [Data Formats](#data-formats)
+
+---
 
 **Data Source:** [dnsdirectory.com](https://dnsdirectory.com)
 
----
+</div>
 
 ## Quick Start
 
-### Download All Servers (IPv4)
+Download resolver lists instantly:
 
 ```bash
-# Using wget
-wget https://raw.githubusercontent.com/pingproxies/public-dns-servers/main/resolvers/global/all.txt
+# All servers (IPv4)
+curl -O https://raw.githubusercontent.com/pingproxies/public-dns-directory/main/resolvers/global/all.txt
 
-# Using curl
-curl -O https://raw.githubusercontent.com/pingproxies/public-dns-servers/main/resolvers/global/all.txt
+# Trusted providers only (Google, Cloudflare, Quad9, etc.)
+curl -O https://raw.githubusercontent.com/pingproxies/public-dns-directory/main/resolvers/global/trusted.txt
+
+# By country (e.g., United States)
+curl -O https://raw.githubusercontent.com/pingproxies/public-dns-directory/main/resolvers/by-country/US.txt
 ```
 
-### Download Trusted Servers Only
+## Features
 
-```bash
-wget https://raw.githubusercontent.com/pingproxies/public-dns-servers/main/resolvers/global/trusted.txt
-```
-
-### Download by Country
-
-```bash
-# United States
-wget https://raw.githubusercontent.com/pingproxies/public-dns-servers/main/resolvers/by-country/US.txt
-
-# Germany
-wget https://raw.githubusercontent.com/pingproxies/public-dns-servers/main/resolvers/by-country/DE.txt
-```
-
----
-
-## File Organization
-
-| Directory | Format | Description |
-|-----------|--------|-------------|
-| `resolvers/global/` | TXT | Aggregated lists (all, trusted, dnssec, ad-blocking, etc.) |
-| `resolvers/by-country/` | TXT | IPv4 servers by ISO 3166-1 alpha-2 country code |
-| `resolvers/by-country-ipv6/` | TXT | IPv6 servers by country |
-| `resolvers/by-continent/` | TXT | Servers by continent code (NA, EU, AS, etc.) |
-| `data/` | JSON/CSV | Full metadata for programmatic access |
-| `data/by-country/` | JSON | Full metadata per country |
-| `data/by-continent/` | JSON | Full metadata per continent |
-
----
-
-## Usage Examples
-
-### With massdns
-
-```bash
-massdns -r resolvers/global/all.txt -t A domains.txt -o S
-```
-
-### With shuffledns
-
-```bash
-shuffledns -d example.com -r resolvers/global/trusted.txt -w wordlist.txt
-```
-
-### With dnsx
-
-```bash
-echo example.com | dnsx -r resolvers/by-country/US.txt -a -resp
-```
-
-### With dig (manual testing)
-
-```bash
-# Test a specific resolver
-dig @8.8.8.8 example.com A
-```
-
-### With Python
-
-```python
-import requests
-
-url = "https://raw.githubusercontent.com/pingproxies/public-dns-servers/main/data/resolvers.json"
-data = requests.get(url).json()
-
-for resolver in data["resolvers"][:10]:
-    print(f"{resolver['ip']} - {resolver['country']} - Trusted: {resolver['trusted']}")
-```
-
----
+| Feature | Description |
+|---------|-------------|
+| **9,800+ Servers** | Comprehensive coverage of public DNS resolvers worldwide |
+| **153 Countries** | Organized by ISO 3166-1 alpha-2 country codes |
+| **Rich Metadata** | Uptime (24h/30d/90d/1y), DNSSEC, blocking capabilities |
+| **Multiple Formats** | TXT for tools, JSON for developers, CSV for analysis |
+| **Auto-Updated** | Refreshed twice daily via GitHub Actions |
+| **Curated Lists** | Trusted, DNSSEC, ad-blocking, malware-blocking, family-safe |
 
 ## Available Lists
 
 ### Global Lists
 
-| File | Description |
-|------|-------------|
-| [`all.txt`](resolvers/global/all.txt) | All online IPv4 DNS servers |
-| [`all-ipv6.txt`](resolvers/global/all-ipv6.txt) | All online IPv6 DNS servers |
-| [`trusted.txt`](resolvers/global/trusted.txt) | Verified trusted providers (Google, Cloudflare, Quad9, etc.) |
-| [`trusted-ipv6.txt`](resolvers/global/trusted-ipv6.txt) | Trusted providers - IPv6 |
-| [`dnssec.txt`](resolvers/global/dnssec.txt) | DNSSEC-validating servers |
-| [`dnssec-ipv6.txt`](resolvers/global/dnssec-ipv6.txt) | DNSSEC-validating - IPv6 |
-| [`ad-blocking.txt`](resolvers/global/ad-blocking.txt) | Ad-blocking DNS servers |
-| [`malware-blocking.txt`](resolvers/global/malware-blocking.txt) | Malware-blocking DNS servers |
-| [`family-safe.txt`](resolvers/global/family-safe.txt) | Adult content filtering |
-| [`high-uptime.txt`](resolvers/global/high-uptime.txt) | Servers with 99%+ uptime (30 days) |
+| List | Description | Download |
+|------|-------------|----------|
+| **All Servers** | Complete IPv4 resolver list | [`all.txt`](resolvers/global/all.txt) |
+| **Trusted** | Verified providers (Google, Cloudflare, Quad9) | [`trusted.txt`](resolvers/global/trusted.txt) |
+| **DNSSEC** | DNSSEC-validating servers | [`dnssec.txt`](resolvers/global/dnssec.txt) |
+| **Ad-Blocking** | Blocks advertisements | [`ad-blocking.txt`](resolvers/global/ad-blocking.txt) |
+| **Malware-Blocking** | Blocks malicious domains | [`malware-blocking.txt`](resolvers/global/malware-blocking.txt) |
+| **Family-Safe** | Adult content filtering | [`family-safe.txt`](resolvers/global/family-safe.txt) |
+| **High Uptime** | 99%+ uptime (30 days) | [`high-uptime.txt`](resolvers/global/high-uptime.txt) |
 
 ### By Country
 
-DNS servers organized by [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country codes.
+Servers organized by [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country codes.
 
-| Country | Code | IPv4 | IPv6 |
-|---------|------|------|------|
-| United States | [US](resolvers/by-country/US.txt) | [US.txt](resolvers/by-country/US.txt) | [US.txt](resolvers/by-country-ipv6/US.txt) |
-| Germany | [DE](resolvers/by-country/DE.txt) | [DE.txt](resolvers/by-country/DE.txt) | [DE.txt](resolvers/by-country-ipv6/DE.txt) |
-| United Kingdom | [GB](resolvers/by-country/GB.txt) | [GB.txt](resolvers/by-country/GB.txt) | [GB.txt](resolvers/by-country-ipv6/GB.txt) |
-| France | [FR](resolvers/by-country/FR.txt) | [FR.txt](resolvers/by-country/FR.txt) | [FR.txt](resolvers/by-country-ipv6/FR.txt) |
-| Netherlands | [NL](resolvers/by-country/NL.txt) | [NL.txt](resolvers/by-country/NL.txt) | [NL.txt](resolvers/by-country-ipv6/NL.txt) |
-| Japan | [JP](resolvers/by-country/JP.txt) | [JP.txt](resolvers/by-country/JP.txt) | [JP.txt](resolvers/by-country-ipv6/JP.txt) |
-| Canada | [CA](resolvers/by-country/CA.txt) | [CA.txt](resolvers/by-country/CA.txt) | [CA.txt](resolvers/by-country-ipv6/CA.txt) |
-| Australia | [AU](resolvers/by-country/AU.txt) | [AU.txt](resolvers/by-country/AU.txt) | [AU.txt](resolvers/by-country-ipv6/AU.txt) |
+| Country | IPv4 | JSON |
+|---------|------|------|
+| United States | [`US.txt`](resolvers/by-country/US.txt) | [`US.json`](data/by-country/US.json) |
+| Germany | [`DE.txt`](resolvers/by-country/DE.txt) | [`DE.json`](data/by-country/DE.json) |
+| United Kingdom | [`GB.txt`](resolvers/by-country/GB.txt) | [`GB.json`](data/by-country/GB.json) |
+| France | [`FR.txt`](resolvers/by-country/FR.txt) | [`FR.json`](data/by-country/FR.json) |
+| Netherlands | [`NL.txt`](resolvers/by-country/NL.txt) | [`NL.json`](data/by-country/NL.json) |
+| Japan | [`JP.txt`](resolvers/by-country/JP.txt) | [`JP.json`](data/by-country/JP.json) |
+| Canada | [`CA.txt`](resolvers/by-country/CA.txt) | [`CA.json`](data/by-country/CA.json) |
+| Australia | [`AU.txt`](resolvers/by-country/AU.txt) | [`AU.json`](data/by-country/AU.json) |
 
-Browse [`resolvers/by-country/`](resolvers/by-country/) for the complete list (160+ countries).
+**[Browse all 153 countries →](resolvers/by-country/)**
 
 ### By Continent
 
-| Continent | Code | File |
-|-----------|------|------|
-| Africa | AF | [`AF.txt`](resolvers/by-continent/AF.txt) |
-| Asia | AS | [`AS.txt`](resolvers/by-continent/AS.txt) |
-| Europe | EU | [`EU.txt`](resolvers/by-continent/EU.txt) |
-| North America | NA | [`NA.txt`](resolvers/by-continent/NA.txt) |
-| Oceania | OC | [`OC.txt`](resolvers/by-continent/OC.txt) |
-| South America | SA | [`SA.txt`](resolvers/by-continent/SA.txt) |
+| Continent | File |
+|-----------|------|
+| Africa | [`AF.txt`](resolvers/by-continent/AF.txt) |
+| Asia | [`AS.txt`](resolvers/by-continent/AS.txt) |
+| Europe | [`EU.txt`](resolvers/by-continent/EU.txt) |
+| North America | [`NA.txt`](resolvers/by-continent/NA.txt) |
+| Oceania | [`OC.txt`](resolvers/by-continent/OC.txt) |
+| South America | [`SA.txt`](resolvers/by-continent/SA.txt) |
 
----
+## Usage Examples
+
+### Security Tools
+
+```bash
+# massdns - High-performance DNS resolution
+massdns -r resolvers/global/all.txt -t A domains.txt -o S
+
+# shuffledns - Subdomain enumeration
+shuffledns -d example.com -r resolvers/global/trusted.txt -w wordlist.txt
+
+# dnsx - DNS toolkit
+cat subdomains.txt | dnsx -r resolvers/by-country/US.txt -a -resp
+```
+
+### Python
+
+```python
+import requests
+
+url = "https://raw.githubusercontent.com/pingproxies/public-dns-directory/main/data/resolvers.json"
+data = requests.get(url).json()
+
+# Get all trusted DNSSEC servers
+trusted_dnssec = [
+    r for r in data["resolvers"]
+    if r["trusted"] and r["dnssec"]["validating"]
+]
+
+for server in trusted_dnssec[:5]:
+    print(f"{server['ip']} - {server['organization']}")
+```
+
+### cURL / Shell
+
+```bash
+# Get server count
+curl -s https://raw.githubusercontent.com/pingproxies/public-dns-directory/main/data/stats.json | jq '.totals.servers'
+
+# List all US servers
+curl -s https://raw.githubusercontent.com/pingproxies/public-dns-directory/main/resolvers/by-country/US.txt | grep -v "^#"
+```
 
 ## Data Formats
 
-### TXT (for security tools)
+### TXT — For Security Tools
 
-Plain text files with one IP address per line. Includes a comment header with metadata.
+One IP per line, compatible with massdns, shuffledns, dnsx.
 
 ```
 # Public DNS Servers - United States (US)
 # Source: https://dnsdirectory.com
 # Updated: 2024-02-04T06:00:00Z
-# Total: 523 servers
+# Total: 1,234 servers
 #
 8.8.8.8
 8.8.4.4
 1.1.1.1
-...
 ```
 
-**Best for:** massdns, shuffledns, dnsx, and other DNS reconnaissance tools.
+### JSON — For Developers
 
-### JSON (for developers)
-
-Full metadata including uptime statistics, DNSSEC status, and blocking capabilities.
+Full metadata with nested structure.
 
 ```json
 {
@@ -174,96 +168,67 @@ Full metadata including uptime statistics, DNSSEC status, and blocking capabilit
   "country": "United States",
   "organization": "Google LLC",
   "trusted": true,
-  "dnssec": {
-    "aware": true,
-    "validating": true
-  },
-  "blocking": {
-    "ads": false,
-    "malware": false,
-    "adult": false
-  },
-  "uptime": {
-    "24h": 100.0,
-    "30d": 99.98,
-    "90d": 99.97,
-    "1y": 99.95
-  }
+  "dnssec": { "aware": true, "validating": true },
+  "blocking": { "ads": false, "malware": false, "adult": false },
+  "uptime": { "24h": 100.0, "30d": 99.98, "90d": 99.97, "1y": 99.95 }
 }
 ```
 
 **Files:**
-- [`data/resolvers.json`](data/resolvers.json) - Complete dataset with all metadata
-- [`data/resolvers-minimal.json`](data/resolvers-minimal.json) - IP + country + trusted only
-- [`data/stats.json`](data/stats.json) - Repository statistics
+- [`resolvers.json`](data/resolvers.json) — Complete dataset
+- [`resolvers-minimal.json`](data/resolvers-minimal.json) — IP + country + trusted
+- [`stats.json`](data/stats.json) — Repository statistics
 
-### CSV (for analysis)
+### CSV — For Analysis
 
-Flat format suitable for spreadsheets and database imports.
+Flat format for spreadsheets and databases: [`resolvers.csv`](data/resolvers.csv)
 
-**File:** [`data/resolvers.csv`](data/resolvers.csv)
+## File Structure
 
----
-
-## Metadata Fields
-
-| Field | Description |
-|-------|-------------|
-| `ip` | DNS server IP address |
-| `version` | IP version (4 or 6) |
-| `country_code` | ISO 3166-1 alpha-2 country code |
-| `country` | Country name |
-| `continent_code` | Continent code (NA, EU, AS, etc.) |
-| `organization` | Operating organization/ISP |
-| `domain` | Associated domain (if any) |
-| `trusted` | Verified trusted provider |
-| `anycast` | Uses anycast routing |
-| `dnssec.aware` | DNSSEC-aware |
-| `dnssec.validating` | Performs DNSSEC validation |
-| `blocking.ads` | Blocks advertisements |
-| `blocking.malware` | Blocks malware domains |
-| `blocking.adult` | Blocks adult content |
-| `uptime.24h` | Uptime percentage (last 24 hours) |
-| `uptime.30d` | Uptime percentage (last 30 days) |
-| `uptime.90d` | Uptime percentage (last 90 days) |
-| `uptime.1y` | Uptime percentage (last year) |
-
----
+```
+├── resolvers/
+│   ├── global/           # Aggregated lists (all, trusted, dnssec, etc.)
+│   ├── by-country/       # IPv4 by country code (US.txt, DE.txt, ...)
+│   ├── by-country-ipv6/  # IPv6 by country code
+│   └── by-continent/     # By continent (NA.txt, EU.txt, ...)
+└── data/
+    ├── resolvers.json    # Complete dataset with metadata
+    ├── resolvers.csv     # Flat CSV export
+    ├── stats.json        # Statistics
+    ├── by-country/       # JSON per country
+    └── by-continent/     # JSON per continent
+```
 
 ## Update Schedule
 
 This repository is automatically updated **twice daily** via GitHub Actions:
 
-- **06:00 UTC**
-- **18:00 UTC**
+| Schedule | Time |
+|----------|------|
+| Morning | 06:00 UTC |
+| Evening | 18:00 UTC |
 
-All data is sourced from [dnsdirectory.com](https://dnsdirectory.com)'s continuous testing infrastructure.
+## Related Projects
 
----
+- [dnsdirectory.com](https://dnsdirectory.com) — Full DNS directory with interactive search
+- [massdns](https://github.com/blechschmidt/massdns) — High-performance DNS stub resolver
+- [shuffledns](https://github.com/projectdiscovery/shuffledns) — Subdomain enumeration
+- [dnsx](https://github.com/projectdiscovery/dnsx) — Fast DNS toolkit
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-**Note:** The files in `resolvers/` and `data/` directories are auto-generated. Please do not submit pull requests modifying these files directly.
-
----
-
-## Related Projects
-
-- [dnsdirectory.com](https://dnsdirectory.com) - Full DNS directory with interactive search
-- [massdns](https://github.com/blechschmidt/massdns) - High-performance DNS stub resolver
-- [shuffledns](https://github.com/projectdiscovery/shuffledns) - Subdomain enumeration using massdns
-- [dnsx](https://github.com/projectdiscovery/dnsx) - Fast and multi-purpose DNS toolkit
-
----
+> **Note:** Files in `resolvers/` and `data/` are auto-generated. Do not edit directly.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 
-## Acknowledgments
+<div align="center">
 
-Data provided by [dnsdirectory.com](https://dnsdirectory.com) and the [Ping Proxies](https://pingproxies.com) team.
+**Data provided by [dnsdirectory.com](https://dnsdirectory.com) and [Ping Proxies](https://pingproxies.com)**
+
+</div>
