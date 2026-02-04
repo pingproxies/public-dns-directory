@@ -4,10 +4,37 @@
     "country_name": "Moldova",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-04T16:27:25Z",
-    "total_servers": 6
+    "generated_at": "2026-02-04T18:13:59Z",
+    "total_servers": 7
   },
   "resolvers": [
+    {
+      "ip": "93.115.136.236",
+      "version": 4,
+      "country_code": "md",
+      "country": "Moldova",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "JSC Moldtelecom S.A.",
+      "domain": "host-static-93-115-136-236.moldtelecom.md",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.0,
+        "30d": 63.93,
+        "90d": 42.36,
+        "1y": 42.36
+      }
+    },
     {
       "ip": "212.56.212.194",
       "version": 4,
@@ -29,37 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.48,
-        "30d": 95.26,
+        "24h": 90.0,
+        "30d": 95.24,
         "90d": 96.88,
         "1y": 96.88
-      }
-    },
-    {
-      "ip": "89.28.65.201",
-      "version": 4,
-      "country_code": "md",
-      "country": "Moldova",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SC Starnet SRL",
-      "domain": "89-28-65-201.starnet.md",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 64.77,
-        "90d": 55.86,
-        "1y": 55.86
       }
     },
     {
@@ -110,8 +110,8 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 85.58,
+        "24h": 95.0,
+        "30d": 85.94,
         "90d": 85.15,
         "1y": 85.15
       }
@@ -128,12 +128,12 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -159,7 +159,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -168,6 +168,33 @@
         "30d": 100.0,
         "90d": 99.72,
         "1y": 99.72
+      }
+    },
+    {
+      "ip": "77.89.204.186",
+      "version": 4,
+      "country_code": "md",
+      "country": "Moldova",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ORANGE MOLDOVA S.A.",
+      "domain": "static.77.89.204.186.tmg.md",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 58.81,
+        "90d": 63.6,
+        "1y": 63.6
       }
     }
   ]

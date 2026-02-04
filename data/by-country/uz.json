@@ -4,10 +4,64 @@
     "country_name": "Uzbekistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-04T16:27:25Z",
-    "total_servers": 18
+    "generated_at": "2026-02-04T18:13:59Z",
+    "total_servers": 20
   },
   "resolvers": [
+    {
+      "ip": "213.230.111.191",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Uztelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.0,
+        "30d": 77.65,
+        "90d": 62.74,
+        "1y": 62.74
+      }
+    },
+    {
+      "ip": "213.230.90.54",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Uztelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 61.43,
+        "90d": 37.32,
+        "1y": 37.32
+      }
+    },
     {
       "ip": "91.90.216.190",
       "version": 4,
@@ -25,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 57.96,
-        "90d": 46.32,
-        "1y": 46.32
+        "24h": 50.0,
+        "30d": 58.31,
+        "90d": 46.34,
+        "1y": 46.34
       }
     },
     {
@@ -75,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -84,7 +138,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
+        "30d": 99.52,
         "90d": 99.59,
         "1y": 99.59
       }
@@ -187,18 +241,18 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 57.14,
-        "30d": 80.05,
-        "90d": 75.47,
-        "1y": 75.47
+        "24h": 52.63,
+        "30d": 80.0,
+        "90d": 75.48,
+        "1y": 75.48
       }
     },
     {
-      "ip": "84.54.115.253",
+      "ip": "84.54.115.248",
       "version": 4,
       "country_code": "uz",
       "country": "Uzbekistan",
@@ -210,7 +264,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -218,10 +272,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.95,
-        "30d": 73.27,
-        "90d": 83.1,
-        "1y": 83.1
+        "24h": 45.0,
+        "30d": 68.97,
+        "90d": 55.67,
+        "1y": 55.67
       }
     },
     {
@@ -246,7 +300,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.48,
+        "30d": 93.46,
         "90d": 91.8,
         "1y": 91.8
       }
@@ -264,7 +318,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -273,7 +327,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.75,
+        "30d": 95.74,
         "90d": 97.53,
         "1y": 97.53
       }
@@ -348,15 +402,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 83.47,
+        "90d": 88.94,
+        "1y": 88.94
+      }
+    },
+    {
+      "ip": "94.232.24.10",
+      "version": 4,
+      "country_code": "uz",
+      "country": "Uzbekistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NETKA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 83.51,
-        "90d": 88.94,
-        "1y": 88.94
+        "24h": 20.0,
+        "30d": 68.93,
+        "90d": 57.47,
+        "1y": 57.47
       }
     },
     {
@@ -376,41 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.19,
+        "30d": 87.14,
         "90d": 88.67,
         "1y": 88.67
-      }
-    },
-    {
-      "ip": "213.230.108.161",
-      "version": 4,
-      "country_code": "uz",
-      "country": "Uzbekistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Uztelecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 47.62,
-        "30d": 76.63,
-        "90d": 62.24,
-        "1y": 62.24
       }
     },
     {
@@ -431,7 +485,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -483,15 +537,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 52.38,
-        "30d": 69.99,
-        "90d": 72.59,
-        "1y": 72.59
+        "24h": 50.0,
+        "30d": 70.0,
+        "90d": 72.6,
+        "1y": 72.6
       }
     }
   ]

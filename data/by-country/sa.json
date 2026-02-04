@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-04T16:27:25Z",
-    "total_servers": 8
+    "generated_at": "2026-02-04T18:13:59Z",
+    "total_servers": 9
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -74,13 +74,13 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -90,13 +90,13 @@
       }
     },
     {
-      "ip": "85.194.70.173",
+      "ip": "5.42.248.31",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Mobily Corp.",
+      "organization": "Xenel Group",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -107,13 +107,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.78,
-        "1y": 99.78
+        "24h": 40.0,
+        "30d": 48.33,
+        "90d": 55.96,
+        "1y": 55.96
       }
     },
     {
@@ -132,7 +132,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -186,8 +186,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -195,6 +195,33 @@
         "30d": 97.98,
         "90d": 96.39,
         "1y": 96.39
+      }
+    },
+    {
+      "ip": "85.194.70.173",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobily Corp.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.78,
+        "1y": 99.78
       }
     },
     {
