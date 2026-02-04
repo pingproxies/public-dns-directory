@@ -1,0 +1,98 @@
+name: Update DNS Resolvers
+
+on:
+  schedule:
+    # Run at 06:00 and 18:00 UTC daily
+    - cron: '0 6 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  PYTHON_VERSION: '3.11'
+
+jobs:
+  update-resolvers:
+    name: Fetch and Update Resolvers
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: 'pip'
+          cache-dependency-path: 'scripts/requirements.txt'
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch and process resolvers
+        id: fetch
+        run: python scripts/fetch_resolvers.py
+        env:
+          DNS_API_ENDPOINT: ${{ secrets.DNS_API_ENDPOINT }}
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [[ -n $(git status --porcelain resolvers/ data/) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected in resolver files"
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          fi
+
+      - name: Get statistics
+        id: stats
+        if: steps.changes.outputs.has_changes == 'true' || inputs.force_update == true
+        run: |
+          if [ -f "data/stats.json" ]; then
+            SERVERS=$(jq -r '.totals.servers' data/stats.json)
+            COUNTRIES=$(jq -r '.totals.countries' data/stats.json)
+            echo "servers=$SERVERS" >> $GITHUB_OUTPUT
+            echo "countries=$COUNTRIES" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.has_changes == 'true' || inputs.force_update == true
+        run: |
+          git config --local user.email "bot@dnsdirectory.com"
+          git config --local user.name "DNS Directory Bot"
+
+          git add resolvers/ data/
+
+          TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          COMMIT_MSG="Update resolvers - ${TIMESTAMP}
+
+          Servers: ${{ steps.stats.outputs.servers || 'N/A' }}
+          Countries: ${{ steps.stats.outputs.countries || 'N/A' }}
+          Trigger: ${{ github.event_name }}"
+
+          git commit -m "$COMMIT_MSG"
+          git push
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger:** ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes Detected:** ${{ steps.changes.outputs.has_changes }}" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.stats.outputs.servers }}" != "" ]; then
+            echo "- **Total Servers:** ${{ steps.stats.outputs.servers }}" >> $GITHUB_STEP_SUMMARY
+            echo "- **Total Countries:** ${{ steps.stats.outputs.countries }}" >> $GITHUB_STEP_SUMMARY
+          fi
