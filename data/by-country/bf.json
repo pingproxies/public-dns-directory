@@ -4,37 +4,10 @@
     "country_name": "Burkina Faso",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-05T06:27:58Z",
+    "generated_at": "2026-02-05T18:14:38Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "206.82.130.195",
-      "version": 4,
-      "country_code": "bf",
-      "country": "Burkina Faso",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Onatel",
-      "domain": "caching.onatel.bf",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.76,
-        "90d": 99.78,
-        "1y": 99.78
-      }
-    },
     {
       "ip": "41.216.155.125",
       "version": 4,
@@ -51,42 +24,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 58.74,
-        "90d": 56.3,
-        "1y": 56.3
+        "24h": 50.0,
+        "30d": 58.72,
+        "90d": 56.28,
+        "1y": 56.28
       }
     },
     {
-      "ip": "41.216.159.6",
+      "ip": "206.82.130.195",
       "version": 4,
       "country_code": "bf",
       "country": "Burkina Faso",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Internet Puissance Plus Burkina SA",
+      "organization": "Onatel",
+      "domain": "caching.onatel.bf",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.76,
+        "90d": 99.78,
+        "1y": 99.78
+      }
+    },
+    {
+      "ip": "154.65.61.1",
+      "version": 4,
+      "country_code": "bf",
+      "country": "Burkina Faso",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Union Economique et Monetaire Ouest Africaine (UEMOA)",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 35.71,
-        "30d": 64.1,
-        "90d": 49.82,
-        "1y": 49.82
+        "24h": 41.67,
+        "30d": 95.26,
+        "90d": 73.52,
+        "1y": 73.52
       }
     }
   ]

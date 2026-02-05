@@ -4,8 +4,8 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-05T06:27:58Z",
-    "total_servers": 1
+    "generated_at": "2026-02-05T18:14:38Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 86.37,
+        "90d": 91.22,
+        "1y": 91.22
+      }
+    },
+    {
+      "ip": "161.0.62.217",
+      "version": 4,
+      "country_code": "ni",
+      "country": "Nicaragua",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IBW Communications",
+      "domain": "host-217-62-0-161.ibw.com.ni",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 84.62,
-        "30d": 85.77,
-        "90d": 91.19,
-        "1y": 91.19
+        "24h": 16.67,
+        "30d": 52.43,
+        "90d": 29.3,
+        "1y": 29.3
       }
     }
   ]

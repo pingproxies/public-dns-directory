@@ -4,12 +4,12 @@
     "country_name": "Palestine",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-05T06:27:58Z",
+    "generated_at": "2026-02-05T18:14:38Z",
     "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "213.6.20.57",
+      "ip": "213.6.77.30",
       "version": 4,
       "country_code": "ps",
       "country": "Palestine",
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 35.71,
-        "30d": 80.96,
-        "90d": 53.16,
-        "1y": 53.16
+        "24h": 75.0,
+        "30d": 78.71,
+        "90d": 75.12,
+        "1y": 75.12
       }
     },
     {
@@ -57,13 +57,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.43,
+        "30d": 91.36,
         "90d": 97.52,
         "1y": 97.52
       }
     },
     {
-      "ip": "213.6.77.30",
+      "ip": "213.6.20.57",
       "version": 4,
       "country_code": "ps",
       "country": "Palestine",
@@ -75,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -83,10 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 78.29,
-        "90d": 75.12,
-        "1y": 75.12
+        "24h": 83.33,
+        "30d": 81.75,
+        "90d": 53.25,
+        "1y": 53.25
       }
     }
   ]
