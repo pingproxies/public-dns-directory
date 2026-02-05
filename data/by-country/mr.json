@@ -4,7 +4,7 @@
     "country_name": "Mauritania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-04T18:13:59Z",
+    "generated_at": "2026-02-05T06:27:58Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -30,36 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.81,
+        "30d": 98.79,
         "90d": 99.62,
         "1y": 99.62
-      }
-    },
-    {
-      "ip": "82.151.90.1",
-      "version": 4,
-      "country_code": "mr",
-      "country": "Mauritania",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Mauritel Network",
-      "domain": "bow.mauritel.mr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.32,
-        "90d": 98.77,
-        "1y": 98.77
       }
     },
     {
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 79.67,
-        "90d": 90.04,
-        "1y": 90.04
+        "24h": 78.57,
+        "30d": 79.16,
+        "90d": 90.0,
+        "1y": 90.0
+      }
+    },
+    {
+      "ip": "82.151.90.1",
+      "version": 4,
+      "country_code": "mr",
+      "country": "Mauritania",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Mauritel Network",
+      "domain": "bow.mauritel.mr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 96.14,
+        "90d": 98.74,
+        "1y": 98.74
       }
     }
   ]

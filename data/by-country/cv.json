@@ -4,10 +4,37 @@
     "country_name": "Cabo Verde",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-04T18:13:59Z",
-    "total_servers": 1
+    "generated_at": "2026-02-05T06:27:58Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "41.221.203.153",
+      "version": 4,
+      "country_code": "cv",
+      "country": "Cabo Verde",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "CVMultimedia",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 0.0,
+        "30d": 52.4,
+        "90d": 33.64,
+        "1y": 33.64
+      }
+    },
     {
       "ip": "41.221.192.167",
       "version": 4,
@@ -25,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {

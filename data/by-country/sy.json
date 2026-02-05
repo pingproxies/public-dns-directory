@@ -4,8 +4,8 @@
     "country_name": "Syria",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-04T18:13:59Z",
-    "total_servers": 2
+    "generated_at": "2026-02-05T06:27:58Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 71.55,
-        "90d": 74.38,
-        "1y": 74.38
+        "24h": 53.85,
+        "30d": 71.77,
+        "90d": 74.39,
+        "1y": 74.39
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.74,
+        "30d": 97.71,
         "90d": 98.87,
         "1y": 98.87
+      }
+    },
+    {
+      "ip": "178.253.103.88",
+      "version": 4,
+      "country_code": "sy",
+      "country": "Syria",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "STE PDN Internal AS",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 79.91,
+        "90d": 61.01,
+        "1y": 61.01
       }
     }
   ]
