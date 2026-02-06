@@ -4,10 +4,37 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-06T06:25:39Z",
-    "total_servers": 7
+    "generated_at": "2026-02-06T18:12:11Z",
+    "total_servers": 10
   },
   "resolvers": [
+    {
+      "ip": "84.203.162.227",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Viatel Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 55.0,
+        "30d": 61.47,
+        "90d": 47.79,
+        "1y": 47.79
+      }
+    },
     {
       "ip": "83.71.132.188",
       "version": 4,
@@ -30,36 +57,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.27,
-        "90d": 98.31,
-        "1y": 98.31
+        "30d": 99.39,
+        "90d": 98.32,
+        "1y": 98.32
       }
     },
     {
-      "ip": "78.155.252.220",
+      "ip": "86.47.80.38",
       "version": 4,
       "country_code": "ie",
       "country": "Ireland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "NWE Wireless Networks Ltd.",
+      "organization": "Eircom Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 93.04,
-        "90d": 95.81,
-        "1y": 95.81
+        "24h": 20.0,
+        "30d": 61.47,
+        "90d": 68.21,
+        "1y": 68.21
       }
     },
     {
@@ -74,7 +101,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -83,8 +110,8 @@
         "adult": true
       },
       "uptime": {
-        "24h": 36.84,
-        "30d": 66.91,
+        "24h": 25.0,
+        "30d": 66.13,
         "90d": 45.26,
         "1y": 45.26
       }
@@ -105,69 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.88,
-        "90d": 99.69,
-        "1y": 99.69
+        "24h": 95.0,
+        "30d": 99.75,
+        "90d": 99.66,
+        "1y": 99.66
       }
     },
     {
-      "ip": "84.203.162.227",
+      "ip": "86.47.80.46",
       "version": 4,
       "country_code": "ie",
       "country": "Ireland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Viatel Ltd",
+      "organization": "Eircom Limited",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.16,
-        "30d": 62.03,
-        "90d": 47.8,
-        "1y": 47.8
-      }
-    },
-    {
-      "ip": "109.232.88.3",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "D21 SA",
-      "domain": "dcache3.chkz.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.88,
-        "90d": 99.69,
-        "1y": 99.69
+        "24h": 20.0,
+        "30d": 61.98,
+        "90d": 67.93,
+        "1y": 67.93
       }
     },
     {
@@ -186,7 +186,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -195,6 +195,87 @@
         "30d": 99.88,
         "90d": 99.94,
         "1y": 99.94
+      }
+    },
+    {
+      "ip": "109.232.88.3",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "D21 SA",
+      "domain": "dcache3.chkz.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.0,
+        "30d": 99.75,
+        "90d": 99.66,
+        "1y": 99.66
+      }
+    },
+    {
+      "ip": "95.45.222.78",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 61.31,
+        "90d": 67.36,
+        "1y": 67.36
+      }
+    },
+    {
+      "ip": "88.87.181.244",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "EOBO Ltd T/A BBnet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 20.0,
+        "30d": 34.48,
+        "90d": 23.36,
+        "1y": 23.36
       }
     }
   ]

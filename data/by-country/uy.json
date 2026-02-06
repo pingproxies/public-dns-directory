@@ -4,10 +4,37 @@
     "country_name": "Uruguay",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-02-06T06:25:39Z",
-    "total_servers": 1
+    "generated_at": "2026-02-06T18:12:11Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "190.64.84.30",
+      "version": 4,
+      "country_code": "uy",
+      "country": "Uruguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cliente Antel Uruguay",
+      "domain": "r190-64-84-30.su-static.adinet.com.uy",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.0,
+        "30d": 70.7,
+        "90d": 48.21,
+        "1y": 48.21
+      }
+    },
     {
       "ip": "179.27.64.34",
       "version": 4,
@@ -21,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.41,
-        "90d": 90.02,
-        "1y": 90.02
+        "30d": 93.37,
+        "90d": 90.05,
+        "1y": 90.05
       }
     }
   ]
