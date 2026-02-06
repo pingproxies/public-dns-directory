@@ -4,37 +4,10 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-05T18:14:38Z",
-    "total_servers": 4
+    "generated_at": "2026-02-06T06:25:39Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "103.154.241.252",
-      "version": 4,
-      "country_code": "mm",
-      "country": "Myanmar",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Myanmar Link Telecommunication Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 74.82,
-        "90d": 63.0,
-        "1y": 63.0
-      }
-    },
     {
       "ip": "103.121.228.5",
       "version": 4,
@@ -48,33 +21,33 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 91.67,
+        "24h": 100.0,
         "30d": 98.78,
         "90d": 97.87,
         "1y": 97.87
       }
     },
     {
-      "ip": "202.165.94.226",
+      "ip": "103.121.228.1",
       "version": 4,
       "country_code": "mm",
       "country": "Myanmar",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Telecom International Myanmar Company Limited",
-      "domain": null,
+      "organization": "MyanmarAPN",
+      "domain": "ns1.dns.myanmarapn.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -83,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 44.91,
-        "90d": 65.17,
-        "1y": 65.17
+        "24h": 100.0,
+        "30d": 42.29,
+        "90d": 61.97,
+        "1y": 61.97
       }
     },
     {
@@ -106,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 77.86,
-        "90d": 68.82,
-        "1y": 68.82
+        "24h": 94.74,
+        "30d": 77.66,
+        "90d": 68.9,
+        "1y": 68.9
       }
     }
   ]
