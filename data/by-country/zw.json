@@ -4,10 +4,37 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-07T06:19:37Z",
-    "total_servers": 3
+    "generated_at": "2026-02-07T18:04:10Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "196.27.106.21",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ZOL-AFRCOM",
+      "domain": "521243.customer.zol.co.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.38,
+        "30d": 85.29,
+        "90d": 89.5,
+        "1y": 89.5
+      }
+    },
     {
       "ip": "41.216.125.179",
       "version": 4,
@@ -31,8 +58,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.84,
-        "1y": 99.84
+        "90d": 99.85,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "41.174.182.214",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 47.62,
+        "30d": 59.73,
+        "90d": 69.08,
+        "1y": 69.08
       }
     },
     {
@@ -51,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.95,
-        "90d": 90.35,
-        "1y": 90.35
+        "30d": 93.89,
+        "90d": 90.38,
+        "1y": 90.38
       }
     },
     {
@@ -78,13 +132,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 83.97,
+        "24h": 85.71,
+        "30d": 83.79,
         "90d": 78.63,
         "1y": 78.63
       }

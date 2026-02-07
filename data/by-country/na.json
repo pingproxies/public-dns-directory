@@ -4,7 +4,7 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-07T06:19:37Z",
+    "generated_at": "2026-02-07T18:04:10Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 65.0,
-        "30d": 80.64,
-        "90d": 87.08,
-        "1y": 87.08
+        "24h": 76.19,
+        "30d": 80.8,
+        "90d": 87.12,
+        "1y": 87.12
       }
     },
     {
@@ -47,19 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 65.0,
-        "30d": 62.88,
-        "90d": 61.71,
-        "1y": 61.71
+        "24h": 71.43,
+        "30d": 63.22,
+        "90d": 61.72,
+        "1y": 61.72
       }
     },
     {
@@ -83,37 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 87.3,
-        "90d": 94.13,
-        "1y": 94.13
-      }
-    },
-    {
-      "ip": "41.63.240.79",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MTC Netman",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 55.0,
-        "30d": 74.72,
-        "90d": 63.19,
-        "1y": 63.19
+        "24h": 76.19,
+        "30d": 87.16,
+        "90d": 94.15,
+        "1y": 94.15
       }
     },
     {
@@ -138,9 +111,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.26,
-        "90d": 97.98,
-        "1y": 97.98
+        "30d": 99.25,
+        "90d": 97.99,
+        "1y": 97.99
+      }
+    },
+    {
+      "ip": "41.63.240.79",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MTC Netman",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 73.94,
+        "90d": 63.11,
+        "1y": 63.11
       }
     }
   ]

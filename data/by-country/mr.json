@@ -4,19 +4,19 @@
     "country_name": "Mauritania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-07T06:19:37Z",
-    "total_servers": 3
+    "generated_at": "2026-02-07T18:04:10Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "82.151.90.1",
+      "ip": "41.138.133.123",
       "version": 4,
       "country_code": "mr",
       "country": "Mauritania",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Mauritel Network",
-      "domain": "bow.mauritel.mr",
+      "organization": "Chinguitel S.A",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 95.19,
-        "90d": 98.54,
-        "1y": 98.54
+        "24h": 85.71,
+        "30d": 78.8,
+        "90d": 89.75,
+        "1y": 89.75
       }
     },
     {
@@ -57,36 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.77,
+        "30d": 98.75,
         "90d": 99.63,
         "1y": 99.63
-      }
-    },
-    {
-      "ip": "41.138.133.123",
-      "version": 4,
-      "country_code": "mr",
-      "country": "Mauritania",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Chinguitel S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 78.91,
-        "90d": 89.72,
-        "1y": 89.72
       }
     }
   ]
