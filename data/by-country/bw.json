@@ -4,10 +4,37 @@
     "country_name": "Botswana",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-06T18:12:11Z",
-    "total_servers": 1
+    "generated_at": "2026-02-07T06:19:37Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "41.76.241.135",
+      "version": 4,
+      "country_code": "bw",
+      "country": "Botswana",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ADSL fixed IP services",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 69.05,
+        "90d": 77.6,
+        "1y": 77.6
+      }
+    },
     {
       "ip": "154.70.151.53",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 57.16,
-        "90d": 37.88,
-        "1y": 37.88
+        "24h": 60.0,
+        "30d": 57.45,
+        "90d": 37.9,
+        "1y": 37.9
       }
     }
   ]

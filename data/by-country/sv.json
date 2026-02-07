@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-06T18:12:11Z",
-    "total_servers": 4
+    "generated_at": "2026-02-07T06:19:37Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 84.79,
-        "90d": 80.39,
-        "1y": 80.39
+        "24h": 95.0,
+        "30d": 84.83,
+        "90d": 80.47,
+        "1y": 80.47
       }
     },
     {
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.75,
-        "90d": 98.4,
-        "1y": 98.4
-      }
-    },
-    {
-      "ip": "190.86.205.194",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "ns1.coopex.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 87.12,
-        "90d": 83.98,
-        "1y": 83.98
+        "90d": 98.41,
+        "1y": 98.41
       }
     },
     {
@@ -110,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.65,
-        "90d": 99.19,
-        "1y": 99.19
+        "24h": 95.0,
+        "30d": 98.52,
+        "90d": 99.16,
+        "1y": 99.16
       }
     }
   ]
