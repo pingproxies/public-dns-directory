@@ -4,10 +4,37 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-07T18:04:10Z",
+    "generated_at": "2026-02-08T06:24:11Z",
     "total_servers": 6
   },
   "resolvers": [
+    {
+      "ip": "190.11.225.2",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Psinet, S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.19,
+        "30d": 91.42,
+        "90d": 88.4,
+        "1y": 88.46
+      }
+    },
     {
       "ip": "190.6.200.161",
       "version": 4,
@@ -24,15 +51,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 89.16,
+        "90d": 84.53,
+        "1y": 84.6
+      }
+    },
+    {
+      "ip": "181.114.59.245",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Netsys",
+      "domain": "www.netsys.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.95,
-        "30d": 89.03,
-        "90d": 84.67,
-        "1y": 84.67
+        "24h": 95.24,
+        "30d": 81.21,
+        "90d": 91.47,
+        "1y": 91.51
       }
     },
     {
@@ -52,12 +106,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 98.63,
+        "24h": 100.0,
+        "30d": 98.61,
         "90d": 99.38,
         "1y": 99.38
       }
@@ -83,64 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 19.05,
-        "30d": 48.88,
-        "90d": 38.68,
-        "1y": 38.68
-      }
-    },
-    {
-      "ip": "181.114.59.245",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Netsys",
-      "domain": "www.netsys.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 81.42,
-        "90d": 91.51,
-        "1y": 91.51
-      }
-    },
-    {
-      "ip": "190.11.225.2",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Psinet, S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 91.15,
-        "90d": 88.45,
-        "1y": 88.45
+        "24h": 38.1,
+        "30d": 49.31,
+        "90d": 38.7,
+        "1y": 38.69
       }
     },
     {
@@ -159,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.48,
-        "30d": 74.81,
-        "90d": 47.88,
-        "1y": 47.88
+        "24h": 85.71,
+        "30d": 75.28,
+        "90d": 47.93,
+        "1y": 47.97
       }
     }
   ]
