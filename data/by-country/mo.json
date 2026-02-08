@@ -4,8 +4,8 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-08T06:24:11Z",
-    "total_servers": 6
+    "generated_at": "2026-02-08T18:05:03Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -21,16 +21,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 97.48,
+        "24h": 95.0,
+        "30d": 97.44,
         "90d": 98.79,
         "1y": 98.8
       }
@@ -56,37 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.48,
-        "30d": 94.45,
-        "90d": 96.12,
-        "1y": 96.14
-      }
-    },
-    {
-      "ip": "202.175.113.124",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CTM Internet Service",
-      "domain": "z113l124.static.ctm.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 76.19,
-        "30d": 99.24,
-        "90d": 97.27,
-        "1y": 97.28
+        "24h": 95.0,
+        "30d": 94.37,
+        "90d": 96.15,
+        "1y": 96.15
       }
     },
     {
@@ -117,33 +90,6 @@
       }
     },
     {
-      "ip": "202.86.149.20",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CTM",
-      "domain": "n20286z149l20.static.ctmip.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 47.62,
-        "30d": 81.21,
-        "90d": 62.64,
-        "1y": 62.61
-      }
-    },
-    {
       "ip": "202.175.125.44",
       "version": 4,
       "country_code": "mo",
@@ -159,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 95.21,
-        "90d": 85.33,
-        "1y": 85.27
+        "24h": 60.0,
+        "30d": 95.13,
+        "90d": 85.37,
+        "1y": 85.31
       }
     }
   ]

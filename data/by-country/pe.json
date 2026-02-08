@@ -4,23 +4,23 @@
     "country_name": "Peru",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-02-08T06:24:11Z",
-    "total_servers": 21
+    "generated_at": "2026-02-08T18:05:03Z",
+    "total_servers": 25
   },
   "resolvers": [
     {
-      "ip": "200.62.147.66",
+      "ip": "200.115.20.147",
       "version": 4,
       "country_code": "pe",
       "country": "Peru",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Universidad Privada Antenor Orrego",
-      "domain": null,
+      "organization": "Colinanet S.A",
+      "domain": "200-115-20-147.colinanet.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 99.24,
-        "90d": 99.6,
-        "1y": 99.6
+        "24h": 0.0,
+        "30d": 76.72,
+        "90d": 76.22,
+        "1y": 76.43
       }
     },
     {
@@ -79,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -87,6 +87,33 @@
         "30d": 99.87,
         "90d": 99.91,
         "1y": 99.91
+      }
+    },
+    {
+      "ip": "131.255.137.57",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Movilmax Telecom S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 20.0,
+        "30d": 40.46,
+        "90d": 34.31,
+        "1y": 34.13
       }
     },
     {
@@ -102,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -111,9 +138,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.75,
+        "30d": 99.74,
         "90d": 99.5,
         "1y": 99.51
+      }
+    },
+    {
+      "ip": "190.187.243.222",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Americatel Peru S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 20.0,
+        "30d": 58.13,
+        "90d": 35.25,
+        "1y": 35.23
       }
     },
     {
@@ -144,222 +198,6 @@
       }
     },
     {
-      "ip": "190.187.200.243",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Americatel Peru S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 47.62,
-        "30d": 70.24,
-        "90d": 73.18,
-        "1y": 72.96
-      }
-    },
-    {
-      "ip": "190.43.92.243",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "PE-TDPERX11-LACNIC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 69.23,
-        "30d": 16.67,
-        "90d": 87.2,
-        "1y": 87.33
-      }
-    },
-    {
-      "ip": "190.116.138.106",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "America Movil Peru S.A.C",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 38.1,
-        "30d": 43.31,
-        "90d": 64.12,
-        "1y": 64.33
-      }
-    },
-    {
-      "ip": "209.45.48.205",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Red Cientifica Peruana",
-      "domain": "static48205.flx.com.pe",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 87.77,
-        "90d": 90.88,
-        "1y": 90.86
-      }
-    },
-    {
-      "ip": "179.43.97.147",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "GLG PERU SAC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 61.9,
-        "30d": 63.68,
-        "90d": 82.54,
-        "1y": 82.54
-      }
-    },
-    {
-      "ip": "181.224.225.3",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Econocable Media SAC",
-      "domain": "static2253.flx.com.pe",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.63,
-        "1y": 99.63
-      }
-    },
-    {
-      "ip": "131.255.136.10",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Movilmax Telecom S.A",
-      "domain": "dns1.movilmax.pe",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.21,
-        "90d": 93.64,
-        "1y": 93.67
-      }
-    },
-    {
-      "ip": "8.243.126.120",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Cirion Technologies Solutions",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.81,
-        "1y": 99.81
-      }
-    },
-    {
       "ip": "8.243.126.123",
       "version": 4,
       "country_code": "pe",
@@ -387,30 +225,30 @@
       }
     },
     {
-      "ip": "8.243.113.189",
+      "ip": "8.243.126.122",
       "version": 4,
       "country_code": "pe",
       "country": "Peru",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "EGP COMUNICACIONES S.A.C.",
+      "organization": "Cirion Technologies Solutions",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.32,
-        "1y": 99.32
+        "90d": 99.78,
+        "1y": 99.78
       }
     },
     {
@@ -468,7 +306,61 @@
       }
     },
     {
-      "ip": "8.243.126.122",
+      "ip": "8.243.113.189",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "EGP COMUNICACIONES S.A.C.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.32,
+        "1y": 99.32
+      }
+    },
+    {
+      "ip": "190.43.92.243",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "PE-TDPERX11-LACNIC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 29.03,
+        "90d": 87.17,
+        "1y": 87.4
+      }
+    },
+    {
+      "ip": "8.243.126.120",
       "version": 4,
       "country_code": "pe",
       "country": "Peru",
@@ -484,14 +376,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.81,
+        "1y": 99.82
+      }
+    },
+    {
+      "ip": "181.224.225.3",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Econocable Media SAC",
+      "domain": "static2253.flx.com.pe",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.78,
-        "1y": 99.78
+        "90d": 99.63,
+        "1y": 99.63
+      }
+    },
+    {
+      "ip": "131.255.136.10",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Movilmax Telecom S.A",
+      "domain": "dns1.movilmax.pe",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.13,
+        "90d": 93.63,
+        "1y": 93.69
       }
     },
     {
@@ -516,9 +462,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.34,
+        "30d": 96.29,
         "90d": 93.86,
-        "1y": 93.83
+        "1y": 93.85
+      }
+    },
+    {
+      "ip": "170.233.144.66",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "OPT-CIR2339",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 23.19,
+        "90d": 7.84,
+        "1y": 7.77
+      }
+    },
+    {
+      "ip": "148.102.51.97",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Entel Peru S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 10.0,
+        "30d": 65.52,
+        "90d": 52.02,
+        "1y": 51.81
       }
     },
     {
@@ -538,7 +538,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -546,6 +546,60 @@
         "30d": 100.0,
         "90d": 99.84,
         "1y": 99.85
+      }
+    },
+    {
+      "ip": "209.45.48.205",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Red Cientifica Peruana",
+      "domain": "static48205.flx.com.pe",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 87.96,
+        "90d": 90.9,
+        "1y": 90.89
+      }
+    },
+    {
+      "ip": "190.116.37.110",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "America Movil Peru S.A.C",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.0,
+        "30d": 86.7,
+        "90d": 80.04,
+        "1y": 80.18
       }
     },
     {
@@ -570,9 +624,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.05,
-        "90d": 73.94,
-        "1y": 74.07
+        "30d": 83.2,
+        "90d": 73.92,
+        "1y": 74.14
+      }
+    },
+    {
+      "ip": "190.187.200.243",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Americatel Peru S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.0,
+        "30d": 70.29,
+        "90d": 73.33,
+        "1y": 72.95
+      }
+    },
+    {
+      "ip": "45.230.198.41",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cable Video Peru SAC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 51.28,
+        "90d": 40.51,
+        "1y": 40.44
       }
     }
   ]

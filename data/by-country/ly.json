@@ -4,8 +4,8 @@
     "country_name": "Libya",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-08T06:24:11Z",
-    "total_servers": 2
+    "generated_at": "2026-02-08T18:05:03Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.0,
+        "30d": 88.6,
+        "90d": 88.08,
+        "1y": 88.18
+      }
+    },
+    {
+      "ip": "160.19.99.98",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "AWAL TELECOM & TECHNOLOGY",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 88.15,
-        "90d": 88.09,
-        "1y": 88.15
+        "24h": 55.0,
+        "30d": 67.35,
+        "90d": 67.03,
+        "1y": 67.07
       }
     },
     {
@@ -53,13 +80,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 85.12,
-        "90d": 76.96,
-        "1y": 76.92
+        "24h": 90.0,
+        "30d": 85.92,
+        "90d": 76.94,
+        "1y": 76.98
+      }
+    },
+    {
+      "ip": "165.16.68.129",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Organisation: Libya International Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 40.0,
+        "30d": 71.06,
+        "90d": 49.63,
+        "1y": 49.8
       }
     }
   ]
