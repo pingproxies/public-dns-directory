@@ -4,8 +4,8 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-08T18:05:03Z",
-    "total_servers": 6
+    "generated_at": "2026-02-09T06:33:21Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -21,18 +21,99 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 89.47,
+        "30d": 74.45,
+        "90d": 64.52,
+        "1y": 64.06
+      }
+    },
+    {
+      "ip": "85.94.179.20",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Andorra Telecom SAU",
+      "domain": "m85-94-179-20.andorpac.ad",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 31.58,
+        "30d": 73.45,
+        "90d": 51.56,
+        "1y": 51.78
+      }
+    },
+    {
+      "ip": "109.111.112.58",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ANDORRA TELECOM, S.A.U",
+      "domain": "static-109.111.112.58.andorpac.ad",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.11,
+        "30d": 80.03,
+        "90d": 68.44,
+        "1y": 68.87
+      }
+    },
+    {
+      "ip": "91.187.93.98",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ANDORRA TELECOM, S.A.U",
+      "domain": "shibori.ftth.viamoda.ad",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 72.73,
-        "90d": 64.06,
-        "1y": 63.96
+        "24h": 100.0,
+        "30d": 99.09,
+        "90d": 96.08,
+        "1y": 95.94
       }
     },
     {
@@ -57,117 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
-        "90d": 96.41,
-        "1y": 96.44
-      }
-    },
-    {
-      "ip": "85.94.179.20",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Andorra Telecom SAU",
-      "domain": "m85-94-179-20.andorpac.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 35.0,
-        "30d": 72.6,
-        "90d": 51.66,
-        "1y": 51.8
-      }
-    },
-    {
-      "ip": "109.111.117.212",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "mail.m31estudi.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.0,
-        "30d": 77.85,
-        "90d": 85.2,
-        "1y": 85.33
-      }
-    },
-    {
-      "ip": "91.187.75.18",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "static-91-187-75-18.andorpac.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 80.54,
-        "90d": 68.8,
-        "1y": 69.05
-      }
-    },
-    {
-      "ip": "91.187.93.98",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "shibori.ftth.viamoda.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.0,
-        "30d": 99.1,
-        "90d": 96.01,
-        "1y": 95.92
+        "30d": 99.22,
+        "90d": 96.4,
+        "1y": 96.45
       }
     }
   ]

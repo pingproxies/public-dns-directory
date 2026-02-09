@@ -4,7 +4,7 @@
     "country_name": "Jordan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-08T18:05:03Z",
+    "generated_at": "2026-02-09T06:33:21Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -36,6 +36,33 @@
       }
     },
     {
+      "ip": "87.236.232.5",
+      "version": 4,
+      "country_code": "jo",
+      "country": "Jordan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Jordanian Universities Network L.L.C.",
+      "domain": "dns1.junet.edu.jo",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 75.98,
+        "90d": 93.03,
+        "1y": 93.13
+      }
+    },
+    {
       "ip": "87.236.233.70",
       "version": 4,
       "country_code": "jo",
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.28,
-        "90d": 54.37,
-        "1y": 54.32
+        "24h": 94.74,
+        "30d": 93.05,
+        "90d": 54.54,
+        "1y": 54.48
       }
     },
     {
@@ -78,7 +105,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -87,33 +114,6 @@
         "30d": 100.0,
         "90d": 98.82,
         "1y": 98.83
-      }
-    },
-    {
-      "ip": "87.236.232.5",
-      "version": 4,
-      "country_code": "jo",
-      "country": "Jordan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Jordanian Universities Network L.L.C.",
-      "domain": "dns1.junet.edu.jo",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 76.28,
-        "90d": 93.05,
-        "1y": 93.11
       }
     }
   ]

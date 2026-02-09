@@ -4,24 +4,51 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-08T18:05:03Z",
-    "total_servers": 3
+    "generated_at": "2026-02-09T06:33:21Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "81.22.26.6",
+      "ip": "84.255.173.210",
       "version": 4,
       "country_code": "bh",
       "country": "Bahrain",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Kalaam Telecom Bahrain B.S.C.",
+      "organization": "Bahrain Telcommunication Company",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.84,
+        "30d": 51.17,
+        "90d": 47.95,
+        "1y": 47.75
+      }
+    },
+    {
+      "ip": "77.69.141.243",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -29,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 97.95,
-        "90d": 98.82,
-        "1y": 98.83
+        "24h": 94.74,
+        "30d": 89.12,
+        "90d": 83.77,
+        "1y": 83.79
       }
     },
     {
@@ -48,45 +75,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 98.21,
-        "90d": 97.02,
-        "1y": 97.01
+        "24h": 100.0,
+        "30d": 98.19,
+        "90d": 97.04,
+        "1y": 97.02
       }
     },
     {
-      "ip": "77.69.141.243",
+      "ip": "81.22.26.6",
       "version": 4,
       "country_code": "bh",
       "country": "Bahrain",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "BEYON B.S.C.",
-      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "organization": "Kalaam Telcom",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 95.0,
-        "30d": 89.37,
-        "90d": 83.65,
-        "1y": 83.76
+        "24h": 73.68,
+        "30d": 97.54,
+        "90d": 98.72,
+        "1y": 98.74
       }
     }
   ]

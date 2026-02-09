@@ -4,37 +4,10 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-02-08T18:05:03Z",
+    "generated_at": "2026-02-09T06:33:21Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "202.151.81.209",
-      "version": 4,
-      "country_code": "gu",
-      "country": "Guam",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "TeleGuam Holdings",
-      "domain": "202-151-81-209.biz.static.teleguam.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 95.0,
-        "30d": 84.89,
-        "90d": 86.16,
-        "1y": 86.12
-      }
-    },
     {
       "ip": "209.164.189.54",
       "version": 4,
@@ -48,18 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.21,
+        "30d": 80.5,
+        "90d": 72.12,
+        "1y": 72.27
+      }
+    },
+    {
+      "ip": "202.151.81.209",
+      "version": 4,
+      "country_code": "gu",
+      "country": "Guam",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "TeleGuam Holdings",
+      "domain": "202-151-81-209.biz.static.teleguam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 80.21,
-        "90d": 72.12,
-        "1y": 72.27
+        "24h": 89.47,
+        "30d": 84.97,
+        "90d": 86.09,
+        "1y": 86.13
       }
     }
   ]

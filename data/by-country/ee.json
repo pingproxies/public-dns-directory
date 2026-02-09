@@ -4,10 +4,37 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-08T18:05:03Z",
+    "generated_at": "2026-02-09T06:33:21Z",
     "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "91.146.86.248",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fill Ltd",
+      "domain": "86248.fill.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.68,
+        "30d": 86.12,
+        "90d": 92.25,
+        "1y": 92.33
+      }
+    },
     {
       "ip": "195.80.119.101",
       "version": 4,
@@ -32,34 +59,7 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 98.62,
-        "1y": 98.63
-      }
-    },
-    {
-      "ip": "46.226.143.86",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cert",
-      "domain": "ns3.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "1y": 98.64
       }
     },
     {
@@ -75,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -90,19 +90,19 @@
       }
     },
     {
-      "ip": "91.146.86.248",
+      "ip": "46.226.143.86",
       "version": 4,
       "country_code": "ee",
       "country": "Estonia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Fill Ltd",
-      "domain": "86248.fill.ee",
+      "organization": "Cert",
+      "domain": "ns3.rpz.cert.ee",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -110,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 86.43,
-        "90d": 92.3,
-        "1y": 92.34
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {

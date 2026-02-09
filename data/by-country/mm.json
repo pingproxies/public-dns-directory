@@ -4,10 +4,37 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-08T18:05:03Z",
+    "generated_at": "2026-02-09T06:33:21Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "103.154.241.252",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Myanmar Link Telecommunication Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 15.79,
+        "30d": 74.45,
+        "90d": 62.32,
+        "1y": 62.27
+      }
+    },
     {
       "ip": "103.121.228.5",
       "version": 4,
@@ -25,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.85,
+        "30d": 98.83,
         "90d": 97.95,
         "1y": 97.91
-      }
-    },
-    {
-      "ip": "65.18.112.106",
-      "version": 4,
-      "country_code": "mm",
-      "country": "Myanmar",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Mytel",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 35.0,
-        "30d": 77.98,
-        "90d": 68.68,
-        "1y": 68.8
       }
     }
   ]

@@ -4,8 +4,8 @@
     "country_name": "Cambodia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-08T18:05:03Z",
-    "total_servers": 3
+    "generated_at": "2026-02-09T06:33:21Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,41 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 91.04,
-        "90d": 88.49,
-        "1y": 88.3
-      }
-    },
-    {
-      "ip": "202.58.18.18",
-      "version": 4,
-      "country_code": "kh",
-      "country": "Cambodia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Xinwei (Cambodia) Telecom Co. Ltd",
-      "domain": "ns1.megatruenet.com.kh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.62,
-        "90d": 99.88,
-        "1y": 99.88
+        "24h": 84.21,
+        "30d": 90.92,
+        "90d": 88.55,
+        "1y": 88.32
       }
     },
     {
@@ -80,13 +53,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 91.29,
-        "90d": 87.8,
-        "1y": 87.48
+        "24h": 89.47,
+        "30d": 91.06,
+        "90d": 87.92,
+        "1y": 87.49
+      }
+    },
+    {
+      "ip": "202.58.18.18",
+      "version": 4,
+      "country_code": "kh",
+      "country": "Cambodia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Xinwei (Cambodia) Telecom Co. Ltd",
+      "domain": "ns1.megatruenet.com.kh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.61,
+        "90d": 99.88,
+        "1y": 99.88
+      }
+    },
+    {
+      "ip": "124.248.191.83",
+      "version": 4,
+      "country_code": "kh",
+      "country": "Cambodia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Cogetel Ltd",
+      "domain": "fiber-191-83.online.com.kh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 10.53,
+        "30d": 47.42,
+        "90d": 41.89,
+        "1y": 41.74
       }
     }
   ]

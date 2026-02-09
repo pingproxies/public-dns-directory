@@ -4,37 +4,10 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-08T18:05:03Z",
+    "generated_at": "2026-02-09T06:33:21Z",
     "total_servers": 9
   },
   "resolvers": [
-    {
-      "ip": "212.33.190.215",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Saudi Internet",
-      "domain": "*.soldnsdomain.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 99.74,
-        "90d": 98.79,
-        "1y": 98.8
-      }
-    },
     {
       "ip": "87.101.204.72",
       "version": 4,
@@ -52,7 +25,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.43,
-        "1y": 98.44
+        "90d": 98.42,
+        "1y": 98.45
+      }
+    },
+    {
+      "ip": "212.33.190.215",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Saudi Internet",
+      "domain": "*.soldnsdomain.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.74,
+        "90d": 98.79,
+        "1y": 98.8
       }
     },
     {
@@ -113,7 +113,34 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.78,
-        "1y": 99.78
+        "1y": 99.79
+      }
+    },
+    {
+      "ip": "5.42.248.31",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Xenel Group",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 51.19,
+        "90d": 54.93,
+        "1y": 55.67
       }
     },
     {
@@ -144,6 +171,33 @@
       }
     },
     {
+      "ip": "85.208.52.73",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Inspire Net Information Technology",
+      "domain": "ns2.inspirenet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.8,
+        "90d": 96.66,
+        "1y": 96.53
+      }
+    },
+    {
       "ip": "85.194.70.174",
       "version": 4,
       "country_code": "sa",
@@ -171,68 +225,14 @@
       }
     },
     {
-      "ip": "212.26.7.10",
+      "ip": "86.51.155.82",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Security Forces Hospital",
-      "domain": "dns3.sfh.med.sa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 30.0,
-        "30d": 28.55,
-        "90d": 27.44,
-        "1y": 27.34
-      }
-    },
-    {
-      "ip": "5.42.248.31",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Xenel Group",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 0.0,
-        "30d": 50.92,
-        "90d": 55.3,
-        "1y": 55.69
-      }
-    },
-    {
-      "ip": "85.208.52.73",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Inspire Net Information Technology",
-      "domain": "ns2.inspirenet.net",
+      "organization": "Etihad Etisalat, a joint stock company",
+      "domain": "static-86-51-155-82.mobily.com.sa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -240,15 +240,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.83,
-        "90d": 96.6,
-        "1y": 96.51
+        "24h": 42.11,
+        "30d": 56.94,
+        "90d": 34.33,
+        "1y": 34.32
       }
     }
   ]
