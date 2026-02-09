@@ -4,10 +4,37 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-09T06:33:21Z",
-    "total_servers": 1
+    "generated_at": "2026-02-09T18:15:07Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "78.108.164.125",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-164-125.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 22.22,
+        "30d": 45.13,
+        "90d": 32.66,
+        "1y": 32.89
+      }
+    },
     {
       "ip": "77.75.93.86",
       "version": 4,
@@ -24,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 87.76,
+        "90d": 72.79,
+        "1y": 73.25
+      }
+    },
+    {
+      "ip": "77.42.253.91",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Contains GGC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 78.95,
-        "30d": 87.95,
-        "90d": 72.87,
-        "1y": 73.25
+        "24h": 55.56,
+        "30d": 98.55,
+        "90d": 99.28,
+        "1y": 99.3
       }
     }
   ]

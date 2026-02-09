@@ -4,8 +4,8 @@
     "country_name": "Georgia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-09T06:33:21Z",
-    "total_servers": 10
+    "generated_at": "2026-02-09T18:15:07Z",
+    "total_servers": 18
   },
   "resolvers": [
     {
@@ -36,33 +36,6 @@
       }
     },
     {
-      "ip": "77.92.245.50",
-      "version": 4,
-      "country_code": "ge",
-      "country": "Georgia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "United Telecom Network",
-      "domain": "77-92-245-50.dsl.utg.ge",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 78.95,
-        "30d": 85.49,
-        "90d": 84.51,
-        "1y": 84.42
-      }
-    },
-    {
       "ip": "85.238.35.29",
       "version": 4,
       "country_code": "ge",
@@ -79,24 +52,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 63.16,
-        "30d": 51.68,
-        "90d": 57.55,
-        "1y": 57.75
+        "24h": 94.44,
+        "30d": 51.58,
+        "90d": 57.65,
+        "1y": 57.81
       }
     },
     {
-      "ip": "80.83.137.135",
+      "ip": "213.217.16.106",
       "version": 4,
       "country_code": "ge",
       "country": "Georgia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Geonet",
+      "organization": "JSC \"Silknet\"",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -105,15 +78,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.59,
+        "30d": 69.7,
+        "90d": 64.37,
+        "1y": 64.59
+      }
+    },
+    {
+      "ip": "92.241.86.102",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Wanex Network",
+      "domain": "host-92-241-86-102-customer.wanex.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 86.51,
-        "90d": 70.99,
-        "1y": 71.21
+        "24h": 52.94,
+        "30d": 71.47,
+        "90d": 57.09,
+        "1y": 57.52
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 70.69,
-        "90d": 56.58,
-        "1y": 56.57
+        "30d": 71.97,
+        "90d": 56.55,
+        "1y": 56.65
       }
     },
     {
@@ -164,10 +164,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 42.11,
-        "30d": 68.13,
-        "90d": 50.03,
-        "1y": 50.51
+        "24h": 52.94,
+        "30d": 69.04,
+        "90d": 49.8,
+        "1y": 50.46
+      }
+    },
+    {
+      "ip": "31.146.161.194",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Silknet Gpon",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 29.41,
+        "30d": 42.03,
+        "90d": 37.63,
+        "1y": 38.06
       }
     },
     {
@@ -186,15 +213,177 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 55.56,
+        "30d": 74.18,
+        "90d": 74.91,
+        "1y": 74.37
+      }
+    },
+    {
+      "ip": "213.131.40.230",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "JSC \"Silknet\"",
+      "domain": "host-213-131-40-230-customer.wanex.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 63.16,
-        "30d": 73.58,
-        "90d": 74.76,
-        "1y": 74.41
+        "24h": 76.47,
+        "30d": 89.99,
+        "90d": 84.06,
+        "1y": 84.14
+      }
+    },
+    {
+      "ip": "80.77.53.58",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CGC-ADSL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 75.92,
+        "90d": 54.46,
+        "1y": 55.21
+      }
+    },
+    {
+      "ip": "85.117.36.140",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Caucasus Online Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.29,
+        "30d": 59.72,
+        "90d": 44.64,
+        "1y": 44.71
+      }
+    },
+    {
+      "ip": "37.232.70.214",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "JSC \"Silknet\"",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 22.22,
+        "30d": 38.49,
+        "90d": 20.3,
+        "1y": 20.37
+      }
+    },
+    {
+      "ip": "188.92.209.129",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Alternet Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 22.22,
+        "30d": 33.95,
+        "90d": 31.01,
+        "1y": 30.96
+      }
+    },
+    {
+      "ip": "92.241.86.42",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Wanex Network",
+      "domain": "host-92-241-86-42-customer.wanex.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.22,
+        "30d": 72.76,
+        "90d": 59.76,
+        "1y": 60.3
       }
     },
     {
@@ -210,11 +399,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -222,6 +411,60 @@
         "30d": 100.0,
         "90d": 99.91,
         "1y": 99.91
+      }
+    },
+    {
+      "ip": "92.241.87.74",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Wanex Network",
+      "domain": "host-92-241-87-74-customer.wanex.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 88.01,
+        "90d": 89.02,
+        "1y": 89.19
+      }
+    },
+    {
+      "ip": "31.146.5.166",
+      "version": 4,
+      "country_code": "ge",
+      "country": "Georgia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Silknet Gpon",
+      "domain": "31-146-5-166.dsl.utg.ge",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 58.16,
+        "90d": 54.06,
+        "1y": 54.44
       }
     },
     {
@@ -246,36 +489,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.35,
-        "90d": 90.32,
-        "1y": 90.34
-      }
-    },
-    {
-      "ip": "95.104.126.235",
-      "version": 4,
-      "country_code": "ge",
-      "country": "Georgia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Magticom",
-      "domain": "host-95-104-126-235.customer.magticom.ge",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.68,
-        "30d": 19.75,
-        "90d": 21.45,
-        "1y": 21.38
+        "30d": 92.63,
+        "90d": 90.3,
+        "1y": 90.36
       }
     }
   ]

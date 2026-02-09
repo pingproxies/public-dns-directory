@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-09T06:33:21Z",
-    "total_servers": 9
+    "generated_at": "2026-02-09T18:15:07Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -51,7 +51,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.74,
-        "90d": 98.79,
-        "1y": 98.8
+        "90d": 98.78,
+        "1y": 98.81
       }
     },
     {
@@ -105,8 +105,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -114,6 +114,33 @@
         "30d": 100.0,
         "90d": 99.78,
         "1y": 99.79
+      }
+    },
+    {
+      "ip": "85.208.52.73",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Inspire 52 Network",
+      "domain": "ns2.inspirenet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.76,
+        "90d": 96.71,
+        "1y": 96.54
       }
     },
     {
@@ -129,7 +156,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -137,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 51.19,
-        "90d": 54.93,
-        "1y": 55.67
+        "24h": 55.56,
+        "30d": 51.38,
+        "90d": 54.75,
+        "1y": 55.69
       }
     },
     {
@@ -171,33 +198,6 @@
       }
     },
     {
-      "ip": "85.208.52.73",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Inspire Net Information Technology",
-      "domain": "ns2.inspirenet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.8,
-        "90d": 96.66,
-        "1y": 96.53
-      }
-    },
-    {
       "ip": "85.194.70.174",
       "version": 4,
       "country_code": "sa",
@@ -222,33 +222,6 @@
         "30d": 99.74,
         "90d": 99.72,
         "1y": 99.72
-      }
-    },
-    {
-      "ip": "86.51.155.82",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Etihad Etisalat, a joint stock company",
-      "domain": "static-86-51-155-82.mobily.com.sa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 42.11,
-        "30d": 56.94,
-        "90d": 34.33,
-        "1y": 34.32
       }
     }
   ]

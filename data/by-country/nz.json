@@ -4,35 +4,35 @@
     "country_name": "New Zealand",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-02-09T06:33:21Z",
-    "total_servers": 3
+    "generated_at": "2026-02-09T18:15:07Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "103.18.138.20",
+      "ip": "203.86.200.253",
       "version": 4,
       "country_code": "nz",
       "country": "New Zealand",
       "continent_code": "oc",
       "continent": "Oceania",
-      "organization": "The Virus Centre Network",
-      "domain": null,
+      "organization": "Tasman Solutions Ltd",
+      "domain": "email.techsystems.net.nz",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 94.74,
-        "30d": 84.18,
-        "90d": 95.49,
-        "1y": 95.52
+        "24h": 82.35,
+        "30d": 91.83,
+        "90d": 87.0,
+        "1y": 86.88
       }
     },
     {
@@ -53,11 +53,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.76,
+        "30d": 96.71,
         "90d": 98.88,
         "1y": 98.9
       }
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 94.44,
+        "30d": 95.66,
+        "90d": 97.63,
+        "1y": 97.64
+      }
+    },
+    {
+      "ip": "103.18.138.20",
+      "version": 4,
+      "country_code": "nz",
+      "country": "New Zealand",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "The Virus Centre Network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 95.85,
-        "90d": 97.67,
-        "1y": 97.67
+        "24h": 94.44,
+        "30d": 84.08,
+        "90d": 95.51,
+        "1y": 95.53
       }
     }
   ]
