@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-10T06:33:29Z",
+    "generated_at": "2026-02-10T18:19:25Z",
     "total_servers": 11
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.21,
-        "90d": 97.38,
-        "1y": 97.45
+        "30d": 98.41,
+        "90d": 97.37,
+        "1y": 97.46
       }
     },
     {
@@ -52,13 +52,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.44,
-        "90d": 98.09,
+        "30d": 95.37,
+        "90d": 98.08,
         "1y": 98.14
       }
     },
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.74,
-        "90d": 96.5,
-        "1y": 96.6
+        "24h": 93.33,
+        "30d": 94.85,
+        "90d": 96.46,
+        "1y": 96.58
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.56,
-        "90d": 89.92,
-        "1y": 90.22
+        "30d": 81.25,
+        "90d": 89.9,
+        "1y": 90.25
       }
     },
     {
@@ -132,30 +132,57 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.19,
-        "90d": 93.36,
-        "1y": 93.54
+        "30d": 85.71,
+        "90d": 93.34,
+        "1y": 93.56
       }
     },
     {
-      "ip": "2.188.21.130",
+      "ip": "213.176.123.5",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Telecommunication Infrastructure Company",
-      "domain": null,
+      "organization": "Iranian Research Organization for Science & Technology",
+      "domain": "dns.irost.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.25,
+        "90d": 60.16,
+        "1y": 59.44
+      }
+    },
+    {
+      "ip": "81.91.144.116",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Farabord Dadeh Haye Iranian Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -164,10 +191,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.19,
-        "90d": 95.33,
-        "1y": 95.42
+        "24h": 93.33,
+        "30d": 88.86,
+        "90d": 55.5,
+        "1y": 55.29
       }
     },
     {
@@ -183,7 +210,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -215,67 +242,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 74.6,
-        "90d": 92.27,
-        "1y": 92.49
-      }
-    },
-    {
-      "ip": "81.91.144.116",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Farabord Dadeh Haye Iranian Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 88.58,
-        "90d": 55.27,
-        "1y": 55.06
-      }
-    },
-    {
-      "ip": "213.176.123.5",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iranian Research Organization for Science & Technology",
-      "domain": "dns.irost.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 89.68,
-        "90d": 59.3,
-        "1y": 58.69
+        "24h": 93.33,
+        "30d": 75.13,
+        "90d": 92.21,
+        "1y": 92.48
       }
     },
     {
@@ -291,7 +264,34 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.41,
+        "90d": 97.41,
+        "1y": 97.49
+      }
+    },
+    {
+      "ip": "2.188.21.130",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Telecommunication Infrastructure Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -300,9 +300,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.21,
-        "90d": 97.41,
-        "1y": 97.48
+        "30d": 88.03,
+        "90d": 95.32,
+        "1y": 95.43
       }
     }
   ]

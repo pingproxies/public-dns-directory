@@ -4,37 +4,10 @@
     "country_name": "Angola",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-10T06:33:29Z",
+    "generated_at": "2026-02-10T18:19:25Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "192.12.111.30",
-      "version": 4,
-      "country_code": "ao",
-      "country": "Angola",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "BPC WAN SERVICES",
-      "domain": "ns3.bpc.ao",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.2,
-        "90d": 82.2,
-        "1y": 82.88
-      }
-    },
     {
       "ip": "196.29.199.76",
       "version": 4,
@@ -53,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.06,
-        "90d": 98.97,
+        "30d": 99.05,
+        "90d": 98.96,
         "1y": 98.99
+      }
+    },
+    {
+      "ip": "192.12.111.30",
+      "version": 4,
+      "country_code": "ao",
+      "country": "Angola",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "BPC WAN SERVICES",
+      "domain": "ns3.bpc.ao",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.18,
+        "90d": 82.23,
+        "1y": 82.97
       }
     }
   ]

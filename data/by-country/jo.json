@@ -4,8 +4,8 @@
     "country_name": "Jordan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-10T06:33:29Z",
-    "total_servers": 5
+    "generated_at": "2026-02-10T18:19:25Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -26,67 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.84,
         "1y": 99.85
-      }
-    },
-    {
-      "ip": "87.236.232.5",
-      "version": 4,
-      "country_code": "jo",
-      "country": "Jordan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Jordanian Universities Network L.L.C.",
-      "domain": "dns1.junet.edu.jo",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 75.76,
-        "90d": 92.99,
-        "1y": 93.16
-      }
-    },
-    {
-      "ip": "87.236.233.117",
-      "version": 4,
-      "country_code": "jo",
-      "country": "Jordan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Jordanian Universities Network L.L.C.",
-      "domain": "dns2.bau.edu.jo",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 98.81,
-        "1y": 98.84
       }
     },
     {
@@ -106,41 +52,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.8,
-        "90d": 54.81,
-        "1y": 54.71
+        "30d": 92.69,
+        "90d": 54.99,
+        "1y": 54.86
       }
     },
     {
-      "ip": "79.173.251.155",
+      "ip": "87.236.232.5",
       "version": 4,
       "country_code": "jo",
       "country": "Jordan",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Jordan Telecom Group ( Orange)",
-      "domain": null,
+      "organization": "Jordanian Universities Network L.L.C.",
+      "domain": "dns1.junet.edu.jo",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": true
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 76.03,
+        "90d": 92.97,
+        "1y": 93.18
+      }
+    },
+    {
+      "ip": "87.236.233.117",
+      "version": 4,
+      "country_code": "jo",
+      "country": "Jordan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Jordanian Universities Network L.L.C.",
+      "domain": "dns2.bau.edu.jo",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 61.88,
-        "90d": 46.82,
-        "1y": 46.83
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 98.81,
+        "1y": 98.84
       }
     }
   ]
