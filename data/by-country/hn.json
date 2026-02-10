@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-09T18:15:07Z",
-    "total_servers": 6
+    "generated_at": "2026-02-10T06:33:29Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 91.71,
-        "90d": 88.27,
-        "1y": 88.43
+        "24h": 91.67,
+        "30d": 91.81,
+        "90d": 88.26,
+        "1y": 88.45
       }
     },
     {
@@ -51,15 +51,69 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 89.87,
-        "90d": 84.09,
+        "24h": 91.67,
+        "30d": 89.93,
+        "90d": 84.0,
         "1y": 84.39
+      }
+    },
+    {
+      "ip": "181.114.59.245",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Netsys",
+      "domain": "www.netsys.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 80.13,
+        "90d": 91.36,
+        "1y": 91.57
+      }
+    },
+    {
+      "ip": "181.210.92.7",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Hondutel",
+      "domain": "Correo.hondutel.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.19,
+        "90d": 99.37,
+        "1y": 99.39
       }
     },
     {
@@ -79,14 +133,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 52.21,
+        "90d": 38.87,
+        "1y": 38.79
+      }
+    },
+    {
+      "ip": "201.190.11.254",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SERCOM de Honduras",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 50.92,
-        "90d": 38.77,
-        "1y": 38.69
+        "24h": 76.92,
+        "30d": 78.39,
+        "90d": 54.43,
+        "1y": 54.83
       }
     },
     {
@@ -110,64 +191,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 79.05,
-        "90d": 47.95,
-        "1y": 48.32
-      }
-    },
-    {
-      "ip": "181.114.59.245",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Netsys",
-      "domain": "www.netsys.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.44,
-        "30d": 80.53,
-        "90d": 91.39,
-        "1y": 91.55
-      }
-    },
-    {
-      "ip": "181.210.92.7",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Hondutel",
-      "domain": "Correo.hondutel.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 99.21,
-        "90d": 99.38,
-        "1y": 99.39
+        "30d": 80.54,
+        "90d": 48.1,
+        "1y": 48.42
       }
     }
   ]

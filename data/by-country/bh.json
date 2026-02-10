@@ -4,91 +4,10 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-09T18:15:07Z",
-    "total_servers": 5
+    "generated_at": "2026-02-10T06:33:29Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "157.175.242.142",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AWS EC2 (me-south-1)",
-      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.16,
-        "90d": 97.04,
-        "1y": 97.03
-      }
-    },
-    {
-      "ip": "89.148.55.251",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.89.148.55.251.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 38.89,
-        "30d": 83.29,
-        "90d": 69.67,
-        "1y": 69.93
-      }
-    },
-    {
-      "ip": "84.255.173.210",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 50.85,
-        "90d": 47.8,
-        "1y": 47.72
-      }
-    },
     {
       "ip": "81.22.26.6",
       "version": 4,
@@ -106,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 97.5,
+        "24h": 100.0,
+        "30d": 97.45,
         "90d": 98.75,
         "1y": 98.75
+      }
+    },
+    {
+      "ip": "157.175.242.142",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AWS EC2 (me-south-1)",
+      "domain": "ec2-157-175-242-142.me-south-1.compute.amazonaws.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.12,
+        "90d": 97.02,
+        "1y": 97.04
       }
     },
     {
@@ -137,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 89.08,
-        "90d": 83.85,
-        "1y": 83.82
+        "24h": 100.0,
+        "30d": 88.86,
+        "90d": 83.91,
+        "1y": 83.85
       }
     }
   ]
