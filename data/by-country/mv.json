@@ -4,8 +4,8 @@
     "country_name": "Maldives",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-11T06:32:52Z",
-    "total_servers": 2
+    "generated_at": "2026-02-11T18:17:23Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.92,
-        "90d": 97.24,
-        "1y": 96.76
+        "30d": 92.8,
+        "90d": 97.27,
+        "1y": 96.77
       }
     },
     {
@@ -56,10 +56,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 29.41,
-        "30d": 78.56,
-        "90d": 47.04,
-        "1y": 47.02
+        "24h": 38.46,
+        "30d": 78.79,
+        "90d": 47.09,
+        "1y": 47.07
+      }
+    },
+    {
+      "ip": "123.176.4.39",
+      "version": 4,
+      "country_code": "mv",
+      "country": "Maldives",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Dhiraagu",
+      "domain": "123-176-4-39.7642.net.mv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 65.87,
+        "90d": 43.3,
+        "1y": 43.07
       }
     }
   ]

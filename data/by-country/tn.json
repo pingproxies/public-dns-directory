@@ -4,8 +4,8 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-11T06:32:52Z",
-    "total_servers": 7
+    "generated_at": "2026-02-11T18:17:23Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -79,12 +79,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.17,
+        "30d": 99.16,
         "90d": 98.39,
         "1y": 98.42
       }
@@ -101,7 +101,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 5.88,
-        "30d": 46.47,
+        "24h": 30.77,
+        "30d": 47.54,
         "90d": 41.4,
-        "1y": 42.15
+        "1y": 42.2
       }
     },
     {
@@ -129,10 +129,10 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
@@ -141,6 +141,33 @@
         "30d": 99.86,
         "90d": 99.75,
         "1y": 99.73
+      }
+    },
+    {
+      "ip": "193.95.93.243",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ATI - Agence Tunisienne Internet",
+      "domain": "dns2.planettunisie.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 7.14,
+        "30d": 91.43,
+        "90d": 89.59,
+        "1y": 89.74
       }
     },
     {
@@ -159,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.65,
-        "90d": 84.31,
-        "1y": 84.95
+        "30d": 97.61,
+        "90d": 84.24,
+        "1y": 84.98
       }
     },
     {
@@ -186,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 86.4,
-        "90d": 77.57,
-        "1y": 77.8
+        "24h": 100.0,
+        "30d": 86.42,
+        "90d": 77.56,
+        "1y": 77.84
       }
     }
   ]

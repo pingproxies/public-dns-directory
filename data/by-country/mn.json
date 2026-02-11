@@ -4,8 +4,8 @@
     "country_name": "Mongolia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-11T06:32:52Z",
-    "total_servers": 17
+    "generated_at": "2026-02-11T18:17:23Z",
+    "total_servers": 21
   },
   "resolvers": [
     {
@@ -21,16 +21,16 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.2,
+        "30d": 98.17,
         "90d": 99.46,
         "1y": 99.48
       }
@@ -51,14 +51,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.48,
-        "90d": 97.65,
+        "30d": 98.59,
+        "90d": 97.64,
         "1y": 97.71
       }
     },
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 94.47,
-        "90d": 87.74,
-        "1y": 87.91
+        "24h": 92.31,
+        "30d": 94.66,
+        "90d": 87.73,
+        "1y": 87.92
       }
     },
     {
@@ -107,11 +107,11 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 98.06,
+        "24h": 92.31,
+        "30d": 98.03,
         "90d": 99.46,
         "1y": 99.48
       }
@@ -132,30 +132,30 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.84,
-        "90d": 94.61,
-        "1y": 94.8
+        "30d": 93.67,
+        "90d": 94.59,
+        "1y": 94.81
       }
     },
     {
-      "ip": "202.21.99.150",
+      "ip": "183.177.101.51",
       "version": 4,
       "country_code": "mn",
       "country": "Mongolia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Mobinet LLC",
-      "domain": null,
+      "organization": "Netcom101",
+      "domain": "conference.icnc.mn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -164,41 +164,68 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 98.07,
-        "90d": 98.54,
-        "1y": 98.54
+        "24h": 61.54,
+        "30d": 93.39,
+        "90d": 97.82,
+        "1y": 97.91
       }
     },
     {
-      "ip": "103.79.156.70",
+      "ip": "203.169.48.10",
       "version": 4,
       "country_code": "mn",
       "country": "Mongolia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Univision LLC",
+      "organization": "DIGICOM",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 98.48,
-        "90d": 99.31,
-        "1y": 99.33
+        "24h": 69.23,
+        "30d": 89.17,
+        "90d": 86.81,
+        "1y": 86.35
       }
     },
     {
-      "ip": "203.98.77.50",
+      "ip": "103.9.88.154",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Network fist",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 61.54,
+        "30d": 73.84,
+        "90d": 46.82,
+        "1y": 47.85
+      }
+    },
+    {
+      "ip": "103.79.156.70",
       "version": 4,
       "country_code": "mn",
       "country": "Mongolia",
@@ -219,9 +246,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
-        "90d": 97.92,
-        "1y": 97.74
+        "30d": 98.46,
+        "90d": 99.3,
+        "1y": 99.33
       }
     },
     {
@@ -245,37 +272,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.9,
-        "90d": 95.82,
-        "1y": 95.82
+        "24h": 92.31,
+        "30d": 94.79,
+        "90d": 95.77,
+        "1y": 95.77
       }
     },
     {
-      "ip": "202.55.176.10",
+      "ip": "64.119.29.199",
       "version": 4,
       "country_code": "mn",
       "country": "Mongolia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Sky C&C LLC",
+      "organization": "Univision LLC",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.62,
-        "90d": 99.43,
-        "1y": 99.45
+        "30d": 96.77,
+        "90d": 98.86,
+        "1y": 98.88
       }
     },
     {
@@ -300,9 +327,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.24,
-        "90d": 88.86,
-        "1y": 89.19
+        "30d": 97.19,
+        "90d": 88.82,
+        "1y": 89.2
+      }
+    },
+    {
+      "ip": "202.55.176.10",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sky C&C LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.59,
+        "90d": 99.43,
+        "1y": 99.45
       }
     },
     {
@@ -321,15 +375,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
+        "30d": 99.44,
         "90d": 99.68,
         "1y": 99.7
+      }
+    },
+    {
+      "ip": "203.169.48.8",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "DIGICOM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.97,
+        "1y": 99.97
       }
     },
     {
@@ -350,55 +431,28 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.54,
-        "90d": 98.27,
-        "1y": 98.33
+        "24h": 92.31,
+        "30d": 96.34,
+        "90d": 98.26,
+        "1y": 98.3
       }
     },
     {
-      "ip": "203.169.48.8",
+      "ip": "202.21.116.206",
       "version": 4,
       "country_code": "mn",
       "country": "Mongolia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "DIGICOM",
+      "organization": "Mobinet LLC",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "202.126.94.190",
-      "version": 4,
-      "country_code": "mn",
-      "country": "Mongolia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MOBINET",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -407,10 +461,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 89.35,
-        "90d": 88.44,
-        "1y": 88.64
+        "24h": 53.85,
+        "30d": 89.86,
+        "90d": 76.25,
+        "1y": 76.09
       }
     },
     {
@@ -435,13 +489,67 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.48,
-        "90d": 99.09,
+        "30d": 98.45,
+        "90d": 99.08,
         "1y": 99.12
       }
     },
     {
-      "ip": "64.119.29.199",
+      "ip": "202.126.94.190",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MOBINET",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 89.17,
+        "90d": 88.49,
+        "1y": 88.65
+      }
+    },
+    {
+      "ip": "202.21.99.150",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobinet LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.03,
+        "90d": 98.54,
+        "1y": 98.54
+      }
+    },
+    {
+      "ip": "203.98.77.50",
       "version": 4,
       "country_code": "mn",
       "country": "Mongolia",
@@ -456,15 +564,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.82,
-        "90d": 98.87,
-        "1y": 98.88
+        "30d": 99.3,
+        "90d": 97.91,
+        "1y": 97.74
       }
     }
   ]

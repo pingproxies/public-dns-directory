@@ -4,8 +4,8 @@
     "country_name": "France",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-11T06:32:52Z",
-    "total_servers": 256
+    "generated_at": "2026-02-11T18:17:23Z",
+    "total_servers": 248
   },
   "resolvers": [
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 81.05,
-        "90d": 65.12,
-        "1y": 65.51
+        "24h": 92.31,
+        "30d": 80.73,
+        "90d": 65.01,
+        "1y": 65.53
       }
     },
     {
@@ -80,12 +80,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.89,
-        "90d": 99.09,
+        "30d": 98.87,
+        "90d": 99.11,
         "1y": 99.09
       }
     },
@@ -105,42 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 72.1,
-        "90d": 43.29,
-        "1y": 43.94
-      }
-    },
-    {
-      "ip": "212.73.198.88",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Level 3 Communications, Inc.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 35.29,
-        "30d": 63.12,
-        "90d": 34.72,
-        "1y": 35.47
+        "24h": 100.0,
+        "30d": 73.6,
+        "90d": 43.55,
+        "1y": 44.02
       }
     },
     {
@@ -165,7 +138,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.59,
+        "30d": 99.58,
         "90d": 99.62,
         "1y": 99.64
       }
@@ -187,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 97.24,
-        "90d": 96.31,
-        "1y": 96.44
+        "24h": 92.86,
+        "30d": 97.05,
+        "90d": 96.27,
+        "1y": 96.42
       }
     },
     {
@@ -241,7 +214,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -272,10 +245,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 89.52,
-        "90d": 93.83,
-        "1y": 94.06
+        "24h": 100.0,
+        "30d": 91.73,
+        "90d": 93.8,
+        "1y": 94.07
       }
     },
     {
@@ -322,14 +295,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 79.97,
-        "90d": 66.39,
-        "1y": 67.08
+        "24h": 84.62,
+        "30d": 80.99,
+        "90d": 66.54,
+        "1y": 67.11
       }
     },
     {
@@ -348,15 +321,69 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.03,
-        "90d": 99.28,
+        "30d": 99.01,
+        "90d": 99.27,
         "1y": 99.27
+      }
+    },
+    {
+      "ip": "130.93.184.27",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Initsys",
+      "domain": "reverse.rezaxess.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 30.77,
+        "30d": 50.0,
+        "90d": 53.31,
+        "1y": 53.22
+      }
+    },
+    {
+      "ip": "93.158.35.174",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IBROWSE-INFRA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 52.54,
+        "90d": 51.33,
+        "1y": 51.15
       }
     },
     {
@@ -375,7 +402,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -408,7 +435,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.1,
+        "30d": 97.04,
         "90d": 99.21,
         "1y": 99.24
       }
@@ -430,7 +457,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -456,15 +483,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 76.8,
-        "90d": 79.37,
-        "1y": 79.7
+        "24h": 46.15,
+        "30d": 77.18,
+        "90d": 79.25,
+        "1y": 79.61
       }
     },
     {
@@ -489,9 +516,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.48,
+        "30d": 98.45,
         "90d": 98.39,
         "1y": 98.42
+      }
+    },
+    {
+      "ip": "51.91.130.132",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns3157386.ip-51-91-130.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.92,
+        "30d": 81.55,
+        "90d": 83.8,
+        "1y": 84.1
       }
     },
     {
@@ -516,36 +570,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.86,
-        "90d": 90.61,
-        "1y": 90.91
-      }
-    },
-    {
-      "ip": "82.64.134.25",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Free",
-      "domain": "82-64-134-25.subs.proxad.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 0.0,
-        "30d": 30.82,
-        "90d": 26.4,
-        "1y": 26.51
+        "30d": 95.77,
+        "90d": 90.57,
+        "1y": 90.93
       }
     },
     {
@@ -569,9 +596,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 83.4,
-        "90d": 82.3,
+        "24h": 76.92,
+        "30d": 83.68,
+        "90d": 82.21,
         "1y": 82.63
       }
     },
@@ -596,10 +623,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 91.56,
-        "90d": 84.63,
-        "1y": 85.14
+        "24h": 84.62,
+        "30d": 91.28,
+        "90d": 84.54,
+        "1y": 85.13
       }
     },
     {
@@ -619,14 +646,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.45,
-        "90d": 97.86,
-        "1y": 97.87
+        "24h": 92.31,
+        "30d": 99.3,
+        "90d": 97.82,
+        "1y": 97.85
       }
     },
     {
@@ -678,7 +705,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
+        "30d": 99.3,
         "90d": 99.65,
         "1y": 99.64
       }
@@ -699,7 +726,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -758,37 +785,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 89.76,
-        "90d": 95.05,
-        "1y": 95.23
-      }
-    },
-    {
-      "ip": "193.202.111.250",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "PLUGANDTEL",
-      "domain": "ns1.plugandtel.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.75,
-        "1y": 99.76
+        "30d": 89.59,
+        "90d": 95.04,
+        "1y": 95.24
       }
     },
     {
@@ -812,10 +812,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 76.47,
-        "30d": 91.01,
-        "90d": 93.48,
-        "1y": 93.71
+        "24h": 76.92,
+        "30d": 90.86,
+        "90d": 93.42,
+        "1y": 93.69
+      }
+    },
+    {
+      "ip": "193.202.111.250",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "PLUGANDTEL",
+      "domain": "ns1.plugandtel.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.75,
+        "1y": 99.76
       }
     },
     {
@@ -839,10 +866,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 91.72,
-        "90d": 95.21,
-        "1y": 95.35
+        "24h": 100.0,
+        "30d": 91.69,
+        "90d": 95.19,
+        "1y": 95.36
       }
     },
     {
@@ -866,10 +893,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 86.58,
-        "90d": 77.41,
-        "1y": 78.06
+        "24h": 92.31,
+        "30d": 86.34,
+        "90d": 77.39,
+        "1y": 78.09
       }
     },
     {
@@ -888,15 +915,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 84.09,
+        "24h": 69.23,
+        "30d": 85.23,
         "90d": 83.59,
-        "1y": 83.93
+        "1y": 83.92
       }
     },
     {
@@ -970,7 +997,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -997,14 +1024,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 89.37,
-        "90d": 88.88,
-        "1y": 89.24
+        "24h": 76.92,
+        "30d": 89.15,
+        "90d": 88.83,
+        "1y": 89.26
       }
     },
     {
@@ -1023,14 +1050,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 92.25,
-        "90d": 97.39,
+        "24h": 76.92,
+        "30d": 92.26,
+        "90d": 97.38,
         "1y": 97.45
       }
     },
@@ -1050,7 +1077,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -1078,7 +1105,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -1138,7 +1165,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.49,
+        "90d": 98.48,
         "1y": 98.42
       }
     },
@@ -1155,7 +1182,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1167,33 +1194,6 @@
         "30d": 100.0,
         "90d": 99.97,
         "1y": 99.97
-      }
-    },
-    {
-      "ip": "141.94.143.35",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns31440000.ip-141-94-143.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 58.82,
-        "30d": 79.01,
-        "90d": 73.48,
-        "1y": 74.04
       }
     },
     {
@@ -1239,15 +1239,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 76.47,
-        "30d": 83.7,
-        "90d": 80.98,
-        "1y": 81.28
+        "24h": 64.29,
+        "30d": 83.45,
+        "90d": 80.92,
+        "1y": 81.24
       }
     },
     {
@@ -1272,8 +1272,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.06,
-        "90d": 97.21,
+        "30d": 95.99,
+        "90d": 97.2,
         "1y": 97.14
       }
     },
@@ -1299,8 +1299,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.02,
-        "90d": 96.94,
+        "30d": 91.86,
+        "90d": 96.93,
         "1y": 97.05
       }
     },
@@ -1325,10 +1325,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 76.47,
+        "24h": 69.23,
         "30d": 90.59,
-        "90d": 97.04,
-        "1y": 97.11
+        "90d": 97.03,
+        "1y": 97.12
       }
     },
     {
@@ -1352,10 +1352,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 52.94,
-        "30d": 68.78,
-        "90d": 55.51,
-        "1y": 56.39
+        "24h": 53.85,
+        "30d": 69.53,
+        "90d": 55.47,
+        "1y": 56.38
+      }
+    },
+    {
+      "ip": "93.158.35.210",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IBROWSE-INFRA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 0.0,
+        "30d": 48.12,
+        "90d": 51.83,
+        "1y": 51.74
       }
     },
     {
@@ -1374,42 +1401,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 92.53,
-        "90d": 97.42,
+        "24h": 84.62,
+        "30d": 92.55,
+        "90d": 97.41,
         "1y": 97.48
-      }
-    },
-    {
-      "ip": "5.39.71.50",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "ns336772.ip-5-39-71.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 76.47,
-        "30d": 75.66,
-        "90d": 70.48,
-        "1y": 70.62
       }
     },
     {
@@ -1434,36 +1434,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.89,
-        "90d": 97.44,
+        "30d": 99.02,
+        "90d": 97.43,
         "1y": 97.54
       }
     },
     {
-      "ip": "80.15.18.130",
+      "ip": "147.135.130.233",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "France Telecom Orange",
-      "domain": "80-15-18-130.ftth.fr.orangecustomers.net",
+      "organization": "OVH",
+      "domain": "ns3079547.ip-147-135-130.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 47.06,
-        "30d": 43.29,
-        "90d": 28.05,
-        "1y": 28.16
+        "24h": 76.92,
+        "30d": 85.25,
+        "90d": 81.19,
+        "1y": 81.7
       }
     },
     {
@@ -1482,15 +1482,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.76,
-        "90d": 98.58,
-        "1y": 98.63
+        "24h": 92.31,
+        "30d": 98.59,
+        "90d": 98.55,
+        "1y": 98.6
       }
     },
     {
@@ -1515,9 +1515,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.62,
+        "30d": 98.6,
         "90d": 99.62,
-        "1y": 99.6
+        "1y": 99.61
       }
     },
     {
@@ -1568,9 +1568,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 76.47,
-        "30d": 90.33,
-        "90d": 81.95,
+        "24h": 84.62,
+        "30d": 90.14,
+        "90d": 81.88,
         "1y": 82.49
       }
     },
@@ -1591,7 +1591,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -1622,9 +1622,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 91.3,
-        "90d": 81.92,
+        "24h": 84.62,
+        "30d": 90.99,
+        "90d": 81.82,
         "1y": 82.49
       }
     },
@@ -1644,15 +1644,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 76.47,
-        "30d": 75.57,
-        "90d": 80.14,
-        "1y": 80.87
+        "24h": 84.62,
+        "30d": 76.02,
+        "90d": 80.1,
+        "1y": 80.9
       }
     },
     {
@@ -1671,7 +1671,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -1680,33 +1680,6 @@
         "30d": 99.86,
         "90d": 99.97,
         "1y": 99.97
-      }
-    },
-    {
-      "ip": "51.255.43.23",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "23.ip-51-255-43.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 41.18,
-        "30d": 82.16,
-        "90d": 64.78,
-        "1y": 65.72
       }
     },
     {
@@ -1732,8 +1705,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.86,
-        "90d": 97.16,
-        "1y": 97.11
+        "90d": 97.19,
+        "1y": 97.12
       }
     },
     {
@@ -1757,10 +1730,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 95.85,
-        "90d": 97.32,
-        "1y": 97.39
+        "24h": 92.31,
+        "30d": 95.78,
+        "90d": 97.28,
+        "1y": 97.36
       }
     },
     {
@@ -1807,14 +1780,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 98.48,
-        "90d": 94.61,
-        "1y": 94.59
+        "24h": 84.62,
+        "30d": 98.59,
+        "90d": 94.62,
+        "1y": 94.6
       }
     },
     {
@@ -1834,7 +1807,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -1865,37 +1838,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 89.66,
-        "90d": 94.71,
-        "1y": 94.83
-      }
-    },
-    {
-      "ip": "92.204.170.2",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Vlad Baranovskiy",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 23.53,
-        "30d": 36.05,
-        "90d": 26.03,
-        "1y": 26.25
+        "24h": 84.62,
+        "30d": 89.44,
+        "90d": 94.69,
+        "1y": 94.81
       }
     },
     {
@@ -1942,14 +1888,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.2,
-        "90d": 98.02,
-        "1y": 97.99
+        "30d": 98.17,
+        "90d": 98.01,
+        "1y": 98.0
       }
     },
     {
@@ -1995,13 +1941,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.45,
+        "30d": 99.58,
         "90d": 99.46,
         "1y": 99.48
       }
@@ -2022,15 +1968,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 93.65,
-        "90d": 95.97,
-        "1y": 96.11
+        "24h": 84.62,
+        "30d": 93.52,
+        "90d": 95.95,
+        "1y": 96.09
+      }
+    },
+    {
+      "ip": "92.222.221.29",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "29.ip-92-222-221.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 99.15,
+        "90d": 98.99,
+        "1y": 99.0
       }
     },
     {
@@ -2056,8 +2029,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 96.48,
-        "1y": 96.22
+        "90d": 96.52,
+        "1y": 96.23
       }
     },
     {
@@ -2076,13 +2049,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 97.79,
+        "24h": 100.0,
+        "30d": 97.75,
         "90d": 98.36,
         "1y": 98.42
       }
@@ -2136,8 +2109,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.79,
-        "90d": 99.12,
+        "30d": 97.75,
+        "90d": 99.11,
         "1y": 99.15
       }
     },
@@ -2211,15 +2184,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.79,
+        "90d": 97.78,
         "1y": 97.87
+      }
+    },
+    {
+      "ip": "82.64.69.40",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ProXad network / Free SA",
+      "domain": "82-64-69-40.subs.proxad.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 30.77,
+        "30d": 43.18,
+        "90d": 35.75,
+        "1y": 35.79
       }
     },
     {
@@ -2238,42 +2238,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.09,
+        "90d": 99.08,
         "1y": 99.09
-      }
-    },
-    {
-      "ip": "137.66.16.204",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Fly.io, Inc",
-      "domain": "ip-137-66-16-204.customer.flyio.net",
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 11.76,
-        "30d": 61.88,
-        "90d": 53.76,
-        "1y": 53.68
       }
     },
     {
@@ -2292,15 +2265,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 88.08,
-        "90d": 89.82,
-        "1y": 89.82
+        "24h": 84.62,
+        "30d": 88.01,
+        "90d": 89.85,
+        "1y": 89.85
       }
     },
     {
@@ -2321,13 +2294,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 85.65,
+        "90d": 84.48,
+        "1y": 83.89
+      }
+    },
+    {
+      "ip": "82.65.126.5",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ProXad network / Free SA",
+      "domain": "82-65-126-5.subs.proxad.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 76.47,
-        "30d": 85.34,
-        "90d": 84.4,
-        "1y": 83.87
+        "24h": 0.0,
+        "30d": 91.09,
+        "90d": 96.48,
+        "1y": 96.62
       }
     },
     {
@@ -2346,15 +2346,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 93.09,
-        "90d": 93.13,
-        "1y": 93.34
+        "90d": 93.1,
+        "1y": 93.36
       }
     },
     {
@@ -2370,18 +2370,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.49,
-        "90d": 57.42,
-        "1y": 58.3
+        "30d": 82.23,
+        "90d": 57.45,
+        "1y": 58.37
       }
     },
     {
@@ -2405,10 +2405,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 47.06,
-        "30d": 50.15,
-        "90d": 26.93,
-        "1y": 27.48
+        "24h": 38.46,
+        "30d": 50.95,
+        "90d": 26.96,
+        "1y": 27.5
       }
     },
     {
@@ -2432,9 +2432,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 96.4,
-        "90d": 98.24,
+        "24h": 100.0,
+        "30d": 96.35,
+        "90d": 98.23,
         "1y": 98.3
       }
     },
@@ -2454,7 +2454,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2482,14 +2482,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 82.46,
-        "90d": 69.76,
-        "1y": 70.82
+        "24h": 100.0,
+        "30d": 82.39,
+        "90d": 69.64,
+        "1y": 70.87
       }
     },
     {
@@ -2541,9 +2541,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.01,
-        "90d": 77.45,
-        "1y": 78.26
+        "30d": 92.42,
+        "90d": 77.37,
+        "1y": 78.29
       }
     },
     {
@@ -2558,19 +2558,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 58.82,
-        "30d": 82.16,
-        "90d": 71.49,
-        "1y": 72.45
+        "24h": 69.23,
+        "30d": 81.74,
+        "90d": 71.37,
+        "1y": 72.46
       }
     },
     {
@@ -2622,9 +2622,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.24,
-        "90d": 95.77,
-        "1y": 95.86
+        "30d": 95.15,
+        "90d": 95.79,
+        "1y": 95.87
       }
     },
     {
@@ -2643,15 +2643,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 88.67,
-        "90d": 93.42,
-        "1y": 93.34
+        "24h": 92.86,
+        "30d": 88.5,
+        "90d": 93.4,
+        "1y": 93.35
       }
     },
     {
@@ -2675,37 +2675,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 58.82,
-        "30d": 67.93,
-        "90d": 88.11,
-        "1y": 88.46
-      }
-    },
-    {
-      "ip": "195.214.240.136",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Waycom International",
-      "domain": "ns-cache1.waycom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 92.67,
-        "90d": 87.49,
-        "1y": 87.72
+        "24h": 76.92,
+        "30d": 69.9,
+        "90d": 88.1,
+        "1y": 88.45
       }
     },
     {
@@ -2724,14 +2697,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 85.34,
-        "90d": 80.06,
+        "24h": 76.92,
+        "30d": 85.09,
+        "90d": 80.02,
         "1y": 80.64
       }
     },
@@ -2783,9 +2756,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 92.25,
-        "90d": 94.83,
+        "24h": 100.0,
+        "30d": 92.12,
+        "90d": 94.82,
         "1y": 94.96
       }
     },
@@ -2810,37 +2783,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 94.33,
-        "90d": 96.49,
-        "1y": 96.49
-      }
-    },
-    {
-      "ip": "137.74.45.215",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "215.ip-137-74-45.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 0.0,
-        "30d": 4.42,
-        "90d": 4.15,
-        "1y": 4.28
+        "24h": 100.0,
+        "30d": 94.23,
+        "90d": 96.5,
+        "1y": 96.5
       }
     },
     {
@@ -2865,9 +2811,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.7,
-        "90d": 81.57,
-        "1y": 82.22
+        "30d": 81.69,
+        "90d": 81.49,
+        "1y": 82.25
+      }
+    },
+    {
+      "ip": "37.97.93.166",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SEWAN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 38.46,
+        "30d": 64.79,
+        "90d": 58.94,
+        "1y": 60.01
       }
     },
     {
@@ -2892,9 +2865,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.06,
-        "90d": 94.58,
-        "1y": 94.77
+        "30d": 95.92,
+        "90d": 94.56,
+        "1y": 94.78
       }
     },
     {
@@ -2919,8 +2892,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.65,
-        "90d": 98.27,
+        "30d": 97.61,
+        "90d": 98.29,
         "1y": 98.21
       }
     },
@@ -2945,361 +2918,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 98.2,
+        "24h": 78.57,
+        "30d": 98.17,
         "90d": 99.53,
         "1y": 99.54
       }
     },
     {
-      "ip": "92.205.21.96",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GD MASS Network",
-      "domain": "96.21.205.92.host.secureserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.59,
-        "90d": 99.56,
-        "1y": 99.57
-      }
-    },
-    {
-      "ip": "93.158.35.192",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "IBROWSE-INFRA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "92.182.38.172",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MB Network",
-      "domain": "172.38.182.92.occi.ftth.abo.nmbo.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 87.02,
-        "90d": 75.09,
-        "1y": 75.93
-      }
-    },
-    {
-      "ip": "80.125.21.2",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Briton N Bretecher B Boisseau Derso J",
-      "domain": "2.21.125.80.rev.sfr.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.59,
-        "30d": 82.04,
-        "90d": 74.98,
-        "1y": 75.89
-      }
-    },
-    {
-      "ip": "82.65.95.79",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ProXad network / Free SA",
-      "domain": "mx-2.ethic-hosting.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "95.111.231.0",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi437939.reseller99.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.65,
-        "90d": 97.51,
-        "1y": 97.6
-      }
-    },
-    {
-      "ip": "145.239.196.217",
+      "ip": "51.178.84.208",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "OVH",
-      "domain": "vps-c1349767.vps.ovh.net",
+      "domain": "208.ip-51-178-84.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.96,
-        "90d": 98.84,
-        "1y": 98.88
-      }
-    },
-    {
-      "ip": "213.136.84.5",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi567576.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 90.61,
-        "90d": 89.26,
-        "1y": 88.97
-      }
-    },
-    {
-      "ip": "176.31.248.107",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "ifri-dz.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 96.27,
-        "90d": 98.55,
-        "1y": 98.57
-      }
-    },
-    {
-      "ip": "5.189.161.18",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi137148.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.91,
-        "1y": 99.88
-      }
-    },
-    {
-      "ip": "82.66.182.101",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ProXad network / Free SA",
-      "domain": "nap13-1_migr-82-66-182-101.fbx.proxad.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 64.71,
-        "30d": 65.02,
-        "90d": 67.92,
-        "1y": 68.25
-      }
-    },
-    {
-      "ip": "128.127.17.20",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MyS",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.75,
-        "1y": 99.73
-      }
-    },
-    {
-      "ip": "51.178.70.250",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Ruiz Ortiz Manuel",
-      "domain": "alt2.mx.imaginais.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.93,
-        "1y": 99.93
+        "30d": 84.24,
+        "90d": 94.6,
+        "1y": 94.82
       }
     },
     {
@@ -3323,9 +2972,9 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 77.13,
-        "90d": 62.08,
+        "24h": 71.43,
+        "30d": 76.45,
+        "90d": 61.99,
         "1y": 61.95
       }
     },
@@ -3346,25 +2995,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 82.3,
-        "1y": 82.46
+        "90d": 82.27,
+        "1y": 82.49
       }
     },
     {
-      "ip": "92.182.99.142",
+      "ip": "84.14.48.246",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "MB Network",
-      "domain": "142.99.182.92.tims.ftth.abo.nmbo.fr",
+      "organization": "COLT Telecom",
+      "domain": "246.48-14-84.ripe.coltfrance.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3374,24 +3023,51 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 82.32,
-        "90d": 86.67,
-        "1y": 87.03
+        "24h": 64.29,
+        "30d": 73.88,
+        "90d": 91.67,
+        "1y": 92.02
       }
     },
     {
-      "ip": "141.95.155.209",
+      "ip": "92.205.21.96",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3212373.ip-141-95-155.eu",
+      "organization": "GD MASS Network",
+      "domain": "96.21.205.92.host.secureserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.58,
+        "90d": 99.56,
+        "1y": 99.58
+      }
+    },
+    {
+      "ip": "141.95.245.13",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Oudot Laurent",
+      "domain": "ip13.ip-141-95-245.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3404,21 +3080,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 58.82,
-        "30d": 76.8,
-        "90d": 82.58,
-        "1y": 82.88
+        "24h": 100.0,
+        "30d": 75.91,
+        "90d": 38.1,
+        "1y": 37.14
       }
     },
     {
-      "ip": "51.178.84.208",
+      "ip": "62.210.136.158",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "OVH",
-      "domain": "208.ip-51-178-84.eu",
+      "organization": "ONLINE",
+      "domain": "62-210-136-158.rev.poneytelecom.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3432,252 +3108,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.51,
-        "90d": 94.62,
-        "1y": 94.81
-      }
-    },
-    {
-      "ip": "92.205.110.190",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GCN SXB1",
-      "domain": "190.110.205.92.host.secureserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.84,
-        "1y": 99.85
-      }
-    },
-    {
-      "ip": "94.23.53.47",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns10.pasionporelruido.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
         "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "193.202.121.50",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MEDIACTIVE",
-      "domain": "satellite.mediactive.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.12,
-        "30d": 99.45,
         "90d": 99.81,
         "1y": 99.82
       }
     },
     {
-      "ip": "91.121.35.81",
+      "ip": "62.23.35.22",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "ip81.ip-91-121-35.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.45,
-        "90d": 99.81,
-        "1y": 99.7
-      }
-    },
-    {
-      "ip": "51.255.94.135",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns33237345.ip-51-255-94.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "87.98.153.70",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MCPECloud ISP",
-      "domain": "ip70.ip-87-98-153.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.91
-      }
-    },
-    {
-      "ip": "213.136.88.86",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi537134.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.51,
-        "90d": 93.8,
-        "1y": 93.92
-      }
-    },
-    {
-      "ip": "161.97.85.60",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi418756.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.12,
-        "30d": 85.22,
-        "90d": 90.74,
-        "1y": 90.85
-      }
-    },
-    {
-      "ip": "130.93.191.141",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Rezocean network",
-      "domain": "reverse.rezaxess.fr",
+      "organization": "Isal",
+      "domain": "smtp.vivacances.fr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.72,
-        "90d": 99.72,
-        "1y": 99.67
+        "24h": 69.23,
+        "30d": 58.87,
+        "90d": 55.57,
+        "1y": 55.4
       }
     },
     {
@@ -3702,333 +3162,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.82,
-        "90d": 94.43,
-        "1y": 94.53
-      }
-    },
-    {
-      "ip": "91.121.52.36",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "mail.jourdefete.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.94,
-        "1y": 99.94
-      }
-    },
-    {
-      "ip": "89.234.141.66",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Alsace Reseau Neutre network",
-      "domain": "recursif.arn-fai.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.55,
-        "90d": 98.08,
-        "1y": 98.15
-      }
-    },
-    {
-      "ip": "212.73.221.107",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Pc21",
-      "domain": "mail.lp-interactive.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.72,
-        "90d": 99.84,
-        "1y": 99.85
-      }
-    },
-    {
-      "ip": "92.222.227.224",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BUFImedia Rafal Budkiewicz",
-      "domain": "dns2.omdc.pl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.72,
-        "90d": 99.94,
-        "1y": 99.94
-      }
-    },
-    {
-      "ip": "173.212.242.89",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi130802.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.78,
-        "1y": 99.79
-      }
-    },
-    {
-      "ip": "51.15.174.81",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ONLINE",
-      "domain": "51-15-174-81.rev.poneytelecom.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.59,
-        "30d": 85.34,
-        "90d": 80.66,
-        "1y": 80.89
-      }
-    },
-    {
-      "ip": "134.119.184.218",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Mohammad Hoq",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.0,
-        "90d": 91.6,
-        "1y": 92.1
-      }
-    },
-    {
-      "ip": "5.135.138.186",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "ns371493.ip-5-135-138.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 83.13,
-        "90d": 73.85,
-        "1y": 74.05
-      }
-    },
-    {
-      "ip": "173.249.48.6",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi212999.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.2,
-        "90d": 97.04,
-        "1y": 97.11
-      }
-    },
-    {
-      "ip": "51.68.227.204",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "204.ip-51-68-227.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.93,
-        "90d": 94.9,
-        "1y": 94.49
-      }
-    },
-    {
-      "ip": "5.189.128.74",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi145351.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.89,
-        "90d": 99.31,
-        "1y": 99.33
-      }
-    },
-    {
-      "ip": "5.135.166.77",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3313891.ip-5-135-166.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 52.94,
-        "30d": 87.69,
-        "90d": 75.46,
-        "1y": 76.15
+        "30d": 87.57,
+        "90d": 94.4,
+        "1y": 94.54
       }
     },
     {
@@ -4086,384 +3222,6 @@
       }
     },
     {
-      "ip": "149.202.84.49",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3021761.ip-149-202-84.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.53,
-        "1y": 99.54
-      }
-    },
-    {
-      "ip": "51.75.131.205",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3133569.ip-51-75-131.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.64,
-        "90d": 98.27,
-        "1y": 98.33
-      }
-    },
-    {
-      "ip": "149.202.82.130",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3019190.ip-149-202-82.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.91,
-        "1y": 99.88
-      }
-    },
-    {
-      "ip": "185.49.20.20",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Yulpa",
-      "domain": "dns4all-ncp1-1.yulpa.io",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.45,
-        "90d": 98.65,
-        "1y": 98.69
-      }
-    },
-    {
-      "ip": "5.189.150.220",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi116456.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 99.17,
-        "90d": 97.48,
-        "1y": 97.33
-      }
-    },
-    {
-      "ip": "144.91.69.91",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi495908.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.45,
-        "90d": 99.75,
-        "1y": 99.76
-      }
-    },
-    {
-      "ip": "173.212.228.2",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi993747.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.78,
-        "1y": 99.79
-      }
-    },
-    {
-      "ip": "145.239.186.86",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Entrouvert SCOP Serghei MIHAI",
-      "domain": "resolver.entrouvert.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "173.212.241.35",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi577778.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 99.03,
-        "90d": 97.92,
-        "1y": 97.85
-      }
-    },
-    {
-      "ip": "141.95.245.13",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Oudot Laurent",
-      "domain": "ip13.ip-141-95-245.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 74.44,
-        "90d": 36.94,
-        "1y": 36.0
-      }
-    },
-    {
-      "ip": "5.175.26.208",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GD MASS Network",
-      "domain": "vs236705.vs.hosteurope.de",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.65,
-        "90d": 99.02,
-        "1y": 99.06
-      }
-    },
-    {
-      "ip": "130.93.54.181",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Init SYS",
-      "domain": "181-54-93-130.reverse.alphalink.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 87.15,
-        "90d": 91.31,
-        "1y": 90.88
-      }
-    },
-    {
-      "ip": "91.121.33.31",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "fr-2.mcit-hosting.be",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.41,
-        "90d": 98.39,
-        "1y": 98.45
-      }
-    },
-    {
-      "ip": "62.210.136.158",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ONLINE",
-      "domain": "62-210-136-158.rev.poneytelecom.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.81,
-        "1y": 99.82
-      }
-    },
-    {
       "ip": "87.98.167.47",
       "version": 4,
       "country_code": "fr",
@@ -4491,311 +3249,14 @@
       }
     },
     {
-      "ip": "80.15.123.60",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "France Telecom Orange",
-      "domain": "80-15-123-60.ftth.fr.orangecustomers.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.81,
-        "1y": 99.82
-      }
-    },
-    {
-      "ip": "80.13.86.74",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "France Telecom",
-      "domain": "laubervilliers-656-1-126-74.w80-13.abo.wanadoo.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.12,
-        "30d": 94.34,
-        "90d": 94.77,
-        "1y": 94.92
-      }
-    },
-    {
-      "ip": "80.13.229.72",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "France Telecom",
-      "domain": "lstlambert-658-1-209-72.w80-13.abo.wanadoo.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 81.63,
-        "90d": 59.69,
-        "1y": 60.88
-      }
-    },
-    {
-      "ip": "79.137.66.229",
+      "ip": "149.202.84.49",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "OVH",
-      "domain": "ns3067334.ip-79-137-66.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 76.47,
-        "30d": 80.39,
-        "90d": 72.28,
-        "1y": 72.4
-      }
-    },
-    {
-      "ip": "78.153.224.243",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FR.JAGUAR LIR",
-      "domain": "cpe-et005492.cust.jaguar-network.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.97,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "62.161.245.137",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BCA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.62,
-        "90d": 99.31,
-        "1y": 99.33
-      }
-    },
-    {
-      "ip": "62.210.111.63",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ONLINE",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 94.2,
-        "90d": 97.7,
-        "1y": 97.75
-      }
-    },
-    {
-      "ip": "62.23.35.22",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Isal",
-      "domain": "smtp.vivacances.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 58.82,
-        "30d": 58.84,
-        "90d": 55.46,
-        "1y": 55.35
-      }
-    },
-    {
-      "ip": "62.171.167.67",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi616310.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.48,
-        "90d": 99.59,
-        "1y": 99.57
-      }
-    },
-    {
-      "ip": "171.33.152.31",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Global to Alphalink",
-      "domain": "31-152-33-171.reverse.alphalink.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 76.47,
-        "30d": 79.28,
-        "90d": 63.63,
-        "1y": 64.38
-      }
-    },
-    {
-      "ip": "37.187.55.202",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "202.ip-37-187-55.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.17,
-        "90d": 97.28,
-        "1y": 97.37
-      }
-    },
-    {
-      "ip": "92.204.241.140",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Craig Turner",
-      "domain": "ns1.csc2ya.co.uk",
+      "domain": "ns3021761.ip-149-202-84.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4810,19 +3271,73 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.94
+        "90d": 99.53,
+        "1y": 99.54
       }
     },
     {
-      "ip": "204.2.152.19",
+      "ip": "85.169.120.6",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "NTT America, Inc.",
-      "domain": "dnsres01.atlnga05.us.to.gin.ntt.net",
+      "organization": "Societe Francaise Du Radiotelephone - SFR SA",
+      "domain": "6.120.169.85.rev.sfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 52.39,
+        "90d": 50.75,
+        "1y": 50.64
+      }
+    },
+    {
+      "ip": "149.202.82.130",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns3019190.ip-149-202-82.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.91,
+        "1y": 99.88
+      }
+    },
+    {
+      "ip": "145.239.196.217",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "vps-c1349767.vps.ovh.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4831,6 +3346,276 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.85,
+        "90d": 98.84,
+        "1y": 98.88
+      }
+    },
+    {
+      "ip": "161.97.85.60",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi418756.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 84.64,
+        "90d": 91.54,
+        "1y": 90.87
+      }
+    },
+    {
+      "ip": "130.93.54.181",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Init SYS",
+      "domain": "181-54-93-130.reverse.alphalink.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 86.8,
+        "90d": 91.28,
+        "1y": 90.86
+      }
+    },
+    {
+      "ip": "144.91.69.91",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi495908.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.44,
+        "90d": 99.75,
+        "1y": 99.76
+      }
+    },
+    {
+      "ip": "213.136.84.5",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi567576.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.11,
+        "90d": 89.44,
+        "1y": 88.99
+      }
+    },
+    {
+      "ip": "213.136.88.86",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi537134.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 97.32,
+        "90d": 93.74,
+        "1y": 93.87
+      }
+    },
+    {
+      "ip": "80.13.98.191",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "France Telecom",
+      "domain": "lmontsouris-658-1-92-191.w80-13.abo.wanadoo.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 45.08,
+        "90d": 33.95,
+        "1y": 34.18
+      }
+    },
+    {
+      "ip": "89.234.141.66",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Alsace Reseau Neutre network",
+      "domain": "recursif.arn-fai.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.48,
+        "90d": 98.07,
+        "1y": 98.15
+      }
+    },
+    {
+      "ip": "92.182.38.172",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MB Network",
+      "domain": "172.38.182.92.occi.ftth.abo.nmbo.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 86.62,
+        "90d": 75.01,
+        "1y": 75.94
+      }
+    },
+    {
+      "ip": "128.127.17.20",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MyS",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.75,
+        "1y": 99.73
+      }
+    },
+    {
+      "ip": "145.239.186.86",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Entrouvert SCOP Serghei MIHAI",
+      "domain": "resolver.entrouvert.org",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -4839,357 +3624,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "149.202.36.53",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Abraham David",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 76.47,
-        "30d": 88.38,
-        "90d": 68.42,
-        "1y": 69.48
-      }
-    },
-    {
-      "ip": "83.145.86.7",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Archimed N5217 N",
-      "domain": "7.86.145.83.rev.sfr.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.12,
-        "30d": 99.31,
-        "90d": 96.44,
-        "1y": 96.57
-      }
-    },
-    {
-      "ip": "173.212.243.123",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "ip-123-243-212-173.static.contabo.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.9,
-        "90d": 96.58,
-        "1y": 96.7
-      }
-    },
-    {
-      "ip": "188.165.250.96",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "mail.donjons.be",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.59,
-        "90d": 99.5,
-        "1y": 99.51
-      }
-    },
-    {
-      "ip": "84.14.219.62",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Colt Technology Services",
-      "domain": "62.219-14-84.ripe.coltfrance.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 85.77,
-        "90d": 77.95,
-        "1y": 78.33
-      }
-    },
-    {
-      "ip": "82.66.221.168",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ProXad network / Free SA",
-      "domain": "bny93-2_migr-82-66-221-168.fbx.proxad.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 94.75,
-        "90d": 92.85,
-        "1y": 92.61
-      }
-    },
-    {
-      "ip": "82.97.19.9",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TAS France - Sophia Network",
-      "domain": "9-qcnscruise.19-cust.tasfrance.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.34,
-        "90d": 98.99,
-        "1y": 99.03
-      }
-    },
-    {
-      "ip": "5.39.38.184",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ramu sagunala",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.26,
-        "90d": 95.66,
-        "1y": 95.81
-      }
-    },
-    {
-      "ip": "82.64.26.100",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ProXad network / Free SA",
-      "domain": "82-64-26-100.subs.proxad.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 88.4,
-        "90d": 90.2,
-        "1y": 90.46
-      }
-    },
-    {
-      "ip": "82.66.112.123",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ProXad network / Free SA",
-      "domain": "bny92-2_migr-82-66-112-123.fbx.proxad.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 87.85,
-        "90d": 67.69,
-        "1y": 68.57
-      }
-    },
-    {
-      "ip": "77.158.145.234",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Zilok Auto I",
-      "domain": "234.145.158.77.rev.sfr.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.12,
-        "30d": 96.27,
-        "90d": 92.69,
-        "1y": 92.58
-      }
-    },
-    {
-      "ip": "93.174.37.17",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "VOIP Telecom SAS",
-      "domain": "dsl093-174-037-017.dialup.saveho.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 73.51,
-        "90d": 54.87,
-        "1y": 55.13
-      }
-    },
-    {
-      "ip": "62.213.180.137",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Paritel Cust Sub29",
-      "domain": "host.137-180-213-62.rev.paritel.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 58.82,
-        "30d": 62.01,
-        "90d": 64.67,
-        "1y": 64.67
       }
     },
     {
@@ -5220,6 +3654,438 @@
       }
     },
     {
+      "ip": "134.119.184.218",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Mohammad Hoq",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.26,
+        "90d": 91.56,
+        "1y": 92.12
+      }
+    },
+    {
+      "ip": "176.31.248.107",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "ifri-dz.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 96.2,
+        "90d": 98.55,
+        "1y": 98.57
+      }
+    },
+    {
+      "ip": "173.212.241.35",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi577778.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.16,
+        "90d": 97.91,
+        "1y": 97.86
+      }
+    },
+    {
+      "ip": "51.15.174.81",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ONLINE",
+      "domain": "51-15-174-81.rev.poneytelecom.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 85.37,
+        "90d": 80.75,
+        "1y": 80.92
+      }
+    },
+    {
+      "ip": "173.212.242.89",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi130802.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.78,
+        "1y": 99.79
+      }
+    },
+    {
+      "ip": "5.175.26.208",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GD MASS Network",
+      "domain": "vs236705.vs.hosteurope.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.61,
+        "90d": 99.02,
+        "1y": 99.06
+      }
+    },
+    {
+      "ip": "51.255.94.135",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns33237345.ip-51-255-94.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "173.249.48.6",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi212999.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.45,
+        "90d": 97.03,
+        "1y": 97.12
+      }
+    },
+    {
+      "ip": "5.189.128.74",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi145351.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.87,
+        "90d": 99.3,
+        "1y": 99.33
+      }
+    },
+    {
+      "ip": "51.75.131.205",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns3133569.ip-51-75-131.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.53,
+        "90d": 98.26,
+        "1y": 98.33
+      }
+    },
+    {
+      "ip": "51.75.134.185",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns3148050.ip-51-75-134.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 30.77,
+        "30d": 87.48,
+        "90d": 92.74,
+        "1y": 93.1
+      }
+    },
+    {
+      "ip": "91.121.35.81",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "ip81.ip-91-121-35.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.44,
+        "90d": 99.81,
+        "1y": 99.7
+      }
+    },
+    {
+      "ip": "185.49.20.20",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Yulpa",
+      "domain": "dns4all-ncp1-1.yulpa.io",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.44,
+        "90d": 98.64,
+        "1y": 98.7
+      }
+    },
+    {
+      "ip": "173.212.228.2",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi993747.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.78,
+        "1y": 99.79
+      }
+    },
+    {
+      "ip": "5.189.161.18",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi137148.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.91,
+        "1y": 99.88
+      }
+    },
+    {
+      "ip": "5.189.150.220",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi116456.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.16,
+        "90d": 97.5,
+        "1y": 97.33
+      }
+    },
+    {
       "ip": "194.177.56.1",
       "version": 4,
       "country_code": "fr",
@@ -5235,26 +4101,80 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 95.44,
-        "90d": 97.73,
-        "1y": 97.78
+        "24h": 84.62,
+        "30d": 96.2,
+        "90d": 97.69,
+        "1y": 97.75
       }
     },
     {
-      "ip": "77.158.164.186",
+      "ip": "51.68.227.204",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "KA RA Sarl",
-      "domain": "186.164.158.77.rev.sfr.net",
+      "organization": "OVH",
+      "domain": "204.ip-51-68-227.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.89,
+        "90d": 95.1,
+        "1y": 94.49
+      }
+    },
+    {
+      "ip": "5.135.138.186",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "ns371493.ip-5-135-138.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.92,
+        "30d": 83.4,
+        "90d": 73.82,
+        "1y": 74.06
+      }
+    },
+    {
+      "ip": "149.202.36.53",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Abraham David",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5267,21 +4187,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 90.32,
-        "90d": 80.69,
-        "1y": 81.34
+        "24h": 92.31,
+        "30d": 88.19,
+        "90d": 68.34,
+        "1y": 69.53
       }
     },
     {
-      "ip": "37.187.155.58",
+      "ip": "87.98.153.70",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "ns322008.ip-37-187-155.eu",
+      "organization": "MCPECloud ISP",
+      "domain": "ip70.ip-87-98-153.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5297,72 +4217,18 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.97,
-        "1y": 99.97
+        "1y": 99.91
       }
     },
     {
-      "ip": "77.159.203.132",
+      "ip": "193.202.121.50",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Educlever I",
-      "domain": "132.203.159.77.rev.sfr.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 77.59,
-        "90d": 76.27,
-        "1y": 77.06
-      }
-    },
-    {
-      "ip": "185.60.178.253",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "IEC TELECOM @ EpsilonTel",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 29.41,
-        "30d": 56.17,
-        "90d": 56.17,
-        "1y": 55.9
-      }
-    },
-    {
-      "ip": "164.68.108.101",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi292247.contaboserver.net",
+      "organization": "MEDIACTIVE",
+      "domain": "satellite.mediactive.fr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5376,19 +4242,370 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 98.65,
-        "1y": 98.57
+        "30d": 99.44,
+        "90d": 99.81,
+        "1y": 99.82
       }
     },
     {
-      "ip": "51.210.122.169",
+      "ip": "188.165.250.96",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "mail.donjons.be",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.49,
+        "1y": 99.51
+      }
+    },
+    {
+      "ip": "89.251.59.190",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Foliateam",
+      "domain": "190.59-251-89.rdns.foliateam.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 90.45,
+        "90d": 88.05,
+        "1y": 88.38
+      }
+    },
+    {
+      "ip": "82.65.161.62",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ProXad network / Free SA",
+      "domain": "mail.julienth37.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.1,
+        "90d": 98.74,
+        "1y": 98.8
+      }
+    },
+    {
+      "ip": "94.23.53.47",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "OVH",
+      "domain": "ns10.pasionporelruido.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "37.187.55.202",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "202.ip-37-187-55.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 99.01,
+        "90d": 97.23,
+        "1y": 97.35
+      }
+    },
+    {
+      "ip": "80.15.123.60",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "France Telecom Orange",
+      "domain": "80-15-123-60.ftth.fr.orangecustomers.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.81,
+        "1y": 99.82
+      }
+    },
+    {
+      "ip": "80.13.86.74",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "France Telecom",
+      "domain": "laubervilliers-656-1-126-74.w80-13.abo.wanadoo.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.37,
+        "90d": 94.75,
+        "1y": 94.93
+      }
+    },
+    {
+      "ip": "80.15.204.212",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "France Telecom Orange",
+      "domain": "80-15-204-212.ftth.fr.orangecustomers.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 82.68,
+        "90d": 67.84,
+        "1y": 68.99
+      }
+    },
+    {
+      "ip": "92.222.227.224",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BUFImedia Rafal Budkiewicz",
+      "domain": "dns2.omdc.pl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.72,
+        "90d": 99.94,
+        "1y": 99.94
+      }
+    },
+    {
+      "ip": "62.210.111.63",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ONLINE",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 94.08,
+        "90d": 97.66,
+        "1y": 97.72
+      }
+    },
+    {
+      "ip": "51.178.70.250",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Ruiz Ortiz Manuel",
+      "domain": "alt2.mx.imaginais.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.93,
+        "1y": 99.93
+      }
+    },
+    {
+      "ip": "78.153.224.243",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "FR.JAGUAR LIR",
+      "domain": "cpe-et005492.cust.jaguar-network.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.97,
+        "1y": 99.97
+      }
+    },
+    {
+      "ip": "62.171.167.67",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi616310.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.45,
+        "90d": 99.59,
+        "1y": 99.58
+      }
+    },
+    {
+      "ip": "62.161.245.137",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BCA",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -5402,10 +4619,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 91.7,
-        "90d": 98.51,
-        "1y": 98.56
+        "24h": 100.0,
+        "30d": 98.73,
+        "90d": 99.3,
+        "1y": 99.33
+      }
+    },
+    {
+      "ip": "80.13.229.72",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "France Telecom",
+      "domain": "lstlambert-658-1-209-72.w80-13.abo.wanadoo.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 81.69,
+        "90d": 59.58,
+        "1y": 60.95
       }
     },
     {
@@ -5463,14 +4707,14 @@
       }
     },
     {
-      "ip": "89.251.59.190",
+      "ip": "91.134.159.109",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Foliateam",
-      "domain": "190.59-251-89.rdns.foliateam.com",
+      "organization": "OVH.CZ s.r.o",
+      "domain": "ip109.ip-91-134-159.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5483,10 +4727,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 90.73,
-        "90d": 88.09,
-        "1y": 88.39
+        "24h": 84.62,
+        "30d": 96.77,
+        "90d": 94.03,
+        "1y": 94.27
       }
     },
     {
@@ -5510,10 +4754,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 64.71,
-        "30d": 74.69,
-        "90d": 65.85,
-        "1y": 67.0
+        "24h": 53.85,
+        "30d": 73.88,
+        "90d": 65.68,
+        "1y": 66.96
+      }
+    },
+    {
+      "ip": "77.158.145.234",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Zilok Auto I",
+      "domain": "234.145.158.77.rev.sfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.63,
+        "90d": 92.67,
+        "1y": 92.59
       }
     },
     {
@@ -5544,33 +4815,6 @@
       }
     },
     {
-      "ip": "90.63.206.134",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Orange",
-      "domain": "lmontsouris-655-1-114-134.w90-63.abo.wanadoo.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 35.29,
-        "30d": 18.7,
-        "90d": 28.19,
-        "1y": 28.46
-      }
-    },
-    {
       "ip": "90.63.179.152",
       "version": 4,
       "country_code": "fr",
@@ -5586,42 +4830,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 90.46,
-        "90d": 88.06,
-        "1y": 88.39
-      }
-    },
-    {
-      "ip": "38.242.133.215",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi1178850.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 94.89,
-        "90d": 95.11,
-        "1y": 95.16
+        "24h": 92.31,
+        "30d": 91.15,
+        "90d": 88.05,
+        "1y": 88.38
       }
     },
     {
@@ -5646,9 +4863,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.53,
-        "90d": 97.53,
-        "1y": 97.53
+        "30d": 97.55,
+        "90d": 97.55,
+        "1y": 97.55
+      }
+    },
+    {
+      "ip": "90.80.195.118",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Mairie De Offendorf",
+      "domain": "118-195.80-90.static-ip.oleane.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.41,
+        "90d": 63.93,
+        "1y": 62.78
       }
     },
     {
@@ -5672,48 +4916,129 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 92.81,
-        "90d": 81.79,
-        "1y": 82.22
+        "24h": 100.0,
+        "30d": 92.98,
+        "90d": 81.83,
+        "1y": 82.25
       }
     },
     {
-      "ip": "95.179.217.24",
+      "ip": "173.212.243.123",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Vultr Holdings LLC Paris",
-      "domain": "tonkinois.edge.vlt.phowork.fr",
+      "organization": "Contabo GmbH",
+      "domain": "ip-123-243-212-173.static.contabo.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 70.82,
-        "90d": 48.04,
-        "1y": 49.05
+        "24h": 100.0,
+        "30d": 94.96,
+        "90d": 96.57,
+        "1y": 96.71
       }
     },
     {
-      "ip": "91.229.136.106",
+      "ip": "92.205.110.190",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Eurafibre SARL",
+      "organization": "GCN SXB1",
+      "domain": "190.110.205.92.host.secureserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.84,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "5.39.38.184",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ramu sagunala",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.73,
+        "90d": 95.64,
+        "1y": 95.82
+      }
+    },
+    {
+      "ip": "51.210.122.169",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 91.49,
+        "90d": 98.5,
+        "1y": 98.56
+      }
+    },
+    {
+      "ip": "92.182.99.142",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MB Network",
+      "domain": "142.99.182.92.tims.ftth.abo.nmbo.fr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5722,25 +5047,52 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 89.07,
-        "90d": 91.29,
-        "1y": 91.32
+        "24h": 100.0,
+        "30d": 83.84,
+        "90d": 86.61,
+        "1y": 87.05
       }
     },
     {
-      "ip": "82.64.128.90",
+      "ip": "83.145.86.7",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Free",
-      "domain": "82-64-128-90.subs.proxad.net",
+      "organization": "Archimed N5217 N",
+      "domain": "7.86.145.83.rev.sfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.3,
+        "90d": 96.43,
+        "1y": 96.57
+      }
+    },
+    {
+      "ip": "204.2.152.19",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NTT America, Inc.",
+      "domain": "dnsres01.atlnga05.us.to.gin.ntt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5749,25 +5101,52 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "77.159.203.132",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Educlever I",
+      "domain": "132.203.159.77.rev.sfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.99,
-        "90d": 97.54,
-        "1y": 97.63
+        "30d": 77.5,
+        "90d": 76.17,
+        "1y": 77.1
       }
     },
     {
-      "ip": "80.14.67.41",
+      "ip": "207.180.212.30",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "France Telecom",
-      "domain": "laubervilliers-657-1-132-41.w80-14.abo.wanadoo.fr",
+      "organization": "Contabo GmbH",
+      "domain": "vmi689150.contaboserver.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5776,95 +5155,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 35.29,
-        "30d": 80.22,
-        "90d": 66.28,
-        "1y": 67.26
-      }
-    },
-    {
-      "ip": "93.158.35.189",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "IBROWSE-INFRA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 52.97,
-        "90d": 53.59,
-        "1y": 53.3
-      }
-    },
-    {
-      "ip": "185.21.80.54",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SDI Roca Sarl",
-      "domain": "srv-dns02.sipleo.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 78.18,
-        "90d": 84.18,
-        "1y": 84.71
-      }
-    },
-    {
-      "ip": "82.65.161.62",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ProXad network / Free SA",
-      "domain": "mail.julienth37.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 95.21,
-        "90d": 98.75,
-        "1y": 98.79
+        "24h": 92.31,
+        "30d": 98.03,
+        "90d": 98.04,
+        "1y": 98.06
       }
     },
     {
@@ -5883,15 +5181,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.58,
-        "90d": 95.84,
-        "1y": 94.87
+        "30d": 95.63,
+        "90d": 95.82,
+        "1y": 94.88
       }
     },
     {
@@ -5916,19 +5214,46 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.98,
-        "90d": 76.85,
-        "1y": 77.13
+        "30d": 78.47,
+        "90d": 76.73,
+        "1y": 77.19
       }
     },
     {
-      "ip": "93.158.35.188",
+      "ip": "77.158.164.186",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "IBROWSE-INFRA",
+      "organization": "KA RA Sarl",
+      "domain": "186.164.158.77.rev.sfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 90.28,
+        "90d": 80.65,
+        "1y": 81.37
+      }
+    },
+    {
+      "ip": "87.98.165.97",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MCPECloud ISP",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -5942,21 +5267,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 64.71,
-        "30d": 51.59,
-        "90d": 52.58,
-        "1y": 52.6
+        "24h": 100.0,
+        "30d": 48.55,
+        "90d": 28.74,
+        "1y": 28.97
       }
     },
     {
-      "ip": "88.140.102.107",
+      "ip": "82.66.221.168",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Societe Francaise Du Radiotelephone - SFR SA",
-      "domain": "107.102.140.88.rev.sfr.net",
+      "organization": "ProXad network / Free SA",
+      "domain": "bny93-2_migr-82-66-221-168.fbx.proxad.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -5965,14 +5290,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 62.13,
-        "90d": 75.04,
-        "1y": 76.41
+        "24h": 100.0,
+        "30d": 94.92,
+        "90d": 92.88,
+        "1y": 92.63
+      }
+    },
+    {
+      "ip": "164.68.108.101",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi292247.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 98.7,
+        "1y": 98.57
       }
     },
     {
@@ -5992,25 +5344,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 92.13,
-        "90d": 94.36,
-        "1y": 94.56
+        "24h": 92.31,
+        "30d": 92.11,
+        "90d": 94.37,
+        "1y": 94.57
       }
     },
     {
-      "ip": "84.7.212.177",
+      "ip": "85.169.94.218",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "Societe Francaise Du Radiotelephone - SFR SA",
-      "domain": "177.212.7.84.rev.sfr.net",
+      "domain": "218.94.169.85.rev.sfr.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6018,26 +5370,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 82.35,
-        "30d": 87.69,
-        "90d": 85.26,
-        "1y": 85.78
+        "24h": 46.15,
+        "30d": 74.37,
+        "90d": 74.89,
+        "1y": 75.88
       }
     },
     {
-      "ip": "85.25.194.140",
+      "ip": "82.64.26.100",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "velia.net Internetdienste GmbH",
-      "domain": "astra1787.startdedicated.net",
+      "organization": "ProXad network / Free SA",
+      "domain": "82-64-26-100.subs.proxad.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6051,47 +5403,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.45,
-        "90d": 99.81,
-        "1y": 99.79
+        "30d": 88.15,
+        "90d": 90.16,
+        "1y": 90.47
       }
     },
     {
-      "ip": "80.13.181.151",
+      "ip": "82.66.112.123",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "France Telecom",
-      "domain": "laubervilliers-657-1-45-151.w80-13.abo.wanadoo.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 64.71,
-        "30d": 76.76,
-        "90d": 80.91,
-        "1y": 81.28
-      }
-    },
-    {
-      "ip": "80.245.54.153",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Flex Network Sarl",
-      "domain": "153.54.245.80.flex.network",
+      "organization": "ProXad network / Free SA",
+      "domain": "bny92-2_migr-82-66-112-123.fbx.proxad.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6100,68 +5425,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 95.99,
-        "90d": 94.96,
-        "1y": 95.14
-      }
-    },
-    {
-      "ip": "80.241.208.210",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi177535.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.59,
-        "90d": 98.52,
-        "1y": 98.57
-      }
-    },
-    {
-      "ip": "82.64.206.162",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Free",
-      "domain": "82-64-206-162.subs.proxad.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.3,
-        "90d": 97.23,
-        "1y": 97.3
+        "30d": 88.29,
+        "90d": 67.67,
+        "1y": 68.63
       }
     },
     {
@@ -6180,15 +5451,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.69,
-        "90d": 97.86,
-        "1y": 97.81
+        "30d": 96.76,
+        "90d": 97.88,
+        "1y": 97.82
       }
     },
     {
@@ -6219,6 +5490,33 @@
       }
     },
     {
+      "ip": "82.65.95.79",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ProXad network / Free SA",
+      "domain": "mx-2.ethic-hosting.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.97,
+        "1y": 99.97
+      }
+    },
+    {
       "ip": "188.165.254.29",
       "version": 4,
       "country_code": "fr",
@@ -6240,9 +5538,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.2,
-        "90d": 94.92,
-        "1y": 95.1
+        "30d": 98.17,
+        "90d": 94.9,
+        "1y": 95.11
       }
     },
     {
@@ -6261,258 +5559,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.62,
-        "90d": 97.41,
+        "30d": 98.6,
+        "90d": 97.4,
         "1y": 97.5
-      }
-    },
-    {
-      "ip": "167.86.119.212",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "vmi648120.contaboserver.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 97.39,
-        "1y": 97.39
-      }
-    },
-    {
-      "ip": "164.132.167.189",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3048372.ip-164-132-167.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "185.97.204.135",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cust PPP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 84.92,
-        "90d": 73.41,
-        "1y": 73.41
-      }
-    },
-    {
-      "ip": "94.228.187.149",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CELESTE Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 29.41,
-        "30d": 62.23,
-        "90d": 53.65,
-        "1y": 53.83
-      }
-    },
-    {
-      "ip": "90.80.195.118",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Mairie De Offendorf",
-      "domain": "118-195.80-90.static-ip.oleane.fr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.28,
-        "90d": 63.51,
-        "1y": 62.36
-      }
-    },
-    {
-      "ip": "87.98.134.58",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MCPECloud ISP",
-      "domain": "cybercentrale.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 82.35,
-        "30d": 93.36,
-        "90d": 89.16,
-        "1y": 89.55
-      }
-    },
-    {
-      "ip": "194.69.195.2",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MEDIACTIVE",
-      "domain": "ns4.imadiff.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 11.76,
-        "30d": 49.72,
-        "90d": 32.82,
-        "1y": 33.47
-      }
-    },
-    {
-      "ip": "93.158.35.197",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "IBROWSE-INFRA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 52.94,
-        "30d": 44.75,
-        "90d": 47.34,
-        "1y": 47.37
-      }
-    },
-    {
-      "ip": "151.80.238.97",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ORG-OMV O1",
-      "domain": "ip97.ip-151-80-238.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 91.16,
-        "90d": 91.53,
-        "1y": 91.76
       }
     },
     {
@@ -6543,14 +5598,14 @@
       }
     },
     {
-      "ip": "147.135.131.46",
+      "ip": "185.21.80.54",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3079668.ip-147-135-131.eu",
+      "organization": "SDI Roca Sarl",
+      "domain": "srv-dns02.sipleo.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6558,26 +5613,53 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 79.55,
+        "90d": 84.11,
+        "1y": 84.71
+      }
+    },
+    {
+      "ip": "82.97.19.9",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TAS France - Sophia Network",
+      "domain": "9-qcnscruise.19-cust.tasfrance.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.01,
-        "90d": 96.09,
-        "1y": 96.23
+        "30d": 98.32,
+        "90d": 98.99,
+        "1y": 99.03
       }
     },
     {
-      "ip": "151.80.28.48",
+      "ip": "88.140.102.107",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "ns3050702.ip-151-80-28.eu",
+      "organization": "Societe Francaise Du Radiotelephone - SFR SA",
+      "domain": "107.102.140.88.rev.sfr.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6585,53 +5667,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.84,
-        "1y": 99.85
+        "24h": 84.62,
+        "30d": 63.58,
+        "90d": 74.9,
+        "1y": 76.5
       }
     },
     {
-      "ip": "144.91.122.26",
+      "ip": "82.64.128.90",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Contabo GmbH",
-      "domain": "ns1.sellerflash.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.94,
-        "1y": 99.94
-      }
-    },
-    {
-      "ip": "5.135.1.165",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Fongecif / bloc 1",
-      "domain": "cnfpt-ad.cnfpt.keyconsulting.fr",
+      "organization": "Free",
+      "domain": "82-64-128-90.subs.proxad.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6639,26 +5694,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.87,
-        "1y": 99.88
+        "30d": 96.06,
+        "90d": 97.53,
+        "1y": 97.63
       }
     },
     {
-      "ip": "193.252.209.127",
+      "ip": "80.15.128.201",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Orange",
-      "domain": "lmontsouris-656-1-118-127.w193-252.abo.wanadoo.fr",
+      "organization": "France Telecom Orange",
+      "domain": "80-15-128-201.ftth.fr.orangecustomers.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6671,10 +5726,388 @@
         "adult": true
       },
       "uptime": {
-        "24h": 52.94,
-        "30d": 42.49,
-        "90d": 43.73,
-        "1y": 44.01
+        "24h": 61.54,
+        "30d": 52.32,
+        "90d": 53.49,
+        "1y": 53.22
+      }
+    },
+    {
+      "ip": "84.7.212.177",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Societe Francaise Du Radiotelephone - SFR SA",
+      "domain": "177.212.7.84.rev.sfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 87.48,
+        "90d": 85.2,
+        "1y": 85.77
+      }
+    },
+    {
+      "ip": "80.13.181.151",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "France Telecom",
+      "domain": "laubervilliers-657-1-45-151.w80-13.abo.wanadoo.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.92,
+        "30d": 76.65,
+        "90d": 81.0,
+        "1y": 81.28
+      }
+    },
+    {
+      "ip": "80.245.54.153",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Flex Network Sarl",
+      "domain": "153.54.245.80.flex.network",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 96.48,
+        "90d": 94.94,
+        "1y": 95.15
+      }
+    },
+    {
+      "ip": "80.241.208.210",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi177535.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.58,
+        "90d": 98.51,
+        "1y": 98.57
+      }
+    },
+    {
+      "ip": "82.64.206.162",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Free",
+      "domain": "82-64-206-162.subs.proxad.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.22,
+        "90d": 97.22,
+        "1y": 97.3
+      }
+    },
+    {
+      "ip": "171.33.152.31",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Global to Alphalink",
+      "domain": "31-152-33-171.reverse.alphalink.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 79.63,
+        "90d": 63.52,
+        "1y": 64.4
+      }
+    },
+    {
+      "ip": "95.111.231.0",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi437939.reseller99.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.75,
+        "90d": 97.53,
+        "1y": 97.6
+      }
+    },
+    {
+      "ip": "93.158.35.197",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IBROWSE-INFRA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 44.52,
+        "90d": 47.31,
+        "1y": 47.42
+      }
+    },
+    {
+      "ip": "93.158.35.189",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IBROWSE-INFRA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 76.92,
+        "30d": 53.59,
+        "90d": 53.62,
+        "1y": 53.34
+      }
+    },
+    {
+      "ip": "164.132.167.189",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns3048372.ip-164-132-167.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "194.69.195.2",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MEDIACTIVE",
+      "domain": "ns4.imadiff.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 50.79,
+        "90d": 32.86,
+        "1y": 33.48
+      }
+    },
+    {
+      "ip": "92.204.241.140",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Craig Turner",
+      "domain": "ns1.csc2ya.co.uk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.97,
+        "1y": 99.94
+      }
+    },
+    {
+      "ip": "93.158.35.192",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IBROWSE-INFRA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.97,
+        "1y": 99.97
+      }
+    },
+    {
+      "ip": "37.187.155.58",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "ns322008.ip-37-187-155.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.97,
+        "1y": 99.97
       }
     },
     {
@@ -6694,122 +6127,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.86,
-        "90d": 98.9,
+        "90d": 98.89,
         "1y": 98.91
-      }
-    },
-    {
-      "ip": "149.202.81.7",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": "ns3018499.ip-149-202-81.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.72,
-        "90d": 99.87,
-        "1y": 99.88
-      }
-    },
-    {
-      "ip": "5.135.137.224",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "ns3006189.ip-5-135-137.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 76.47,
-        "30d": 63.4,
-        "90d": 69.23,
-        "1y": 69.7
-      }
-    },
-    {
-      "ip": "5.39.65.110",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH SAS",
-      "domain": "tourist-informator.info",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.07,
-        "90d": 99.12,
-        "1y": 99.15
-      }
-    },
-    {
-      "ip": "51.254.5.245",
-      "version": 4,
-      "country_code": "fr",
-      "country": "France",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.45,
-        "90d": 99.69,
-        "1y": 99.67
       }
     },
     {
@@ -6840,14 +6165,176 @@
       }
     },
     {
-      "ip": "92.182.111.64",
+      "ip": "51.254.5.245",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "MB Network",
-      "domain": "autodiscover.atsourcing.fr",
+      "organization": "OVH",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.44,
+        "90d": 99.68,
+        "1y": 99.67
+      }
+    },
+    {
+      "ip": "151.80.238.97",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ORG-OMV O1",
+      "domain": "ip97.ip-151-80-238.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 91.27,
+        "90d": 91.49,
+        "1y": 91.78
+      }
+    },
+    {
+      "ip": "5.39.65.110",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "tourist-informator.info",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.03,
+        "90d": 99.11,
+        "1y": 99.15
+      }
+    },
+    {
+      "ip": "149.202.81.7",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns3018499.ip-149-202-81.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.72,
+        "90d": 99.87,
+        "1y": 99.88
+      }
+    },
+    {
+      "ip": "5.135.1.165",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fongecif / bloc 1",
+      "domain": "cnfpt-ad.cnfpt.keyconsulting.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.87,
+        "1y": 99.88
+      }
+    },
+    {
+      "ip": "144.91.122.26",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "ns1.sellerflash.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.94,
+        "1y": 99.94
+      }
+    },
+    {
+      "ip": "77.91.245.76",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SERC - Societe d Electrification Rurale du Carmausin",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6856,25 +6343,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 87.68,
-        "90d": 90.67,
-        "1y": 91.0
+        "24h": 61.54,
+        "30d": 66.38,
+        "90d": 54.59,
+        "1y": 55.87
       }
     },
     {
-      "ip": "89.91.15.9",
+      "ip": "130.93.191.141",
       "version": 4,
       "country_code": "fr",
       "country": "France",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Bouygues Telecom ISP",
-      "domain": "static-qvn-qvo-015009.business.bouyguestelecom.com",
+      "organization": "Rezocean network",
+      "domain": "reverse.rezaxess.fr",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -6887,10 +6374,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 82.16,
-        "90d": 57.72,
-        "1y": 58.28
+        "24h": 100.0,
+        "30d": 99.72,
+        "90d": 99.72,
+        "1y": 99.67
+      }
+    },
+    {
+      "ip": "151.80.28.48",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "ns3050702.ip-151-80-28.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.84,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "147.135.131.46",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH",
+      "domain": "ns3079668.ip-147-135-131.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.68,
+        "90d": 96.08,
+        "1y": 96.24
       }
     },
     {
@@ -6915,9 +6456,252 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.16,
-        "90d": 95.46,
-        "1y": 95.38
+        "30d": 95.22,
+        "90d": 95.45,
+        "1y": 95.39
+      }
+    },
+    {
+      "ip": "93.158.35.188",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "IBROWSE-INFRA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 38.46,
+        "30d": 51.34,
+        "90d": 52.48,
+        "1y": 52.55
+      }
+    },
+    {
+      "ip": "87.98.134.58",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MCPECloud ISP",
+      "domain": "cybercentrale.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.53,
+        "90d": 89.12,
+        "1y": 89.56
+      }
+    },
+    {
+      "ip": "91.229.136.106",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eurafibre SARL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 89.03,
+        "90d": 91.26,
+        "1y": 91.34
+      }
+    },
+    {
+      "ip": "85.25.194.140",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "velia.net Internetdienste GmbH",
+      "domain": "astra1787.startdedicated.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.44,
+        "90d": 99.81,
+        "1y": 99.79
+      }
+    },
+    {
+      "ip": "167.86.119.212",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Contabo GmbH",
+      "domain": "vmi648120.contaboserver.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 97.38,
+        "1y": 97.39
+      }
+    },
+    {
+      "ip": "212.73.221.107",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Pc21",
+      "domain": "mail.lp-interactive.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.72,
+        "90d": 99.84,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "91.121.33.31",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "fr-2.mcit-hosting.be",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.34,
+        "90d": 98.39,
+        "1y": 98.45
+      }
+    },
+    {
+      "ip": "91.121.52.36",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH SAS",
+      "domain": "mail.jourdefete.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.94,
+        "1y": 99.94
+      }
+    },
+    {
+      "ip": "92.182.111.64",
+      "version": 4,
+      "country_code": "fr",
+      "country": "France",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MB Network",
+      "domain": "autodiscover.atsourcing.fr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 69.23,
+        "30d": 87.46,
+        "90d": 90.6,
+        "1y": 90.99
       }
     }
   ]
