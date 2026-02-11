@@ -4,35 +4,35 @@
     "country_name": "Guinea",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-09T06:33:21Z",
+    "generated_at": "2026-02-11T06:32:52Z",
     "total_servers": 1
   },
   "resolvers": [
     {
-      "ip": "41.77.184.98",
+      "ip": "41.79.237.84",
       "version": 4,
       "country_code": "gn",
       "country": "Guinea",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Vdctelecom Voip",
-      "domain": "sip.vdctelecom.com",
+      "organization": "BCI",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 47.37,
-        "30d": 69.76,
-        "90d": 64.81,
-        "1y": 64.68
+        "24h": 0.0,
+        "30d": 36.97,
+        "90d": 33.54,
+        "1y": 33.54
       }
     }
   ]

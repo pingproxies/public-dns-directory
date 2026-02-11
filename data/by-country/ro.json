@@ -4,8 +4,8 @@
     "country_name": "Romania",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-10T18:19:25Z",
-    "total_servers": 69
+    "generated_at": "2026-02-11T06:32:52Z",
+    "total_servers": 67
   },
   "resolvers": [
     {
@@ -21,16 +21,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.96,
+        "30d": 97.93,
         "90d": 99.5,
         "1y": 99.51
       }
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 86.39,
-        "90d": 89.54,
-        "1y": 89.86
+        "24h": 76.47,
+        "30d": 86.17,
+        "90d": 89.48,
+        "1y": 89.85
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.78,
-        "90d": 76.18,
-        "1y": 76.26
+        "24h": 94.12,
+        "30d": 84.53,
+        "90d": 76.22,
+        "1y": 76.28
       }
     },
     {
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 53.33,
-        "30d": 72.28,
-        "90d": 48.35,
-        "1y": 48.61
+        "24h": 52.94,
+        "30d": 72.93,
+        "90d": 48.61,
+        "1y": 48.65
       }
     },
     {
@@ -132,15 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 79.08,
-        "90d": 57.75,
-        "1y": 58.1
+        "24h": 94.12,
+        "30d": 79.97,
+        "90d": 57.7,
+        "1y": 58.18
+      }
+    },
+    {
+      "ip": "80.97.254.218",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Artelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 41.18,
+        "30d": 75.14,
+        "90d": 70.43,
+        "1y": 70.24
       }
     },
     {
@@ -159,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 75.75,
-        "90d": 53.16,
-        "1y": 53.87
+        "24h": 64.71,
+        "30d": 76.49,
+        "90d": 53.28,
+        "1y": 53.89
       }
     },
     {
@@ -192,7 +219,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.05,
+        "30d": 99.03,
         "90d": 98.9,
         "1y": 98.84
       }
@@ -213,42 +240,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.01,
-        "90d": 96.83,
-        "1y": 96.77
-      }
-    },
-    {
-      "ip": "86.127.67.242",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 76.6,
-        "90d": 56.99,
-        "1y": 58.18
+        "30d": 96.96,
+        "90d": 96.82,
+        "1y": 96.78
       }
     },
     {
@@ -264,18 +264,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 63.79,
-        "90d": 74.24,
-        "1y": 73.99
+        "24h": 58.82,
+        "30d": 63.03,
+        "90d": 74.53,
+        "1y": 73.96
       }
     },
     {
@@ -290,7 +290,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -300,9 +300,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.23,
-        "90d": 99.47,
+        "30d": 98.2,
+        "90d": 99.46,
         "1y": 99.48
+      }
+    },
+    {
+      "ip": "82.208.146.164",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UPC Romania SRL",
+      "domain": "neumann-cadereabastiliei61-fo.b.astral.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.94,
+        "30d": 76.63,
+        "90d": 56.1,
+        "1y": 57.24
+      }
+    },
+    {
+      "ip": "82.208.137.137",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UPC Romania",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 17.65,
+        "30d": 44.96,
+        "90d": 42.03,
+        "1y": 42.02
       }
     },
     {
@@ -321,15 +375,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 82.16,
+        "90d": 44.92,
+        "1y": 44.91
+      }
+    },
+    {
+      "ip": "86.122.55.7",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "86-122-55-7.rdsnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 81.22,
-        "90d": 44.73,
-        "1y": 44.81
+        "24h": 17.65,
+        "30d": 35.18,
+        "90d": 24.31,
+        "1y": 24.07
       }
     },
     {
@@ -350,12 +431,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 84.9,
-        "90d": 84.21,
+        "24h": 76.47,
+        "30d": 85.34,
+        "90d": 84.12,
         "1y": 84.62
       }
     },
@@ -376,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 74.69,
-        "90d": 70.73,
-        "1y": 70.49
+        "24h": 94.12,
+        "30d": 74.31,
+        "90d": 70.9,
+        "1y": 70.62
       }
     },
     {
@@ -407,37 +488,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 75.14,
-        "90d": 57.16,
-        "1y": 57.93
-      }
-    },
-    {
-      "ip": "82.78.94.101",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "82.78.94.101-static.cluj.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 84.78,
-        "90d": 80.23,
-        "1y": 80.38
+        "24h": 58.82,
+        "30d": 75.69,
+        "90d": 56.99,
+        "1y": 57.98
       }
     },
     {
@@ -483,13 +537,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 97.83,
+        "24h": 94.12,
+        "30d": 97.93,
         "90d": 98.68,
         "1y": 98.69
       }
@@ -515,10 +569,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 81.66,
-        "90d": 90.4,
-        "1y": 90.62
+        "24h": 94.12,
+        "30d": 81.63,
+        "90d": 90.36,
+        "1y": 90.64
       }
     },
     {
@@ -538,14 +592,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 87.36,
-        "90d": 87.38,
-        "1y": 87.75
+        "24h": 82.35,
+        "30d": 86.88,
+        "90d": 87.28,
+        "1y": 87.72
       }
     },
     {
@@ -569,10 +623,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 58.1,
-        "90d": 76.51,
-        "1y": 77.22
+        "24h": 94.12,
+        "30d": 59.34,
+        "90d": 76.47,
+        "1y": 77.24
       }
     },
     {
@@ -630,114 +684,6 @@
       }
     },
     {
-      "ip": "86.120.45.162",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "static-86-120-45-162.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 46.67,
-        "30d": 72.52,
-        "90d": 71.27,
-        "1y": 71.82
-      }
-    },
-    {
-      "ip": "89.121.250.206",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Romtelecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 40.0,
-        "30d": 73.2,
-        "90d": 65.06,
-        "1y": 65.57
-      }
-    },
-    {
-      "ip": "86.107.76.135",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SC Laroias Computers SRL",
-      "domain": "135.76.107.86.laroiasnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 46.67,
-        "30d": 68.16,
-        "90d": 52.4,
-        "1y": 53.06
-      }
-    },
-    {
-      "ip": "95.77.96.79",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UPC Romania",
-      "domain": "regata.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 46.67,
-        "30d": 77.04,
-        "90d": 58.54,
-        "1y": 59.52
-      }
-    },
-    {
       "ip": "89.42.28.193",
       "version": 4,
       "country_code": "ro",
@@ -755,23 +701,23 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 53.33,
-        "30d": 83.13,
-        "90d": 64.05,
-        "1y": 64.54
+        "24h": 76.47,
+        "30d": 83.4,
+        "90d": 63.99,
+        "1y": 64.63
       }
     },
     {
-      "ip": "82.79.60.33",
+      "ip": "92.83.0.155",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "RCS & RDS Business - CET GOVORA SA",
+      "organization": "Orange Romania Communications",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -781,14 +727,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 75.24,
-        "90d": 83.95,
-        "1y": 83.81
+        "24h": 47.06,
+        "30d": 82.6,
+        "90d": 93.95,
+        "1y": 94.17
       }
     },
     {
@@ -807,15 +753,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 90.76,
-        "90d": 94.66,
-        "1y": 94.79
+        "24h": 88.24,
+        "30d": 90.61,
+        "90d": 94.65,
+        "1y": 94.8
       }
     },
     {
@@ -839,388 +785,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 80.57,
-        "90d": 67.98,
-        "1y": 68.93
-      }
-    },
-    {
-      "ip": "94.53.120.150",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SC NextGen Communications SRL",
-      "domain": "94-53-120-150.next-gen.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 86.68,
-        "90d": 78.66,
-        "1y": 78.34
-      }
-    },
-    {
-      "ip": "94.53.116.110",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SC NextGen Communications SRL",
-      "domain": "94-53-116-110.next-gen.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.96,
-        "90d": 93.09,
-        "1y": 93.21
-      }
-    },
-    {
-      "ip": "94.52.89.226",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SC NextGen Communications SRL",
-      "domain": "94-52-89-226.next-gen.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.42,
-        "90d": 91.37,
-        "1y": 91.59
-      }
-    },
-    {
-      "ip": "86.122.61.3",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "static-86-122-61-3.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 56.82,
-        "90d": 62.85,
-        "1y": 63.49
-      }
-    },
-    {
-      "ip": "77.81.30.170",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UPC Romania S.A",
-      "domain": "mail.bidis.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 0.0,
-        "30d": 0.0,
-        "90d": 0.0,
-        "1y": 0.0
-      }
-    },
-    {
-      "ip": "86.122.28.141",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "86-122-28-141.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 89.93,
-        "90d": 93.03,
-        "1y": 93.18
-      }
-    },
-    {
-      "ip": "86.120.115.227",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "86-120-115-227.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 90.48,
-        "90d": 93.31,
-        "1y": 93.45
-      }
-    },
-    {
-      "ip": "86.122.48.169",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "86-122-48-169.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 89.39,
-        "90d": 88.73,
-        "1y": 88.85
-      }
-    },
-    {
-      "ip": "5.2.249.4",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "static-5-2-249-4.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 61.14,
-        "90d": 41.96,
-        "1y": 42.93
-      }
-    },
-    {
-      "ip": "86.105.27.1",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RDH SRL",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.99,
-        "90d": 79.42,
-        "1y": 78.87
-      }
-    },
-    {
-      "ip": "5.2.196.93",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 97.01,
-        "90d": 98.18,
-        "1y": 98.23
-      }
-    },
-    {
-      "ip": "95.77.99.62",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UPC Romania",
-      "domain": "mail.interprima.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 94.83,
-        "90d": 90.3,
-        "1y": 90.56
-      }
-    },
-    {
-      "ip": "109.96.31.87",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Romtelecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 87.35,
-        "90d": 91.15,
-        "1y": 91.43
-      }
-    },
-    {
-      "ip": "213.233.112.22",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MobiFon S.A.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 68.71,
-        "90d": 68.76,
-        "1y": 69.07
+        "24h": 88.24,
+        "30d": 82.04,
+        "90d": 67.81,
+        "1y": 68.95
       }
     },
     {
@@ -1241,24 +809,24 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.47,
-        "90d": 97.11,
+        "30d": 96.69,
+        "90d": 97.1,
         "1y": 97.2
       }
     },
     {
-      "ip": "89.238.255.150",
+      "ip": "93.122.164.198",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Euroweb Romania SA",
-      "domain": "ip4-89-238-255-150.euroweb.ro",
+      "organization": "Orange Romania Network",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1266,42 +834,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 13.33,
-        "30d": 77.17,
-        "90d": 53.14,
-        "1y": 54.51
-      }
-    },
-    {
-      "ip": "90.84.225.87",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Orange Romania Network",
-      "domain": "90-84-225-87.orangero.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.91,
-        "1y": 99.88
+        "24h": 29.41,
+        "30d": 60.57,
+        "90d": 50.19,
+        "1y": 49.46
       }
     },
     {
@@ -1320,8 +861,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -1352,10 +893,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 77.04,
-        "90d": 74.36,
-        "1y": 73.92
+        "24h": 76.47,
+        "30d": 76.52,
+        "90d": 74.55,
+        "1y": 73.89
+      }
+    },
+    {
+      "ip": "86.124.61.214",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 76.66,
+        "90d": 60.34,
+        "1y": 61.48
       }
     },
     {
@@ -1379,26 +947,26 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.02,
-        "90d": 86.82,
-        "1y": 87.05
+        "24h": 88.24,
+        "30d": 83.01,
+        "90d": 86.71,
+        "1y": 87.02
       }
     },
     {
-      "ip": "92.84.56.1",
+      "ip": "89.37.108.2",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Orange Romania Communications",
-      "domain": null,
+      "organization": "Teleson SRL",
+      "domain": "2.108.37.89.teleson.ro",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1407,20 +975,47 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.35,
-        "90d": 91.77,
-        "1y": 91.98
+        "30d": 95.86,
+        "90d": 96.47,
+        "1y": 96.6
       }
     },
     {
-      "ip": "86.125.102.202",
+      "ip": "86.105.27.1",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "RCS RDS",
-      "domain": "86-125-102-202.static.brasov.rdsnet.ro",
+      "organization": "RDH SRL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.14,
+        "90d": 79.7,
+        "1y": 79.07
+      }
+    },
+    {
+      "ip": "5.2.197.180",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1433,37 +1028,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 21.7,
-        "90d": 11.02,
-        "1y": 11.18
+        "24h": 100.0,
+        "30d": 48.83,
+        "90d": 46.87,
+        "1y": 47.79
       }
     },
     {
-      "ip": "193.226.61.1",
+      "ip": "5.2.196.93",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "SC Euroweb Romania SRL",
-      "domain": "tag.euroweb.ro",
+      "organization": "RCS & RDS Business",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.18,
-        "90d": 98.71,
-        "1y": 98.72
+        "24h": 70.59,
+        "30d": 96.68,
+        "90d": 98.11,
+        "1y": 98.18
       }
     },
     {
@@ -1482,15 +1077,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 95.86,
+        "90d": 89.04,
+        "1y": 87.53
+      }
+    },
+    {
+      "ip": "109.96.31.87",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Romtelecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.92,
-        "90d": 88.54,
-        "1y": 87.53
+        "30d": 87.28,
+        "90d": 91.11,
+        "1y": 91.46
       }
     },
     {
@@ -1515,25 +1137,25 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.37,
-        "90d": 94.51,
-        "1y": 94.64
+        "30d": 98.34,
+        "90d": 94.49,
+        "1y": 94.65
       }
     },
     {
-      "ip": "94.52.189.75",
+      "ip": "90.84.225.87",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "SC NextGen Communications SRL",
-      "domain": "94-52-189-75.next-gen.ro",
+      "organization": "Orange Romania Network",
+      "domain": "90-84-225-87.orangero.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1542,144 +1164,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.78,
-        "90d": 97.65,
-        "1y": 97.72
-      }
-    },
-    {
-      "ip": "77.81.23.85",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Upcro",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 51.67,
-        "90d": 55.52,
-        "1y": 55.24
-      }
-    },
-    {
-      "ip": "89.238.206.66",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Euroweb Romania SA",
-      "domain": "ip4-89-238-206-66.euroweb.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 80.14,
-        "90d": 61.95,
-        "1y": 62.63
-      }
-    },
-    {
-      "ip": "86.122.185.167",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "static-86-122-185-167.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 80.84,
-        "90d": 65.32,
-        "1y": 65.78
-      }
-    },
-    {
-      "ip": "93.122.164.198",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Orange Romania Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 40.0,
-        "30d": 59.92,
-        "90d": 50.13,
-        "1y": 49.52
-      }
-    },
-    {
-      "ip": "86.126.7.188",
-      "version": 4,
-      "country_code": "ro",
-      "country": "Romania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "RCS & RDS Business",
-      "domain": "static-86-126-7-188.rdsnet.ro",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 78.12,
-        "90d": 61.49,
-        "1y": 62.28
+        "30d": 100.0,
+        "90d": 99.91,
+        "1y": 99.88
       }
     },
     {
@@ -1704,9 +1191,90 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.37,
+        "30d": 98.62,
         "90d": 98.93,
-        "1y": 98.87
+        "1y": 98.88
+      }
+    },
+    {
+      "ip": "92.84.56.1",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Orange Romania Communications",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 84.51,
+        "90d": 91.68,
+        "1y": 91.94
+      }
+    },
+    {
+      "ip": "86.122.185.167",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "static-86-122-185-167.rdsnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 82.35,
+        "30d": 81.77,
+        "90d": 65.23,
+        "1y": 65.84
+      }
+    },
+    {
+      "ip": "86.126.7.188",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "static-86-126-7-188.rdsnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 79.7,
+        "90d": 61.42,
+        "1y": 62.37
       }
     },
     {
@@ -1725,26 +1293,134 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.54,
-        "90d": 88.95,
-        "1y": 89.37
+        "24h": 88.24,
+        "30d": 82.99,
+        "90d": 88.81,
+        "1y": 89.32
       }
     },
     {
-      "ip": "86.124.61.214",
+      "ip": "77.81.23.85",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "RCS & RDS Business",
+      "organization": "Upcro",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.47,
+        "30d": 53.55,
+        "90d": 55.54,
+        "1y": 55.29
+      }
+    },
+    {
+      "ip": "89.238.206.66",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Euroweb Romania SA",
+      "domain": "ip4-89-238-206-66.euroweb.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 82.35,
+        "30d": 80.22,
+        "90d": 61.78,
+        "1y": 62.69
+      }
+    },
+    {
+      "ip": "95.77.99.62",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UPC Romania",
+      "domain": "mail.interprima.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 94.74,
+        "90d": 90.26,
+        "1y": 90.58
+      }
+    },
+    {
+      "ip": "86.107.76.135",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SC Laroias Computers SRL",
+      "domain": "135.76.107.86.laroiasnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 41.18,
+        "30d": 67.77,
+        "90d": 52.11,
+        "1y": 53.02
+      }
+    },
+    {
+      "ip": "193.226.61.1",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SC Euroweb Romania SRL",
+      "domain": "tag.euroweb.ro",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1757,21 +1433,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 76.63,
-        "90d": 60.54,
-        "1y": 61.45
+        "24h": 100.0,
+        "30d": 99.17,
+        "90d": 98.71,
+        "1y": 98.72
       }
     },
     {
-      "ip": "89.37.108.2",
+      "ip": "82.79.151.215",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Teleson SRL",
-      "domain": "2.108.37.89.teleson.ro",
+      "organization": "RCS & RDS Business",
+      "domain": "215.151.79.82.static.cluj.rdsnet.ro",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1779,42 +1455,150 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.97,
-        "90d": 96.48,
-        "1y": 96.59
+        "24h": 82.35,
+        "30d": 92.67,
+        "90d": 95.53,
+        "1y": 95.65
       }
     },
     {
-      "ip": "80.96.177.217",
+      "ip": "86.122.28.141",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "SC Vodafone Romania SA",
-      "domain": "phn.ro",
+      "organization": "RCS & RDS Business",
+      "domain": "86-122-28-141.rdsnet.ro",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 89.76,
+        "90d": 93.01,
+        "1y": 93.19
+      }
+    },
+    {
+      "ip": "86.120.115.227",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "86-120-115-227.rdsnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.14,
-        "90d": 91.92,
-        "1y": 92.11
+        "24h": 82.35,
+        "30d": 90.32,
+        "90d": 93.29,
+        "1y": 93.47
+      }
+    },
+    {
+      "ip": "86.120.45.162",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "static-86-120-45-162.rdsnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 52.94,
+        "30d": 71.92,
+        "90d": 71.08,
+        "1y": 71.8
+      }
+    },
+    {
+      "ip": "82.77.63.193",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "82-77-63-193.static.rdsor.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 52.94,
+        "30d": 76.9,
+        "90d": 70.29,
+        "1y": 70.95
+      }
+    },
+    {
+      "ip": "82.77.137.111",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "static-82-77-137-111.severin.rdsnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 23.53,
+        "30d": 33.77,
+        "90d": 23.15,
+        "1y": 23.82
       }
     },
     {
@@ -1845,14 +1629,14 @@
       }
     },
     {
-      "ip": "82.77.63.193",
+      "ip": "86.122.61.3",
       "version": 4,
       "country_code": "ro",
       "country": "Romania",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "RCS & RDS Business",
-      "domain": "82-77-63-193.static.rdsor.ro",
+      "domain": "static-86-122-61-3.rdsnet.ro",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1865,10 +1649,172 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 77.55,
-        "90d": 70.52,
-        "1y": 71.0
+        "24h": 76.47,
+        "30d": 58.64,
+        "90d": 62.72,
+        "1y": 63.52
+      }
+    },
+    {
+      "ip": "86.122.48.169",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "RCS & RDS Business",
+      "domain": "86-122-48-169.rdsnet.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 89.21,
+        "90d": 88.75,
+        "1y": 88.88
+      }
+    },
+    {
+      "ip": "94.53.120.150",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SC NextGen Communications SRL",
+      "domain": "94-53-120-150.next-gen.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 86.33,
+        "90d": 78.76,
+        "1y": 78.33
+      }
+    },
+    {
+      "ip": "94.53.116.110",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SC NextGen Communications SRL",
+      "domain": "94-53-116-110.next-gen.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.93,
+        "90d": 93.07,
+        "1y": 93.22
+      }
+    },
+    {
+      "ip": "94.52.89.226",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SC NextGen Communications SRL",
+      "domain": "94-52-89-226.next-gen.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.51,
+        "90d": 91.34,
+        "1y": 91.61
+      }
+    },
+    {
+      "ip": "213.233.112.22",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MobiFon S.A.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 68.9,
+        "90d": 68.71,
+        "1y": 69.15
+      }
+    },
+    {
+      "ip": "94.52.189.75",
+      "version": 4,
+      "country_code": "ro",
+      "country": "Romania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SC NextGen Communications SRL",
+      "domain": "94-52-189-75.next-gen.ro",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.76,
+        "90d": 97.64,
+        "1y": 97.72
       }
     }
   ]

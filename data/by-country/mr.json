@@ -4,10 +4,37 @@
     "country_name": "Mauritania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-10T18:19:25Z",
+    "generated_at": "2026-02-11T06:32:52Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "82.151.90.1",
+      "version": 4,
+      "country_code": "mr",
+      "country": "Mauritania",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Mauritel Network",
+      "domain": "bow.mauritel.mr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.12,
+        "30d": 93.91,
+        "90d": 98.33,
+        "1y": 98.39
+      }
+    },
     {
       "ip": "82.151.70.84",
       "version": 4,
@@ -30,36 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.78,
+        "30d": 98.76,
         "90d": 99.62,
-        "1y": 99.63
-      }
-    },
-    {
-      "ip": "82.151.90.1",
-      "version": 4,
-      "country_code": "mr",
-      "country": "Mauritania",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Mauritel Network",
-      "domain": "bow.mauritel.mr",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 94.01,
-        "90d": 98.34,
-        "1y": 98.39
+        "1y": 99.64
       }
     }
   ]
