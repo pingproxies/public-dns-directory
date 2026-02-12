@@ -4,8 +4,8 @@
     "country_name": "Ghana",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-11T18:17:23Z",
-    "total_servers": 2
+    "generated_at": "2026-02-12T06:32:20Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 69.23,
-        "30d": 42.35,
-        "90d": 56.05,
+        "24h": 61.54,
+        "30d": 40.9,
+        "90d": 55.98,
         "1y": 55.61
+      }
+    },
+    {
+      "ip": "197.251.239.245",
+      "version": 4,
+      "country_code": "gh",
+      "country": "Ghana",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ADSL FBB static IP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 7.69,
+        "30d": 85.18,
+        "90d": 57.06,
+        "1y": 55.65
       }
     },
     {
@@ -53,13 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 46.15,
-        "30d": 69.72,
-        "90d": 50.12,
-        "1y": 51.19
+        "24h": 61.54,
+        "30d": 69.9,
+        "90d": 49.97,
+        "1y": 51.22
       }
     }
   ]

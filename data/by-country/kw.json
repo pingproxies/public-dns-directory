@@ -4,8 +4,8 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-11T18:17:23Z",
-    "total_servers": 4
+    "generated_at": "2026-02-12T06:32:20Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -21,45 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 97.19,
-        "90d": 86.2,
-        "1y": 86.55
+        "24h": 100.0,
+        "30d": 97.15,
+        "90d": 86.39,
+        "1y": 86.58
       }
     },
     {
-      "ip": "62.150.232.120",
+      "ip": "168.187.161.250",
       "version": 4,
       "country_code": "kw",
       "country": "Kuwait",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Qualitynet Co.",
-      "domain": "xdsl-62-150-232-120.qualitynet.net",
+      "organization": "Gulfnet International KEMS LLC",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.61,
-        "90d": 86.49,
-        "1y": 86.78
+        "24h": 46.15,
+        "30d": 55.41,
+        "90d": 27.36,
+        "1y": 27.15
       }
     },
     {
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.59,
-        "90d": 97.05,
-        "1y": 96.95
+        "30d": 98.58,
+        "90d": 97.03,
+        "1y": 96.96
       }
     },
     {
@@ -111,9 +111,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.59,
-        "90d": 98.62,
-        "1y": 98.67
+        "30d": 95.51,
+        "90d": 98.61,
+        "1y": 98.68
+      }
+    },
+    {
+      "ip": "62.150.232.120",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Qualitynet Co.",
+      "domain": "xdsl-62-150-232-120.qualitynet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.57,
+        "90d": 86.41,
+        "1y": 86.81
       }
     }
   ]

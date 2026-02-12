@@ -4,7 +4,7 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-11T18:17:23Z",
+    "generated_at": "2026-02-12T06:32:20Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 82.72,
-        "90d": 87.23,
-        "1y": 86.95
+        "24h": 100.0,
+        "30d": 82.88,
+        "90d": 87.19,
+        "1y": 86.99
       }
     },
     {
@@ -53,67 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 46.15,
-        "30d": 59.54,
-        "90d": 61.64,
-        "1y": 61.45
-      }
-    },
-    {
-      "ip": "41.63.249.222",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Mobile Telecommunications LTD",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 87.64,
-        "90d": 93.62,
-        "1y": 93.84
-      }
-    },
-    {
-      "ip": "41.218.90.154",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Paratus Regional - Namibia",
-      "domain": "ns1.methealth.com.na",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.31,
-        "30d": 99.01,
-        "90d": 97.91,
-        "1y": 98.0
+        "24h": 76.92,
+        "30d": 59.68,
+        "90d": 61.62,
+        "1y": 61.57
       }
     },
     {
@@ -132,15 +78,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 46.15,
-        "30d": 74.96,
-        "90d": 62.4,
-        "1y": 62.85
+        "30d": 74.64,
+        "90d": 62.87,
+        "1y": 62.82
+      }
+    },
+    {
+      "ip": "41.218.90.154",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Paratus Regional - Namibia",
+      "domain": "ns1.methealth.com.na",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.0,
+        "90d": 97.9,
+        "1y": 98.0
+      }
+    },
+    {
+      "ip": "41.63.249.222",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Mobile Telecommunications LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 87.3,
+        "90d": 93.55,
+        "1y": 93.83
       }
     }
   ]
