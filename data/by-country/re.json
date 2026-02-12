@@ -4,7 +4,7 @@
     "country_name": "Réunion",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-12T06:32:20Z",
+    "generated_at": "2026-02-12T18:16:26Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 93.3,
-        "90d": 85.09,
-        "1y": 85.81
+        "24h": 93.33,
+        "30d": 93.4,
+        "90d": 85.05,
+        "1y": 85.84
       }
     }
   ]

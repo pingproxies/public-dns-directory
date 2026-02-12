@@ -4,10 +4,37 @@
     "country_name": "Austria",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-12T06:32:20Z",
-    "total_servers": 20
+    "generated_at": "2026-02-12T18:16:26Z",
+    "total_servers": 18
   },
   "resolvers": [
+    {
+      "ip": "91.233.7.209",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kabel-TV Gmunden, E. Stadlmayr Gesellschaft m.b.H",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 73.6,
+        "90d": 54.99,
+        "1y": 55.83
+      }
+    },
     {
       "ip": "89.26.115.34",
       "version": 4,
@@ -24,26 +51,80 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 95.86,
-        "90d": 97.58,
+        "24h": 100.0,
+        "30d": 95.84,
+        "90d": 97.57,
         "1y": 97.64
       }
     },
     {
-      "ip": "85.125.135.250",
+      "ip": "93.83.47.82",
       "version": 4,
       "country_code": "at",
       "country": "Austria",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Liberty Global B.V.",
-      "domain": "85-125-135-250.static.upcbusiness.at",
+      "organization": "A1 Telekom Austria AG",
+      "domain": "mail2.rivola-immobilien.at",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 98.71,
+        "90d": 99.33,
+        "1y": 99.37
+      }
+    },
+    {
+      "ip": "89.26.62.250",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Salzburg AG",
+      "domain": "89-26-62-250.p2p.cablelink.at",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.56,
+        "90d": 98.21,
+        "1y": 98.25
+      }
+    },
+    {
+      "ip": "195.70.113.203",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Salzach Sonne GmbH",
+      "domain": "195-70-113-203.stat.cablelink.at",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -52,14 +133,68 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 38.46,
-        "30d": 32.16,
-        "90d": 19.73,
-        "1y": 19.61
+        "24h": 20.0,
+        "30d": 68.15,
+        "90d": 73.23,
+        "1y": 74.06
+      }
+    },
+    {
+      "ip": "83.137.41.9",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "nemox.net Informationstechnologie OG",
+      "domain": "dns2.nemox.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.28,
+        "90d": 99.78,
+        "1y": 99.79
+      }
+    },
+    {
+      "ip": "83.137.41.8",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "nemox.net Informationstechnologie OG",
+      "domain": "dns1.nemox.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.94,
+        "1y": 99.94
       }
     },
     {
@@ -75,18 +210,72 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.38,
+        "90d": 90.35,
+        "1y": 90.52
+      }
+    },
+    {
+      "ip": "80.123.196.122",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELE-SELECT Manser KG",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 69.23,
-        "30d": 87.75,
-        "90d": 90.24,
-        "1y": 90.5
+        "24h": 100.0,
+        "30d": 99.14,
+        "90d": 98.18,
+        "1y": 98.22
+      }
+    },
+    {
+      "ip": "80.93.37.202",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Stadtwerke Kufstein GmbH",
+      "domain": "80-93-37-202.static.kufnet.at",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 90.39,
+        "90d": 92.72,
+        "1y": 92.93
       }
     },
     {
@@ -111,90 +300,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 32.69,
-        "90d": 9.09,
-        "1y": 8.67
-      }
-    },
-    {
-      "ip": "212.186.200.123",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Gerersdorfer Immobilien KG",
-      "domain": "212-186-200-123.static.upcbusiness.at",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.15,
-        "90d": 94.15,
-        "1y": 94.34
-      }
-    },
-    {
-      "ip": "93.83.47.82",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "A1 Telekom Austria AG",
-      "domain": "mail2.rivola-immobilien.at",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.0,
-        "90d": 99.4,
-        "1y": 99.42
-      }
-    },
-    {
-      "ip": "212.236.18.126",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telecom5 Business Systems GmbH",
-      "domain": "212-236-018-126.telecom5.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 84.62,
-        "30d": 71.75,
-        "90d": 53.1,
-        "1y": 53.62
+        "30d": 41.67,
+        "90d": 12.95,
+        "1y": 12.25
       }
     },
     {
@@ -225,60 +333,6 @@
       }
     },
     {
-      "ip": "91.233.7.209",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Kabel-TV Gmunden, E. Stadlmayr Gesellschaft m.b.H",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 76.92,
-        "30d": 73.79,
-        "90d": 55.21,
-        "1y": 55.84
-      }
-    },
-    {
-      "ip": "80.93.37.202",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Stadtwerke Kufstein GmbH",
-      "domain": "80-93-37-202.static.kufnet.at",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 84.62,
-        "30d": 90.16,
-        "90d": 92.69,
-        "1y": 92.92
-      }
-    },
-    {
       "ip": "91.133.83.97",
       "version": 4,
       "country_code": "at",
@@ -290,34 +344,61 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 76.92,
-        "30d": 57.98,
-        "90d": 67.48,
-        "1y": 68.29
+        "24h": 60.0,
+        "30d": 58.11,
+        "90d": 67.49,
+        "1y": 68.25
       }
     },
     {
-      "ip": "92.39.169.159",
+      "ip": "89.26.124.93",
       "version": 4,
       "country_code": "at",
       "country": "Austria",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Kabel Braunau GmbH",
-      "domain": "customer.kabel-braunau.tv",
+      "organization": "Architekten Scheicher ZT GmbH",
+      "domain": "89-26-124-93.stat.cablelink.at",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 89.38,
+        "90d": 90.54,
+        "1y": 90.82
+      }
+    },
+    {
+      "ip": "212.186.200.123",
+      "version": 4,
+      "country_code": "at",
+      "country": "Austria",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Gerersdorfer Immobilien KG",
+      "domain": "212-186-200-123.static.upcbusiness.at",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -326,10 +407,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 38.46,
-        "30d": 66.62,
-        "90d": 57.3,
-        "1y": 58.36
+        "24h": 93.75,
+        "30d": 96.98,
+        "90d": 94.09,
+        "1y": 94.32
       }
     },
     {
@@ -360,87 +441,6 @@
       }
     },
     {
-      "ip": "83.137.41.9",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "nemox.net Informationstechnologie OG",
-      "domain": "dns2.nemox.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.29,
-        "90d": 99.78,
-        "1y": 99.79
-      }
-    },
-    {
-      "ip": "83.137.41.8",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "nemox.net Informationstechnologie OG",
-      "domain": "dns1.nemox.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.94,
-        "1y": 99.94
-      }
-    },
-    {
-      "ip": "89.26.124.93",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Architekten Scheicher ZT GmbH",
-      "domain": "89-26-124-93.stat.cablelink.at",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.31,
-        "30d": 89.46,
-        "90d": 90.62,
-        "1y": 90.83
-      }
-    },
-    {
       "ip": "88.116.117.118",
       "version": 4,
       "country_code": "at",
@@ -462,74 +462,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.72,
+        "30d": 99.71,
         "90d": 99.68,
         "1y": 99.67
       }
     },
     {
-      "ip": "89.26.62.250",
+      "ip": "212.236.18.126",
       "version": 4,
       "country_code": "at",
       "country": "Austria",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Salzburg AG",
-      "domain": "89-26-62-250.p2p.cablelink.at",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.43,
-        "90d": 98.22,
-        "1y": 98.24
-      }
-    },
-    {
-      "ip": "80.123.196.122",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELE-SELECT Manser KG",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.0,
-        "90d": 98.19,
-        "1y": 98.21
-      }
-    },
-    {
-      "ip": "80.110.42.36",
-      "version": 4,
-      "country_code": "at",
-      "country": "Austria",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Magenta Telekom GmbH",
-      "domain": "80-110-42-36.static.upcbusiness.at",
+      "organization": "Telecom5 Business Systems GmbH",
+      "domain": "212-236-018-126.telecom5.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -537,15 +483,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 23.08,
-        "30d": 63.2,
-        "90d": 59.94,
-        "1y": 59.56
+        "24h": 86.67,
+        "30d": 72.45,
+        "90d": 53.38,
+        "1y": 53.71
       }
     }
   ]

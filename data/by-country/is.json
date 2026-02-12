@@ -4,35 +4,35 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-12T06:32:20Z",
+    "generated_at": "2026-02-12T18:16:26Z",
     "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "46.22.99.226",
+      "ip": "157.157.138.227",
       "version": 4,
       "country_code": "is",
       "country": "Iceland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Hringdu",
-      "domain": "226-99-22-46.business.hringdu.is",
+      "organization": "ICENET",
+      "domain": "gss-postur.stykk.is",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 95.87,
-        "90d": 97.36,
-        "1y": 97.49
+        "24h": 100.0,
+        "30d": 85.23,
+        "90d": 87.99,
+        "1y": 87.99
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.86,
-        "90d": 98.22,
+        "90d": 98.21,
         "1y": 98.31
+      }
+    },
+    {
+      "ip": "46.22.99.226",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hringdu",
+      "domain": "226-99-22-46.business.hringdu.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.98,
+        "90d": 97.35,
+        "1y": 97.49
       }
     },
     {
@@ -75,45 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 61.54,
-        "30d": 65.34,
-        "90d": 61.06,
-        "1y": 60.68
-      }
-    },
-    {
-      "ip": "157.157.138.227",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ICENET",
-      "domain": "gss-postur.stykk.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.83,
-        "90d": 87.96,
-        "1y": 87.96
+        "24h": 46.67,
+        "30d": 64.71,
+        "90d": 60.89,
+        "1y": 60.59
       }
     }
   ]
