@@ -4,10 +4,37 @@
     "country_name": "Lithuania",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-13T06:29:10Z",
-    "total_servers": 35
+    "generated_at": "2026-02-13T18:10:44Z",
+    "total_servers": 30
   },
   "resolvers": [
+    {
+      "ip": "88.119.189.110",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telia Lietuva, AB",
+      "domain": "88-119-189-110.static.zebra.lt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 90.46,
+        "90d": 92.2,
+        "1y": 92.51
+      }
+    },
     {
       "ip": "86.100.63.150",
       "version": 4,
@@ -21,33 +48,6 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 84.03,
-        "90d": 58.32,
-        "1y": 60.22
-      }
-    },
-    {
-      "ip": "88.119.135.155",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "88-119-135-155.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -56,37 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 54.03,
-        "90d": 45.79,
-        "1y": 46.29
-      }
-    },
-    {
-      "ip": "82.135.200.100",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "82-135-200-100.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 79.39,
-        "90d": 76.01,
-        "1y": 76.28
+        "24h": 81.82,
+        "30d": 84.12,
+        "90d": 58.2,
+        "1y": 60.25
       }
     },
     {
@@ -106,12 +79,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.86,
+        "30d": 99.85,
         "90d": 98.01,
         "1y": 98.1
       }
@@ -133,12 +106,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.86,
+        "30d": 99.85,
         "90d": 99.84,
         "1y": 99.85
       }
@@ -159,14 +132,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.08,
-        "90d": 97.6,
+        "30d": 96.18,
+        "90d": 97.62,
         "1y": 97.68
       }
     },
@@ -186,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 88.37,
-        "90d": 93.53,
-        "1y": 93.82
+        "24h": 81.82,
+        "30d": 88.12,
+        "90d": 93.49,
+        "1y": 93.8
       }
     },
     {
@@ -214,14 +187,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 64.29,
+        "24h": 90.91,
         "30d": 87.06,
-        "90d": 87.67,
-        "1y": 88.1
+        "90d": 87.66,
+        "1y": 88.12
+      }
+    },
+    {
+      "ip": "82.135.255.112",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telia Lietuva, AB",
+      "domain": "82-135-255-112.static.zebra.lt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 54.55,
+        "30d": 80.47,
+        "90d": 78.88,
+        "1y": 79.09
       }
     },
     {
@@ -240,15 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 85.92,
-        "90d": 71.74,
-        "1y": 72.79
+        "24h": 90.91,
+        "30d": 85.88,
+        "90d": 71.73,
+        "1y": 72.83
       }
     },
     {
@@ -272,37 +272,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 93.03,
-        "90d": 92.95,
-        "1y": 93.31
-      }
-    },
-    {
-      "ip": "82.135.215.108",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "82-135-215-108.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 93.9,
-        "90d": 93.59,
-        "1y": 93.85
+        "24h": 90.91,
+        "30d": 93.25,
+        "90d": 92.94,
+        "1y": 93.32
       }
     },
     {
@@ -333,14 +306,14 @@
       }
     },
     {
-      "ip": "85.206.12.136",
+      "ip": "81.7.94.177",
       "version": 4,
       "country_code": "lt",
       "country": "Lithuania",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "Telia Lietuva, AB",
-      "domain": "85-206-12-136.static.zebra.lt",
+      "domain": "81-7-94-177.static.zebra.lt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -348,42 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 70.35,
-        "90d": 55.43,
-        "1y": 56.76
-      }
-    },
-    {
-      "ip": "193.216.226.211",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Tele2 AB",
-      "domain": "static193-216-226-211.cust.tele2.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.26,
-        "90d": 93.85,
-        "1y": 94.15
+        "24h": 72.73,
+        "30d": 87.21,
+        "90d": 90.78,
+        "1y": 91.34
       }
     },
     {
@@ -403,187 +349,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 64.29,
-        "30d": 82.44,
-        "90d": 84.21,
-        "1y": 83.25
-      }
-    },
-    {
-      "ip": "178.16.32.129",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cgates",
-      "domain": "client-178-16-32-129.cgates.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 80.99,
-        "90d": 52.16,
-        "1y": 52.98
-      }
-    },
-    {
-      "ip": "81.7.94.169",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "81-7-94-169.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.03,
-        "90d": 92.47,
-        "1y": 92.77
-      }
-    },
-    {
-      "ip": "82.135.203.178",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "82-135-203-178.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.29,
-        "90d": 91.7,
-        "1y": 92.01
+        "24h": 81.82,
+        "30d": 82.53,
+        "90d": 84.36,
+        "1y": 83.24
       }
     },
     {
-      "ip": "81.198.189.160",
+      "ip": "193.216.226.211",
       "version": 4,
       "country_code": "lt",
       "country": "Lithuania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "SIA Tet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 64.29,
-        "30d": 59.94,
-        "90d": 78.8,
-        "1y": 79.69
-      }
-    },
-    {
-      "ip": "84.15.104.40",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BITE-INTERNET",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.23,
-        "90d": 97.57,
-        "1y": 97.53
-      }
-    },
-    {
-      "ip": "82.135.197.108",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "82-135-197-108.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 78.57,
-        "30d": 82.87,
-        "90d": 77.45,
-        "1y": 78.48
-      }
-    },
-    {
-      "ip": "88.119.153.69",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "88-119-153-69.static.zebra.lt",
+      "organization": "Tele2 AB",
+      "domain": "static193-216-226-211.cust.tele2.lt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -593,67 +377,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 91.72,
-        "90d": 94.91,
-        "1y": 95.18
-      }
-    },
-    {
-      "ip": "88.119.94.177",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "88-119-94-177.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 95.93,
-        "90d": 98.08,
-        "1y": 98.1
-      }
-    },
-    {
-      "ip": "88.119.203.196",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "88-119-203-196.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 75.04,
-        "90d": 77.22,
-        "1y": 77.7
+        "24h": 100.0,
+        "30d": 98.24,
+        "90d": 94.13,
+        "1y": 94.16
       }
     },
     {
@@ -678,9 +408,90 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.95,
-        "90d": 95.2,
-        "1y": 95.3
+        "30d": 97.06,
+        "90d": 95.21,
+        "1y": 95.31
+      }
+    },
+    {
+      "ip": "84.15.104.40",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BITE-INTERNET",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.62,
+        "90d": 97.56,
+        "1y": 97.53
+      }
+    },
+    {
+      "ip": "88.119.203.196",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telia Lietuva, AB",
+      "domain": "88-119-203-196.static.zebra.lt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 75.19,
+        "90d": 77.18,
+        "1y": 77.73
+      }
+    },
+    {
+      "ip": "88.119.94.177",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telia Lietuva, AB",
+      "domain": "88-119-94-177.static.zebra.lt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 95.88,
+        "90d": 98.07,
+        "1y": 98.1
       }
     },
     {
@@ -700,14 +511,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 78.57,
-        "30d": 92.59,
-        "90d": 93.95,
-        "1y": 94.18
+        "24h": 81.82,
+        "30d": 92.94,
+        "90d": 93.93,
+        "1y": 94.19
       }
     },
     {
@@ -727,41 +538,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 64.29,
-        "30d": 92.3,
-        "90d": 95.13,
-        "1y": 95.39
-      }
-    },
-    {
-      "ip": "88.119.95.68",
-      "version": 4,
-      "country_code": "lt",
-      "country": "Lithuania",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telia Lietuva, AB",
-      "domain": "88-119-95-68.static.zebra.lt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 14.29,
-        "30d": 60.61,
-        "90d": 76.39,
-        "1y": 77.16
+        "24h": 90.91,
+        "30d": 92.35,
+        "90d": 95.12,
+        "1y": 95.4
       }
     },
     {
@@ -780,31 +564,31 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 74.85,
-        "90d": 60.28,
-        "1y": 62.01
+        "24h": 45.45,
+        "30d": 74.56,
+        "90d": 60.13,
+        "1y": 62.0
       }
     },
     {
-      "ip": "91.233.176.248",
+      "ip": "88.119.153.69",
       "version": 4,
       "country_code": "lt",
       "country": "Lithuania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Viesoji istaiga \"Vilniaus universiteto bustas\"",
-      "domain": null,
+      "organization": "Telia Lietuva, AB",
+      "domain": "88-119-153-69.static.zebra.lt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -812,21 +596,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.02,
-        "90d": 73.13,
-        "1y": 73.25
+        "24h": 81.82,
+        "30d": 91.76,
+        "90d": 94.89,
+        "1y": 95.19
       }
     },
     {
-      "ip": "87.247.68.60",
+      "ip": "88.119.95.68",
       "version": 4,
       "country_code": "lt",
       "country": "Lithuania",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "MIKROVISATA",
-      "domain": "client-87-247-68-60.cgates.lt",
+      "organization": "Telia Lietuva, AB",
+      "domain": "88-119-95-68.static.zebra.lt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 60.44,
+        "90d": 76.33,
+        "1y": 77.17
+      }
+    },
+    {
+      "ip": "81.7.94.169",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telia Lietuva, AB",
+      "domain": "81-7-94-169.static.zebra.lt",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -839,10 +650,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 83.77,
-        "90d": 86.71,
-        "1y": 86.83
+        "24h": 100.0,
+        "30d": 93.1,
+        "90d": 92.46,
+        "1y": 92.78
+      }
+    },
+    {
+      "ip": "81.198.189.160",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SIA Tet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 59.62,
+        "90d": 78.69,
+        "1y": 79.66
       }
     },
     {
@@ -861,15 +699,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 88.39,
-        "90d": 86.71,
-        "1y": 87.1
+        "24h": 90.91,
+        "30d": 88.53,
+        "90d": 86.67,
+        "1y": 87.12
       }
     },
     {
@@ -893,10 +731,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 92.02,
-        "90d": 90.17,
-        "1y": 90.72
+        "24h": 90.91,
+        "30d": 92.06,
+        "90d": 90.14,
+        "1y": 90.73
+      }
+    },
+    {
+      "ip": "87.247.68.60",
+      "version": 4,
+      "country_code": "lt",
+      "country": "Lithuania",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MIKROVISATA",
+      "domain": "client-87-247-68-60.cgates.lt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 83.72,
+        "90d": 86.68,
+        "1y": 86.85
       }
     },
     {
@@ -915,15 +780,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 57.14,
-        "30d": 91.73,
-        "90d": 92.6,
-        "1y": 92.86
+        "24h": 81.82,
+        "30d": 92.07,
+        "90d": 92.58,
+        "1y": 92.87
       }
     },
     {
@@ -948,9 +813,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.12,
+        "30d": 98.09,
         "90d": 98.81,
-        "1y": 98.82
+        "1y": 98.83
       }
     }
   ]

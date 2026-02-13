@@ -4,10 +4,37 @@
     "country_name": "Cambodia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-13T06:29:10Z",
-    "total_servers": 3
+    "generated_at": "2026-02-13T18:10:44Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "103.242.58.167",
+      "version": 4,
+      "country_code": "kh",
+      "country": "Cambodia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "SOUTH EAST ASIA TELECOM (Cambodia) Co., LTD",
+      "domain": "SEATEL-CACHE-1",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 88.53,
+        "90d": 91.04,
+        "1y": 88.21
+      }
+    },
     {
       "ip": "103.242.58.166",
       "version": 4,
@@ -20,19 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 64.29,
-        "30d": 89.4,
-        "90d": 90.42,
-        "1y": 87.47
+        "24h": 54.55,
+        "30d": 89.26,
+        "90d": 90.62,
+        "1y": 87.45
       }
     },
     {
@@ -63,14 +90,14 @@
       }
     },
     {
-      "ip": "124.248.191.83",
+      "ip": "111.118.147.236",
       "version": 4,
       "country_code": "kh",
       "country": "Cambodia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Cogetel Ltd",
-      "domain": "fiber-191-83.online.com.kh",
+      "organization": "Viettel (cambodia) Pte., Ltd.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 49.85,
-        "90d": 41.83,
-        "1y": 41.99
+        "24h": 27.27,
+        "30d": 62.29,
+        "90d": 49.01,
+        "1y": 49.23
       }
     }
   ]

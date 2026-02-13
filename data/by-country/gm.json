@@ -4,37 +4,10 @@
     "country_name": "Gambia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-13T06:29:10Z",
+    "generated_at": "2026-02-13T18:10:44Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "197.148.74.18",
-      "version": 4,
-      "country_code": "gm",
-      "country": "Gambia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Africell",
-      "domain": "ns1.africell.gm",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 97.68,
-        "90d": 98.46,
-        "1y": 98.49
-      }
-    },
     {
       "ip": "197.148.74.19",
       "version": 4,
@@ -53,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.95,
-        "90d": 98.21,
-        "1y": 98.28
+        "30d": 96.91,
+        "90d": 98.2,
+        "1y": 98.29
+      }
+    },
+    {
+      "ip": "197.148.74.18",
+      "version": 4,
+      "country_code": "gm",
+      "country": "Gambia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Africell",
+      "domain": "ns1.africell.gm",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 97.5,
+        "90d": 98.43,
+        "1y": 98.47
       }
     }
   ]
