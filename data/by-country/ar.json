@@ -4,23 +4,50 @@
     "country_name": "Argentina",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-02-12T18:16:26Z",
-    "total_servers": 49
+    "generated_at": "2026-02-13T06:29:10Z",
+    "total_servers": 61
   },
   "resolvers": [
     {
-      "ip": "45.65.225.220",
+      "ip": "186.124.22.114",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Empresa Netlan",
-      "domain": null,
+      "organization": "Telecom Argentina S.A",
+      "domain": "host114.186-124-22.telecom.net.ar",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 41.04,
+        "90d": 42.78,
+        "1y": 42.41
+      }
+    },
+    {
+      "ip": "200.110.219.225",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Hogar Construcciones SA",
+      "domain": "static225.219.110.200.cps.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -29,91 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.4,
-        "90d": 92.89,
-        "1y": 93.28
-      }
-    },
-    {
-      "ip": "190.15.205.212",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Informática y Telecomunicaciones S.A",
-      "domain": "static.205.212.itcsa.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 53.33,
-        "30d": 58.54,
-        "90d": 41.02,
-        "1y": 40.31
-      }
-    },
-    {
-      "ip": "200.5.90.102",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Telefonica de Argentina",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 53.33,
-        "30d": 72.92,
-        "90d": 55.73,
-        "1y": 57.91
-      }
-    },
-    {
-      "ip": "181.229.1.116",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Telecom Argentina S.A",
-      "domain": "116-1-229-181.cab.prima.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 40.0,
-        "30d": 76.18,
-        "90d": 54.34,
-        "1y": 56.25
+        "24h": 92.86,
+        "30d": 84.33,
+        "90d": 92.6,
+        "1y": 92.86
       }
     },
     {
@@ -137,102 +83,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.21,
-        "90d": 92.18,
-        "1y": 92.39
+        "24h": 92.86,
+        "30d": 82.87,
+        "90d": 92.15,
+        "1y": 92.38
       }
     },
     {
-      "ip": "190.183.128.74",
+      "ip": "66.128.32.59",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Depot Express S.R.L",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 74.61,
-        "90d": 49.32,
-        "1y": 49.17
-      }
-    },
-    {
-      "ip": "170.210.83.34",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Red de Interconexion Universitaria",
-      "domain": "mikrofaea.uncoma.edu.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 71.74,
-        "90d": 80.65,
-        "1y": 80.19
-      }
-    },
-    {
-      "ip": "200.112.143.5",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Broadbandtech S. A",
-      "domain": "200.112.143.5.in-addr.arpa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.57,
-        "90d": 97.99,
-        "1y": 98.1
-      }
-    },
-    {
-      "ip": "190.123.85.117",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Pogliotti & Construcciones S.A",
-      "domain": "host117.190-123-85.sitsanetworks.net",
+      "organization": "Itelsa",
+      "domain": "host-59-32-128-66.rev.itelsa.com.ar",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -245,91 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 26.67,
-        "30d": 54.23,
-        "90d": 34.99,
-        "1y": 34.08
-      }
-    },
-    {
-      "ip": "190.123.85.89",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Pogliotti & Construcciones S.A",
-      "domain": "host89.190-123-85.sitsanetworks.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 9.09,
-        "30d": 52.99,
-        "90d": 42.1,
-        "1y": 43.89
-      }
-    },
-    {
-      "ip": "181.114.212.34",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Gobierno de La Pampa",
-      "domain": "host-212-34.adc.net.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 46.67,
-        "30d": 57.82,
-        "90d": 40.4,
-        "1y": 40.27
-      }
-    },
-    {
-      "ip": "201.251.135.168",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Diaz Angel del Carmen",
-      "domain": "ns2.surnav.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 82.07,
-        "90d": 82.54,
-        "1y": 83.45
+        "24h": 57.14,
+        "30d": 54.22,
+        "90d": 30.1,
+        "1y": 28.94
       }
     },
     {
@@ -349,25 +133,52 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.47,
-        "90d": 70.26,
-        "1y": 71.8
+        "30d": 77.62,
+        "90d": 70.19,
+        "1y": 71.86
       }
     },
     {
-      "ip": "190.104.247.202",
+      "ip": "45.65.225.220",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "CROSMED SA",
-      "domain": "static.202.247.104.190.cps.com.ar",
+      "organization": "Empresa Netlan",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.34,
+        "90d": 93.13,
+        "1y": 93.3
+      }
+    },
+    {
+      "ip": "190.105.214.36",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Pogliotti & Construcciones S.A",
+      "domain": "host36.190-105-214.sitsanetworks.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -377,13 +188,283 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 72.71,
+        "90d": 49.26,
+        "1y": 50.95
+      }
+    },
+    {
+      "ip": "170.150.155.85",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CPS",
+      "domain": "static.85.155.150.170.cps.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 79.97,
+        "90d": 59.63,
+        "1y": 61.71
+      }
+    },
+    {
+      "ip": "200.89.142.74",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Fibertel",
+      "domain": "mx1.formicolor.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 53.68,
-        "90d": 45.72,
-        "1y": 44.31
+        "24h": 100.0,
+        "30d": 98.55,
+        "90d": 96.27,
+        "1y": 96.43
+      }
+    },
+    {
+      "ip": "179.60.232.10",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "WICORP SA",
+      "domain": "nubesrv05.nubenet.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 64.29,
+        "30d": 67.92,
+        "90d": 37.87,
+        "1y": 39.0
+      }
+    },
+    {
+      "ip": "200.55.59.102",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cirion Technologies Argentina S.A",
+      "domain": "ns2.sedronar.gov.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 80.55,
+        "90d": 86.07,
+        "1y": 86.36
+      }
+    },
+    {
+      "ip": "200.69.212.177",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "NSS S.A.",
+      "domain": "customer-static-.iplannetworks.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 72.24,
+        "90d": 51.96,
+        "1y": 54.1
+      }
+    },
+    {
+      "ip": "179.60.235.153",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "WICORP SA",
+      "domain": "5153.nubenet.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 61.14,
+        "90d": 38.21,
+        "1y": 39.31
+      }
+    },
+    {
+      "ip": "201.216.230.100",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "NSS S.A",
+      "domain": "ns-0.redalternativa.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 83.36,
+        "90d": 83.58,
+        "1y": 82.2
+      }
+    },
+    {
+      "ip": "181.209.78.67",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CSDNET Servicios Digitales S.R.L",
+      "domain": "67.78.209.181.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 99.13,
+        "90d": 98.88,
+        "1y": 98.89
+      }
+    },
+    {
+      "ip": "45.4.97.49",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Municipalidad De Pilar",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 92.45,
+        "90d": 87.64,
+        "1y": 86.56
+      }
+    },
+    {
+      "ip": "191.97.47.93",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "TELCOCOM",
+      "domain": "host-93.telcocom.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 77.39,
+        "90d": 54.01,
+        "1y": 55.53
       }
     },
     {
@@ -399,7 +480,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -408,20 +489,128 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.97,
-        "90d": 92.2,
-        "1y": 92.54
+        "30d": 93.9,
+        "90d": 92.31,
+        "1y": 92.56
       }
     },
     {
-      "ip": "181.209.104.234",
+      "ip": "181.209.91.154",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Guazu Group S.R.L",
-      "domain": "234.104.209.181.in-addr.arpa",
+      "organization": "MINA PIRQUITAS, INC SUCURSAL ARGENTINA",
+      "domain": "154.91.209.181.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 84.03,
+        "90d": 61.92,
+        "1y": 61.86
+      }
+    },
+    {
+      "ip": "200.45.14.178",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telecom Argentina S.A",
+      "domain": "host178.200-45-14.telecom.net.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.23,
+        "90d": 72.46,
+        "1y": 74.0
+      }
+    },
+    {
+      "ip": "181.80.17.44",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telecom Personal Bs",
+      "domain": "host44.181-80-17.telecom.net.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 64.29,
+        "30d": 71.55,
+        "90d": 47.82,
+        "1y": 48.66
+      }
+    },
+    {
+      "ip": "181.209.109.210",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Diego Guillermo Brunello",
+      "domain": "210.109.209.181.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 70.29,
+        "90d": 42.14,
+        "1y": 43.68
+      }
+    },
+    {
+      "ip": "186.182.51.17",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Techtel LMDS Comunicaciones Interactivas S.A.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -434,10 +623,145 @@
         "adult": true
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 84.36,
-        "90d": 77.43,
-        "1y": 78.14
+        "24h": 50.0,
+        "30d": 75.76,
+        "90d": 55.51,
+        "1y": 56.7
+      }
+    },
+    {
+      "ip": "190.184.224.206",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Neophone Argentina SRL",
+      "domain": "190-184-224-206.giles.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 74.6,
+        "90d": 90.84,
+        "1y": 91.35
+      }
+    },
+    {
+      "ip": "181.209.111.149",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Puerto80 S.R.L",
+      "domain": "149.111.209.181.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 84.91,
+        "90d": 85.14,
+        "1y": 85.33
+      }
+    },
+    {
+      "ip": "200.55.59.101",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cirion Technologies Argentina S.A",
+      "domain": "ns1.sedronar.gov.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 85.32,
+        "90d": 75.06,
+        "1y": 76.44
+      }
+    },
+    {
+      "ip": "200.69.226.98",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "NSS S.A.",
+      "domain": "mail.bas.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.69,
+        "90d": 98.21,
+        "1y": 98.25
+      }
+    },
+    {
+      "ip": "186.4.115.64",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "RSO APOLO HIDALGO S.R.L",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 82.44,
+        "90d": 56.53,
+        "1y": 57.94
       }
     },
     {
@@ -462,74 +786,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.93,
-        "90d": 84.58,
-        "1y": 85.42
+        "30d": 84.03,
+        "90d": 84.53,
+        "1y": 85.45
       }
     },
     {
-      "ip": "190.210.245.247",
+      "ip": "201.251.135.168",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "NSS S.A.",
-      "domain": "customer-static-210-245-247.iplannetworks.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.99,
-        "90d": 75.3,
-        "1y": 75.2
-      }
-    },
-    {
-      "ip": "181.114.217.3",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Cooperativa De Electricidad Obras Y Servicios Públicos Rancul Limitada - COSPRAL",
-      "domain": "host-217-3.adc.net.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 51.33,
-        "90d": 41.95,
-        "1y": 41.67
-      }
-    },
-    {
-      "ip": "66.128.32.59",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Itelsa",
-      "domain": "host-59-32-128-66.rev.itelsa.com.ar",
+      "organization": "Diaz Angel del Carmen",
+      "domain": "ns2.surnav.com.ar",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -542,129 +812,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 54.72,
-        "90d": 29.69,
-        "1y": 28.62
-      }
-    },
-    {
-      "ip": "200.114.96.11",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Interredes S.A",
-      "domain": "ns2.interredes.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 85.51,
-        "90d": 86.77,
-        "1y": 87.38
+        "30d": 83.16,
+        "90d": 82.51,
+        "1y": 83.49
       }
     },
     {
-      "ip": "201.190.184.123",
+      "ip": "181.209.72.90",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Arlink S.A",
-      "domain": "201-190-184-123.supercanal.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 74.75,
-        "90d": 50.54,
-        "1y": 51.99
-      }
-    },
-    {
-      "ip": "45.4.97.49",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Municipalidad De Pilar",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 92.68,
-        "90d": 87.67,
-        "1y": 86.56
-      }
-    },
-    {
-      "ip": "138.186.155.1",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "AMUSIM Multimedios",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 74.63,
-        "90d": 74.63,
-        "1y": 74.63
-      }
-    },
-    {
-      "ip": "186.4.115.64",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "RSO APOLO HIDALGO S.R.L",
-      "domain": null,
+      "organization": "Daniel Alejandro Villagrán",
+      "domain": "90.72.209.181.in-addr.arpa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -677,41 +839,41 @@
         "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 82.64,
-        "90d": 56.53,
-        "1y": 57.85
+        "24h": 21.43,
+        "30d": 48.91,
+        "90d": 53.46,
+        "1y": 53.03
       }
     },
     {
-      "ip": "181.15.193.19",
+      "ip": "190.111.246.169",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Expreso Brio S R L",
-      "domain": "host19.181-15-193.telecom.net.ar",
+      "organization": "CPS",
+      "domain": "mail2.weblineservice.com.ar",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 69.73,
-        "90d": 47.87,
-        "1y": 49.31
+        "24h": 85.71,
+        "30d": 95.65,
+        "90d": 96.96,
+        "1y": 97.05
       }
     },
     {
-      "ip": "200.229.252.196",
+      "ip": "200.229.252.17",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
@@ -731,133 +893,25 @@
         "adult": true
       },
       "uptime": {
-        "24h": 46.67,
-        "30d": 75.61,
-        "90d": 71.58,
-        "1y": 72.77
+        "24h": 21.43,
+        "30d": 55.54,
+        "90d": 47.86,
+        "1y": 49.18
       }
     },
     {
-      "ip": "181.110.241.74",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Mariano S.A",
-      "domain": "host74.181-110-241.telecom.net.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 26.67,
-        "30d": 19.91,
-        "90d": 23.98,
-        "1y": 24.29
-      }
-    },
-    {
-      "ip": "190.210.127.98",
+      "ip": "190.210.255.132",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
       "organization": "NSS S.A.",
-      "domain": "customer-static-210-127-98.iplannetworks.net",
+      "domain": "www.magral-abogados.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 66.57,
-        "90d": 40.85,
-        "1y": 40.98
-      }
-    },
-    {
-      "ip": "200.49.112.101",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Cooperativa Telefonica Benavidez Ltda",
-      "domain": "ben25.netben.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 36.78,
-        "90d": 41.93,
-        "1y": 42.87
-      }
-    },
-    {
-      "ip": "179.51.237.31",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Tvc5 S.A",
-      "domain": "179-51-237-31.ipv4.tvc5.co",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 79.63,
-        "90d": 57.54,
-        "1y": 59.15
-      }
-    },
-    {
-      "ip": "138.219.249.221",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Coop de Prov.Serv.Telef.Obras y Serv Púb y Soc Virrey del Pino Ltda",
-      "domain": "mail.prodea.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -867,371 +921,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.71,
-        "90d": 99.17,
-        "1y": 99.18
+        "30d": 99.85,
+        "90d": 99.07,
+        "1y": 99.13
       }
     },
     {
-      "ip": "200.41.174.20",
+      "ip": "181.12.158.108",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Telefonica de Argentina",
-      "domain": "20.host.advance.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 65.71,
-        "90d": 48.04,
-        "1y": 47.89
-      }
-    },
-    {
-      "ip": "200.45.14.178",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Telecom Argentina S.A",
-      "domain": "host178.200-45-14.telecom.net.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 88.38,
-        "90d": 72.52,
-        "1y": 73.94
-      }
-    },
-    {
-      "ip": "170.150.155.85",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "CPS",
-      "domain": "static.85.155.150.170.cps.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 80.49,
-        "90d": 59.76,
-        "1y": 61.72
-      }
-    },
-    {
-      "ip": "191.97.47.93",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "TELCOCOM",
-      "domain": "host-93.telcocom.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 77.47,
-        "90d": 53.99,
-        "1y": 55.48
-      }
-    },
-    {
-      "ip": "200.69.226.98",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "NSS S.A.",
-      "domain": "mail.bas.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 98.71,
-        "90d": 98.21,
-        "1y": 98.25
-      }
-    },
-    {
-      "ip": "190.104.243.44",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Industrias Feman SRL",
-      "domain": "static.44.243.104.190.cps.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.71,
-        "90d": 99.49,
-        "1y": 99.49
-      }
-    },
-    {
-      "ip": "190.0.236.22",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Cooperativa Electrica Trenque Lauquen",
-      "domain": "red236.0.021-tl.cetl.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 53.33,
-        "30d": 78.19,
-        "90d": 48.64,
-        "1y": 49.55
-      }
-    },
-    {
-      "ip": "200.110.219.225",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Hogar Construcciones SA",
-      "domain": "static225.219.110.200.cps.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 84.65,
-        "90d": 92.62,
-        "1y": 92.87
-      }
-    },
-    {
-      "ip": "200.89.142.74",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Fibertel",
-      "domain": "mx1.formicolor.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.99,
-        "90d": 96.27,
-        "1y": 96.42
-      }
-    },
-    {
-      "ip": "200.55.59.101",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Cirion Technologies Argentina S.A",
-      "domain": "ns1.sedronar.gov.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 85.65,
-        "90d": 75.11,
-        "1y": 76.42
-      }
-    },
-    {
-      "ip": "186.0.171.36",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Grupo Servicios Junin S.A",
-      "domain": "36.171.0.186.acerca.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.11,
-        "90d": 89.68,
-        "1y": 90.02
-      }
-    },
-    {
-      "ip": "200.80.203.75",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Techtel LMDS Comunicaciones Interactivas S.A",
-      "domain": "host75.200-80-203.static.telmex.net.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.84,
-        "90d": 94.28,
-        "1y": 94.51
-      }
-    },
-    {
-      "ip": "179.60.235.153",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "WICORP SA",
-      "domain": "5153.nubenet.com.ar",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 61.3,
-        "90d": 37.93,
-        "1y": 39.23
-      }
-    },
-    {
-      "ip": "200.69.212.177",
-      "version": 4,
-      "country_code": "ar",
-      "country": "Argentina",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "NSS S.A.",
-      "domain": "customer-static-.iplannetworks.net",
+      "organization": "Ingenieria Del NOA SRL",
+      "domain": "host108.181-12-158.telecom.net.ar",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1239,15 +942,231 @@
         "validating": true
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 77.65,
+        "90d": 71.78,
+        "1y": 72.7
+      }
+    },
+    {
+      "ip": "181.191.223.59",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Conexionsur ISP S.R.L",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 69.96,
+        "90d": 68.13,
+        "1y": 69.96
+      }
+    },
+    {
+      "ip": "181.114.217.3",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cooperativa De Electricidad Obras Y Servicios Públicos Rancul Limitada - COSPRAL",
+      "domain": "host-217-3.adc.net.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.71,
+        "30d": 50.67,
+        "90d": 42.06,
+        "1y": 41.7
+      }
+    },
+    {
+      "ip": "181.209.95.2",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Lozano Omar Vicente",
+      "domain": "2.95.209.181.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 21.43,
+        "30d": 75.15,
+        "90d": 56.81,
+        "1y": 58.33
+      }
+    },
+    {
+      "ip": "181.209.119.114",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cooperativa LA Ganadera Gral. Ramirez Ltda.agrop De Serv PU",
+      "domain": "114.119.209.181.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 80.99,
+        "90d": 59.71,
+        "1y": 61.25
+      }
+    },
+    {
+      "ip": "170.231.205.61",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Miguel Araya(Servicios Rosario)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 20.0,
+        "30d": 24.1,
+        "90d": 15.49,
+        "1y": 15.08
+      }
+    },
+    {
+      "ip": "181.114.62.1",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "INTERAIR",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 53.33,
-        "30d": 72.86,
-        "90d": 52.08,
-        "1y": 54.12
+        "24h": 64.29,
+        "30d": 80.41,
+        "90d": 85.01,
+        "1y": 85.36
+      }
+    },
+    {
+      "ip": "181.209.104.234",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Guazu Group S.R.L",
+      "domain": "234.104.209.181.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 84.03,
+        "90d": 77.39,
+        "1y": 78.16
+      }
+    },
+    {
+      "ip": "181.114.60.225",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "INTERAIR",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 78.81,
+        "90d": 79.56,
+        "1y": 80.24
       }
     },
     {
@@ -1272,9 +1191,414 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 25.53,
-        "90d": 41.51,
-        "1y": 41.51
+        "30d": 33.96,
+        "90d": 42.8,
+        "1y": 42.8
+      }
+    },
+    {
+      "ip": "200.5.90.102",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telefonica de Argentina",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 53.33,
+        "30d": 72.85,
+        "90d": 55.85,
+        "1y": 57.93
+      }
+    },
+    {
+      "ip": "200.112.143.5",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Broadbandtech S. A",
+      "domain": "200.112.143.5.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.56,
+        "90d": 97.98,
+        "1y": 98.1
+      }
+    },
+    {
+      "ip": "190.216.56.107",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cirion Technologies Argentina S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 79.83,
+        "90d": 85.87,
+        "1y": 86.47
+      }
+    },
+    {
+      "ip": "181.224.97.54",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Eternet S.R.L",
+      "domain": "54.xcvii.static.eternet.cc",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 86.5,
+        "90d": 79.69,
+        "1y": 79.6
+      }
+    },
+    {
+      "ip": "179.51.237.31",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Tvc5 S.A",
+      "domain": "179-51-237-31.ipv4.tvc5.co",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 79.39,
+        "90d": 57.56,
+        "1y": 59.2
+      }
+    },
+    {
+      "ip": "190.210.245.247",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "NSS S.A.",
+      "domain": "customer-static-210-245-247.iplannetworks.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.97,
+        "90d": 75.54,
+        "1y": 75.25
+      }
+    },
+    {
+      "ip": "200.89.134.202",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Fibertel",
+      "domain": "mail.santamonica.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 26.67,
+        "30d": 55.3,
+        "90d": 38.47,
+        "1y": 37.85
+      }
+    },
+    {
+      "ip": "138.219.249.221",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Coop de Prov.Serv.Telef.Obras y Serv Púb y Soc Virrey del Pino Ltda",
+      "domain": "mail.prodea.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.85,
+        "90d": 99.17,
+        "1y": 99.19
+      }
+    },
+    {
+      "ip": "190.57.234.194",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Gigared S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 72.71,
+        "90d": 78.69,
+        "1y": 78.53
+      }
+    },
+    {
+      "ip": "200.114.96.11",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Interredes S.A",
+      "domain": "ns2.interredes.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 86.34,
+        "90d": 86.74,
+        "1y": 87.41
+      }
+    },
+    {
+      "ip": "200.41.174.20",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telefonica de Argentina",
+      "domain": "20.host.advance.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 65.46,
+        "90d": 48.21,
+        "1y": 47.97
+      }
+    },
+    {
+      "ip": "186.0.171.36",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Grupo Servicios Junin S.A",
+      "domain": "36.171.0.186.acerca.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 84.79,
+        "90d": 89.76,
+        "1y": 90.01
+      }
+    },
+    {
+      "ip": "200.5.119.178",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Organizacion Veraz S.A",
+      "domain": "hb.org.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 91.87,
+        "90d": 81.49,
+        "1y": 81.15
+      }
+    },
+    {
+      "ip": "190.104.243.44",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Industrias Feman SRL",
+      "domain": "static.44.243.104.190.cps.com.ar",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.71,
+        "90d": 99.49,
+        "1y": 99.49
+      }
+    },
+    {
+      "ip": "170.231.205.26",
+      "version": 4,
+      "country_code": "ar",
+      "country": "Argentina",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Miguel Araya(Servicios Rosario)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 20.8,
+        "90d": 15.43,
+        "1y": 15.17
       }
     },
     {
@@ -1299,20 +1623,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.12,
-        "90d": 92.99,
-        "1y": 93.37
+        "30d": 94.05,
+        "90d": 93.07,
+        "1y": 93.39
       }
     },
     {
-      "ip": "190.210.255.132",
+      "ip": "200.80.203.75",
       "version": 4,
       "country_code": "ar",
       "country": "Argentina",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "NSS S.A.",
-      "domain": "www.magral-abogados.com",
+      "organization": "Techtel LMDS Comunicaciones Interactivas S.A",
+      "domain": "host75.200-80-203.static.telmex.net.ar",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1321,14 +1645,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.07,
-        "1y": 99.12
+        "30d": 95.79,
+        "90d": 94.3,
+        "1y": 94.52
       }
     }
   ]
