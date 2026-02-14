@@ -4,37 +4,10 @@
     "country_name": "Ukraine",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-14T06:21:10Z",
-    "total_servers": 125
+    "generated_at": "2026-02-14T18:04:10Z",
+    "total_servers": 120
   },
   "resolvers": [
-    {
-      "ip": "109.251.189.70",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "O3 Core",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 73.07,
-        "90d": 69.08,
-        "1y": 68.18
-      }
-    },
     {
       "ip": "93.183.204.1",
       "version": 4,
@@ -51,8 +24,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -60,33 +33,6 @@
         "30d": 99.85,
         "90d": 99.77,
         "1y": 99.79
-      }
-    },
-    {
-      "ip": "109.86.171.16",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Triolan",
-      "domain": "16.171.86.109.triolan.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 73.21,
-        "90d": 85.11,
-        "1y": 85.08
       }
     },
     {
@@ -105,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.9,
-        "90d": 90.76,
-        "1y": 88.26
+        "30d": 94.28,
+        "90d": 90.81,
+        "1y": 88.29
       }
     },
     {
@@ -159,19 +105,46 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 85.71,
-        "90d": 90.6,
-        "1y": 90.87
+        "24h": 92.86,
+        "30d": 87.35,
+        "90d": 90.55,
+        "1y": 90.89
       }
     },
     {
-      "ip": "95.164.66.78",
+      "ip": "93.170.114.86",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UnionCOM Ltd",
+      "domain": "unallocated.unioncom.net.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 27.27,
+        "30d": 30.41,
+        "90d": 19.7,
+        "1y": 19.43
+      }
+    },
+    {
+      "ip": "95.164.65.243",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
@@ -182,73 +155,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 18.18,
-        "30d": 32.86,
-        "90d": 24.61,
-        "1y": 25.13
-      }
-    },
-    {
-      "ip": "91.237.183.1",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nikita Sergienko",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 38.1,
-        "90d": 28.08,
-        "1y": 28.34
-      }
-    },
-    {
-      "ip": "79.98.240.118",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Omega Telecom LLC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 49.26,
-        "90d": 37.18,
-        "1y": 37.17
+        "24h": 14.29,
+        "30d": 61.45,
+        "90d": 58.98,
+        "1y": 58.46
       }
     },
     {
@@ -272,21 +191,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 45.45,
-        "30d": 60.12,
-        "90d": 38.26,
-        "1y": 38.87
+        "24h": 57.14,
+        "30d": 60.78,
+        "90d": 38.42,
+        "1y": 38.91
       }
     },
     {
-      "ip": "88.221.162.253",
+      "ip": "88.221.162.204",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "Akamai Technologies",
-      "domain": "a88-221-162-253.deploy.static.akamaitechnologies.com",
+      "domain": "a88-221-162-204.deploy.static.akamaitechnologies.com",
       "trusted": false,
       "anycast": true,
       "dnssec": {
@@ -299,10 +218,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 12.5,
-        "30d": 58.69,
-        "90d": 47.64,
-        "1y": 47.4
+        "24h": 16.67,
+        "30d": 55.65,
+        "90d": 49.04,
+        "1y": 48.76
       }
     },
     {
@@ -322,14 +241,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.68,
-        "90d": 83.58,
-        "1y": 83.44
+        "30d": 95.63,
+        "90d": 83.73,
+        "1y": 83.48
       }
     },
     {
@@ -345,45 +264,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 70.83,
-        "90d": 74.38,
-        "1y": 73.89
-      }
-    },
-    {
-      "ip": "192.162.141.197",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GlobalNet 141",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 54.1,
-        "90d": 49.56,
-        "1y": 49.29
+        "24h": 100.0,
+        "30d": 72.03,
+        "90d": 74.5,
+        "1y": 73.98
       }
     },
     {
@@ -402,7 +294,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -411,60 +303,6 @@
         "30d": 100.0,
         "90d": 99.58,
         "1y": 99.61
-      }
-    },
-    {
-      "ip": "94.154.220.93",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Delta",
-      "domain": "ip-dc5d.d-net.kiev.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 32.53,
-        "90d": 58.08,
-        "1y": 59.47
-      }
-    },
-    {
-      "ip": "193.19.253.254",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Digital Solutions Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 16.67,
-        "30d": 41.56,
-        "90d": 43.25,
-        "1y": 42.9
       }
     },
     {
@@ -480,18 +318,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 74.85,
-        "90d": 79.61,
-        "1y": 80.79
+        "24h": 92.86,
+        "30d": 74.59,
+        "90d": 79.48,
+        "1y": 80.8
       }
     },
     {
@@ -510,15 +348,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 65.18,
-        "90d": 77.96,
-        "1y": 78.72
+        "24h": 71.43,
+        "30d": 65.86,
+        "90d": 77.82,
+        "1y": 78.73
       }
     },
     {
@@ -542,37 +380,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.83,
-        "90d": 97.45,
-        "1y": 97.63
-      }
-    },
-    {
-      "ip": "193.238.33.131",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Dataline LLC",
-      "domain": "customer-193-238-33-131.dataline.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 54.61,
-        "90d": 47.24,
-        "1y": 46.62
+        "24h": 92.86,
+        "30d": 95.79,
+        "90d": 97.4,
+        "1y": 97.6
       }
     },
     {
@@ -591,15 +402,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 87.35,
-        "90d": 71.66,
-        "1y": 73.28
+        "24h": 92.86,
+        "30d": 87.22,
+        "90d": 71.53,
+        "1y": 73.31
       }
     },
     {
@@ -618,42 +429,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.17,
-        "90d": 98.58,
+        "30d": 97.29,
+        "90d": 98.57,
         "1y": 98.68
-      }
-    },
-    {
-      "ip": "176.103.68.25",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "WDM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 49.08,
-        "90d": 45.28,
-        "1y": 47.07
       }
     },
     {
@@ -678,36 +462,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.42,
-        "90d": 78.84,
-        "1y": 79.26
-      }
-    },
-    {
-      "ip": "195.3.204.225",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Uplink LLC",
-      "domain": "alias-195.3.204.225.vlan13.uplink.net.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.48,
-        "90d": 90.21,
-        "1y": 90.84
+        "30d": 78.35,
+        "90d": 79.06,
+        "1y": 79.3
       }
     },
     {
@@ -726,42 +483,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 84.38,
-        "90d": 81.29,
-        "1y": 81.93
-      }
-    },
-    {
-      "ip": "178.210.129.42",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telecomunikatsiina Companiya Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 58.19,
-        "90d": 46.49,
-        "1y": 44.56
+        "24h": 92.86,
+        "30d": 84.66,
+        "90d": 81.17,
+        "1y": 81.94
       }
     },
     {
@@ -785,10 +515,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 70.98,
-        "90d": 38.77,
-        "1y": 39.45
+        "24h": 71.43,
+        "30d": 70.38,
+        "90d": 38.9,
+        "1y": 39.51
       }
     },
     {
@@ -808,14 +538,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 44.05,
-        "90d": 75.97,
-        "1y": 77.54
+        "30d": 44.96,
+        "90d": 75.85,
+        "1y": 77.59
+      }
+    },
+    {
+      "ip": "93.171.79.160",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UnionCOM Ltd",
+      "domain": "unallocated.unioncom.net.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 62.86,
+        "90d": 53.13,
+        "1y": 55.51
       }
     },
     {
@@ -863,13 +620,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 71.1,
-        "90d": 79.47,
-        "1y": 79.68
+        "24h": 85.71,
+        "30d": 71.43,
+        "90d": 79.46,
+        "1y": 79.7
       }
     },
     {
@@ -890,13 +647,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 78.57,
-        "90d": 67.41,
-        "1y": 67.87
+        "30d": 80.12,
+        "90d": 67.42,
+        "1y": 67.94
       }
     },
     {
@@ -921,9 +678,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.03,
-        "90d": 95.41,
-        "1y": 95.44
+        "30d": 89.91,
+        "90d": 95.39,
+        "1y": 95.45
       }
     },
     {
@@ -942,7 +699,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -969,15 +726,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.86,
-        "90d": 88.4,
-        "1y": 88.04
+        "24h": 78.57,
+        "30d": 92.62,
+        "90d": 88.34,
+        "1y": 87.97
       }
     },
     {
@@ -1001,48 +758,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 78.57,
-        "90d": 85.89,
+        "24h": 85.71,
+        "30d": 78.65,
+        "90d": 85.84,
         "1y": 85.62
       }
     },
     {
-      "ip": "91.200.114.52",
+      "ip": "178.210.130.89",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Integra-Media Ltd",
-      "domain": "ip-91-200-114-52.network.lviv.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 68.3,
-        "90d": 61.98,
-        "1y": 62.51
-      }
-    },
-    {
-      "ip": "78.137.5.86",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "broadband",
-      "domain": "78-137-5-86.static-pool.mclaut.cc",
+      "organization": "Telecomunikatsiina Companiya Ltd",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1050,15 +780,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 77.98,
-        "90d": 76.4,
-        "1y": 76.4
+        "24h": 28.57,
+        "30d": 77.59,
+        "90d": 79.25,
+        "1y": 79.3
+      }
+    },
+    {
+      "ip": "93.170.114.62",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UnionCOM Ltd",
+      "domain": "unallocated.unioncom.net.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 68.72,
+        "90d": 49.16,
+        "1y": 48.95
+      }
+    },
+    {
+      "ip": "185.108.215.229",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "AlushtaInternetServis LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 77.9,
+        "90d": 59.08,
+        "1y": 60.21
       }
     },
     {
@@ -1077,7 +861,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1086,6 +870,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "81.162.111.11",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "YaltaRoute1",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 93.52,
+        "90d": 95.65,
+        "1y": 95.84
       }
     },
     {
@@ -1109,37 +920,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 79.02,
-        "90d": 46.27,
-        "1y": 47.17
-      }
-    },
-    {
-      "ip": "2.63.188.10",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CMS 21",
-      "domain": "localhost",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 87.8,
-        "90d": 82.62,
-        "1y": 82.8
+        "24h": 64.29,
+        "30d": 78.5,
+        "90d": 46.46,
+        "1y": 47.16
       }
     },
     {
@@ -1158,15 +942,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 80.65,
-        "90d": 58.72,
-        "1y": 60.01
+        "24h": 78.57,
+        "30d": 80.9,
+        "90d": 58.75,
+        "1y": 60.04
       }
     },
     {
@@ -1185,15 +969,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 76.6,
-        "90d": 82.2,
-        "1y": 82.14
+        "24h": 57.14,
+        "30d": 76.05,
+        "90d": 82.1,
+        "1y": 82.12
       }
     },
     {
@@ -1212,15 +996,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 79.02,
-        "90d": 72.67,
-        "1y": 72.61
+        "24h": 78.57,
+        "30d": 79.07,
+        "90d": 72.56,
+        "1y": 72.62
       }
     },
     {
@@ -1244,10 +1028,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 91.22,
-        "90d": 94.7,
-        "1y": 94.96
+        "24h": 100.0,
+        "30d": 91.43,
+        "90d": 94.68,
+        "1y": 94.97
       }
     },
     {
@@ -1267,7 +1051,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -1275,6 +1059,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "178.54.198.71",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Merezha home network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 71.99,
+        "90d": 68.43,
+        "1y": 67.7
       }
     },
     {
@@ -1293,7 +1104,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1379,10 +1190,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 91.22,
-        "90d": 87.75,
-        "1y": 87.89
+        "24h": 100.0,
+        "30d": 91.13,
+        "90d": 88.37,
+        "1y": 87.92
       }
     },
     {
@@ -1401,15 +1212,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 47.5,
-        "90d": 52.43,
-        "1y": 53.4
+        "24h": 78.57,
+        "30d": 47.69,
+        "90d": 52.12,
+        "1y": 53.41
       }
     },
     {
@@ -1429,7 +1240,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -1455,15 +1266,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 59.02,
-        "90d": 82.56,
-        "1y": 83.72
+        "30d": 60.43,
+        "90d": 82.47,
+        "1y": 83.76
       }
     },
     {
@@ -1483,52 +1294,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 90.52,
-        "90d": 92.87,
-        "1y": 93.36
-      }
-    },
-    {
-      "ip": "62.149.23.91",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "7Heaven LLC",
-      "domain": "cc92605-07.cc.colocall.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.26,
-        "90d": 99.09,
-        "1y": 99.09
+        "24h": 92.86,
+        "30d": 90.42,
+        "90d": 92.83,
+        "1y": 93.38
       }
     },
     {
-      "ip": "82.193.107.136",
+      "ip": "83.142.105.67",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "PrAT Industrial Media Networks",
-      "domain": "82.193.107.136.ipnet.ua",
+      "organization": "LLC Global-City",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1537,25 +1321,25 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 57.77,
-        "90d": 34.98,
-        "1y": 35.19
+        "24h": 42.86,
+        "30d": 70.78,
+        "90d": 75.67,
+        "1y": 76.07
       }
     },
     {
-      "ip": "5.58.102.238",
+      "ip": "188.163.170.130",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Lanet Network Ltd",
-      "domain": "host-5-58-102-238.bitternet.ua",
+      "organization": "Kyivstar LLC",
+      "domain": "SOL-FTTB.130.170.163.188.sovam.net.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1563,25 +1347,79 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.47,
-        "90d": 91.18,
-        "1y": 90.93
+        "24h": 42.86,
+        "30d": 39.22,
+        "90d": 33.65,
+        "1y": 32.83
       }
     },
     {
-      "ip": "91.237.183.241",
+      "ip": "91.195.86.213",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Nikita Sergienko",
+      "organization": "KNET TELECOM Ltd",
+      "domain": "213-86-195-91.knet-tele.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 35.71,
+        "30d": 50.6,
+        "90d": 62.34,
+        "1y": 63.14
+      }
+    },
+    {
+      "ip": "62.140.239.1",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "FIORD PtP",
+      "domain": "ns3.fiord.ru",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 99.7,
+        "90d": 99.84,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "195.3.135.101",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Lugansk Telephone Company",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1595,10 +1433,172 @@
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 39.88,
-        "90d": 29.54,
-        "1y": 29.89
+        "24h": 85.71,
+        "30d": 92.17,
+        "90d": 96.62,
+        "1y": 96.62
+      }
+    },
+    {
+      "ip": "176.98.95.132",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TOV TV&Radio Company 'TIM'",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 28.39,
+        "90d": 41.16,
+        "1y": 40.75
+      }
+    },
+    {
+      "ip": "217.27.148.125",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Sitel ISP",
+      "domain": "217.27.148.125.sitel.com.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 84.37,
+        "90d": 86.77,
+        "1y": 87.37
+      }
+    },
+    {
+      "ip": "95.67.115.168",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cosmonova",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 83.91,
+        "90d": 88.83,
+        "1y": 89.1
+      }
+    },
+    {
+      "ip": "95.47.59.113",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Branch Enterprise \"Netgroup-Service\"",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 71.88,
+        "90d": 37.1,
+        "1y": 37.09
+      }
+    },
+    {
+      "ip": "5.58.4.85",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Lanet Network Ltd",
+      "domain": "host-5-58-4-85.bitternet.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.41,
+        "90d": 93.18,
+        "1y": 93.38
+      }
+    },
+    {
+      "ip": "95.164.65.17",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "VAK Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.41,
+        "90d": 75.2,
+        "1y": 76.72
       }
     },
     {
@@ -1619,51 +1619,24 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 72.32,
-        "90d": 74.77,
+        "24h": 78.57,
+        "30d": 72.18,
+        "90d": 74.57,
         "1y": 74.36
       }
     },
     {
-      "ip": "212.3.101.130",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Apex NCC",
-      "domain": "unicentr.dp.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 73.21,
-        "90d": 53.59,
-        "1y": 54.46
-      }
-    },
-    {
-      "ip": "5.58.4.85",
+      "ip": "5.58.32.183",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "Lanet Network Ltd",
-      "domain": "host-5-58-4-85.bitternet.ua",
+      "domain": "host-5-58-32-183.bitternet.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1672,230 +1645,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.47,
-        "90d": 93.21,
-        "1y": 93.36
-      }
-    },
-    {
-      "ip": "91.237.182.203",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nikita Sergienko",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 60.71,
-        "90d": 72.74,
-        "1y": 73.7
-      }
-    },
-    {
-      "ip": "94.158.153.236",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SOBORKA",
-      "domain": "integral.soborka.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 22.37,
-        "90d": 25.3,
-        "1y": 25.07
-      }
-    },
-    {
-      "ip": "5.149.222.186",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lancom Ltd",
-      "domain": "undefined.sevstar.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 80.8,
-        "90d": 66.4,
-        "1y": 67.16
-      }
-    },
-    {
-      "ip": "62.140.239.1",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FIORD PtP",
-      "domain": "ns3.fiord.ru",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.85,
-        "90d": 99.87,
-        "1y": 99.88
-      }
-    },
-    {
-      "ip": "5.58.131.22",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lanet Network Ltd",
-      "domain": "host-5-58-131-22.bitternet.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 36.36,
-        "30d": 50.45,
-        "90d": 43.6,
-        "1y": 43.33
-      }
-    },
-    {
-      "ip": "176.105.207.93",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "NPK Home-Net Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 73.36,
-        "90d": 71.41,
-        "1y": 71.48
-      }
-    },
-    {
-      "ip": "194.126.183.208",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Branch Enterprise \"Netgroup-Service\"",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 63.54,
-        "90d": 37.69,
-        "1y": 36.67
-      }
-    },
-    {
-      "ip": "178.219.173.190",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FarLine.Net ISP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 74.26,
-        "90d": 50.26,
-        "1y": 52.4
+        "24h": 85.71,
+        "30d": 77.67,
+        "90d": 70.14,
+        "1y": 68.84
       }
     },
     {
@@ -1919,280 +1676,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 86.44,
-        "90d": 91.86,
-        "1y": 92.25
-      }
-    },
-    {
-      "ip": "77.222.155.35",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Pjsc Datagroup",
-      "domain": "77-222-155-35-static.retail.datagroup.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.79,
-        "90d": 87.46,
-        "1y": 87.39
-      }
-    },
-    {
-      "ip": "178.219.161.211",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FarLine.Net ISP",
-      "domain": "relay.chngg.ru",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.2,
-        "90d": 97.12,
-        "1y": 97.33
-      }
-    },
-    {
-      "ip": "192.162.233.20",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "VINASTERISK, PP",
-      "domain": "192-162-233-20.inaddr.vnstr.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 86.9,
-        "90d": 89.89,
-        "1y": 90.36
-      }
-    },
-    {
-      "ip": "193.56.149.89",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "LLC \"Gazik Net\"",
-      "domain": "ip-193-56-149-89.gazik.com.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 82.14,
-        "90d": 90.92,
-        "1y": 91.5
-      }
-    },
-    {
-      "ip": "194.44.45.242",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UARNet Lutsk",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 77.08,
-        "90d": 84.52,
-        "1y": 84.9
-      }
-    },
-    {
-      "ip": "193.53.252.195",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "fop lytsik vitaliy yaroslavovich",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 55.65,
-        "90d": 44.98,
-        "1y": 44.55
-      }
-    },
-    {
-      "ip": "5.58.19.13",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lanet Network Ltd",
-      "domain": "host-5-58-19-13.bitternet.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 72.02,
-        "90d": 65.73,
-        "1y": 65.36
-      }
-    },
-    {
-      "ip": "185.121.110.228",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GalaxyPlus",
-      "domain": "host-185-121-110-228.galaxy.net.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 79.02,
-        "90d": 79.17,
-        "1y": 79.65
-      }
-    },
-    {
-      "ip": "185.38.208.200",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Unlimited",
-      "domain": "unassigned.208.38.185.in-addr.arpa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 61.76,
-        "90d": 48.45,
-        "1y": 49.32
-      }
-    },
-    {
-      "ip": "194.44.139.88",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TzOV \"Biznes i Technologii\"",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 80.21,
-        "90d": 91.11,
-        "1y": 91.71
+        "24h": 92.86,
+        "30d": 86.3,
+        "90d": 91.82,
+        "1y": 92.27
       }
     },
     {
@@ -2223,14 +1710,14 @@
       }
     },
     {
-      "ip": "195.24.159.50",
+      "ip": "5.58.19.13",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Apex",
-      "domain": "159-50.trifle.net",
+      "organization": "Lanet Network Ltd",
+      "domain": "host-5-58-19-13.bitternet.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2238,15 +1725,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.03,
-        "90d": 91.03,
-        "1y": 91.03
+        "24h": 35.71,
+        "30d": 71.13,
+        "90d": 66.04,
+        "1y": 65.24
+      }
+    },
+    {
+      "ip": "195.225.48.193",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kishchenko N.M. PE",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.71,
+        "30d": 50.3,
+        "90d": 36.93,
+        "1y": 38.92
       }
     },
     {
@@ -2266,13 +1780,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.27,
-        "90d": 98.48,
+        "30d": 96.23,
+        "90d": 98.47,
         "1y": 98.53
       }
     },
@@ -2293,13 +1807,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 99.52,
+        "30d": 99.1,
+        "90d": 99.51,
         "1y": 99.49
       }
     },
@@ -2319,53 +1833,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 77.53,
-        "90d": 69.73,
-        "1y": 70.09
-      }
-    },
-    {
-      "ip": "78.30.194.253",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lancom Ltd",
-      "domain": "undefined.sevstar.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 80.36,
-        "90d": 82.55,
-        "1y": 83.43
+        "24h": 78.57,
+        "30d": 77.14,
+        "90d": 69.77,
+        "1y": 70.06
       }
     },
     {
-      "ip": "78.30.217.153",
+      "ip": "82.193.107.136",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Lancom Ltd",
-      "domain": "undefined.sevstar.net",
+      "organization": "PrAT Industrial Media Networks",
+      "domain": "82.193.107.136.ipnet.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2378,242 +1865,53 @@
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 88.67,
-        "90d": 73.21,
-        "1y": 74.18
+        "24h": 71.43,
+        "30d": 57.78,
+        "90d": 35.0,
+        "1y": 35.21
       }
     },
     {
-      "ip": "195.162.81.125",
+      "ip": "88.221.162.191",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Branch Enterprise \"Netgroup-Service\"",
-      "domain": null,
+      "organization": "Akamai Technologies",
+      "domain": "a88-221-162-191.deploy.static.akamaitechnologies.com",
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 69.0,
-        "90d": 36.96,
-        "1y": 35.5
-      }
-    },
-    {
-      "ip": "78.30.245.221",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lancom Ltd",
-      "domain": "undefined.sevstar.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 41.67,
-        "30d": 67.81,
-        "90d": 53.31,
-        "1y": 55.18
-      }
-    },
-    {
-      "ip": "5.58.32.183",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lanet Network Ltd",
-      "domain": "host-5-58-32-183.bitternet.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 76.53,
-        "90d": 69.96,
-        "1y": 68.83
-      }
-    },
-    {
-      "ip": "195.20.154.230",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UnionCOM Ltd",
-      "domain": "unallocated.unioncom.net.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 81.4,
-        "90d": 86.43,
-        "1y": 86.97
-      }
-    },
-    {
-      "ip": "195.225.48.17",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Kishchenko N.M. PE",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 83.63,
-        "90d": 83.37,
-        "1y": 84.12
-      }
-    },
-    {
-      "ip": "195.230.115.2",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FOP A.L. Kryuchkov",
-      "domain": "bars.stikonet.od.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.81,
-        "1y": 99.82
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
-      "ip": "193.106.58.211",
+      "ip": "85.238.100.178",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "PE \"Magic-line\"",
-      "domain": null,
+      "organization": "Tenet",
+      "domain": "kaliannaya1.tenet.odessa.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
         "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 76.47,
-        "90d": 55.58,
-        "1y": 57.41
-      }
-    },
-    {
-      "ip": "178.158.234.89",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Maximum-Net LLC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 80.65,
-        "90d": 68.51,
-        "1y": 68.15
-      }
-    },
-    {
-      "ip": "93.171.214.135",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Qnet LLC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -2621,48 +1919,48 @@
         "adult": true
       },
       "uptime": {
-        "24h": 58.33,
-        "30d": 46.35,
-        "90d": 57.9,
-        "1y": 57.3
+        "24h": 71.43,
+        "30d": 43.61,
+        "90d": 41.43,
+        "1y": 40.47
       }
     },
     {
-      "ip": "95.46.6.43",
+      "ip": "88.221.162.231",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "PE Galamay Andrey Anatolyevich",
-      "domain": null,
+      "organization": "Akamai Technologies",
+      "domain": "a88-221-162-231.deploy.static.akamaitechnologies.com",
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 8.33,
-        "30d": 31.96,
-        "90d": 25.2,
-        "1y": 24.0
+        "24h": 7.14,
+        "30d": 61.76,
+        "90d": 52.17,
+        "1y": 51.86
       }
     },
     {
-      "ip": "91.210.179.88",
+      "ip": "77.222.155.35",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "FOP Sinev Maksim Viktorovich",
-      "domain": "91-210-179-88.cl.giga.net.ru",
+      "organization": "Pjsc Datagroup",
+      "domain": "77-222-155-35-static.retail.datagroup.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2671,14 +1969,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 38.44,
-        "90d": 23.08,
-        "1y": 23.07
+        "24h": 100.0,
+        "30d": 94.89,
+        "90d": 87.5,
+        "1y": 87.42
+      }
+    },
+    {
+      "ip": "176.96.240.86",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Sergey Olenich",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 14.29,
+        "30d": 39.14,
+        "90d": 26.0,
+        "1y": 26.52
       }
     },
     {
@@ -2706,6 +2031,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "193.239.254.129",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Podol.net",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 48.34,
+        "90d": 44.11,
+        "1y": 43.86
       }
     },
     {
@@ -2763,6 +2115,33 @@
       }
     },
     {
+      "ip": "194.44.211.78",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UARNET-LL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 7.14,
+        "30d": 40.42,
+        "90d": 26.01,
+        "1y": 26.69
+      }
+    },
+    {
       "ip": "88.221.162.203",
       "version": 4,
       "country_code": "ua",
@@ -2778,7 +2157,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -2790,14 +2169,14 @@
       }
     },
     {
-      "ip": "185.125.114.252",
+      "ip": "195.24.159.50",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "South Business Communication, LTD",
-      "domain": null,
+      "organization": "Apex",
+      "domain": "159-50.trifle.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2805,188 +2184,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 83.78,
-        "90d": 70.6,
-        "1y": 70.01
-      }
-    },
-    {
-      "ip": "193.239.254.129",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Podol.net",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 48.51,
-        "90d": 44.02,
-        "1y": 43.84
-      }
-    },
-    {
-      "ip": "159.224.13.218",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Triolan",
-      "domain": "218.13.224.159.triolan.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 84.08,
-        "90d": 86.61,
-        "1y": 86.75
-      }
-    },
-    {
-      "ip": "46.148.26.231",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Infium, UAB",
-      "domain": "ip-46-148-26-231.infiumhost.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.21,
-        "90d": 96.86,
-        "1y": 97.03
+        "30d": 91.18,
+        "90d": 91.18,
+        "1y": 91.18
       }
     },
     {
-      "ip": "185.135.180.60",
+      "ip": "95.158.37.247",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Infostroy",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 58.33,
-        "30d": 61.76,
-        "90d": 46.77,
-        "1y": 46.8
-      }
-    },
-    {
-      "ip": "5.58.16.231",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lanet Network Ltd",
-      "domain": "host-5-58-16-231.bitternet.ua",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 66.72,
-        "90d": 58.94,
-        "1y": 58.35
-      }
-    },
-    {
-      "ip": "46.253.140.69",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FOP Bihunets Ishtvan Stepanovych",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 45.4,
-        "90d": 31.78,
-        "1y": 31.95
-      }
-    },
-    {
-      "ip": "31.202.16.125",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Maxnet LLC",
-      "domain": "31-202-16-125-kh.maxnet.ua",
+      "organization": "Company with additional responsibility \"\"BEST\"",
+      "domain": "95.158.37.247.bestsolution.net.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2995,41 +2212,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 79.32,
-        "90d": 57.71,
-        "1y": 57.37
-      }
-    },
-    {
-      "ip": "195.60.71.123",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "VAK Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 78.87,
-        "90d": 58.8,
-        "1y": 59.98
+        "24h": 7.14,
+        "30d": 67.6,
+        "90d": 71.53,
+        "1y": 71.77
       }
     },
     {
@@ -3053,21 +2243,291 @@
         "adult": true
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 61.31,
-        "90d": 35.66,
-        "1y": 35.52
+        "24h": 71.43,
+        "30d": 62.2,
+        "90d": 36.02,
+        "1y": 35.62
       }
     },
     {
-      "ip": "95.67.115.168",
+      "ip": "62.149.23.91",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Cosmonova",
+      "organization": "7Heaven LLC",
+      "domain": "cc92605-07.cc.colocall.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.25,
+        "90d": 99.09,
+        "1y": 99.09
+      }
+    },
+    {
+      "ip": "178.219.161.211",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "FarLine.Net ISP",
+      "domain": "relay.chngg.ru",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.14,
+        "90d": 97.11,
+        "1y": 97.33
+      }
+    },
+    {
+      "ip": "5.58.102.238",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Lanet Network Ltd",
+      "domain": "host-5-58-102-238.bitternet.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 97.59,
+        "90d": 91.17,
+        "1y": 90.92
+      }
+    },
+    {
+      "ip": "176.98.95.105",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TOV TV&Radio Company 'TIM'",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 35.64,
+        "90d": 48.9,
+        "1y": 48.66
+      }
+    },
+    {
+      "ip": "185.121.110.228",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GalaxyPlus",
+      "domain": "host-185-121-110-228.galaxy.net.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 79.4,
+        "90d": 79.09,
+        "1y": 79.69
+      }
+    },
+    {
+      "ip": "185.38.208.200",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Unlimited",
+      "domain": "unassigned.208.38.185.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 61.95,
+        "90d": 48.31,
+        "1y": 49.37
+      }
+    },
+    {
+      "ip": "176.105.207.93",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NPK Home-Net Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 73.38,
+        "90d": 71.66,
+        "1y": 71.48
+      }
+    },
+    {
+      "ip": "91.237.182.203",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Nikita Sergienko",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 61.35,
+        "90d": 72.61,
+        "1y": 73.73
+      }
+    },
+    {
+      "ip": "5.149.222.186",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Lancom Ltd",
+      "domain": "undefined.sevstar.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 80.6,
+        "90d": 66.43,
+        "1y": 67.2
+      }
+    },
+    {
+      "ip": "195.114.7.252",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Artem Zubkov",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 70.08,
+        "90d": 61.57,
+        "1y": 61.69
+      }
+    },
+    {
+      "ip": "78.30.217.153",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Lancom Ltd",
+      "domain": "undefined.sevstar.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3080,21 +2540,75 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 84.08,
-        "90d": 88.86,
-        "1y": 89.07
+        "24h": 92.86,
+        "30d": 89.31,
+        "90d": 73.17,
+        "1y": 74.24
       }
     },
     {
-      "ip": "78.26.148.136",
+      "ip": "185.125.114.252",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Renome-Service: Joint Multimedia Cable Network",
-      "domain": "78.26.148.136.internal.odessa.tv",
+      "organization": "South Business Communication, LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 83.73,
+        "90d": 70.59,
+        "1y": 69.9
+      }
+    },
+    {
+      "ip": "78.30.245.221",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Lancom Ltd",
+      "domain": "undefined.sevstar.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 67.77,
+        "90d": 53.46,
+        "1y": 55.18
+      }
+    },
+    {
+      "ip": "93.171.214.135",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Qnet LLC",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3107,21 +2621,345 @@
         "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 72.32,
-        "90d": 66.67,
-        "1y": 66.57
+        "24h": 85.71,
+        "30d": 46.99,
+        "90d": 58.04,
+        "1y": 57.39
       }
     },
     {
-      "ip": "217.27.148.125",
+      "ip": "95.47.164.204",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Sitel ISP",
-      "domain": "217.27.148.125.sitel.com.ua",
+      "organization": "UnionCOM Ltd",
+      "domain": "unallocated204.unioncom.net.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 64.91,
+        "90d": 43.17,
+        "1y": 44.78
+      }
+    },
+    {
+      "ip": "95.46.6.43",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "PE Galamay Andrey Anatolyevich",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 7.14,
+        "30d": 31.68,
+        "90d": 25.3,
+        "1y": 23.98
+      }
+    },
+    {
+      "ip": "188.247.113.232",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "DataGroup-Dnepr",
+      "domain": "232.ipv4.datagroup.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 80.75,
+        "90d": 90.23,
+        "1y": 89.96
+      }
+    },
+    {
+      "ip": "192.162.233.20",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "VINASTERISK, PP",
+      "domain": "192-162-233-20.inaddr.vnstr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 86.62,
+        "90d": 89.77,
+        "1y": 90.32
+      }
+    },
+    {
+      "ip": "193.56.149.89",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "LLC \"Gazik Net\"",
+      "domain": "ip-193-56-149-89.gazik.com.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.56,
+        "90d": 90.88,
+        "1y": 91.52
+      }
+    },
+    {
+      "ip": "193.53.252.195",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "fop lytsik vitaliy yaroslavovich",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.71,
+        "30d": 55.34,
+        "90d": 45.1,
+        "1y": 44.49
+      }
+    },
+    {
+      "ip": "195.20.154.230",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UnionCOM Ltd",
+      "domain": "unallocated.unioncom.net.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 80.6,
+        "90d": 86.23,
+        "1y": 86.82
+      }
+    },
+    {
+      "ip": "195.225.48.17",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kishchenko N.M. PE",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 83.61,
+        "90d": 83.31,
+        "1y": 84.15
+      }
+    },
+    {
+      "ip": "195.230.115.2",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "FOP A.L. Kryuchkov",
+      "domain": "bars.stikonet.od.ua",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.81,
+        "1y": 99.82
+      }
+    },
+    {
+      "ip": "194.88.153.197",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "EcotradeInform Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 59.85,
+        "90d": 42.76,
+        "1y": 43.92
+      }
+    },
+    {
+      "ip": "194.44.139.88",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TzOV \"Biznes i Technologii\"",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 80.0,
+        "90d": 91.01,
+        "1y": 91.67
+      }
+    },
+    {
+      "ip": "46.229.58.57",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ITKOM PE",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 33.58,
+        "90d": 17.1,
+        "1y": 16.2
+      }
+    },
+    {
+      "ip": "159.224.13.218",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Triolan",
+      "domain": "218.13.224.159.triolan.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3134,14 +2972,41 @@
         "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 84.38,
-        "90d": 86.74,
-        "1y": 87.35
+        "24h": 100.0,
+        "30d": 84.36,
+        "90d": 86.58,
+        "1y": 86.78
       }
     },
     {
-      "ip": "95.47.59.113",
+      "ip": "46.148.26.231",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Infium, UAB",
+      "domain": "ip-46-148-26-231.infiumhost.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 91.59,
+        "90d": 96.81,
+        "1y": 97.0
+      }
+    },
+    {
+      "ip": "93.170.116.147",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
@@ -3158,40 +3023,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 71.73,
-        "90d": 36.92,
-        "1y": 36.96
-      }
-    },
-    {
-      "ip": "95.164.65.17",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "VAK Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 82.14,
-        "90d": 75.26,
-        "1y": 76.67
+        "24h": 64.29,
+        "30d": 61.24,
+        "90d": 39.41,
+        "1y": 39.56
       }
     },
     {
@@ -3212,29 +3050,29 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 45.45,
-        "30d": 62.95,
-        "90d": 53.49,
-        "1y": 53.51
+        "24h": 78.57,
+        "30d": 63.1,
+        "90d": 53.65,
+        "1y": 53.59
       }
     },
     {
-      "ip": "88.221.162.191",
+      "ip": "176.121.9.144",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Akamai Technologies",
-      "domain": "a88-221-162-191.deploy.static.akamaitechnologies.com",
+      "organization": "FOP Boychenko",
+      "domain": "xylic.pw",
       "trusted": false,
-      "anycast": true,
+      "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -3242,10 +3080,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "24h": 92.86,
+        "30d": 97.74,
+        "90d": 98.12,
+        "1y": 98.26
       }
     },
     {
@@ -3266,24 +3104,51 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 64.11,
-        "90d": 68.08,
+        "24h": 78.57,
+        "30d": 65.12,
+        "90d": 68.15,
         "1y": 68.47
       }
     },
     {
-      "ip": "85.238.100.178",
+      "ip": "185.135.180.60",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Tenet",
-      "domain": "kaliannaya1.tenet.odessa.ua",
+      "organization": "Infostroy",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 61.2,
+        "90d": 46.58,
+        "1y": 46.82
+      }
+    },
+    {
+      "ip": "185.117.243.18",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "more-specific IX",
+      "domain": "ip-185-117-243-18.cyfra.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3293,77 +3158,50 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 43.9,
-        "90d": 41.2,
-        "1y": 40.47
+        "24h": 71.43,
+        "30d": 81.8,
+        "90d": 87.79,
+        "1y": 88.59
       }
     },
     {
-      "ip": "188.163.170.130",
+      "ip": "5.58.16.231",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Kyivstar LLC",
-      "domain": "SOL-FTTB.130.170.163.188.sovam.net.ua",
+      "organization": "Lanet Network Ltd",
+      "domain": "host-5-58-16-231.bitternet.ua",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 18.18,
-        "30d": 39.1,
-        "90d": 33.58,
-        "1y": 32.78
-      }
-    },
-    {
-      "ip": "176.121.9.144",
-      "version": 4,
-      "country_code": "ua",
-      "country": "Ukraine",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "FOP Boychenko",
-      "domain": "xylic.pw",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 97.62,
-        "90d": 98.13,
-        "1y": 98.26
+        "24h": 92.86,
+        "30d": 67.65,
+        "90d": 59.07,
+        "1y": 58.41
       }
     },
     {
-      "ip": "176.98.95.132",
+      "ip": "178.158.234.89",
       "version": 4,
       "country_code": "ua",
       "country": "Ukraine",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "TOV TV&Radio Company 'TIM'",
+      "organization": "Maximum-Net LLC",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -3374,13 +3212,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 36.36,
-        "30d": 27.79,
-        "90d": 41.16,
-        "1y": 40.76
+        "24h": 78.57,
+        "30d": 81.05,
+        "90d": 68.83,
+        "1y": 68.15
+      }
+    },
+    {
+      "ip": "193.106.58.211",
+      "version": 4,
+      "country_code": "ua",
+      "country": "Ukraine",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "PE \"Magic-line\"",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 75.83,
+        "90d": 55.45,
+        "1y": 57.38
       }
     }
   ]

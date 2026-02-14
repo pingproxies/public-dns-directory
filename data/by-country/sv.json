@@ -4,37 +4,10 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-14T06:21:10Z",
+    "generated_at": "2026-02-14T18:04:10Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "201.247.112.236",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 83.78,
-        "90d": 80.45,
-        "1y": 80.49
-      }
-    },
     {
       "ip": "200.85.7.28",
       "version": 4,
@@ -51,8 +24,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -79,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.36,
-        "90d": 99.1,
+        "30d": 98.35,
+        "90d": 99.09,
         "1y": 99.13
+      }
+    },
+    {
+      "ip": "190.86.205.194",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.71,
+        "30d": 87.97,
+        "90d": 82.82,
+        "1y": 83.37
       }
     }
   ]

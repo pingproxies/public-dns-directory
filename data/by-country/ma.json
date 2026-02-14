@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-14T06:21:10Z",
-    "total_servers": 24
+    "generated_at": "2026-02-14T18:04:10Z",
+    "total_servers": 22
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 93.15,
-        "90d": 97.14,
-        "1y": 97.14
+        "24h": 100.0,
+        "30d": 93.23,
+        "90d": 97.15,
+        "1y": 97.15
       }
     },
     {
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 50.0,
-        "30d": 76.04,
-        "90d": 85.27,
-        "1y": 86.19
+        "30d": 75.64,
+        "90d": 85.06,
+        "1y": 86.1
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 85.27,
-        "90d": 89.02,
-        "1y": 89.67
+        "24h": 92.86,
+        "30d": 85.24,
+        "90d": 88.92,
+        "1y": 89.66
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.77,
-        "90d": 91.44,
-        "1y": 91.5
+        "24h": 92.86,
+        "30d": 91.27,
+        "90d": 91.45,
+        "1y": 91.49
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 81.85,
-        "90d": 91.86,
-        "1y": 92.25
+        "24h": 100.0,
+        "30d": 82.26,
+        "90d": 91.88,
+        "1y": 92.27
       }
     },
     {
@@ -159,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 94.79,
-        "90d": 96.9,
-        "1y": 96.88
+        "24h": 92.86,
+        "30d": 94.89,
+        "90d": 96.88,
+        "1y": 96.85
       }
     },
     {
@@ -188,13 +188,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 88.1,
-        "90d": 91.67,
-        "1y": 92.1
+        "24h": 92.86,
+        "30d": 88.57,
+        "90d": 91.69,
+        "1y": 92.12
       }
     },
     {
@@ -215,13 +215,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.49,
-        "90d": 96.19,
-        "1y": 96.31
+        "30d": 95.04,
+        "90d": 96.23,
+        "1y": 96.32
       }
     },
     {
@@ -240,25 +240,52 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 89.14,
-        "90d": 92.54,
-        "1y": 92.89
+        "24h": 92.86,
+        "30d": 89.47,
+        "90d": 92.5,
+        "1y": 92.9
       }
     },
     {
-      "ip": "41.87.158.170",
+      "ip": "102.50.253.95",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Fixed",
+      "organization": "Maroc telecom static ip adress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.97,
+        "1y": 99.97
+      }
+    },
+    {
+      "ip": "41.214.138.238",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Safilait Maroc Agence Fbs-1",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -269,13 +296,94 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 72.0,
+        "90d": 90.88,
+        "1y": 90.87
+      }
+    },
+    {
+      "ip": "41.205.195.162",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Sews_Bir Rami",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 85.24,
+        "90d": 92.34,
+        "1y": 92.72
+      }
+    },
+    {
+      "ip": "197.230.97.29",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Dynamic FTTH Orange Maroc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 74.4,
-        "90d": 86.4,
-        "1y": 87.15
+        "30d": 88.57,
+        "90d": 93.7,
+        "1y": 94.04
+      }
+    },
+    {
+      "ip": "196.200.176.2",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Ma Marwan Uca Marrakech",
+      "domain": "nsa.uca.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.85,
+        "90d": 99.64,
+        "1y": 99.67
       }
     },
     {
@@ -295,30 +403,57 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
+        "24h": 85.71,
         "30d": 87.35,
-        "90d": 91.76,
-        "1y": 92.22
+        "90d": 91.72,
+        "1y": 92.21
       }
     },
     {
-      "ip": "194.204.223.244",
+      "ip": "41.87.158.170",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Casa Americain school",
-      "domain": "dns.cas.ac.ma",
+      "organization": "Fixed",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 74.7,
+        "90d": 86.45,
+        "1y": 87.18
+      }
+    },
+    {
+      "ip": "197.230.188.74",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Filter Systems maroc-Tanger",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -327,9 +462,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 98.84,
-        "1y": 98.92
+        "30d": 83.13,
+        "90d": 87.06,
+        "1y": 87.99
       }
     },
     {
@@ -354,9 +489,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.83,
-        "90d": 96.83,
+        "30d": 96.24,
+        "90d": 96.92,
         "1y": 96.73
+      }
+    },
+    {
+      "ip": "194.204.223.244",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Casa Americain school",
+      "domain": "dns.cas.ac.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.1,
+        "90d": 98.83,
+        "1y": 98.92
       }
     },
     {
@@ -375,15 +537,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.94,
-        "90d": 91.44,
-        "1y": 91.68
+        "30d": 95.04,
+        "90d": 91.43,
+        "1y": 91.7
       }
     },
     {
@@ -402,15 +564,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 79.61,
-        "90d": 80.46,
-        "1y": 81.81
+        "24h": 85.71,
+        "30d": 80.6,
+        "90d": 80.32,
+        "1y": 81.82
       }
     },
     {
@@ -430,230 +592,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 84.08,
+        "24h": 92.86,
+        "30d": 84.06,
         "90d": 87.86,
-        "1y": 88.5
-      }
-    },
-    {
-      "ip": "197.230.81.17",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Acome Maroc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 83.04,
-        "90d": 81.26,
-        "1y": 82.41
-      }
-    },
-    {
-      "ip": "197.230.97.29",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Dynamic FTTH Orange Maroc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 88.69,
-        "90d": 93.7,
-        "1y": 94.03
-      }
-    },
-    {
-      "ip": "196.200.176.2",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Ma Marwan Uca Marrakech",
-      "domain": "nsa.uca.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.85,
-        "90d": 99.64,
-        "1y": 99.67
-      }
-    },
-    {
-      "ip": "197.230.188.74",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Filter Systems maroc-Tanger",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.18,
-        "90d": 87.14,
-        "1y": 87.96
-      }
-    },
-    {
-      "ip": "102.50.253.95",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maroc telecom static ip adress",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "81.192.7.147",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "LLI ccm",
-      "domain": "ll81-147-7-192-81.ll81.iam.net.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.0,
-        "30d": 69.35,
-        "90d": 45.54,
-        "1y": 44.39
-      }
-    },
-    {
-      "ip": "41.214.138.238",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Safilait Maroc Agence Fbs-1",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 70.59,
-        "90d": 90.8,
-        "1y": 90.84
-      }
-    },
-    {
-      "ip": "41.205.195.162",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Sews_Bir Rami",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.27,
-        "90d": 92.38,
-        "1y": 92.73
+        "1y": 88.53
       }
     }
   ]

@@ -4,10 +4,37 @@
     "country_name": "Kosovo",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-14T06:21:10Z",
-    "total_servers": 8
+    "generated_at": "2026-02-14T18:04:10Z",
+    "total_servers": 11
   },
   "resolvers": [
+    {
+      "ip": "5.206.235.55",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TelKos L.L.C",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 30.77,
+        "30d": 37.31,
+        "90d": 16.33,
+        "1y": 16.47
+      }
+    },
     {
       "ip": "185.186.80.122",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 88.69,
-        "90d": 93.02,
-        "1y": 92.79
+        "24h": 92.86,
+        "30d": 88.57,
+        "90d": 92.99,
+        "1y": 92.78
       }
     },
     {
@@ -57,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.26,
-        "90d": 98.61,
+        "30d": 99.25,
+        "90d": 98.67,
         "1y": 98.71
       }
     },
@@ -85,7 +112,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.44,
+        "90d": 98.43,
         "1y": 98.55
       }
     },
@@ -105,46 +132,19 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 94.2,
+        "24h": 100.0,
+        "30d": 94.13,
         "90d": 94.38,
-        "1y": 93.75
+        "1y": 93.76
       }
     },
     {
-      "ip": "94.100.56.157",
-      "version": 4,
-      "country_code": "xk",
-      "country": "Kosovo",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TEL COMMUNICATIONS L.L.C",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 80.63,
-        "90d": 75.67,
-        "1y": 76.19
-      }
-    },
-    {
-      "ip": "84.22.46.238",
+      "ip": "84.22.63.117",
       "version": 4,
       "country_code": "xk",
       "country": "Kosovo",
@@ -160,14 +160,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 82.83,
+        "90d": 84.7,
+        "1y": 83.76
+      }
+    },
+    {
+      "ip": "84.22.47.218",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Artmotion",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.82,
-        "90d": 71.67,
-        "1y": 72.7
+        "24h": 71.43,
+        "30d": 76.96,
+        "90d": 64.36,
+        "1y": 64.29
       }
     },
     {
@@ -192,9 +219,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.67,
-        "90d": 95.48,
-        "1y": 95.71
+        "30d": 91.73,
+        "90d": 95.45,
+        "1y": 95.72
+      }
+    },
+    {
+      "ip": "84.22.46.238",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Artmotion",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 84.94,
+        "90d": 71.68,
+        "1y": 72.77
+      }
+    },
+    {
+      "ip": "94.100.56.157",
+      "version": 4,
+      "country_code": "xk",
+      "country": "Kosovo",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TEL COMMUNICATIONS L.L.C",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 81.02,
+        "90d": 75.84,
+        "1y": 76.24
       }
     },
     {
@@ -218,10 +299,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 58.9,
-        "90d": 25.11,
-        "1y": 24.98
+        "24h": 42.86,
+        "30d": 59.22,
+        "90d": 25.18,
+        "1y": 25.02
       }
     }
   ]

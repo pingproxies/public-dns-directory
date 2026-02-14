@@ -4,7 +4,7 @@
     "country_name": "Trinidad and Tobago",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-14T06:21:10Z",
+    "generated_at": "2026-02-14T18:04:10Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -24,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -52,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -85,35 +85,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.4,
-        "90d": 99.39,
+        "90d": 99.38,
         "1y": 99.43
-      }
-    },
-    {
-      "ip": "190.58.23.133",
-      "version": 4,
-      "country_code": "tt",
-      "country": "Trinidad and Tobago",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telecommunication Services of Trinidad and Tobago",
-      "domain": "NS23-133.tstt.net.tt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.62,
-        "90d": 98.42,
-        "1y": 98.5
       }
     },
     {
@@ -133,7 +106,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -141,6 +114,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "190.58.23.133",
+      "version": 4,
+      "country_code": "tt",
+      "country": "Trinidad and Tobago",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telecommunication Services of Trinidad and Tobago",
+      "domain": "NS23-133.tstt.net.tt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.59,
+        "90d": 98.41,
+        "1y": 98.5
       }
     }
   ]

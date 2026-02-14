@@ -4,10 +4,64 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-02-14T06:21:10Z",
-    "total_servers": 2
+    "generated_at": "2026-02-14T18:04:10Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "209.164.189.56",
+      "version": 4,
+      "country_code": "gu",
+      "country": "Guam",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "Level 3",
+      "domain": "209-164-189-56.biz.static.teleguam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 77.89,
+        "90d": 67.5,
+        "1y": 67.27
+      }
+    },
+    {
+      "ip": "209.164.189.54",
+      "version": 4,
+      "country_code": "gu",
+      "country": "Guam",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "Level 3",
+      "domain": "209-164-189-54.biz.static.teleguam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 84.19,
+        "90d": 71.53,
+        "1y": 72.26
+      }
+    },
     {
       "ip": "202.151.81.209",
       "version": 4,
@@ -26,40 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 91.67,
-        "30d": 86.76,
-        "90d": 86.98,
-        "1y": 86.22
-      }
-    },
-    {
-      "ip": "209.164.189.54",
-      "version": 4,
-      "country_code": "gu",
-      "country": "Guam",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "Level 3",
-      "domain": "209-164-189-54.biz.static.teleguam.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 84.23,
-        "90d": 71.59,
-        "1y": 72.22
+        "24h": 92.86,
+        "30d": 87.22,
+        "90d": 87.18,
+        "1y": 86.25
       }
     }
   ]
