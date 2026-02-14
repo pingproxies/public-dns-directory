@@ -4,10 +4,37 @@
     "country_name": "Libya",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-13T18:10:44Z",
-    "total_servers": 3
+    "generated_at": "2026-02-14T06:21:10Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "154.73.52.185",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Manara",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 27.27,
+        "30d": 38.99,
+        "90d": 27.8,
+        "1y": 28.46
+      }
+    },
     {
       "ip": "165.16.68.1",
       "version": 4,
@@ -21,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -29,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
+        "24h": 100.0,
         "30d": 88.24,
-        "90d": 88.53,
-        "1y": 88.18
+        "90d": 88.47,
+        "1y": 88.2
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 87.06,
-        "90d": 77.45,
-        "1y": 77.11
+        "24h": 83.33,
+        "30d": 88.24,
+        "90d": 77.32,
+        "1y": 77.09
       }
     },
     {
@@ -75,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 72.06,
-        "90d": 50.59,
-        "1y": 50.15
+        "24h": 75.0,
+        "30d": 72.62,
+        "90d": 50.47,
+        "1y": 50.2
       }
     }
   ]

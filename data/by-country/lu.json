@@ -4,10 +4,37 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-13T18:10:44Z",
+    "generated_at": "2026-02-14T06:21:10Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "92.223.105.162",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GCL",
+      "domain": "lux.1c1g",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 87.05,
+        "90d": 88.5,
+        "1y": 89.01
+      }
+    },
     {
       "ip": "107.189.31.10",
       "version": 4,
@@ -30,9 +57,9 @@
       },
       "uptime": {
         "24h": 90.91,
-        "30d": 99.41,
-        "90d": 96.82,
-        "1y": 97.02
+        "30d": 99.4,
+        "90d": 96.8,
+        "1y": 97.03
       }
     },
     {
@@ -51,8 +78,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -79,7 +106,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -87,33 +114,6 @@
         "30d": 99.85,
         "90d": 99.94,
         "1y": 99.94
-      }
-    },
-    {
-      "ip": "92.223.105.162",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 87.37,
-        "90d": 88.57,
-        "1y": 89.02
       }
     }
   ]
