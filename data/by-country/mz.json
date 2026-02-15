@@ -4,10 +4,37 @@
     "country_name": "Mozambique",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-15T06:25:34Z",
-    "total_servers": 1
+    "generated_at": "2026-02-15T18:04:34Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "196.22.60.4",
+      "version": 4,
+      "country_code": "mz",
+      "country": "Mozambique",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Teledata Mozambique",
+      "domain": "mail.kkt.co.mz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 9.09,
+        "30d": 27.34,
+        "90d": 22.73,
+        "1y": 23.09
+      }
+    },
     {
       "ip": "169.255.135.218",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 87.96,
-        "90d": 71.51,
-        "1y": 73.42
+        "24h": 90.91,
+        "30d": 87.81,
+        "90d": 71.33,
+        "1y": 73.43
       }
     }
   ]

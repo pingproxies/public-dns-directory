@@ -4,7 +4,7 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-15T06:25:34Z",
+    "generated_at": "2026-02-15T18:04:34Z",
     "total_servers": 9
   },
   "resolvers": [
@@ -21,45 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 96.64,
-        "90d": 98.63,
-        "1y": 98.71
+        "24h": 90.91,
+        "30d": 96.6,
+        "90d": 98.62,
+        "1y": 98.72
       }
     },
     {
-      "ip": "202.86.149.20",
+      "ip": "202.175.86.206",
       "version": 4,
       "country_code": "mo",
       "country": "Macao",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "CTM",
-      "domain": "n20286z149l20.static.ctmip.net",
+      "organization": "Datacenter",
+      "domain": "z86l206.static.ctm.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 84.62,
-        "30d": 83.36,
-        "90d": 63.24,
-        "1y": 62.78
+        "24h": 54.55,
+        "30d": 54.32,
+        "90d": 66.54,
+        "1y": 68.33
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.73,
-        "90d": 95.95,
-        "1y": 96.08
+        "30d": 95.69,
+        "90d": 95.96,
+        "1y": 96.09
       }
     },
     {
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 83.84,
-        "90d": 67.15,
-        "1y": 66.62
+        "24h": 72.73,
+        "30d": 83.49,
+        "90d": 67.13,
+        "1y": 66.57
       }
     },
     {
@@ -159,15 +159,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 85.67,
-        "90d": 65.37,
-        "1y": 64.91
+        "24h": 72.73,
+        "30d": 85.03,
+        "90d": 65.39,
+        "1y": 64.87
       }
     },
     {
@@ -191,10 +191,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 94.35,
-        "90d": 86.18,
+        "24h": 90.91,
+        "30d": 94.3,
+        "90d": 86.14,
         "1y": 85.7
+      }
+    },
+    {
+      "ip": "182.93.25.100",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM Internet Service",
+      "domain": "n18293z25l100.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 54.55,
+        "30d": 83.95,
+        "90d": 67.26,
+        "1y": 66.73
       }
     },
     {
@@ -219,36 +246,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.58,
-        "90d": 96.37,
-        "1y": 96.68
-      }
-    },
-    {
-      "ip": "182.93.25.100",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CTM Internet Service",
-      "domain": "n18293z25l100.static.ctmip.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 84.62,
-        "30d": 84.58,
-        "90d": 67.27,
-        "1y": 66.77
+        "30d": 95.53,
+        "90d": 96.35,
+        "1y": 96.69
       }
     }
   ]

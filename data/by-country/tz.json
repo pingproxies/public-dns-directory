@@ -4,8 +4,8 @@
     "country_name": "Tanzania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-15T06:25:34Z",
-    "total_servers": 1
+    "generated_at": "2026-02-15T18:04:34Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.24,
+        "30d": 99.23,
         "90d": 98.95,
-        "1y": 98.98
+        "1y": 98.99
+      }
+    },
+    {
+      "ip": "41.59.200.123",
+      "version": 4,
+      "country_code": "tz",
+      "country": "Tanzania",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "TTCL",
+      "domain": "123.200-59-41.ttcl.co.tz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 9.09,
+        "30d": 19.69,
+        "90d": 10.92,
+        "1y": 10.39
       }
     }
   ]
