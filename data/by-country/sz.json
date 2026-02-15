@@ -4,10 +4,37 @@
     "country_name": "Eswatini",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-14T18:04:10Z",
-    "total_servers": 3
+    "generated_at": "2026-02-15T06:25:34Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "69.63.64.12",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": "ns1.swazi.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.31,
+        "30d": 92.06,
+        "90d": 97.68,
+        "1y": 97.85
+      }
+    },
     {
       "ip": "69.63.73.141",
       "version": 4,
@@ -25,68 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 86.3,
-        "90d": 90.89,
-        "1y": 90.89
-      }
-    },
-    {
-      "ip": "69.63.73.234",
-      "version": 4,
-      "country_code": "sz",
-      "country": "Eswatini",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Eswatini PTC - corporate",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 51.43,
-        "90d": 29.07,
-        "1y": 28.25
-      }
-    },
-    {
-      "ip": "69.63.64.12",
-      "version": 4,
-      "country_code": "sz",
-      "country": "Eswatini",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Eswatini PTC - corporate",
-      "domain": "ns1.swazi.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 92.18,
-        "90d": 97.69,
-        "1y": 97.84
+        "24h": 100.0,
+        "30d": 86.11,
+        "90d": 90.92,
+        "1y": 90.92
       }
     }
   ]

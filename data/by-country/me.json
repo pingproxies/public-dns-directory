@@ -4,10 +4,37 @@
     "country_name": "Montenegro",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-14T18:04:10Z",
-    "total_servers": 1
+    "generated_at": "2026-02-15T06:25:34Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "37.0.70.118",
+      "version": 4,
+      "country_code": "me",
+      "country": "Montenegro",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Mkabl",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 61.54,
+        "30d": 71.45,
+        "90d": 56.6,
+        "1y": 57.21
+      }
+    },
     {
       "ip": "213.149.113.211",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 21.43,
-        "30d": 65.96,
-        "90d": 64.63,
-        "1y": 66.42
+        "24h": 53.85,
+        "30d": 65.5,
+        "90d": 64.48,
+        "1y": 66.48
       }
     }
   ]

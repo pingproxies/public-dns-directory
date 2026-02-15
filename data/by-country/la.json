@@ -4,37 +4,10 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-14T18:04:10Z",
+    "generated_at": "2026-02-15T06:25:34Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "202.123.179.205",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Sky Telecom State Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.86,
-        "30d": 96.09,
-        "90d": 91.24,
-        "1y": 91.64
-      }
-    },
     {
       "ip": "115.84.91.78",
       "version": 4,
@@ -52,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.14,
-        "90d": 89.47,
-        "1y": 89.47
+        "30d": 97.26,
+        "90d": 89.5,
+        "1y": 89.5
+      }
+    },
+    {
+      "ip": "202.123.179.205",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sky Telecom State Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 84.62,
+        "30d": 95.88,
+        "90d": 91.21,
+        "1y": 91.63
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 57.14,
-        "30d": 96.39,
-        "90d": 67.24,
-        "1y": 67.53
+        "24h": 76.92,
+        "30d": 96.34,
+        "90d": 67.3,
+        "1y": 67.58
       }
     }
   ]

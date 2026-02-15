@@ -4,37 +4,10 @@
     "country_name": "Maldives",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-14T18:04:10Z",
-    "total_servers": 4
+    "generated_at": "2026-02-15T06:25:34Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "123.176.4.2",
-      "version": 4,
-      "country_code": "mv",
-      "country": "Maldives",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Dhiraagu",
-      "domain": "123-176-4-2.7642.net.mv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.88,
-        "90d": 97.12,
-        "1y": 96.72
-      }
-    },
     {
       "ip": "123.176.4.227",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 77.44,
-        "90d": 47.78,
-        "1y": 47.32
+        "24h": 76.92,
+        "30d": 76.98,
+        "90d": 48.17,
+        "1y": 47.38
       }
     },
     {
@@ -78,42 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 68.07,
-        "90d": 44.44,
-        "1y": 43.41
+        "24h": 84.62,
+        "30d": 68.29,
+        "90d": 44.66,
+        "1y": 43.49
       }
     },
     {
-      "ip": "216.183.210.171",
+      "ip": "123.176.4.2",
       "version": 4,
       "country_code": "mv",
       "country": "Maldives",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Ooredoo Maldives Plc",
-      "domain": null,
+      "organization": "Dhiraagu",
+      "domain": "123-176-4-2.7642.net.mv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 23.08,
-        "30d": 28.6,
-        "90d": 23.97,
-        "1y": 23.58
+        "24h": 100.0,
+        "30d": 92.94,
+        "90d": 97.11,
+        "1y": 96.72
       }
     }
   ]
