@@ -4,8 +4,8 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-15T18:04:34Z",
-    "total_servers": 3
+    "generated_at": "2026-02-16T06:33:12Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.76,
-        "90d": 97.93,
+        "30d": 96.72,
+        "90d": 97.92,
         "1y": 98.06
       }
     },
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.83,
-        "90d": 85.64,
-        "1y": 86.62
+        "30d": 89.69,
+        "90d": 85.54,
+        "1y": 86.65
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.82,
-        "90d": 94.87,
-        "1y": 93.82
+        "30d": 91.73,
+        "90d": 95.27,
+        "1y": 93.83
+      }
+    },
+    {
+      "ip": "198.52.242.90",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "FIREFI LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 67.86,
+        "90d": 44.25,
+        "1y": 43.0
       }
     }
   ]

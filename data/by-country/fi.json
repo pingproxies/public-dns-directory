@@ -4,7 +4,7 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-15T18:04:34Z",
+    "generated_at": "2026-02-16T06:33:12Z",
     "total_servers": 12
   },
   "resolvers": [
@@ -24,14 +24,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.38,
-        "90d": 98.32,
+        "30d": 97.35,
+        "90d": 98.31,
         "1y": 98.39
       }
     },
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 90.91,
-        "30d": 93.36,
-        "90d": 90.73,
-        "1y": 91.13
+        "30d": 93.29,
+        "90d": 90.84,
+        "1y": 91.15
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.87,
-        "90d": 73.78,
-        "1y": 75.67
+        "30d": 82.68,
+        "90d": 73.61,
+        "1y": 75.72
       }
     },
     {
@@ -133,7 +133,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -141,6 +141,33 @@
         "30d": 100.0,
         "90d": 99.93,
         "1y": 99.94
+      }
+    },
+    {
+      "ip": "95.216.72.9",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "HETZNER-DC",
+      "domain": "static.9.72.216.95.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.93,
+        "1y": 99.64
       }
     },
     {
@@ -156,7 +183,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -164,10 +191,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 61.94,
-        "90d": 41.99,
-        "1y": 40.19
+        "24h": 81.82,
+        "30d": 62.25,
+        "90d": 42.04,
+        "1y": 40.31
+      }
+    },
+    {
+      "ip": "80.186.145.164",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Elisa Oyj",
+      "domain": "80-186-145-164.elisa-mobile.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.78,
+        "90d": 88.35,
+        "1y": 86.44
+      }
+    },
+    {
+      "ip": "65.108.81.207",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hetzner Online GmbH",
+      "domain": "static.207.81.108.65.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.38,
+        "90d": 99.77,
+        "1y": 99.76
       }
     },
     {
@@ -188,7 +269,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -213,7 +294,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -222,33 +303,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "95.216.72.9",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "HETZNER-DC",
-      "domain": "static.9.72.216.95.clients.your-server.de",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.93,
-        "1y": 99.64
       }
     },
     {
@@ -263,7 +317,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -272,64 +326,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 58.24,
-        "90d": 60.32,
-        "1y": 59.95
-      }
-    },
-    {
-      "ip": "65.108.81.207",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hetzner Online GmbH",
-      "domain": "static.207.81.108.65.clients.your-server.de",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.38,
-        "90d": 99.77,
-        "1y": 99.76
-      }
-    },
-    {
-      "ip": "80.186.145.164",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Elisa Oyj",
-      "domain": "80-186-145-164.elisa-mobile.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 79.01,
-        "90d": 88.42,
-        "1y": 86.42
+        "24h": 54.55,
+        "30d": 59.38,
+        "90d": 60.14,
+        "1y": 59.94
       }
     }
   ]

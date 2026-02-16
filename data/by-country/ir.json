@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-15T18:04:34Z",
+    "generated_at": "2026-02-16T06:33:12Z",
     "total_servers": 11
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.84,
-        "90d": 97.24,
-        "1y": 97.51
+        "30d": 100.0,
+        "90d": 97.22,
+        "1y": 97.52
       }
     },
     {
@@ -51,14 +51,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.32,
-        "90d": 96.27,
+        "30d": 97.57,
+        "90d": 96.24,
         "1y": 96.66
       }
     },
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.71,
-        "90d": 89.5,
-        "1y": 90.47
+        "30d": 86.11,
+        "90d": 89.46,
+        "1y": 90.49
       }
     },
     {
@@ -105,8 +105,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -117,45 +117,18 @@
       }
     },
     {
-      "ip": "81.91.144.116",
+      "ip": "2.189.44.44",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Farabord Dadeh Haye Iranian Co",
-      "domain": null,
+      "organization": "Iran Information Technology Company PJSC",
+      "domain": "anycast.ticdns.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 91.56,
-        "90d": 57.89,
-        "1y": 57.17
-      }
-    },
-    {
-      "ip": "91.245.229.1",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kish Cell Pars Co.",
-      "domain": "ns1.kcpcloud.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -165,9 +138,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.14,
-        "90d": 92.98,
-        "1y": 93.71
+        "30d": 94.85,
+        "90d": 97.98,
+        "1y": 98.18
+      }
+    },
+    {
+      "ip": "217.218.127.127",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive1.dci.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 97.26,
+        "1y": 97.55
       }
     },
     {
@@ -192,90 +192,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.22,
-        "90d": 91.79,
-        "1y": 92.65
+        "30d": 80.67,
+        "90d": 91.77,
+        "1y": 92.66
       }
     },
     {
-      "ip": "2.188.21.130",
+      "ip": "81.91.144.116",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Telecommunication Infrastructure Company",
+      "organization": "Farabord Dadeh Haye Iranian Co",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.44,
-        "90d": 95.17,
-        "1y": 95.52
+        "24h": 81.82,
+        "30d": 91.92,
+        "90d": 58.16,
+        "1y": 57.36
       }
     },
     {
-      "ip": "2.189.44.44",
+      "ip": "91.245.229.1",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
+      "organization": "Kish Cell Pars Co.",
+      "domain": "ns1.kcpcloud.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.91,
-        "90d": 97.99,
-        "1y": 98.18
-      }
-    },
-    {
-      "ip": "217.218.127.127",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive1.dci.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.84,
-        "90d": 97.28,
-        "1y": 97.54
+        "30d": 89.46,
+        "90d": 92.93,
+        "1y": 93.72
       }
     },
     {
@@ -300,9 +273,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.9,
-        "90d": 66.36,
-        "1y": 64.25
+        "30d": 94.24,
+        "90d": 66.85,
+        "1y": 64.62
+      }
+    },
+    {
+      "ip": "2.188.21.130",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Telecommunication Infrastructure Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.32,
+        "90d": 95.14,
+        "1y": 95.53
       }
     }
   ]

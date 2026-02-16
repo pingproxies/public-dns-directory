@@ -4,8 +4,8 @@
     "country_name": "Malta",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-15T18:04:34Z",
-    "total_servers": 4
+    "generated_at": "2026-02-16T06:33:12Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 90.91,
-        "30d": 77.31,
-        "90d": 70.44,
-        "1y": 69.82
+        "30d": 77.22,
+        "90d": 70.39,
+        "1y": 69.87
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 76.55,
-        "90d": 87.85,
-        "1y": 87.85
+        "24h": 81.82,
+        "30d": 76.08,
+        "90d": 87.83,
+        "1y": 87.83
       }
     },
     {
@@ -78,42 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.02,
-        "90d": 77.62,
-        "1y": 78.66
-      }
-    },
-    {
-      "ip": "195.158.82.92",
-      "version": 4,
-      "country_code": "mt",
-      "country": "Malta",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Terranet Ltd",
-      "domain": "a195b158c82d92.go.net.mt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 9.09,
-        "30d": 52.78,
-        "90d": 39.6,
-        "1y": 39.24
+        "30d": 82.84,
+        "90d": 77.55,
+        "1y": 78.69
       }
     }
   ]

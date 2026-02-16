@@ -4,37 +4,10 @@
     "country_name": "Brunei",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-15T18:04:34Z",
+    "generated_at": "2026-02-16T06:33:12Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "202.160.40.91",
-      "version": 4,
-      "country_code": "bn",
-      "country": "Brunei",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "BNBN - Fiber-To-The-Home",
-      "domain": "ftth.brunet.bn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.2,
-        "90d": 67.59,
-        "1y": 65.27
-      }
-    },
     {
       "ip": "202.152.80.38",
       "version": 4,
@@ -53,13 +26,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 98.75,
+        "90d": 98.74,
         "1y": 98.87
+      }
+    },
+    {
+      "ip": "202.160.40.91",
+      "version": 4,
+      "country_code": "bn",
+      "country": "Brunei",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "BNBN - Fiber-To-The-Home",
+      "domain": "ftth.brunet.bn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.58,
+        "90d": 68.1,
+        "1y": 65.66
       }
     }
   ]
