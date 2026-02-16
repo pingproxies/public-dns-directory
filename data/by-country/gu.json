@@ -4,7 +4,7 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-02-16T06:33:12Z",
+    "generated_at": "2026-02-16T18:09:40Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.21,
-        "90d": 87.26,
-        "1y": 86.29
+        "30d": 87.36,
+        "90d": 87.19,
+        "1y": 86.31
+      }
+    },
+    {
+      "ip": "209.164.189.56",
+      "version": 4,
+      "country_code": "gu",
+      "country": "Guam",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "Level 3",
+      "domain": "209-164-189-56.biz.static.teleguam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.22,
+        "90d": 67.28,
+        "1y": 67.48
       }
     },
     {
@@ -52,41 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 83.44,
-        "90d": 71.46,
-        "1y": 72.23
-      }
-    },
-    {
-      "ip": "209.164.189.56",
-      "version": 4,
-      "country_code": "gu",
-      "country": "Guam",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "Level 3",
-      "domain": "209-164-189-56.biz.static.teleguam.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 77.15,
-        "90d": 67.31,
-        "1y": 67.43
+        "24h": 100.0,
+        "30d": 83.25,
+        "90d": 71.45,
+        "1y": 72.26
       }
     }
   ]

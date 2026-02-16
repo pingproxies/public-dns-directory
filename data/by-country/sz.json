@@ -4,37 +4,10 @@
     "country_name": "Eswatini",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-16T06:33:12Z",
-    "total_servers": 2
+    "generated_at": "2026-02-16T18:09:40Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "165.73.132.243",
-      "version": 4,
-      "country_code": "sz",
-      "country": "Eswatini",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "SwaziMobile",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 40.0,
-        "90d": 59.85,
-        "1y": 59.85
-      }
-    },
     {
       "ip": "69.63.64.12",
       "version": 4,
@@ -51,15 +24,69 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 92.36,
-        "90d": 97.62,
-        "1y": 97.82
+        "24h": 80.0,
+        "30d": 92.1,
+        "90d": 97.54,
+        "1y": 97.77
+      }
+    },
+    {
+      "ip": "69.63.73.234",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 50.55,
+        "90d": 29.55,
+        "1y": 28.48
+      }
+    },
+    {
+      "ip": "69.63.73.141",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 85.31,
+        "90d": 90.83,
+        "1y": 90.83
       }
     }
   ]

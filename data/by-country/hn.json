@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-16T06:33:12Z",
-    "total_servers": 7
+    "generated_at": "2026-02-16T18:09:40Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -25,41 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 91.73,
-        "90d": 87.83,
-        "1y": 88.47
+        "24h": 80.0,
+        "30d": 91.63,
+        "90d": 87.78,
+        "1y": 88.46
       }
     },
     {
-      "ip": "201.190.11.254",
+      "ip": "164.163.74.82",
       "version": 4,
       "country_code": "hn",
       "country": "Honduras",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SERCOM de Honduras",
-      "domain": null,
+      "organization": "Diser Solution Honduras",
+      "domain": "host82.diser.hn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 80.34,
-        "90d": 54.22,
-        "1y": 55.27
+        "24h": 70.0,
+        "30d": 65.77,
+        "90d": 50.61,
+        "1y": 51.55
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 81.28,
-        "90d": 90.87,
-        "1y": 91.72
+        "30d": 81.36,
+        "90d": 90.81,
+        "1y": 91.73
       }
     },
     {
@@ -111,8 +111,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.06,
-        "90d": 99.37,
+        "30d": 99.05,
+        "90d": 99.4,
         "1y": 99.4
       }
     },
@@ -134,12 +134,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 50.7,
-        "90d": 40.01,
+        "24h": 50.0,
+        "30d": 51.5,
+        "90d": 40.36,
         "1y": 39.36
       }
     },
@@ -159,15 +159,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
+        "24h": 100.0,
         "30d": 87.36,
-        "90d": 83.07,
-        "1y": 84.39
+        "90d": 82.98,
+        "1y": 84.41
       }
     },
     {
@@ -186,15 +186,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 81.25,
-        "90d": 49.66,
-        "1y": 49.24
+        "24h": 90.0,
+        "30d": 81.2,
+        "90d": 50.07,
+        "1y": 49.3
+      }
+    },
+    {
+      "ip": "201.190.11.254",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SERCOM de Honduras",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 80.09,
+        "90d": 54.11,
+        "1y": 55.3
       }
     }
   ]

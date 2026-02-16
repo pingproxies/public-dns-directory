@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-16T06:33:12Z",
-    "total_servers": 24
+    "generated_at": "2026-02-16T18:09:40Z",
+    "total_servers": 21
   },
   "resolvers": [
     {
@@ -24,13 +24,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 93.45,
+        "24h": 90.0,
+        "30d": 93.52,
         "90d": 97.1,
         "1y": 97.1
       }
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 83.02,
-        "90d": 86.84,
-        "1y": 88.05
+        "24h": 90.0,
+        "30d": 82.62,
+        "90d": 86.7,
+        "1y": 88.03
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 18.18,
-        "30d": 51.72,
-        "90d": 33.76,
-        "1y": 32.42
+        "24h": 40.0,
+        "30d": 51.97,
+        "90d": 33.85,
+        "1y": 32.49
       }
     },
     {
@@ -110,41 +110,14 @@
         "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 74.1,
-        "90d": 84.55,
-        "1y": 85.97
+        "24h": 70.0,
+        "30d": 73.78,
+        "90d": 84.46,
+        "1y": 85.98
       }
     },
     {
-      "ip": "197.230.161.193",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MEDITELECOM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 82.53,
-        "90d": 91.77,
-        "1y": 92.28
-      }
-    },
-    {
-      "ip": "197.230.103.202",
+      "ip": "197.230.250.150",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
@@ -160,14 +133,122 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.1,
+        "90d": 96.9,
+        "1y": 96.88
+      }
+    },
+    {
+      "ip": "41.214.138.238",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Safilait Maroc Agence Fbs-1",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 83.78,
-        "90d": 87.7,
-        "1y": 88.56
+        "24h": 90.0,
+        "30d": 71.27,
+        "90d": 90.82,
+        "1y": 90.9
+      }
+    },
+    {
+      "ip": "81.192.193.134",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "IAM",
+      "domain": "adsl-134-193-192-81.adsl.iam.net.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 20.0,
+        "30d": 48.23,
+        "90d": 39.08,
+        "1y": 39.02
+      }
+    },
+    {
+      "ip": "194.204.223.244",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Casa Americain school",
+      "domain": "dns.cas.ac.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.05,
+        "90d": 98.8,
+        "1y": 98.93
+      }
+    },
+    {
+      "ip": "197.230.92.90",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Schindler",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.84,
+        "90d": 97.04,
+        "1y": 96.76
       }
     },
     {
@@ -187,99 +268,18 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 81.75,
-        "90d": 79.93,
-        "1y": 81.85
-      }
-    },
-    {
-      "ip": "197.230.84.1",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Phone Assistance",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.16,
-        "90d": 91.44,
-        "1y": 91.75
-      }
-    },
-    {
-      "ip": "194.204.223.244",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Casa Americain school",
-      "domain": "dns.cas.ac.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.06,
-        "90d": 98.81,
-        "1y": 98.93
+        "24h": 80.0,
+        "30d": 82.15,
+        "90d": 79.79,
+        "1y": 81.88
       }
     },
     {
-      "ip": "41.87.147.158",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MEDITELECOM",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 84.74,
-        "90d": 88.66,
-        "1y": 89.66
-      }
-    },
-    {
-      "ip": "41.214.150.122",
+      "ip": "197.230.103.202",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
@@ -295,68 +295,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 87.07,
-        "90d": 91.57,
-        "1y": 92.22
-      }
-    },
-    {
-      "ip": "41.87.158.170",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Fixed",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 74.92,
-        "90d": 86.38,
-        "1y": 87.21
-      }
-    },
-    {
-      "ip": "197.230.92.90",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Schindler",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.72,
-        "90d": 97.02,
-        "1y": 96.75
+        "30d": 83.89,
+        "90d": 87.61,
+        "1y": 88.57
       }
     },
     {
@@ -377,7 +323,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -387,13 +333,13 @@
       }
     },
     {
-      "ip": "41.87.144.169",
+      "ip": "197.230.145.10",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "MEDITELECOM",
+      "organization": "PSA Kenitra",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -404,13 +350,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 88.78,
+        "90d": 92.21,
+        "1y": 92.86
+      }
+    },
+    {
+      "ip": "197.230.81.17",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Acome Maroc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 81.83,
+        "90d": 80.5,
+        "1y": 82.32
+      }
+    },
+    {
+      "ip": "196.200.176.2",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Ma Marwan Uca Marrakech",
+      "domain": "nsa.uca.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 91.9,
-        "90d": 91.5,
-        "1y": 91.47
+        "24h": 100.0,
+        "30d": 99.84,
+        "90d": 99.63,
+        "1y": 99.67
       }
     },
     {
@@ -434,128 +434,47 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 85.31,
-        "90d": 92.19,
-        "1y": 92.73
+        "24h": 90.0,
+        "30d": 85.47,
+        "90d": 92.14,
+        "1y": 92.74
       }
     },
     {
-      "ip": "196.200.176.2",
+      "ip": "81.192.7.147",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Ma Marwan Uca Marrakech",
-      "domain": "nsa.uca.ma",
+      "organization": "LLI ccm",
+      "domain": "ll81-147-7-192-81.ll81.iam.net.ma",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.84,
-        "90d": 99.64,
-        "1y": 99.67
-      }
-    },
-    {
-      "ip": "197.230.97.29",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Dynamic FTTH Orange Maroc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 88.77,
-        "90d": 93.68,
-        "1y": 94.07
+        "24h": 80.0,
+        "30d": 67.93,
+        "90d": 46.28,
+        "1y": 44.49
       }
     },
     {
-      "ip": "197.230.81.17",
+      "ip": "41.87.144.169",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Acome Maroc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 82.06,
-        "90d": 80.62,
-        "1y": 82.3
-      }
-    },
-    {
-      "ip": "197.230.145.10",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "PSA Kenitra",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 88.92,
-        "90d": 92.26,
-        "1y": 92.85
-      }
-    },
-    {
-      "ip": "41.214.138.238",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Safilait Maroc Agence Fbs-1",
+      "organization": "MEDITELECOM",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -570,13 +489,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 71.01,
-        "90d": 90.88,
-        "1y": 90.92
+        "30d": 92.1,
+        "90d": 91.44,
+        "1y": 91.49
       }
     },
     {
-      "ip": "197.230.174.153",
+      "ip": "41.87.158.170",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
@@ -592,45 +511,18 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.48,
-        "90d": 96.33,
-        "1y": 96.33
+        "30d": 75.2,
+        "90d": 86.35,
+        "1y": 87.23
       }
     },
     {
-      "ip": "197.230.15.206",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "OS Meditel",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 89.08,
-        "90d": 91.63,
-        "1y": 92.16
-      }
-    },
-    {
-      "ip": "197.230.250.150",
+      "ip": "41.214.150.122",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
@@ -645,15 +537,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.16,
-        "90d": 96.92,
-        "1y": 96.87
+        "30d": 86.89,
+        "90d": 91.51,
+        "1y": 92.23
+      }
+    },
+    {
+      "ip": "41.87.147.158",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MEDITELECOM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 84.52,
+        "90d": 88.58,
+        "1y": 89.67
       }
     }
   ]
