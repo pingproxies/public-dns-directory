@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-17T06:28:49Z",
+    "generated_at": "2026-02-17T18:15:52Z",
     "total_servers": 11
   },
   "resolvers": [
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -31,7 +31,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.19,
+        "90d": 97.17,
         "1y": 97.53
       }
     },
@@ -53,12 +53,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.84,
-        "90d": 96.19,
+        "30d": 98.07,
+        "90d": 96.16,
         "1y": 96.68
       }
     },
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.65,
-        "90d": 89.58,
-        "1y": 90.53
+        "30d": 87.02,
+        "90d": 89.83,
+        "1y": 90.55
       }
     },
     {
@@ -102,11 +102,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -117,19 +117,19 @@
       }
     },
     {
-      "ip": "217.218.127.127",
+      "ip": "81.91.144.116",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive1.dci.ir",
+      "organization": "Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -138,9 +138,63 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 97.22,
-        "1y": 97.56
+        "30d": 92.46,
+        "90d": 58.73,
+        "1y": 57.8
+      }
+    },
+    {
+      "ip": "91.245.229.1",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kish Cell Pars Co.",
+      "domain": "ns1.kcpcloud.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.18,
+        "90d": 92.82,
+        "1y": 93.76
+      }
+    },
+    {
+      "ip": "185.161.112.33",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Parvaz System Information Technology Company (Ltd)",
+      "domain": "fw1.parvazsys.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 81.76,
+        "90d": 92.17,
+        "1y": 92.71
       }
     },
     {
@@ -159,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.69,
-        "90d": 95.11,
-        "1y": 95.54
+        "30d": 95.64,
+        "90d": 95.08,
+        "1y": 95.55
       }
     },
     {
@@ -192,36 +246,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.74,
-        "90d": 97.96,
+        "30d": 94.67,
+        "90d": 97.95,
         "1y": 98.19
       }
     },
     {
-      "ip": "81.91.144.116",
+      "ip": "217.218.127.127",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS",
-      "domain": null,
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive1.dci.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 92.14,
-        "90d": 58.53,
-        "1y": 57.65
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 97.21,
+        "1y": 97.56
       }
     },
     {
@@ -240,69 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.64,
-        "90d": 67.86,
-        "1y": 65.29
-      }
-    },
-    {
-      "ip": "185.161.112.33",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Parvaz System Information Technology Company (Ltd)",
-      "domain": "fw1.parvazsys.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.34,
-        "90d": 91.92,
-        "1y": 92.69
-      }
-    },
-    {
-      "ip": "91.245.229.1",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kish Cell Pars Co.",
-      "domain": "ns1.kcpcloud.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.88,
-        "90d": 92.87,
-        "1y": 93.75
+        "30d": 94.96,
+        "90d": 68.32,
+        "1y": 65.65
       }
     }
   ]
