@@ -4,8 +4,8 @@
     "country_name": "Malta",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-16T18:09:40Z",
-    "total_servers": 3
+    "generated_at": "2026-02-17T06:28:49Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 77.09,
-        "90d": 70.28,
-        "1y": 69.88
+        "24h": 90.91,
+        "30d": 77.35,
+        "90d": 70.34,
+        "1y": 69.94
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 75.65,
-        "90d": 87.8,
-        "1y": 87.8
+        "24h": 90.91,
+        "30d": 75.86,
+        "90d": 87.85,
+        "1y": 87.85
+      }
+    },
+    {
+      "ip": "195.158.82.92",
+      "version": 4,
+      "country_code": "mt",
+      "country": "Malta",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Terranet Ltd",
+      "domain": "a195b158c82d92.go.net.mt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 9.09,
+        "30d": 50.0,
+        "90d": 39.89,
+        "1y": 39.12
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 82.62,
-        "90d": 77.49,
-        "1y": 78.7
+        "24h": 90.91,
+        "30d": 82.46,
+        "90d": 77.48,
+        "1y": 78.73
       }
     }
   ]

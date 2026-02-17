@@ -4,8 +4,8 @@
     "country_name": "Vietnam",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-16T18:09:40Z",
-    "total_servers": 103
+    "generated_at": "2026-02-17T06:28:49Z",
+    "total_servers": 107
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 65.56,
-        "90d": 50.85,
-        "1y": 51.92
+        "24h": 100.0,
+        "30d": 65.18,
+        "90d": 51.12,
+        "1y": 52.02
       }
     },
     {
@@ -53,40 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
-        "90d": 99.57,
+        "30d": 99.52,
+        "90d": 99.56,
         "1y": 99.61
-      }
-    },
-    {
-      "ip": "202.6.96.4",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VNA-VNNIC",
-      "domain": "ns2.vnanet.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 86.89,
-        "90d": 86.48,
-        "1y": 85.81
       }
     },
     {
@@ -110,10 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 62.72,
-        "90d": 51.35,
-        "1y": 52.13
+        "24h": 90.91,
+        "30d": 62.94,
+        "90d": 51.32,
+        "1y": 52.2
       }
     },
     {
@@ -134,13 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 83.58,
-        "1y": 83.52
+        "90d": 83.69,
+        "1y": 83.55
       }
     },
     {
@@ -156,6 +129,33 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.8,
+        "1y": 99.82
+      }
+    },
+    {
+      "ip": "113.177.27.140",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "VNPT",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -164,10 +164,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.8,
-        "1y": 99.82
+        "24h": 81.82,
+        "30d": 73.48,
+        "90d": 77.62,
+        "1y": 78.37
       }
     },
     {
@@ -188,13 +188,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.94,
-        "90d": 95.11,
-        "1y": 95.5
+        "30d": 93.37,
+        "90d": 95.07,
+        "1y": 95.51
       }
     },
     {
@@ -215,11 +215,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.58,
+        "30d": 98.56,
         "90d": 99.0,
         "1y": 99.11
       }
@@ -241,13 +241,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.79,
-        "90d": 96.57,
+        "30d": 97.77,
+        "90d": 96.59,
         "1y": 96.73
       }
     },
@@ -269,13 +269,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.89,
+        "30d": 98.88,
         "90d": 99.4,
         "1y": 98.9
+      }
+    },
+    {
+      "ip": "103.7.172.8",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bnnmt",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 38.4,
+        "90d": 37.58,
+        "1y": 38.54
       }
     },
     {
@@ -295,14 +322,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 71.88,
-        "90d": 57.02,
-        "1y": 56.55
+        "24h": 90.91,
+        "30d": 71.77,
+        "90d": 57.2,
+        "1y": 56.61
       }
     },
     {
@@ -322,14 +349,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 76.62,
-        "90d": 75.17,
-        "1y": 75.36
+        "24h": 72.73,
+        "30d": 76.36,
+        "90d": 75.12,
+        "1y": 75.38
       }
     },
     {
@@ -350,13 +377,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 65.72,
-        "90d": 40.55,
-        "1y": 41.47
+        "24h": 81.82,
+        "30d": 65.81,
+        "90d": 40.76,
+        "1y": 41.6
       }
     },
     {
@@ -381,8 +408,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.74,
-        "90d": 98.53,
+        "30d": 98.72,
+        "90d": 98.56,
         "1y": 98.57
       }
     },
@@ -404,13 +431,121 @@
       "blocking": {
         "ads": false,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 63.64,
+        "30d": 48.48,
+        "90d": 32.75,
+        "1y": 31.87
+      }
+    },
+    {
+      "ip": "120.72.85.169",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Quang Trung Software City Development Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 89.95,
+        "90d": 92.57,
+        "1y": 92.99
+      }
+    },
+    {
+      "ip": "113.165.96.215",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 47.16,
-        "90d": 32.51,
-        "1y": 31.78
+        "24h": 100.0,
+        "30d": 85.78,
+        "90d": 92.73,
+        "1y": 93.23
+      }
+    },
+    {
+      "ip": "113.161.163.169",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 75.24,
+        "90d": 62.81,
+        "1y": 65.23
+      }
+    },
+    {
+      "ip": "125.212.237.1",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Viettel Group",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 36.36,
+        "30d": 66.29,
+        "90d": 66.43,
+        "1y": 65.49
       }
     },
     {
@@ -431,310 +566,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.68,
-        "90d": 99.07,
+        "90d": 99.06,
         "1y": 98.99
       }
     },
     {
-      "ip": "42.116.255.184",
+      "ip": "45.125.208.8",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
+      "organization": "MOBIFONEGLOBAL",
+      "domain": "ns1.mobifoneglobal.vn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.53,
-        "90d": 99.4,
-        "1y": 99.29
-      }
-    },
-    {
-      "ip": "113.161.163.169",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 75.51,
-        "90d": 62.6,
-        "1y": 65.16
-      }
-    },
-    {
-      "ip": "113.165.96.215",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 85.94,
-        "90d": 92.77,
-        "1y": 93.22
-      }
-    },
-    {
-      "ip": "116.100.88.123",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VIETTEL",
-      "domain": "dynamic-ip-adsl.viettel.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.84,
-        "90d": 96.28,
-        "1y": 96.67
-      }
-    },
-    {
-      "ip": "118.70.203.68",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "FPT-STATICIP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.84,
-        "90d": 99.3,
-        "1y": 99.29
-      }
-    },
-    {
-      "ip": "103.53.228.24",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AO HOA Viet Co., ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.16,
-        "90d": 96.47,
-        "1y": 96.76
-      }
-    },
-    {
-      "ip": "118.70.179.56",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 61.3,
-        "90d": 47.49,
-        "1y": 48.48
-      }
-    },
-    {
-      "ip": "103.237.97.164",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bkav Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 97.95,
-        "90d": 96.2,
-        "1y": 96.07
-      }
-    },
-    {
-      "ip": "103.196.16.2",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VNPOST",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.21,
-        "90d": 99.47,
-        "1y": 99.35
-      }
-    },
-    {
-      "ip": "103.239.32.36",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VINACOMIN",
-      "domain": "vpn.vinacomin.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 82.74,
-        "90d": 67.78,
-        "1y": 65.94
-      }
-    },
-    {
-      "ip": "14.177.236.212",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 70.53,
-        "90d": 77.67,
-        "1y": 80.11
+        "24h": 90.91,
+        "30d": 89.94,
+        "90d": 88.01,
+        "1y": 88.86
       }
     },
     {
@@ -754,13 +619,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.21,
-        "90d": 96.74,
+        "30d": 96.17,
+        "90d": 96.72,
         "1y": 96.76
       }
     },
@@ -807,15 +672,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 39.73,
-        "90d": 38.27,
-        "1y": 36.95
+        "24h": 63.64,
+        "30d": 39.46,
+        "90d": 38.5,
+        "1y": 36.99
       }
     },
     {
@@ -834,15 +699,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 79.94,
+        "24h": 72.73,
+        "30d": 79.43,
         "90d": 56.11,
-        "1y": 54.88
+        "1y": 54.92
       }
     },
     {
@@ -863,13 +728,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 78.67,
-        "90d": 89.18,
-        "1y": 90.33
+        "24h": 90.91,
+        "30d": 78.31,
+        "90d": 89.09,
+        "1y": 90.32
       }
     },
     {
@@ -889,41 +754,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.68,
-        "90d": 96.56,
-        "1y": 96.64
-      }
-    },
-    {
-      "ip": "202.6.96.3",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VNA-VNNIC",
-      "domain": "ns1.vnanet.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.31,
-        "90d": 73.73,
-        "1y": 71.76
+        "30d": 99.68,
+        "90d": 96.58,
+        "1y": 96.65
       }
     },
     {
@@ -943,8 +781,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -954,284 +792,14 @@
       }
     },
     {
-      "ip": "14.241.35.56",
+      "ip": "123.30.184.141",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.62,
-        "90d": 94.51,
-        "1y": 94.7
-      }
-    },
-    {
-      "ip": "113.162.247.163",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "dynamic.vdc.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 66.67,
-        "90d": 85.38,
-        "1y": 85.68
-      }
-    },
-    {
-      "ip": "123.30.175.83",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "coccoc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.0,
-        "90d": 98.74,
-        "1y": 98.63
-      }
-    },
-    {
-      "ip": "116.118.119.167",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SPT",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.09,
-        "90d": 98.04,
-        "1y": 98.19
-      }
-    },
-    {
-      "ip": "14.224.129.15",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 75.99,
-        "90d": 63.62,
-        "1y": 64.23
-      }
-    },
-    {
-      "ip": "125.235.11.66",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "xDSL Services",
-      "domain": "125.235.11.66.adsl.viettel.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.53,
-        "90d": 98.87,
-        "1y": 98.9
-      }
-    },
-    {
-      "ip": "123.30.175.82",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "coccoc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.79,
-        "90d": 98.9,
-        "1y": 98.75
-      }
-    },
-    {
-      "ip": "210.245.8.9",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 70.91,
-        "90d": 77.31,
-        "1y": 76.82
-      }
-    },
-    {
-      "ip": "123.24.206.120",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 86.26,
-        "90d": 86.05,
-        "1y": 85.41
-      }
-    },
-    {
-      "ip": "210.245.21.123",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.42,
-        "90d": 95.48,
-        "1y": 95.66
-      }
-    },
-    {
-      "ip": "1.53.19.37",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
+      "domain": "ns2.vmms.vn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1244,118 +812,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.93,
-        "90d": 66.37,
-        "1y": 63.5
-      }
-    },
-    {
-      "ip": "113.160.227.246",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 86.41,
-        "90d": 93.81,
-        "1y": 93.81
-      }
-    },
-    {
-      "ip": "113.161.116.150",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.84,
-        "90d": 99.13,
-        "1y": 99.14
-      }
-    },
-    {
-      "ip": "115.73.220.183",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VIETELmetro",
-      "domain": "adsl.viettel.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 80.29,
-        "90d": 84.9,
-        "1y": 85.93
-      }
-    },
-    {
-      "ip": "118.69.197.82",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": "mail.vuthao.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.97,
-        "90d": 94.22,
-        "1y": 94.78
+        "24h": 45.45,
+        "30d": 42.15,
+        "90d": 46.26,
+        "1y": 47.97
       }
     },
     {
@@ -1376,24 +836,24 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 85.94,
-        "90d": 82.28,
-        "1y": 81.01
+        "24h": 90.91,
+        "30d": 85.78,
+        "90d": 82.21,
+        "1y": 81.05
       }
     },
     {
-      "ip": "113.160.155.57",
+      "ip": "103.53.228.24",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
+      "organization": "AO HOA Viet Co., ltd",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1402,79 +862,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 72.04,
-        "90d": 58.87,
-        "1y": 58.9
+        "24h": 100.0,
+        "30d": 97.44,
+        "90d": 96.45,
+        "1y": 96.76
       }
     },
     {
-      "ip": "113.160.116.252",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 91.63,
-        "90d": 93.67,
-        "1y": 93.99
-      }
-    },
-    {
-      "ip": "210.245.87.16",
+      "ip": "118.70.179.56",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Vietnam Internet Network Information Center",
-      "domain": "ns1.vmms.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 55.89,
-        "90d": 59.26,
-        "1y": 60.34
-      }
-    },
-    {
-      "ip": "14.238.96.162",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1482,106 +888,25 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.1,
-        "90d": 97.24,
-        "1y": 97.17
+        "30d": 61.18,
+        "90d": 47.54,
+        "1y": 48.59
       }
     },
     {
-      "ip": "202.87.214.253",
+      "ip": "103.196.16.2",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "KIS",
-      "domain": "ns2.kisvn.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.58,
-        "90d": 99.5,
-        "1y": 99.55
-      }
-    },
-    {
-      "ip": "14.161.36.134",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 73.91,
-        "90d": 85.43,
-        "1y": 84.82
-      }
-    },
-    {
-      "ip": "113.163.222.44",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 80.88,
-        "90d": 67.2,
-        "1y": 68.94
-      }
-    },
-    {
-      "ip": "103.239.32.81",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VINACOMIN",
+      "organization": "VNPOST",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1591,14 +916,95 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 89.57,
-        "90d": 71.7,
-        "1y": 68.73
+        "24h": 100.0,
+        "30d": 99.2,
+        "90d": 99.46,
+        "1y": 99.35
+      }
+    },
+    {
+      "ip": "103.237.97.164",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bkav Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.92,
+        "90d": 96.18,
+        "1y": 96.08
+      }
+    },
+    {
+      "ip": "1.52.147.168",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "FPTDYNAMICIP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 50.56,
+        "90d": 20.55,
+        "1y": 18.75
+      }
+    },
+    {
+      "ip": "113.160.227.246",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 86.26,
+        "90d": 93.77,
+        "1y": 93.82
       }
     },
     {
@@ -1619,24 +1025,24 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.37,
-        "90d": 97.22,
-        "1y": 97.35
+        "30d": 99.36,
+        "90d": 97.2,
+        "1y": 97.36
       }
     },
     {
-      "ip": "117.2.18.50",
+      "ip": "113.163.222.44",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Viettel Corporation",
-      "domain": "dynamic-ip-adsl.viettel.vn",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1645,14 +1051,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 80.67,
+        "90d": 67.04,
+        "1y": 69.0
+      }
+    },
+    {
+      "ip": "113.161.116.150",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 69.67,
-        "90d": 58.87,
-        "1y": 59.68
+        "24h": 100.0,
+        "30d": 96.81,
+        "90d": 99.13,
+        "1y": 99.14
       }
     },
     {
@@ -1671,42 +1104,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 15.79,
-        "90d": 3.57,
-        "1y": 3.19
-      }
-    },
-    {
-      "ip": "115.79.48.236",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VIETELftth",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 76.42,
-        "90d": 57.2,
-        "1y": 60.39
+        "30d": 29.55,
+        "90d": 7.47,
+        "1y": 6.67
       }
     },
     {
@@ -1725,15 +1131,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.96,
+        "90d": 98.76,
+        "1y": 98.72
+      }
+    },
+    {
+      "ip": "14.161.36.134",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 73.76,
+        "90d": 85.4,
+        "1y": 84.86
+      }
+    },
+    {
+      "ip": "113.160.116.252",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 97.0,
-        "90d": 98.77,
-        "1y": 98.72
+        "24h": 90.91,
+        "30d": 91.53,
+        "90d": 93.63,
+        "1y": 94.0
       }
     },
     {
@@ -1752,42 +1212,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 88.31,
-        "90d": 78.95,
-        "1y": 79.8
+        "24h": 100.0,
+        "30d": 88.18,
+        "90d": 78.83,
+        "1y": 79.84
       }
     },
     {
-      "ip": "113.164.80.4",
+      "ip": "118.70.203.68",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
+      "organization": "FPT-STATICIP",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 89.26,
-        "90d": 84.18,
-        "1y": 83.75
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.3,
+        "1y": 99.29
       }
     },
     {
@@ -1813,8 +1273,467 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.84,
-        "90d": 99.57,
-        "1y": 99.43
+        "90d": 99.56,
+        "1y": 99.44
+      }
+    },
+    {
+      "ip": "113.164.80.4",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 89.14,
+        "90d": 84.09,
+        "1y": 83.79
+      }
+    },
+    {
+      "ip": "113.161.196.15",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.28,
+        "90d": 95.74,
+        "1y": 96.1
+      }
+    },
+    {
+      "ip": "115.79.48.236",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "VIETELftth",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 77.04,
+        "90d": 57.74,
+        "1y": 60.55
+      }
+    },
+    {
+      "ip": "120.72.85.167",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Quang Trung Software City Development Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 89.46,
+        "90d": 89.02,
+        "1y": 89.99
+      }
+    },
+    {
+      "ip": "222.253.48.106",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Ho Chi Minh City Post and Telecom Company",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.45,
+        "30d": 42.57,
+        "90d": 63.4,
+        "1y": 64.57
+      }
+    },
+    {
+      "ip": "42.116.255.185",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.68,
+        "90d": 99.36,
+        "1y": 99.26
+      }
+    },
+    {
+      "ip": "203.209.181.154",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "HTC International telecommunication joint stock company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 66.93,
+        "90d": 65.92,
+        "1y": 66.59
+      }
+    },
+    {
+      "ip": "103.137.156.3",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam News Agency",
+      "domain": "ns3.vnanet.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.89,
+        "90d": 95.41,
+        "1y": 95.34
+      }
+    },
+    {
+      "ip": "222.252.14.239",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Hanoi Post and Telecom Company",
+      "domain": "static.vnpt-hanoi.com.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 82.43,
+        "90d": 69.53,
+        "1y": 71.13
+      }
+    },
+    {
+      "ip": "202.87.213.253",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KIS",
+      "domain": "ns1.kisvn.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.04,
+        "90d": 98.5,
+        "1y": 97.65
+      }
+    },
+    {
+      "ip": "210.245.21.102",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 96.01,
+        "90d": 95.65,
+        "1y": 95.82
+      }
+    },
+    {
+      "ip": "42.116.255.183",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.52,
+        "90d": 99.33,
+        "1y": 99.2
+      }
+    },
+    {
+      "ip": "42.116.255.178",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.36,
+        "90d": 99.4,
+        "1y": 99.32
+      }
+    },
+    {
+      "ip": "42.116.255.179",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.52,
+        "90d": 99.23,
+        "1y": 99.14
+      }
+    },
+    {
+      "ip": "202.6.96.3",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "VNA-VNNIC",
+      "domain": "ns1.vnanet.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 85.46,
+        "90d": 73.61,
+        "1y": 71.82
+      }
+    },
+    {
+      "ip": "118.69.226.29",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": "118-69-226-29-static.hcm.fpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.72,
+        "90d": 97.75,
+        "1y": 97.95
+      }
+    },
+    {
+      "ip": "113.160.226.179",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 56.39,
+        "90d": 45.4,
+        "1y": 46.28
       }
     },
     {
@@ -1861,14 +1780,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 99.21,
-        "90d": 97.14,
-        "1y": 97.23
+        "24h": 100.0,
+        "30d": 99.2,
+        "90d": 97.22,
+        "1y": 97.24
       }
     },
     {
@@ -1884,17 +1803,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.31,
-        "90d": 98.54,
+        "30d": 97.45,
+        "90d": 98.56,
         "1y": 98.54
       }
     },
@@ -1914,15 +1833,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 85.94,
-        "90d": 90.22,
-        "1y": 90.54
+        "24h": 90.91,
+        "30d": 85.81,
+        "90d": 90.19,
+        "1y": 90.56
+      }
+    },
+    {
+      "ip": "202.87.214.253",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KIS",
+      "domain": "ns2.kisvn.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.56,
+        "90d": 99.5,
+        "1y": 99.55
       }
     },
     {
@@ -1941,15 +1887,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 81.04,
-        "90d": 75.37,
-        "1y": 75.51
+        "24h": 81.82,
+        "30d": 80.86,
+        "90d": 75.29,
+        "1y": 75.56
       }
     },
     {
@@ -1974,279 +1920,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.74,
+        "30d": 98.72,
         "90d": 94.91,
-        "1y": 95.39
-      }
-    },
-    {
-      "ip": "42.116.255.185",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.68,
-        "90d": 99.37,
-        "1y": 99.26
-      }
-    },
-    {
-      "ip": "203.209.181.154",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "HTC International telecommunication joint stock company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 66.67,
-        "90d": 65.88,
-        "1y": 66.52
-      }
-    },
-    {
-      "ip": "202.87.213.253",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "KIS",
-      "domain": "ns1.kisvn.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.05,
-        "90d": 98.41,
-        "1y": 97.64
-      }
-    },
-    {
-      "ip": "210.245.21.102",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 96.05,
-        "90d": 95.65,
-        "1y": 95.81
-      }
-    },
-    {
-      "ip": "14.225.246.17",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "VNPT",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.21,
-        "90d": 99.33,
-        "1y": 99.17
-      }
-    },
-    {
-      "ip": "42.116.255.183",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.53,
-        "90d": 99.33,
-        "1y": 99.2
-      }
-    },
-    {
-      "ip": "222.252.14.239",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Hanoi Post and Telecom Company",
-      "domain": "static.vnpt-hanoi.com.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 82.62,
-        "90d": 69.41,
-        "1y": 71.07
-      }
-    },
-    {
-      "ip": "42.116.255.178",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.37,
-        "90d": 99.4,
-        "1y": 99.32
-      }
-    },
-    {
-      "ip": "42.116.255.181",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.68,
-        "90d": 99.43,
-        "1y": 99.32
-      }
-    },
-    {
-      "ip": "42.116.255.179",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.53,
-        "90d": 99.23,
-        "1y": 99.14
+        "1y": 95.4
       }
     },
     {
@@ -2265,7 +1941,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -2274,141 +1950,6 @@
         "30d": 99.68,
         "90d": 99.43,
         "1y": 99.35
-      }
-    },
-    {
-      "ip": "103.137.156.3",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam News Agency",
-      "domain": "ns3.vnanet.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.94,
-        "90d": 95.44,
-        "1y": 95.33
-      }
-    },
-    {
-      "ip": "113.160.226.179",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 55.77,
-        "90d": 45.19,
-        "1y": 46.17
-      }
-    },
-    {
-      "ip": "113.161.196.15",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.31,
-        "90d": 95.77,
-        "1y": 96.09
-      }
-    },
-    {
-      "ip": "103.109.39.79",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "No. 11",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.37,
-        "90d": 99.1,
-        "1y": 99.14
-      }
-    },
-    {
-      "ip": "1.52.147.168",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "FPTDYNAMICIP",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 48.19,
-        "90d": 18.78,
-        "1y": 17.17
       }
     },
     {
@@ -2428,24 +1969,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
-        "90d": 99.37,
-        "1y": 99.43
+        "30d": 99.52,
+        "90d": 99.36,
+        "1y": 99.44
       }
     },
     {
-      "ip": "103.28.37.218",
+      "ip": "118.69.157.184",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "NHANHOA",
+      "organization": "Vietnam Internet Network Information Center",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -2455,25 +1996,52 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 80.6,
-        "90d": 83.5,
-        "1y": 85.4
+        "24h": 72.73,
+        "30d": 44.41,
+        "90d": 29.46,
+        "1y": 29.21
       }
     },
     {
-      "ip": "118.69.226.29",
+      "ip": "103.109.39.79",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Vietnam Internet Network Information Center",
-      "domain": "118-69-226-29-static.hcm.fpt.vn",
+      "organization": "No. 11",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.36,
+        "90d": 99.1,
+        "1y": 99.14
+      }
+    },
+    {
+      "ip": "14.225.246.17",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "VNPT",
+      "domain": "static.vnpt.vn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2483,13 +2051,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.2,
+        "90d": 99.33,
+        "1y": 99.17
+      }
+    },
+    {
+      "ip": "14.238.96.162",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.74,
-        "90d": 97.76,
-        "1y": 97.94
+        "30d": 98.08,
+        "90d": 97.22,
+        "1y": 97.18
       }
     },
     {
@@ -2509,13 +2104,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.21,
-        "90d": 98.84,
+        "30d": 99.2,
+        "90d": 98.83,
         "1y": 98.78
       }
     },
@@ -2536,14 +2131,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.21,
-        "90d": 97.3,
-        "1y": 97.41
+        "30d": 90.11,
+        "90d": 97.29,
+        "1y": 97.42
+      }
+    },
+    {
+      "ip": "103.239.32.81",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "VINACOMIN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 90.43,
+        "90d": 71.73,
+        "1y": 68.81
       }
     },
     {
@@ -2562,31 +2184,112 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.36,
+        "90d": 97.52,
+        "1y": 97.71
+      }
+    },
+    {
+      "ip": "14.241.35.56",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.37,
-        "90d": 97.54,
-        "1y": 97.71
+        "30d": 85.46,
+        "90d": 94.47,
+        "1y": 94.71
       }
     },
     {
-      "ip": "45.125.208.8",
+      "ip": "113.162.247.163",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "MOBIFONEGLOBAL",
-      "domain": "ns1.mobifoneglobal.vn",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "dynamic.vdc.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 66.27,
+        "90d": 85.29,
+        "1y": 85.71
+      }
+    },
+    {
+      "ip": "123.24.206.120",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 86.1,
+        "90d": 86.07,
+        "1y": 85.44
+      }
+    },
+    {
+      "ip": "123.30.175.83",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "coccoc.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -2595,25 +2298,79 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.31,
-        "90d": 88.08,
-        "1y": 88.87
+        "30d": 96.96,
+        "90d": 98.73,
+        "1y": 98.63
       }
     },
     {
-      "ip": "120.72.85.167",
+      "ip": "116.118.119.167",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Quang Trung Software City Development Company Limited",
+      "organization": "SPT",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.17,
+        "90d": 98.03,
+        "1y": 98.2
+      }
+    },
+    {
+      "ip": "123.30.175.82",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "coccoc.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.76,
+        "90d": 98.89,
+        "1y": 98.75
+      }
+    },
+    {
+      "ip": "14.224.129.15",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -2621,14 +2378,68 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 89.57,
-        "90d": 89.05,
-        "1y": 89.97
+        "24h": 81.82,
+        "30d": 75.88,
+        "90d": 63.66,
+        "1y": 64.27
       }
     },
     {
-      "ip": "118.69.109.45",
+      "ip": "125.235.11.66",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "xDSL Services",
+      "domain": "125.235.11.66.adsl.viettel.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.52,
+        "90d": 98.89,
+        "1y": 98.9
+      }
+    },
+    {
+      "ip": "103.28.37.218",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NHANHOA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 81.06,
+        "90d": 83.38,
+        "1y": 85.44
+      }
+    },
+    {
+      "ip": "210.245.8.9",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
@@ -2640,7 +2451,169 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 70.62,
+        "90d": 77.19,
+        "1y": 76.86
+      }
+    },
+    {
+      "ip": "125.234.121.6",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "xDSL Services",
+      "domain": "125.234.121.6.hcm.viettel.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.88,
+        "90d": 97.86,
+        "1y": 97.84
+      }
+    },
+    {
+      "ip": "113.161.18.44",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 85.86,
+        "90d": 91.89,
+        "1y": 91.88
+      }
+    },
+    {
+      "ip": "1.53.19.37",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.36,
+        "90d": 67.19,
+        "1y": 64.04
+      }
+    },
+    {
+      "ip": "210.245.21.123",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.37,
+        "90d": 95.45,
+        "1y": 95.67
+      }
+    },
+    {
+      "ip": "103.160.248.45",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Gialai",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 54.55,
+        "30d": 94.9,
+        "90d": 95.05,
+        "1y": 94.45
+      }
+    },
+    {
+      "ip": "27.72.58.161",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Newass2011xDSLHN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -2648,21 +2621,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 93.08,
-        "90d": 97.82,
-        "1y": 97.94
+        "24h": 45.45,
+        "30d": 48.42,
+        "90d": 24.35,
+        "1y": 22.89
       }
     },
     {
-      "ip": "49.156.53.166",
+      "ip": "115.73.220.183",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "DSP",
-      "domain": null,
+      "organization": "VIETELmetro",
+      "domain": "adsl.viettel.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 80.07,
+        "90d": 84.84,
+        "1y": 85.96
+      }
+    },
+    {
+      "ip": "210.245.87.16",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": "ns1.vmms.vn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2672,13 +2672,94 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 55.68,
+        "90d": 59.22,
+        "1y": 60.43
+      }
+    },
+    {
+      "ip": "113.160.155.57",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 72.2,
+        "90d": 58.93,
+        "1y": 58.95
+      }
+    },
+    {
+      "ip": "118.69.197.82",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": "mail.vuthao.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 98.98,
+        "90d": 94.13,
+        "1y": 94.76
+      }
+    },
+    {
+      "ip": "113.190.242.181",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": "static.vnpt.vn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 89.19,
-        "90d": 69.84,
-        "1y": 72.88
+        "24h": 100.0,
+        "30d": 98.41,
+        "90d": 97.77,
+        "1y": 97.77
       }
     },
     {
@@ -2704,19 +2785,73 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.84,
-        "90d": 98.44,
+        "90d": 98.43,
         "1y": 98.56
       }
     },
     {
-      "ip": "125.234.121.6",
+      "ip": "49.156.53.166",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "xDSL Services",
-      "domain": "125.234.121.6.hcm.viettel.vn",
+      "organization": "DSP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 89.81,
+        "90d": 69.59,
+        "1y": 72.95
+      }
+    },
+    {
+      "ip": "118.69.109.45",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Internet Network Information Center",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.98,
+        "90d": 97.81,
+        "1y": 97.94
+      }
+    },
+    {
+      "ip": "14.177.236.212",
+      "version": 4,
+      "country_code": "vn",
+      "country": "Vietnam",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Vietnam Posts and Telecommunications Group",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2730,24 +2865,24 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.9,
-        "90d": 97.87,
-        "1y": 97.84
+        "30d": 71.01,
+        "90d": 77.54,
+        "1y": 80.17
       }
     },
     {
-      "ip": "113.190.242.181",
+      "ip": "116.100.88.123",
       "version": 4,
       "country_code": "vn",
       "country": "Vietnam",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Vietnam Posts and Telecommunications Group",
-      "domain": "static.vnpt.vn",
+      "organization": "VIETTEL",
+      "domain": "dynamic-ip-adsl.viettel.vn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -2757,36 +2892,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.42,
-        "90d": 97.76,
-        "1y": 97.76
-      }
-    },
-    {
-      "ip": "27.72.58.161",
-      "version": 4,
-      "country_code": "vn",
-      "country": "Vietnam",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Newass2011xDSLHN",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 48.53,
-        "90d": 24.26,
-        "1y": 22.81
+        "30d": 99.84,
+        "90d": 96.26,
+        "1y": 96.67
       }
     }
   ]

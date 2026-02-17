@@ -4,35 +4,35 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-16T18:09:40Z",
+    "generated_at": "2026-02-17T06:28:49Z",
     "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "2.56.220.2",
+      "ip": "92.223.105.162",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "G-Core Labs S.A",
-      "domain": null,
+      "organization": "GCL",
+      "domain": "lux.1c1g",
       "trusted": false,
-      "anycast": true,
+      "anycast": false,
       "dnssec": {
         "aware": true,
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "30d": 85.46,
+        "90d": 88.21,
+        "1y": 88.95
       }
     },
     {
@@ -52,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -63,16 +63,16 @@
       }
     },
     {
-      "ip": "92.223.105.162",
+      "ip": "2.56.220.2",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
+      "organization": "G-Core Labs S.A",
+      "domain": null,
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
         "aware": true,
         "validating": true
@@ -83,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 85.62,
-        "90d": 88.28,
-        "1y": 88.93
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.37,
-        "90d": 96.7,
-        "1y": 97.05
+        "30d": 99.36,
+        "90d": 96.68,
+        "1y": 97.06
       }
     }
   ]

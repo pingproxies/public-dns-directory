@@ -4,37 +4,10 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-16T18:09:40Z",
+    "generated_at": "2026-02-17T06:28:49Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "41.216.125.179",
-      "version": 4,
-      "country_code": "zw",
-      "country": "Zimbabwe",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Liquid Zimbabwe",
-      "domain": "41.216.125.179.liquidtelecom.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.84,
-        "90d": 99.9,
-        "1y": 99.82
-      }
-    },
     {
       "ip": "196.27.106.21",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.36,
-        "90d": 89.15,
-        "1y": 89.43
+        "30d": 84.69,
+        "90d": 89.09,
+        "1y": 89.45
       }
     },
     {
@@ -84,9 +57,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.83,
-        "90d": 89.68,
-        "1y": 90.68
+        "30d": 96.06,
+        "90d": 89.62,
+        "1y": 90.7
+      }
+    },
+    {
+      "ip": "41.216.125.179",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Zimbabwe",
+      "domain": "41.216.125.179.liquidtelecom.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.84,
+        "90d": 99.9,
+        "1y": 99.82
       }
     }
   ]

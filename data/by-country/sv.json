@@ -4,7 +4,7 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-16T18:09:40Z",
+    "generated_at": "2026-02-17T06:28:49Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -20,7 +20,34 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 83.89,
+        "90d": 80.05,
+        "1y": 80.52
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telcom.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -29,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 84.04,
-        "90d": 80.07,
-        "1y": 80.48
+        "24h": 100.0,
+        "30d": 98.56,
+        "90d": 99.1,
+        "1y": 99.14
       }
     },
     {
@@ -53,12 +80,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.84,
-        "90d": 98.29,
+        "90d": 98.28,
         "1y": 98.48
       }
     },
@@ -83,37 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 87.05,
-        "90d": 82.75,
-        "1y": 83.4
-      }
-    },
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telcom.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.58,
-        "90d": 99.1,
-        "1y": 99.14
+        "24h": 90.91,
+        "30d": 86.92,
+        "90d": 82.66,
+        "1y": 83.43
       }
     }
   ]

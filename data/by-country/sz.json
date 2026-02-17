@@ -4,37 +4,10 @@
     "country_name": "Eswatini",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-16T18:09:40Z",
+    "generated_at": "2026-02-17T06:28:49Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "69.63.64.12",
-      "version": 4,
-      "country_code": "sz",
-      "country": "Eswatini",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Eswatini PTC - corporate",
-      "domain": "nms.swazi.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 92.1,
-        "90d": 97.54,
-        "1y": 97.77
-      }
-    },
     {
       "ip": "69.63.73.234",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 50.55,
-        "90d": 29.55,
-        "1y": 28.48
+        "24h": 90.91,
+        "30d": 51.44,
+        "90d": 29.84,
+        "1y": 28.6
       }
     },
     {
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 85.31,
-        "90d": 90.83,
-        "1y": 90.83
+        "24h": 81.82,
+        "30d": 85.17,
+        "90d": 90.87,
+        "1y": 90.87
+      }
+    },
+    {
+      "ip": "69.63.64.12",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": "nms.swazi.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 91.87,
+        "90d": 97.49,
+        "1y": 97.74
       }
     }
   ]
