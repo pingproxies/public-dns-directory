@@ -4,10 +4,37 @@
     "country_name": "Paraguay",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-02-18T06:30:54Z",
-    "total_servers": 17
+    "generated_at": "2026-02-18T18:12:27Z",
+    "total_servers": 16
   },
   "resolvers": [
+    {
+      "ip": "201.217.57.148",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "COMPAÑIA PARAGUAYA DE COMUNICACIONES S.A. (COPACO S.A.)",
+      "domain": "mail.gpssa.com.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 99.01,
+        "90d": 97.82,
+        "1y": 97.99
+      }
+    },
     {
       "ip": "200.108.131.206",
       "version": 4,
@@ -21,153 +48,72 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 69.23,
-        "90d": 68.71,
-        "1y": 69.88
-      }
-    },
-    {
-      "ip": "190.128.224.236",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Tigo",
-      "domain": "mail.glt-csc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 36.36,
-        "30d": 30.02,
-        "90d": 18.05,
-        "1y": 16.56
-      }
-    },
-    {
-      "ip": "181.94.247.163",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Núcleo S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 74.35,
-        "90d": 56.13,
-        "1y": 52.57
-      }
-    },
-    {
-      "ip": "190.104.134.90",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Núcleo S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.82,
-        "30d": 59.31,
-        "90d": 49.35,
-        "1y": 49.61
-      }
-    },
-    {
-      "ip": "143.255.141.36",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "GIG@NET SOCIEDAD ANONIMA",
-      "domain": "143-255-141-36.giganet.net.py",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.43,
-        "90d": 96.43,
-        "1y": 96.43
-      }
-    },
-    {
-      "ip": "201.222.52.6",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "TECNOLOGIA EN ELECTRONICA E INFORMATICA SOCIEDAD ANONIMA (T.E.I.S.A)",
-      "domain": "mail.britam.com.py",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 69.37,
+        "90d": 68.5,
+        "1y": 69.88
+      }
+    },
+    {
+      "ip": "190.104.173.150",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Núcleo S.A",
+      "domain": "host-150.personal.com.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.35,
-        "90d": 99.15,
-        "1y": 99.2
+        "24h": 80.0,
+        "30d": 73.72,
+        "90d": 55.43,
+        "1y": 55.99
+      }
+    },
+    {
+      "ip": "170.83.240.248",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Ufinet Paraguay S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 56.34,
+        "90d": 36.81,
+        "1y": 38.76
       }
     },
     {
@@ -188,82 +134,28 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 51.61,
-        "90d": 16.75,
-        "1y": 14.88
+        "30d": 54.55,
+        "90d": 18.56,
+        "1y": 16.44
       }
     },
     {
-      "ip": "181.40.92.86",
+      "ip": "200.10.231.110",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Telecel S.A",
-      "domain": "static-86-92-40-181.telecel.com.py",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 72.22,
-        "90d": 50.1,
-        "1y": 51.17
-      }
-    },
-    {
-      "ip": "200.108.139.254",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "E-life Paraguay S.A",
+      "organization": "Centro Nacional de Computacion",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 72.71,
-        "90d": 57.79,
-        "1y": 59.34
-      }
-    },
-    {
-      "ip": "190.128.214.90",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Telecel S.A",
-      "domain": "pool-90-214-128-190.telecel.com.py",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -272,21 +164,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 84.64,
-        "90d": 57.69,
-        "1y": 56.88
+        "24h": 60.0,
+        "30d": 88.21,
+        "90d": 95.98,
+        "1y": 96.38
       }
     },
     {
-      "ip": "143.255.140.162",
+      "ip": "45.180.114.21",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "GIG@NET SOCIEDAD ANONIMA",
-      "domain": "143-255-140-162.giganet.net.py",
+      "organization": "Liz Carolina Zavala Martinez (Link Telecomunicaciones)",
+      "domain": "45-180-114-21.link.com.py",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -296,24 +188,51 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 38.6,
-        "90d": 11.89,
-        "1y": 10.53
+        "24h": 70.0,
+        "30d": 71.11,
+        "90d": 75.59,
+        "1y": 75.59
       }
     },
     {
-      "ip": "190.128.225.58",
+      "ip": "190.104.134.90",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Núcleo S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 60.17,
+        "90d": 49.29,
+        "1y": 49.67
+      }
+    },
+    {
+      "ip": "200.85.61.90",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
       "organization": "Telecel S.A",
-      "domain": "mail.victoria.com.py",
+      "domain": "mail.ss7solutions.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -323,40 +242,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 80.94,
-        "90d": 86.53,
-        "1y": 86.81
-      }
-    },
-    {
-      "ip": "190.128.224.237",
-      "version": 4,
-      "country_code": "py",
-      "country": "Paraguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Tigo",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 30.94,
-        "90d": 21.05,
-        "1y": 18.88
+        "24h": 80.0,
+        "30d": 75.37,
+        "90d": 79.33,
+        "1y": 79.96
       }
     },
     {
@@ -381,19 +273,19 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 60.49,
-        "90d": 73.39,
-        "1y": 73.26
+        "30d": 60.95,
+        "90d": 73.33,
+        "1y": 73.3
       }
     },
     {
-      "ip": "170.83.240.248",
+      "ip": "190.128.224.237",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Ufinet Paraguay S.A",
+      "organization": "Tigo",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -407,21 +299,48 @@
         "adult": true
       },
       "uptime": {
-        "24h": 36.36,
-        "30d": 56.32,
-        "90d": 36.82,
-        "1y": 38.73
+        "24h": 60.0,
+        "30d": 30.8,
+        "90d": 21.25,
+        "1y": 18.93
       }
     },
     {
-      "ip": "181.40.122.102",
+      "ip": "201.222.52.6",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Telecel S.A",
-      "domain": "static-102-122-40-181.telecel.com.py",
+      "organization": "TECNOLOGIA EN ELECTRONICA E INFORMATICA SOCIEDAD ANONIMA (T.E.I.S.A)",
+      "domain": "mail.britam.com.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.34,
+        "90d": 99.15,
+        "1y": 99.2
+      }
+    },
+    {
+      "ip": "190.104.168.155",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Núcleo S.A",
+      "domain": "host-155.personal.net.py",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -429,26 +348,80 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 64.38,
-        "90d": 51.81,
-        "1y": 49.69
+        "24h": 30.0,
+        "30d": 50.27,
+        "90d": 51.95,
+        "1y": 49.45
       }
     },
     {
-      "ip": "190.104.173.150",
+      "ip": "143.255.140.162",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Núcleo S.A",
-      "domain": "host-150.personal.com.py",
+      "organization": "GIG@NET SOCIEDAD ANONIMA",
+      "domain": "143-255-140-162.giganet.net.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 43.33,
+        "90d": 13.83,
+        "1y": 12.21
+      }
+    },
+    {
+      "ip": "190.52.135.140",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "COMPAÑIA PARAGUAYA DE COMUNICACIONES S.A. (COPACO S.A.)",
+      "domain": "host-140.135.52.190.copaco.com.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 80.3,
+        "90d": 79.17,
+        "1y": 78.92
+      }
+    },
+    {
+      "ip": "190.128.225.58",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telecel S.A",
+      "domain": "mail.victoria.com.py",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -461,10 +434,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 73.37,
-        "90d": 55.52,
-        "1y": 55.93
+        "24h": 90.0,
+        "30d": 80.48,
+        "90d": 86.4,
+        "1y": 86.8
       }
     }
   ]

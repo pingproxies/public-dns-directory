@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-18T06:30:54Z",
+    "generated_at": "2026-02-18T18:12:27Z",
     "total_servers": 11
   },
   "resolvers": [
@@ -31,8 +31,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.15,
-        "1y": 97.53
+        "90d": 97.13,
+        "1y": 97.54
       }
     },
     {
@@ -57,8 +57,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.31,
-        "90d": 96.14,
+        "30d": 98.32,
+        "90d": 96.11,
         "1y": 96.69
       }
     },
@@ -75,18 +75,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.5,
+        "90d": 89.68,
+        "1y": 90.58
+      }
+    },
+    {
+      "ip": "194.225.152.10",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "IPM/Iranet",
+      "domain": "ns1.iranet.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.2,
-        "90d": 89.75,
-        "1y": 90.57
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -106,13 +133,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 97.19,
+        "90d": 97.16,
         "1y": 97.57
       }
     },
@@ -134,40 +161,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.95,
-        "90d": 92.13,
-        "1y": 92.72
-      }
-    },
-    {
-      "ip": "81.91.144.116",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.57,
-        "90d": 58.99,
-        "1y": 57.98
+        "30d": 82.32,
+        "90d": 92.07,
+        "1y": 92.73
       }
     },
     {
@@ -186,69 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.48,
-        "90d": 92.77,
-        "1y": 93.77
-      }
-    },
-    {
-      "ip": "213.176.123.5",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iranian Research Organization Science & Technology",
-      "domain": "dns.irost.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.27,
-        "90d": 68.77,
-        "1y": 65.99
-      }
-    },
-    {
-      "ip": "194.225.152.10",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "IPM/Iranet",
-      "domain": "ns1.iranet.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "30d": 90.55,
+        "90d": 92.72,
+        "1y": 93.78
       }
     },
     {
@@ -269,13 +215,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.92,
-        "90d": 95.05,
-        "1y": 95.56
+        "30d": 96.53,
+        "90d": 95.02,
+        "1y": 95.57
       }
     },
     {
@@ -296,13 +242,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.71,
+        "90d": 97.92,
+        "1y": 98.2
+      }
+    },
+    {
+      "ip": "213.176.123.5",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iranian Research Organization Science & Technology",
+      "domain": "dns.irost.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.32,
+        "90d": 69.23,
+        "1y": 66.22
+      }
+    },
+    {
+      "ip": "81.91.144.116",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Tose'h Fanavari Ertebabat Pasargad Arian Co. PJS",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.61,
-        "90d": 97.93,
-        "1y": 98.19
+        "30d": 92.87,
+        "90d": 59.18,
+        "1y": 58.13
       }
     }
   ]

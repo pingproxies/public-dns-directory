@@ -4,8 +4,8 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-18T06:30:54Z",
-    "total_servers": 6
+    "generated_at": "2026-02-18T18:12:27Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 54.55,
-        "30d": 64.22,
-        "90d": 46.06,
-        "1y": 47.95
+        "24h": 80.0,
+        "30d": 64.3,
+        "90d": 46.25,
+        "1y": 48.02
       }
     },
     {
@@ -57,8 +57,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.18,
-        "90d": 98.2,
+        "30d": 99.5,
+        "90d": 98.23,
         "1y": 98.37
       }
     },
@@ -78,69 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 45.22,
-        "90d": 64.75,
-        "1y": 67.45
-      }
-    },
-    {
-      "ip": "86.43.125.181",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Eircom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 63.64,
-        "30d": 62.77,
-        "90d": 44.44,
-        "1y": 45.09
-      }
-    },
-    {
-      "ip": "194.125.133.10",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "INDIGO",
-      "domain": "ann.indigo.ie",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.84,
-        "90d": 99.93,
-        "1y": 99.94
+        "30d": 45.9,
+        "90d": 64.42,
+        "1y": 67.51
       }
     },
     {
@@ -164,10 +110,118 @@
         "adult": false
       },
       "uptime": {
+        "24h": 90.0,
+        "30d": 90.08,
+        "90d": 94.82,
+        "1y": 95.09
+      }
+    },
+    {
+      "ip": "86.47.80.46",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 42.32,
+        "90d": 63.57,
+        "1y": 66.82
+      }
+    },
+    {
+      "ip": "95.45.222.78",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 90.18,
-        "90d": 94.85,
-        "1y": 95.12
+        "30d": 42.32,
+        "90d": 63.37,
+        "1y": 66.41
+      }
+    },
+    {
+      "ip": "86.43.125.181",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 63.04,
+        "90d": 44.61,
+        "1y": 45.16
+      }
+    },
+    {
+      "ip": "194.125.133.10",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "INDIGO",
+      "domain": "ann.indigo.ie",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.83,
+        "90d": 99.93,
+        "1y": 99.94
       }
     }
   ]

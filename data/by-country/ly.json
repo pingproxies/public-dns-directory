@@ -4,10 +4,37 @@
     "country_name": "Libya",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-18T06:30:54Z",
-    "total_servers": 4
+    "generated_at": "2026-02-18T18:12:27Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "165.16.116.172",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Libya International Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 20.0,
+        "30d": 48.94,
+        "90d": 57.69,
+        "1y": 55.66
+      }
+    },
     {
       "ip": "165.16.68.1",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.4,
-        "90d": 88.24,
-        "1y": 88.37
+        "30d": 88.43,
+        "90d": 88.62,
+        "1y": 88.38
       }
     },
     {
@@ -48,45 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.89,
-        "90d": 77.23,
-        "1y": 77.33
-      }
-    },
-    {
-      "ip": "165.16.68.129",
-      "version": 4,
-      "country_code": "ly",
-      "country": "Libya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Organisation: Libya International Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 72.71,
-        "90d": 50.53,
-        "1y": 50.4
+        "30d": 89.09,
+        "90d": 77.68,
+        "1y": 77.36
       }
     },
     {
@@ -105,15 +105,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 68.54,
+        "90d": 68.8,
+        "1y": 67.04
+      }
+    },
+    {
+      "ip": "165.16.68.129",
+      "version": 4,
+      "country_code": "ly",
+      "country": "Libya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Organisation: Libya International Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 63.64,
-        "30d": 67.92,
-        "90d": 68.61,
-        "1y": 67.0
+        "24h": 70.0,
+        "30d": 73.06,
+        "90d": 50.58,
+        "1y": 50.46
       }
     }
   ]
