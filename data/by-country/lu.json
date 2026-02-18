@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-17T18:15:52Z",
+    "generated_at": "2026-02-18T06:30:54Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -20,19 +20,46 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 84.64,
+        "90d": 87.97,
+        "1y": 88.9
+      }
+    },
+    {
+      "ip": "107.189.31.10",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BuyVM",
+      "domain": "mail.denshi.org",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 85.0,
-        "90d": 88.08,
-        "1y": 88.91
+        "24h": 100.0,
+        "30d": 99.51,
+        "90d": 96.64,
+        "1y": 97.07
       }
     },
     {
@@ -60,33 +87,6 @@
         "30d": 99.84,
         "90d": 99.93,
         "1y": 99.94
-      }
-    },
-    {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.52,
-        "90d": 96.66,
-        "1y": 97.06
       }
     },
     {

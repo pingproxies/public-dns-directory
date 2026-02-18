@@ -4,10 +4,37 @@
     "country_name": "Malta",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-17T18:15:52Z",
-    "total_servers": 2
+    "generated_at": "2026-02-18T06:30:54Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "84.255.30.153",
+      "version": 4,
+      "country_code": "mt",
+      "country": "Malta",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Melita plc",
+      "domain": "c30-153.i04-8.onvol.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 77.25,
+        "90d": 70.68,
+        "1y": 69.96
+      }
+    },
     {
       "ip": "213.165.179.36",
       "version": 4,
@@ -26,13 +53,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.08,
-        "90d": 87.89,
-        "1y": 87.89
+        "30d": 77.27,
+        "90d": 87.93,
+        "1y": 87.93
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 82.74,
-        "90d": 77.41,
-        "1y": 78.74
+        "24h": 81.82,
+        "30d": 82.35,
+        "90d": 77.24,
+        "1y": 78.75
       }
     }
   ]
