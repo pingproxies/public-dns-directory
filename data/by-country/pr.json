@@ -4,8 +4,8 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-18T18:12:27Z",
-    "total_servers": 5
+    "generated_at": "2026-02-19T06:29:56Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -30,36 +30,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.53,
-        "90d": 97.85,
+        "30d": 96.48,
+        "90d": 97.84,
         "1y": 98.08
       }
     },
     {
-      "ip": "162.251.158.88",
+      "ip": "74.120.29.129",
       "version": 4,
       "country_code": "pr",
       "country": "Puerto Rico",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Smart Networks, LLC",
+      "organization": "IP SOLUTIONS, INC.",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 89.4,
-        "90d": 85.2,
-        "1y": 86.76
+        "24h": 0.0,
+        "30d": 12.02,
+        "90d": 17.19,
+        "1y": 15.9
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.72,
-        "90d": 95.64,
-        "1y": 93.88
+        "30d": 93.96,
+        "90d": 95.61,
+        "1y": 93.89
       }
     },
     {
@@ -102,45 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 66.78,
-        "90d": 44.91,
-        "1y": 43.16
-      }
-    },
-    {
-      "ip": "199.116.57.181",
-      "version": 4,
-      "country_code": "pr",
-      "country": "Puerto Rico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "IP SOLUTIONS, INC",
-      "domain": "199-116-57-181.ip-solutions.us",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 10.09,
-        "90d": 14.23,
-        "1y": 14.17
+        "24h": 88.89,
+        "30d": 66.72,
+        "90d": 45.06,
+        "1y": 43.23
       }
     }
   ]

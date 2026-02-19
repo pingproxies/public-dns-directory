@@ -4,8 +4,8 @@
     "country_name": "New Zealand",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-02-18T18:12:27Z",
-    "total_servers": 4
+    "generated_at": "2026-02-19T06:29:56Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.63,
+        "90d": 97.33,
+        "1y": 97.58
+      }
+    },
+    {
+      "ip": "103.22.245.50",
+      "version": 4,
+      "country_code": "nz",
+      "country": "New Zealand",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "MNT",
+      "domain": "103-22-245-50.mintcom.ms",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.71,
-        "90d": 97.34,
-        "1y": 97.58
+        "30d": 97.82,
+        "90d": 98.52,
+        "1y": 98.7
       }
     },
     {
@@ -52,68 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.34,
-        "90d": 95.23,
-        "1y": 95.68
-      }
-    },
-    {
-      "ip": "103.22.245.50",
-      "version": 4,
-      "country_code": "nz",
-      "country": "New Zealand",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "MNT",
-      "domain": "103-22-245-50.mintcom.ms",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.85,
-        "90d": 98.53,
-        "1y": 98.7
-      }
-    },
-    {
-      "ip": "203.86.200.253",
-      "version": 4,
-      "country_code": "nz",
-      "country": "New Zealand",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "Tasman Solutions Ltd",
-      "domain": "email.techsystems.net.nz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 91.23,
-        "90d": 87.73,
-        "1y": 86.95
+        "30d": 99.33,
+        "90d": 95.2,
+        "1y": 95.69
       }
     }
   ]
