@@ -4,19 +4,46 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-19T06:29:56Z",
-    "total_servers": 3
+    "generated_at": "2026-02-19T18:15:15Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "196.43.199.61",
+      "ip": "196.27.106.21",
       "version": 4,
       "country_code": "zw",
       "country": "Zimbabwe",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Zimbabwe Open University",
-      "domain": "z0udns1.zou.ac.zw",
+      "organization": "ZOL-AFRCOM",
+      "domain": "521243.customer.zol.co.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 84.84,
+        "90d": 89.14,
+        "1y": 89.44
+      }
+    },
+    {
+      "ip": "41.174.182.214",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 83.53,
-        "90d": 84.49,
-        "1y": 78.31
+        "24h": 62.5,
+        "30d": 58.4,
+        "90d": 64.58,
+        "1y": 67.96
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 95.81,
-        "90d": 89.57,
-        "1y": 90.73
+        "24h": 100.0,
+        "30d": 95.74,
+        "90d": 89.54,
+        "1y": 90.74
       }
     }
   ]

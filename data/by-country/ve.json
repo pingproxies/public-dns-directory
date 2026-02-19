@@ -4,7 +4,7 @@
     "country_name": "Venezuela",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-02-19T06:29:56Z",
+    "generated_at": "2026-02-19T18:15:15Z",
     "total_servers": 8
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.11,
-        "90d": 92.81,
-        "1y": 92.65
+        "30d": 90.99,
+        "90d": 92.77,
+        "1y": 92.66
       }
     },
     {
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.82,
+        "30d": 97.79,
         "90d": 98.9,
         "1y": 98.58
-      }
-    },
-    {
-      "ip": "190.6.31.100",
-      "version": 4,
-      "country_code": "ve",
-      "country": "Venezuela",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Net Uno, C.A",
-      "domain": "host-190-6-31-100.NET-UNO.NET",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 82.55,
-        "90d": 69.94,
-        "1y": 71.02
       }
     },
     {
@@ -111,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.66,
-        "90d": 99.25,
+        "30d": 98.64,
+        "90d": 99.24,
         "1y": 99.23
       }
     },
@@ -133,41 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.79,
-        "90d": 35.98,
-        "1y": 32.33
-      }
-    },
-    {
-      "ip": "186.166.202.49",
-      "version": 4,
-      "country_code": "ve",
-      "country": "Venezuela",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "TELEFONICA VENEZOLANA, C.A",
-      "domain": "186-166-202-49.genericrev.telcel.net.ve",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.83,
-        "90d": 97.14,
-        "1y": 97.58
+        "30d": 78.26,
+        "90d": 37.19,
+        "1y": 33.33
       }
     },
     {
@@ -186,13 +132,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.32,
+        "30d": 97.27,
         "90d": 98.9,
         "1y": 98.7
       }
@@ -213,15 +159,69 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 73.21,
+        "90d": 64.76,
+        "1y": 62.77
+      }
+    },
+    {
+      "ip": "190.6.31.100",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Net Uno, C.A",
+      "domain": "host-190-6-31-100.NET-UNO.NET",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
         "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 82.65,
+        "90d": 69.79,
+        "1y": 71.06
+      }
+    },
+    {
+      "ip": "186.166.202.49",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "TELEFONICA VENEZOLANA, C.A",
+      "domain": "186-166-202-49.genericrev.telcel.net.ve",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 72.94,
-        "90d": 64.6,
-        "1y": 62.72
+        "24h": 100.0,
+        "30d": 99.83,
+        "90d": 97.12,
+        "1y": 97.58
       }
     }
   ]
