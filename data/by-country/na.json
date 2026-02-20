@@ -4,10 +4,37 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-19T18:15:15Z",
-    "total_servers": 3
+    "generated_at": "2026-02-20T06:26:41Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "41.63.244.89",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "DIA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 84.43,
+        "90d": 86.05,
+        "1y": 86.77
+      }
+    },
     {
       "ip": "41.218.90.154",
       "version": 4,
@@ -25,14 +52,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 98.26,
+        "90d": 97.91,
+        "1y": 97.97
+      }
+    },
+    {
+      "ip": "41.63.240.79",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MTC Netman",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.47,
-        "90d": 97.96,
-        "1y": 98.0
+        "24h": 42.86,
+        "30d": 66.9,
+        "90d": 62.38,
+        "1y": 62.65
+      }
+    },
+    {
+      "ip": "41.63.244.146",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "DIA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 61.11,
+        "90d": 62.07,
+        "1y": 61.51
       }
     },
     {
@@ -51,42 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 84.13,
-        "90d": 92.65,
-        "1y": 93.57
-      }
-    },
-    {
-      "ip": "41.63.244.89",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "DIA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.5,
-        "30d": 84.13,
-        "90d": 86.12,
-        "1y": 86.76
+        "24h": 85.71,
+        "30d": 84.08,
+        "90d": 92.61,
+        "1y": 93.58
       }
     }
   ]

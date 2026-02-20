@@ -4,8 +4,8 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-19T18:15:15Z",
-    "total_servers": 7
+    "generated_at": "2026-02-20T06:26:41Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -21,10 +21,10 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
@@ -33,6 +33,33 @@
         "30d": 100.0,
         "90d": 99.83,
         "1y": 99.85
+      }
+    },
+    {
+      "ip": "196.179.250.91",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 44.32,
+        "90d": 38.49,
+        "1y": 39.03
       }
     },
     {
@@ -58,62 +85,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.83,
-        "90d": 84.74,
-        "1y": 85.48
-      }
-    },
-    {
-      "ip": "196.203.125.133",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ATI - Agence Tunisienne Internet",
-      "domain": "ns3.cck.rnu.tn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.49,
-        "90d": 99.86,
-        "1y": 99.88
-      }
-    },
-    {
-      "ip": "41.231.62.166",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "OrangeTunisie",
-      "domain": "MAIL.NAFSHIP.COM",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 80.63,
-        "90d": 77.41,
-        "1y": 77.85
+        "90d": 84.64,
+        "1y": 85.49
       }
     },
     {
@@ -129,16 +102,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
+        "30d": 99.65,
         "90d": 99.69,
         "1y": 99.71
       }
@@ -159,15 +132,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.15,
-        "90d": 98.31,
+        "30d": 99.13,
+        "90d": 98.3,
         "1y": 98.47
+      }
+    },
+    {
+      "ip": "196.179.250.11",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 41.01,
+        "90d": 37.65,
+        "1y": 38.83
       }
     },
     {
@@ -191,10 +191,91 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 89.76,
-        "90d": 88.7,
-        "1y": 89.52
+        "24h": 100.0,
+        "30d": 89.62,
+        "90d": 88.63,
+        "1y": 89.53
+      }
+    },
+    {
+      "ip": "41.231.62.166",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "OrangeTunisie",
+      "domain": "MAIL.NAFSHIP.COM",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 80.25,
+        "90d": 77.24,
+        "1y": 77.87
+      }
+    },
+    {
+      "ip": "196.203.125.133",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ATI - Agence Tunisienne Internet",
+      "domain": "ns3.cck.rnu.tn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.48,
+        "90d": 99.86,
+        "1y": 99.88
+      }
+    },
+    {
+      "ip": "196.179.250.93",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 38.48,
+        "90d": 38.97,
+        "1y": 39.75
       }
     }
   ]

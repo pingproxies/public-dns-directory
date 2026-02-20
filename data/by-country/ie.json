@@ -4,8 +4,8 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-19T18:15:15Z",
-    "total_servers": 4
+    "generated_at": "2026-02-20T06:26:41Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 64.12,
-        "90d": 46.21,
-        "1y": 48.14
+        "24h": 100.0,
+        "30d": 64.47,
+        "90d": 46.1,
+        "1y": 48.2
       }
     },
     {
@@ -48,17 +48,17 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.49,
-        "90d": 98.24,
+        "30d": 99.48,
+        "90d": 98.23,
         "1y": 98.38
       }
     },
@@ -90,6 +90,60 @@
       }
     },
     {
+      "ip": "86.43.125.181",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 61.92,
+        "90d": 44.62,
+        "1y": 45.13
+      }
+    },
+    {
+      "ip": "95.45.222.78",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 38.57,
+        "90d": 61.8,
+        "1y": 66.25
+      }
+    },
+    {
       "ip": "78.155.252.220",
       "version": 4,
       "country_code": "ie",
@@ -106,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 89.61,
-        "90d": 94.72,
-        "1y": 95.05
+        "24h": 71.43,
+        "30d": 89.24,
+        "90d": 94.68,
+        "1y": 95.02
       }
     }
   ]
