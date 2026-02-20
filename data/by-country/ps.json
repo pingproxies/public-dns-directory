@@ -4,8 +4,8 @@
     "country_name": "Palestine",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-20T06:26:41Z",
-    "total_servers": 1
+    "generated_at": "2026-02-20T18:09:29Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 78.48,
+        "90d": 76.68,
+        "1y": 74.79
+      }
+    },
+    {
+      "ip": "213.6.20.57",
+      "version": 4,
+      "country_code": "ps",
+      "country": "Palestine",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Palestine Telecommunications Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 78.72,
-        "90d": 76.75,
-        "1y": 74.76
+        "24h": 83.33,
+        "30d": 78.48,
+        "90d": 55.87,
+        "1y": 54.31
       }
     }
   ]

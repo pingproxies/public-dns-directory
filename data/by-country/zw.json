@@ -4,10 +4,37 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-02-20T06:26:41Z",
-    "total_servers": 4
+    "generated_at": "2026-02-20T18:09:29Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "196.27.106.21",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ZOL-AFRCOM",
+      "domain": "521243.customer.zol.co.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 84.13,
+        "90d": 88.98,
+        "1y": 89.43
+      }
+    },
     {
       "ip": "41.174.182.214",
       "version": 4,
@@ -26,12 +53,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 59.28,
-        "90d": 64.6,
+        "24h": 85.71,
+        "30d": 59.03,
+        "90d": 64.37,
         "1y": 68.0
       }
     },
@@ -57,7 +84,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.83,
+        "30d": 99.82,
         "90d": 99.9,
         "1y": 99.82
       }
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.66,
-        "90d": 89.46,
-        "1y": 90.75
+        "30d": 95.6,
+        "90d": 89.47,
+        "1y": 90.76
       }
     },
     {
@@ -106,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 83.54,
-        "90d": 84.27,
-        "1y": 78.33
+        "24h": 100.0,
+        "30d": 83.6,
+        "90d": 84.23,
+        "1y": 78.35
       }
     }
   ]
