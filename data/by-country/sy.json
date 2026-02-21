@@ -4,18 +4,18 @@
     "country_name": "Syria",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-20T18:09:29Z",
-    "total_servers": 1
+    "generated_at": "2026-02-21T06:19:46Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "178.253.103.88",
+      "ip": "82.137.245.41",
       "version": 4,
       "country_code": "sy",
       "country": "Syria",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "190 Inetnet Service Provider",
+      "organization": "ISP-TARASSUL",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 72.32,
+        "90d": 73.21,
+        "1y": 73.67
+      }
+    },
+    {
+      "ip": "91.144.22.198",
+      "version": 4,
+      "country_code": "sy",
+      "country": "Syria",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "STE Public Data Network Backbone and LIR",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 80.25,
-        "90d": 68.1,
-        "1y": 65.37
+        "24h": 88.89,
+        "30d": 98.04,
+        "90d": 98.66,
+        "1y": 98.85
       }
     }
   ]

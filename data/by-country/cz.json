@@ -4,8 +4,8 @@
     "country_name": "Czechia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-20T18:09:29Z",
-    "total_servers": 59
+    "generated_at": "2026-02-21T06:19:46Z",
+    "total_servers": 63
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.88,
-        "90d": 99.58,
-        "1y": 99.41
+        "24h": 90.0,
+        "30d": 97.67,
+        "90d": 99.54,
+        "1y": 99.38
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.59,
-        "90d": 93.67,
-        "1y": 93.29
+        "30d": 97.32,
+        "90d": 93.81,
+        "1y": 93.31
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 57.14,
-        "30d": 50.55,
-        "90d": 38.48,
-        "1y": 41.6
+        "24h": 80.0,
+        "30d": 50.09,
+        "90d": 38.23,
+        "1y": 41.7
       }
     },
     {
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 55.03,
-        "90d": 39.12,
-        "1y": 38.85
+        "24h": 90.0,
+        "30d": 54.92,
+        "90d": 39.03,
+        "1y": 38.95
       }
     },
     {
@@ -132,7 +132,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -159,15 +159,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 64.61,
-        "90d": 48.46,
-        "1y": 50.43
+        "24h": 80.0,
+        "30d": 64.04,
+        "90d": 48.28,
+        "1y": 50.5
       }
     },
     {
@@ -187,13 +187,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.97,
+        "90d": 99.96,
         "1y": 99.97
       }
     },
@@ -213,13 +213,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.47,
+        "30d": 99.46,
         "90d": 99.86,
         "1y": 99.82
       }
@@ -241,14 +241,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 37.03,
-        "90d": 52.2,
-        "1y": 54.58
+        "24h": 60.0,
+        "30d": 37.28,
+        "90d": 52.07,
+        "1y": 54.61
       }
     },
     {
@@ -267,69 +267,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 71.43,
-        "90d": 82.37,
-        "1y": 84.21
-      }
-    },
-    {
-      "ip": "80.90.132.107",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nordictelecomregional",
-      "domain": "107-132-90-80.static.tkrnet.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 80.6,
-        "90d": 76.73,
-        "1y": 76.26
-      }
-    },
-    {
-      "ip": "80.87.187.82",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nordictelecomregional",
-      "domain": "80-87-187-82.static.oxid.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 90.3,
-        "90d": 94.05,
-        "1y": 94.65
+        "24h": 88.89,
+        "30d": 71.96,
+        "90d": 82.28,
+        "1y": 84.23
       }
     },
     {
@@ -348,42 +294,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 75.24,
-        "90d": 81.17,
-        "1y": 83.01
-      }
-    },
-    {
-      "ip": "80.87.190.198",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nordictelecomregional",
-      "domain": "mail.cisterny.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 60.67,
-        "90d": 61.93,
-        "1y": 65.74
+        "24h": 80.0,
+        "30d": 74.66,
+        "90d": 81.06,
+        "1y": 82.99
       }
     },
     {
@@ -402,15 +321,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 57.14,
-        "30d": 71.08,
-        "90d": 55.02,
-        "1y": 57.21
+        "24h": 44.44,
+        "30d": 70.18,
+        "90d": 54.76,
+        "1y": 57.19
+      }
+    },
+    {
+      "ip": "79.170.252.235",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CZ.MGI",
+      "domain": "79-170-252-235.cust.avonet.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 49.82,
+        "90d": 36.5,
+        "1y": 39.9
       }
     },
     {
@@ -441,6 +387,33 @@
       }
     },
     {
+      "ip": "91.187.59.84",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Nordictelecomregional",
+      "domain": "91-187-59-84.rno.o2.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 64.46,
+        "90d": 48.08,
+        "1y": 49.71
+      }
+    },
+    {
       "ip": "185.158.67.203",
       "version": 4,
       "country_code": "cz",
@@ -462,8 +435,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.65,
-        "90d": 99.9,
+        "30d": 99.64,
+        "90d": 99.89,
         "1y": 99.91
       }
     },
@@ -483,15 +456,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 72.66,
-        "90d": 60.65,
-        "1y": 62.1
+        "24h": 88.89,
+        "30d": 72.32,
+        "90d": 60.46,
+        "1y": 62.16
       }
     },
     {
@@ -512,13 +485,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 65.85,
-        "90d": 47.41,
-        "1y": 48.84
+        "30d": 65.83,
+        "90d": 47.12,
+        "1y": 48.94
       }
     },
     {
@@ -538,14 +511,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 80.42,
-        "90d": 62.95,
-        "1y": 66.72
+        "24h": 90.0,
+        "30d": 80.32,
+        "90d": 62.74,
+        "1y": 66.79
       }
     },
     {
@@ -564,15 +537,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 49.37,
+        "90d": 61.32,
+        "1y": 64.42
+      }
+    },
+    {
+      "ip": "141.170.141.189",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "4M Roznov spol. s r.o.",
+      "domain": "141-170-141-189.roznovan.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 48.85,
-        "90d": 61.36,
-        "1y": 64.43
+        "24h": 20.0,
+        "30d": 30.66,
+        "90d": 19.93,
+        "1y": 18.8
       }
     },
     {
@@ -592,25 +592,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.4,
-        "90d": 79.33,
-        "1y": 75.57
+        "90d": 79.65,
+        "1y": 75.79
       }
     },
     {
-      "ip": "78.80.47.119",
+      "ip": "176.12.122.226",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Tmcz Gpon",
-      "domain": "78-80-47-119.customers.tmcz.cz",
+      "organization": "Sauron CZ s.r.o",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -620,13 +620,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 67.14,
+        "90d": 40.95,
+        "1y": 40.14
+      }
+    },
+    {
+      "ip": "91.219.245.27",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "JABLONKA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 42.86,
-        "30d": 57.17,
-        "90d": 75.08,
-        "1y": 76.24
+        "24h": 70.0,
+        "30d": 78.66,
+        "90d": 83.46,
+        "1y": 82.97
       }
     },
     {
@@ -645,15 +672,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 80.6,
-        "90d": 66.08,
-        "1y": 69.9
+        "24h": 90.0,
+        "30d": 80.32,
+        "90d": 65.88,
+        "1y": 69.96
       }
     },
     {
@@ -677,37 +704,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.83,
-        "90d": 96.78,
-        "1y": 96.68
-      }
-    },
-    {
-      "ip": "82.144.139.147",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "KABELOVA TELEVIZE CZ s.r.o",
-      "domain": "147-139.gtt-net.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 57.32,
-        "90d": 69.95,
-        "1y": 71.26
+        "24h": 90.0,
+        "30d": 96.6,
+        "90d": 96.84,
+        "1y": 96.65
       }
     },
     {
@@ -726,53 +726,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 28.35,
-        "90d": 20.43,
-        "1y": 19.33
-      }
-    },
-    {
-      "ip": "176.102.137.49",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nordic Telecom Regional s.r.o",
-      "domain": "176-102-137-49.rno.o2.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 42.86,
-        "30d": 60.67,
-        "90d": 65.83,
-        "1y": 68.74
+        "30d": 27.73,
+        "90d": 20.35,
+        "1y": 19.35
       }
     },
     {
-      "ip": "212.67.71.84",
+      "ip": "91.223.74.126",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "M connections s.r.o.",
-      "domain": null,
+      "organization": "Alkom",
+      "domain": "alkom-126.profinet.cz",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -782,13 +755,121 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 77.32,
+        "90d": 78.8,
+        "1y": 78.95
+      }
+    },
+    {
+      "ip": "94.229.82.156",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MASTER IT Technologies",
+      "domain": "ip-94-229-82-156.masternet.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 65.78,
-        "90d": 70.56,
-        "1y": 73.29
+        "24h": 88.89,
+        "30d": 52.14,
+        "90d": 34.91,
+        "1y": 36.19
+      }
+    },
+    {
+      "ip": "91.134.159.109",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "OVH.CZ s.r.o",
+      "domain": "ip109.ip-91-134-159.eu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 96.25,
+        "90d": 93.64,
+        "1y": 94.3
+      }
+    },
+    {
+      "ip": "90.182.181.18",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "O2 Czech Republic",
+      "domain": "90-182-181-18.rcp.o2.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 76.92,
+        "90d": 80.14,
+        "1y": 80.22
+      }
+    },
+    {
+      "ip": "77.48.45.234",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TRIPLE SOLUTION s.r.o.",
+      "domain": "ip-77-48-45-234.net.vodafone.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 30.0,
+        "30d": 59.93,
+        "90d": 58.56,
+        "1y": 58.75
       }
     },
     {
@@ -807,15 +888,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 55.56,
+        "30d": 61.07,
+        "90d": 46.78,
+        "1y": 48.21
+      }
+    },
+    {
+      "ip": "77.93.193.202",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Shared VPS Master Internet s.r.o.",
+      "domain": "77-93-193-202.static.masterinter.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 62.26,
-        "90d": 46.97,
-        "1y": 48.24
+        "24h": 100.0,
+        "30d": 79.82,
+        "90d": 80.75,
+        "1y": 79.77
       }
     },
     {
@@ -841,7 +949,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.82,
-        "90d": 99.97,
+        "90d": 99.96,
         "1y": 99.97
       }
     },
@@ -867,20 +975,74 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.01,
-        "90d": 92.48,
-        "1y": 93.09
+        "30d": 90.89,
+        "90d": 92.44,
+        "1y": 93.1
       }
     },
     {
-      "ip": "89.22.66.209",
+      "ip": "79.170.252.233",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Dempsey and Clark s.r.o",
-      "domain": "private-89-22-66-209.ipv4.trinactka.net",
+      "organization": "CZ.MGI",
+      "domain": "79-170-252-233.cust.avonet.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 47.69,
+        "90d": 36.88,
+        "1y": 40.06
+      }
+    },
+    {
+      "ip": "95.168.210.20",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SuperNetwork s.r.o.",
+      "domain": "mail.mrhosting.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.28,
+        "90d": 99.54,
+        "1y": 99.62
+      }
+    },
+    {
+      "ip": "212.67.71.84",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "M connections s.r.o.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -890,13 +1052,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 60.32,
-        "90d": 47.79,
-        "1y": 50.96
+        "24h": 100.0,
+        "30d": 65.3,
+        "90d": 70.42,
+        "1y": 73.34
       }
     },
     {
@@ -917,13 +1079,121 @@
       "blocking": {
         "ads": false,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 74.96,
+        "90d": 64.83,
+        "1y": 66.29
+      }
+    },
+    {
+      "ip": "78.108.101.23",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UnArtel s.r.o",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 74.78,
+        "90d": 63.01,
+        "1y": 62.48
+      }
+    },
+    {
+      "ip": "78.157.163.69",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SilesNet s.r.o.",
+      "domain": "custcz683201.silesnet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 75.49,
-        "90d": 65.0,
-        "1y": 66.25
+        "24h": 70.0,
+        "30d": 87.3,
+        "90d": 91.35,
+        "1y": 92.37
+      }
+    },
+    {
+      "ip": "94.127.135.212",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TFnet s.r.o.",
+      "domain": "212-135-klient.tfnet.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 69.46,
+        "90d": 65.17,
+        "1y": 67.53
+      }
+    },
+    {
+      "ip": "86.49.188.146",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Francouzska 1919/29, Plzen",
+      "domain": "ip-86-49-188-146.net.vodafone.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 88.75,
+        "90d": 86.95,
+        "1y": 87.17
       }
     },
     {
@@ -948,63 +1218,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.71,
-        "90d": 95.43,
+        "30d": 97.67,
+        "90d": 95.44,
         "1y": 95.96
-      }
-    },
-    {
-      "ip": "79.170.252.226",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CZ.MGI",
-      "domain": "79-170-252-226.cust.avonet.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 50.27,
-        "90d": 37.04,
-        "1y": 39.82
-      }
-    },
-    {
-      "ip": "94.199.193.138",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Radim Pytela - AC Vyskov SLA1",
-      "domain": "ip-94-199-193-138.acvyskov.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 72.49,
-        "90d": 50.26,
-        "1y": 50.06
       }
     },
     {
@@ -1025,51 +1241,24 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 66.49,
-        "90d": 59.66,
-        "1y": 58.77
+        "24h": 77.78,
+        "30d": 65.71,
+        "90d": 59.71,
+        "1y": 58.78
       }
     },
     {
-      "ip": "94.127.135.212",
+      "ip": "78.108.101.104",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "TFnet s.r.o.",
-      "domain": "212-135-klient.tfnet.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 69.66,
-        "90d": 65.34,
-        "1y": 67.47
-      }
-    },
-    {
-      "ip": "46.231.72.212",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nordictelecomregional",
-      "domain": "46-231-72-212.rno.o2.cz",
+      "organization": "UnArtel s.r.o",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1082,48 +1271,102 @@
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 74.96,
-        "90d": 56.93,
-        "1y": 56.73
+        "24h": 33.33,
+        "30d": 56.07,
+        "90d": 60.95,
+        "1y": 59.13
       }
     },
     {
-      "ip": "89.190.66.2",
+      "ip": "185.14.234.242",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "INTERCONNECT s.r.o",
+      "domain": "remote.logflex.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.82,
+        "90d": 99.82,
+        "1y": 99.85
+      }
+    },
+    {
+      "ip": "185.175.11.110",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Spolek PASKOV.net",
+      "domain": "u011-110.net.paskov.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.79,
+        "1y": 99.82
+      }
+    },
+    {
+      "ip": "89.190.65.200",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "N-SYS s.r.o.",
-      "domain": null,
+      "domain": "ns2.nsys.cz",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 66.14,
-        "90d": 52.6,
-        "1y": 55.07
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.93,
+        "1y": 99.94
       }
     },
     {
-      "ip": "94.229.82.193",
+      "ip": "212.65.208.193",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "MASTER IT Technologies",
-      "domain": "ip-94-229-82-193.masternet.cz",
+      "organization": "Omega Optix s.r.o.",
+      "domain": "ns.omega-optix.eu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1132,14 +1375,68 @@
       },
       "blocking": {
         "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 98.41,
+        "1y": 98.64
+      }
+    },
+    {
+      "ip": "85.163.138.114",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CETIN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 52.73,
-        "90d": 34.53,
-        "1y": 34.82
+        "24h": 100.0,
+        "30d": 64.81,
+        "90d": 79.71,
+        "1y": 81.5
+      }
+    },
+    {
+      "ip": "93.91.153.178",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GRAPE SC",
+      "domain": "u153-178.static.grape.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 38.82,
+        "90d": 38.96,
+        "1y": 38.85
       }
     },
     {
@@ -1158,7 +1455,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -1186,7 +1483,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -1197,18 +1494,18 @@
       }
     },
     {
-      "ip": "185.14.234.242",
+      "ip": "193.165.122.190",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "INTERCONNECT s.r.o",
-      "domain": "remote.logflex.cz",
+      "organization": "PODA",
+      "domain": "static-3248847550.poda.cz",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -1217,10 +1514,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.82,
-        "90d": 99.83,
-        "1y": 99.85
+        "24h": 77.78,
+        "30d": 90.18,
+        "90d": 83.23,
+        "1y": 85.61
+      }
+    },
+    {
+      "ip": "62.168.30.102",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "PRO-AQUA CZ, s.r.o.",
+      "domain": "gw.rcs.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 77.22,
+        "90d": 76.85,
+        "1y": 76.34
       }
     },
     {
@@ -1239,15 +1563,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 80.99,
-        "90d": 71.82,
-        "1y": 70.4
+        "24h": 90.0,
+        "30d": 80.68,
+        "90d": 71.94,
+        "1y": 70.46
       }
     },
     {
@@ -1293,258 +1617,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 56.82,
-        "90d": 35.47,
-        "1y": 35.31
-      }
-    },
-    {
-      "ip": "89.190.65.200",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "N-SYS s.r.o.",
-      "domain": "ns2.nsys.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.93,
-        "1y": 99.94
-      }
-    },
-    {
-      "ip": "90.182.181.18",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "O2 Czech Republic",
-      "domain": "90-182-181-18.rcp.o2.cz",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 77.6,
-        "90d": 80.33,
-        "1y": 80.24
-      }
-    },
-    {
-      "ip": "212.65.208.193",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Omega Optix s.r.o.",
-      "domain": "ns.omega-optix.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 98.42,
-        "1y": 98.64
-      }
-    },
-    {
-      "ip": "77.93.193.202",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Shared VPS Master Internet s.r.o.",
-      "domain": "77-93-193-202.static.masterinter.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 79.89,
-        "90d": 80.67,
-        "1y": 79.73
-      }
-    },
-    {
-      "ip": "185.175.11.110",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Spolek PASKOV.net",
-      "domain": "u011-110.net.paskov.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.79,
-        "1y": 99.82
-      }
-    },
-    {
-      "ip": "78.108.101.23",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UnArtel s.r.o",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 74.6,
-        "90d": 62.98,
-        "1y": 62.41
-      }
-    },
-    {
-      "ip": "85.163.138.114",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CETIN",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 65.03,
-        "90d": 79.83,
-        "1y": 81.46
-      }
-    },
-    {
-      "ip": "91.134.159.109",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OVH.CZ s.r.o",
-      "domain": "ip109.ip-91-134-159.eu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 96.3,
-        "90d": 93.6,
-        "1y": 94.29
-      }
-    },
-    {
-      "ip": "91.239.237.150",
-      "version": 4,
-      "country_code": "cz",
-      "country": "Czechia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "hanspaul-city.net s.r.o",
-      "domain": "150-237.hanspaul-city.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 68.66,
-        "90d": 59.93,
-        "1y": 61.49
+        "24h": 80.0,
+        "30d": 56.73,
+        "90d": 35.24,
+        "1y": 35.42
       }
     },
     {
@@ -1564,7 +1645,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -1575,14 +1656,41 @@
       }
     },
     {
-      "ip": "95.168.210.20",
+      "ip": "94.229.82.193",
       "version": 4,
       "country_code": "cz",
       "country": "Czechia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "SuperNetwork s.r.o.",
-      "domain": "mail.mrhosting.net",
+      "organization": "MASTER IT Technologies",
+      "domain": "ip-94-229-82-193.masternet.cz",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 52.14,
+        "90d": 34.28,
+        "1y": 34.87
+      }
+    },
+    {
+      "ip": "89.190.66.2",
+      "version": 4,
+      "country_code": "cz",
+      "country": "Czechia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "N-SYS s.r.o.",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1591,14 +1699,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.3,
-        "90d": 99.55,
-        "1y": 99.62
+        "24h": 77.78,
+        "30d": 65.71,
+        "90d": 52.37,
+        "1y": 55.12
       }
     }
   ]

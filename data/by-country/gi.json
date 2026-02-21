@@ -4,7 +4,7 @@
     "country_name": "Gibraltar",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-08T06:24:11Z",
+    "generated_at": "2026-02-21T06:19:46Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 72.33,
-        "90d": 66.01,
-        "1y": 66.18
+        "24h": 66.67,
+        "30d": 71.62,
+        "90d": 64.13,
+        "1y": 65.53
       }
     }
   ]

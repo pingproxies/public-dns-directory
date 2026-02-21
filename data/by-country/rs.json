@@ -4,37 +4,10 @@
     "country_name": "Serbia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-02-20T18:09:29Z",
+    "generated_at": "2026-02-21T06:19:46Z",
     "total_servers": 51
   },
   "resolvers": [
-    {
-      "ip": "93.87.72.86",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "93-87-72-86.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 86.6,
-        "90d": 96.29,
-        "1y": 96.88
-      }
-    },
     {
       "ip": "94.228.237.1",
       "version": 4,
@@ -52,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 86.95,
+        "24h": 90.0,
+        "30d": 86.94,
         "90d": 87.69,
-        "1y": 84.72
+        "1y": 84.75
       }
     },
     {
@@ -78,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.59,
-        "90d": 98.43,
+        "30d": 98.57,
+        "90d": 98.42,
         "1y": 98.47
-      }
-    },
-    {
-      "ip": "89.216.103.45",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Serbia Broadband",
-      "domain": "cable-89-216-103-45.static.sbb.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 62.32,
-        "90d": 57.06,
-        "1y": 60.87
       }
     },
     {
@@ -133,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.22,
-        "90d": 92.13,
-        "1y": 93.15
+        "30d": 82.11,
+        "90d": 92.09,
+        "1y": 93.16
       }
     },
     {
@@ -160,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.47,
-        "90d": 97.45,
-        "1y": 97.29
+        "30d": 96.43,
+        "90d": 97.43,
+        "1y": 97.3
       }
     },
     {
@@ -193,8 +139,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.82,
-        "90d": 94.23,
-        "1y": 94.53
+        "90d": 94.2,
+        "1y": 94.54
       }
     },
     {
@@ -213,26 +159,53 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 66.79,
-        "90d": 73.42,
-        "1y": 76.04
+        "24h": 80.0,
+        "30d": 66.23,
+        "90d": 73.26,
+        "1y": 76.09
       }
     },
     {
-      "ip": "82.117.213.70",
+      "ip": "185.188.218.86",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "SBB Zona Wifi",
+      "organization": "Coax",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 81.25,
+        "90d": 70.54,
+        "1y": 74.54
+      }
+    },
+    {
+      "ip": "89.216.39.214",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Serbia Broadband",
+      "domain": "89-216-39-214.sowireless.org",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -240,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 0.0,
-        "30d": 20.48,
-        "90d": 18.23,
-        "1y": 18.2
+        "24h": 50.0,
+        "30d": 54.74,
+        "90d": 63.68,
+        "1y": 64.83
       }
     },
     {
@@ -267,26 +240,134 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.15,
-        "90d": 93.01,
-        "1y": 93.5
+        "30d": 87.12,
+        "90d": 92.97,
+        "1y": 93.51
       }
     },
     {
-      "ip": "93.87.119.92",
+      "ip": "212.200.169.182",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "93-87-119-92.static.isp.telekom.rs",
+      "organization": "Telekom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 39.9,
+        "90d": 48.85,
+        "1y": 53.18
+      }
+    },
+    {
+      "ip": "89.216.114.121",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Serbia Broadband",
+      "domain": "cable-89-216-114-121.static.sbb.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 69.57,
+        "90d": 57.51,
+        "1y": 58.3
+      }
+    },
+    {
+      "ip": "46.40.0.5",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "SAT-TRAKT Telecommunications",
+      "domain": "5-0-40-46.cpe.sattrakt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 77.14,
+        "90d": 70.72,
+        "1y": 73.46
+      }
+    },
+    {
+      "ip": "89.216.35.131",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Serbia Broadband",
+      "domain": "cable-89-216-35-131.static.sbb.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 78.0,
+        "90d": 85.27,
+        "1y": 87.26
+      }
+    },
+    {
+      "ip": "77.46.148.97",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Srpska Napredna Stranka",
+      "domain": "77-46-148-97.static.isp.telekom.rs",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -299,37 +380,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 14.29,
-        "30d": 53.28,
-        "90d": 71.34,
-        "1y": 72.37
-      }
-    },
-    {
-      "ip": "93.87.12.184",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telekom Srbija",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 97.01,
-        "90d": 95.14,
-        "1y": 94.32
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.96,
+        "1y": 99.97
       }
     },
     {
@@ -348,15 +402,96 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.41,
+        "90d": 99.4,
         "1y": 99.5
+      }
+    },
+    {
+      "ip": "93.87.12.184",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telekom Srbija",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.96,
+        "90d": 95.15,
+        "1y": 94.33
+      }
+    },
+    {
+      "ip": "93.87.43.227",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Pukos Alteko Petrovac",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 64.58,
+        "90d": 65.4,
+        "1y": 65.15
+      }
+    },
+    {
+      "ip": "89.216.118.84",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Serbia Broadband",
+      "domain": "cable-89-216-118-84.static.sbb.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 69.64,
+        "90d": 60.18,
+        "1y": 62.82
       }
     },
     {
@@ -381,9 +516,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.12,
-        "90d": 94.69,
-        "1y": 95.46
+        "30d": 99.11,
+        "90d": 94.7,
+        "1y": 95.47
       }
     },
     {
@@ -403,25 +538,187 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 70.72,
-        "90d": 57.01,
-        "1y": 59.59
+        "24h": 66.67,
+        "30d": 70.0,
+        "90d": 56.73,
+        "1y": 59.6
       }
     },
     {
-      "ip": "82.117.219.138",
+      "ip": "178.222.250.29",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Serbia BroadBand",
-      "domain": null,
+      "organization": "TELEKOM-BB",
+      "domain": "178-222-250-29.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 75.18,
+        "90d": 77.17,
+        "1y": 75.43
+      }
+    },
+    {
+      "ip": "176.108.36.129",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Milos Knezevic Preduzetnik ZTR I Komision Hall Systems",
+      "domain": "176.108.36.129.hallsys.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 83.21,
+        "90d": 65.59,
+        "1y": 68.41
+      }
+    },
+    {
+      "ip": "93.87.72.62",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELEKOM-SRBIJA",
+      "domain": "sutrans2.sutrans.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 81.4,
+        "90d": 89.84,
+        "1y": 90.75
+      }
+    },
+    {
+      "ip": "93.87.244.161",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELEKOM-SRBIJA",
+      "domain": "93-87-244-161.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 86.23,
+        "90d": 92.12,
+        "1y": 91.66
+      }
+    },
+    {
+      "ip": "91.150.126.174",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELEKOM-SRBIJA",
+      "domain": "91-150-126-174.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 57.07,
+        "90d": 41.76,
+        "1y": 44.77
+      }
+    },
+    {
+      "ip": "91.150.77.154",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Gazdovanje Sumama",
+      "domain": "91-150-77-154.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.93,
+        "90d": 97.34,
+        "1y": 97.34
+      }
+    },
+    {
+      "ip": "93.86.60.136",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELEKOM-SRBIJA",
+      "domain": "93-86-60-136.static.isp.telekom.rs",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -430,14 +727,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.29,
+        "90d": 89.24,
+        "1y": 86.37
+      }
+    },
+    {
+      "ip": "91.150.93.128",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "x SAVEZ BAPTISTICKIH CRKAVA U SRBIJI x",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 61.11,
+        "90d": 45.33,
+        "1y": 44.83
+      }
+    },
+    {
+      "ip": "79.101.160.83",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELEKOM-SRBIJA",
+      "domain": "79-101-160-83.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 28.57,
-        "30d": 60.85,
-        "90d": 57.45,
-        "1y": 60.87
+        "24h": 100.0,
+        "30d": 97.14,
+        "90d": 87.49,
+        "1y": 88.63
       }
     },
     {
@@ -461,10 +812,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 67.46,
-        "90d": 51.25,
-        "1y": 51.64
+        "24h": 90.0,
+        "30d": 67.1,
+        "90d": 50.97,
+        "1y": 51.71
       }
     },
     {
@@ -483,133 +834,25 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 94.36,
-        "90d": 91.71,
-        "1y": 91.12
-      }
-    },
-    {
-      "ip": "79.101.104.162",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "79-101-104-162.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.36,
-        "90d": 88.67,
-        "1y": 88.06
+        "30d": 94.28,
+        "90d": 91.77,
+        "1y": 91.13
       }
     },
     {
-      "ip": "178.222.250.29",
+      "ip": "79.101.38.164",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "TELEKOM-BB",
-      "domain": "178-222-250-29.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 75.49,
-        "90d": 77.28,
-        "1y": 75.38
-      }
-    },
-    {
-      "ip": "77.46.136.160",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 42.86,
-        "30d": 52.91,
-        "90d": 60.01,
-        "1y": 64.18
-      }
-    },
-    {
-      "ip": "77.46.149.42",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "DZ Dr Nikola Dzamic DOO",
-      "domain": "77-46-149-42.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 97.71,
-        "90d": 82.54,
-        "1y": 82.88
-      }
-    },
-    {
-      "ip": "82.117.212.246",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "SBB Zona Wifi",
+      "organization": "Meteor JPL System DOO",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -623,10 +866,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 28.57,
-        "30d": 60.32,
-        "90d": 58.18,
-        "1y": 61.72
+        "24h": 70.0,
+        "30d": 61.18,
+        "90d": 53.27,
+        "1y": 56.66
       }
     },
     {
@@ -652,39 +895,12 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.82,
-        "90d": 99.9,
+        "90d": 99.89,
         "1y": 99.91
       }
     },
     {
-      "ip": "82.117.211.18",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Serbia BroadBand-Srpske Kablovske mreze d.o.o.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.59,
-        "90d": 98.57,
-        "1y": 98.62
-      }
-    },
-    {
-      "ip": "195.178.33.46",
+      "ip": "77.46.136.160",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
@@ -696,83 +912,29 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 0.0,
-        "30d": 11.78,
-        "90d": 85.59,
-        "1y": 87.99
-      }
-    },
-    {
-      "ip": "77.46.148.97",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Srpska Napredna Stranka",
-      "domain": "77-46-148-97.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.97
-      }
-    },
-    {
-      "ip": "91.150.77.154",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Gazdovanje Sumama",
-      "domain": "91-150-77-154.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.94,
-        "90d": 97.32,
-        "1y": 97.32
+        "24h": 70.0,
+        "30d": 52.42,
+        "90d": 59.81,
+        "1y": 64.21
       }
     },
     {
-      "ip": "89.216.25.76",
+      "ip": "77.46.149.42",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Serbia Broadband",
-      "domain": "cable-89-216-25-76.static.sbb.rs",
+      "organization": "DZ Dr Nikola Dzamic DOO",
+      "domain": "77-46-149-42.static.isp.telekom.rs",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -780,96 +942,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 16.67,
-        "30d": 48.29,
-        "90d": 36.26,
-        "1y": 37.65
-      }
-    },
-    {
-      "ip": "93.86.60.136",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "93-86-60-136.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 85.71,
-        "30d": 99.29,
-        "90d": 89.12,
-        "1y": 86.34
-      }
-    },
-    {
-      "ip": "79.101.160.83",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "79-101-160-83.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.18,
-        "90d": 87.55,
-        "1y": 88.61
-      }
-    },
-    {
-      "ip": "89.216.35.131",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Serbia Broadband",
-      "domain": "cable-89-216-35-131.static.sbb.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 77.99,
-        "90d": 85.35,
-        "1y": 87.23
+        "24h": 90.0,
+        "30d": 97.85,
+        "90d": 82.45,
+        "1y": 82.91
       }
     },
     {
@@ -885,7 +966,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -894,9 +975,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 83.07,
-        "90d": 79.43,
-        "1y": 81.59
+        "30d": 83.04,
+        "90d": 79.33,
+        "1y": 81.62
       }
     },
     {
@@ -912,7 +993,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -921,63 +1002,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.88,
-        "90d": 93.32,
-        "1y": 92.18
-      }
-    },
-    {
-      "ip": "79.101.46.218",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Electrawinds Mali WF DOO",
-      "domain": "79-101-46-218.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 66.31,
-        "90d": 48.86,
-        "1y": 48.66
-      }
-    },
-    {
-      "ip": "91.150.126.174",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "91-150-126-174.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 57.75,
-        "90d": 42.03,
-        "1y": 44.71
+        "30d": 97.86,
+        "90d": 93.29,
+        "1y": 92.19
       }
     },
     {
@@ -1002,7 +1029,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.12,
+        "30d": 99.11,
         "90d": 99.44,
         "1y": 99.5
       }
@@ -1020,56 +1047,56 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.71,
-        "90d": 73.14,
-        "1y": 72.97
+        "24h": 88.89,
+        "30d": 94.64,
+        "90d": 73.04,
+        "1y": 72.99
       }
     },
     {
-      "ip": "93.87.43.227",
+      "ip": "82.117.219.138",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Pukos Alteko Petrovac",
+      "organization": "Serbia BroadBand",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 64.61,
-        "90d": 65.28,
-        "1y": 65.11
+        "24h": 60.0,
+        "30d": 59.93,
+        "90d": 57.19,
+        "1y": 60.89
       }
     },
     {
-      "ip": "93.87.74.198",
+      "ip": "82.117.212.246",
       "version": 4,
       "country_code": "rs",
       "country": "Serbia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Telekom Srbija",
-      "domain": "93-87-74-198.static.isp.telekom.rs",
+      "organization": "SBB Zona Wifi",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1082,10 +1109,172 @@
         "adult": true
       },
       "uptime": {
+        "24h": 50.0,
+        "30d": 59.39,
+        "90d": 57.9,
+        "1y": 61.74
+      }
+    },
+    {
+      "ip": "82.117.211.18",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Serbia BroadBand-Srpske Kablovske mreze d.o.o.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 94.36,
-        "90d": 72.19,
-        "1y": 75.09
+        "30d": 98.57,
+        "90d": 98.56,
+        "1y": 98.62
+      }
+    },
+    {
+      "ip": "89.216.25.76",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Serbia Broadband",
+      "domain": "cable-89-216-25-76.static.sbb.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 30.0,
+        "30d": 46.52,
+        "90d": 36.03,
+        "1y": 37.63
+      }
+    },
+    {
+      "ip": "91.150.107.215",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telekom BB",
+      "domain": "91-150-107-215.dynamic.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.82,
+        "90d": 98.98,
+        "1y": 98.56
+      }
+    },
+    {
+      "ip": "178.222.249.245",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELEKOM-BB",
+      "domain": "178-222-249-245.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 47.92,
+        "90d": 44.94,
+        "1y": 46.1
+      }
+    },
+    {
+      "ip": "93.87.43.248",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Pukos Alteko Petrovac",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 56.17,
+        "90d": 42.51,
+        "1y": 44.32
+      }
+    },
+    {
+      "ip": "80.93.254.202",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ABSOLUT SOLUTIONS d.o.o",
+      "domain": "mail.mind.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.86,
+        "90d": 83.79,
+        "1y": 84.69
       }
     },
     {
@@ -1106,256 +1295,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 88.18,
-        "90d": 46.47,
-        "1y": 42.81
-      }
-    },
-    {
-      "ip": "80.93.254.202",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ABSOLUT SOLUTIONS d.o.o",
-      "domain": "mail.mind.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.95,
-        "90d": 83.76,
-        "1y": 84.66
-      }
-    },
-    {
-      "ip": "178.222.249.245",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-BB",
-      "domain": "178-222-249-245.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 48.6,
-        "90d": 45.18,
-        "1y": 45.98
-      }
-    },
-    {
-      "ip": "93.87.43.248",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Pukos Alteko Petrovac",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 85.71,
-        "30d": 56.79,
-        "90d": 42.54,
-        "1y": 44.29
-      }
-    },
-    {
-      "ip": "91.150.107.215",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telekom BB",
-      "domain": "91-150-107-215.dynamic.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.82,
-        "90d": 98.95,
-        "1y": 98.56
-      }
-    },
-    {
-      "ip": "176.108.36.129",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Milos Knezevic Preduzetnik ZTR I Komision Hall Systems",
-      "domain": "176.108.36.129.hallsys.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 83.42,
-        "90d": 65.76,
-        "1y": 68.35
-      }
-    },
-    {
-      "ip": "89.216.118.84",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Serbia Broadband",
-      "domain": "cable-89-216-118-84.static.sbb.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 42.86,
-        "30d": 70.19,
-        "90d": 60.31,
-        "1y": 62.78
-      }
-    },
-    {
-      "ip": "79.101.105.26",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "79-101-105-26.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.06,
-        "90d": 96.22,
-        "1y": 92.03
-      }
-    },
-    {
-      "ip": "93.87.72.62",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "sutrans2.sutrans.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 81.51,
-        "90d": 89.9,
-        "1y": 90.73
-      }
-    },
-    {
-      "ip": "93.87.244.161",
-      "version": 4,
-      "country_code": "rs",
-      "country": "Serbia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TELEKOM-SRBIJA",
-      "domain": "93-87-244-161.static.isp.telekom.rs",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 86.27,
-        "90d": 92.17,
-        "1y": 91.64
+        "24h": 90.0,
+        "30d": 88.19,
+        "90d": 46.87,
+        "1y": 42.92
       }
     },
     {
@@ -1374,15 +1320,69 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 63.69,
+        "90d": 74.4,
+        "1y": 76.66
+      }
+    },
+    {
+      "ip": "79.101.105.26",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TELEKOM-SRBIJA",
+      "domain": "79-101-105-26.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.03,
+        "90d": 96.2,
+        "1y": 92.04
+      }
+    },
+    {
+      "ip": "79.101.46.218",
+      "version": 4,
+      "country_code": "rs",
+      "country": "Serbia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Electrawinds Mali WF DOO",
+      "domain": "79-101-46-218.static.isp.telekom.rs",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 63.38,
-        "90d": 74.62,
-        "1y": 76.67
+        "24h": 66.67,
+        "30d": 65.36,
+        "90d": 48.82,
+        "1y": 48.66
       }
     }
   ]
