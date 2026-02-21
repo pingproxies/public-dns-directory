@@ -4,37 +4,10 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-02-21T06:19:46Z",
+    "generated_at": "2026-02-21T18:04:17Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "89.148.55.251",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.89.148.55.251.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.78,
-        "30d": 72.86,
-        "90d": 65.76,
-        "1y": 69.57
-      }
-    },
     {
       "ip": "81.22.26.6",
       "version": 4,
@@ -51,13 +24,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.85,
+        "30d": 97.82,
         "90d": 98.66,
         "1y": 98.8
       }
@@ -78,15 +51,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.85,
-        "90d": 96.98,
-        "1y": 97.09
+        "30d": 97.81,
+        "90d": 96.96,
+        "1y": 97.1
+      }
+    },
+    {
+      "ip": "89.148.55.251",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": "static.ip.89.148.55.251.batelco.com.bh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 72.36,
+        "90d": 65.53,
+        "1y": 69.55
       }
     }
   ]

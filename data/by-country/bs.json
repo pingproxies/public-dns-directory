@@ -4,8 +4,8 @@
     "country_name": "Bahamas",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-02-21T06:19:46Z",
-    "total_servers": 2
+    "generated_at": "2026-02-21T18:04:17Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 89.98,
-        "90d": 95.6,
-        "1y": 96.15
+        "24h": 90.91,
+        "30d": 90.18,
+        "90d": 95.54,
+        "1y": 96.13
+      }
+    },
+    {
+      "ip": "216.137.13.22",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "The Bahamas Telecommunications Company, Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 89.66,
+        "90d": 97.46,
+        "1y": 97.86
       }
     },
     {
@@ -53,13 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 88.19,
-        "90d": 95.39,
-        "1y": 96.04
+        "24h": 81.82,
+        "30d": 88.18,
+        "90d": 95.3,
+        "1y": 95.98
       }
     }
   ]
