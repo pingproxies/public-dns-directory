@@ -4,8 +4,8 @@
     "country_name": "Nigeria",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-19T06:43:23Z",
-    "total_servers": 11
+    "generated_at": "2026-04-19T18:10:00Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 62.39,
-        "90d": 46.7,
-        "1y": 49.57
+        "24h": 100.0,
+        "30d": 63.25,
+        "90d": 47.23,
+        "1y": 49.64
       }
     },
     {
@@ -78,15 +78,123 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 45.45,
-        "30d": 22.09,
-        "90d": 37.37,
-        "1y": 21.48
+        "24h": 50.0,
+        "30d": 23.16,
+        "90d": 37.58,
+        "1y": 21.53
+      }
+    },
+    {
+      "ip": "41.217.204.165",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Layer3 ABJ Internal",
+      "domain": "ns1.layer3.ng",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.46,
+        "90d": 98.43,
+        "1y": 94.32
+      }
+    },
+    {
+      "ip": "197.210.211.1",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "DNS",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.62,
+        "1y": 99.53
+      }
+    },
+    {
+      "ip": "41.184.212.17",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-212-17.rv.ipnxtelecoms.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 41.67,
+        "30d": 42.67,
+        "90d": 39.37,
+        "1y": 30.68
+      }
+    },
+    {
+      "ip": "41.184.151.186",
+      "version": 4,
+      "country_code": "ng",
+      "country": "Nigeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-151-186.rv.ipnxtelecoms.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 77.5,
+        "90d": 70.27,
+        "1y": 64.83
       }
     },
     {
@@ -111,144 +219,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.5,
-        "90d": 98.47,
+        "30d": 99.49,
+        "90d": 98.46,
         "1y": 96.1
-      }
-    },
-    {
-      "ip": "102.214.14.13",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "WOW Networks Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 36.36,
-        "30d": 31.19,
-        "90d": 36.79,
-        "1y": 23.94
-      }
-    },
-    {
-      "ip": "41.217.204.165",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Layer3 ABJ Internal",
-      "domain": "ns1.layer3.ng",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 96.47,
-        "90d": 98.36,
-        "1y": 94.32
-      }
-    },
-    {
-      "ip": "197.210.211.1",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "DNS",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.62,
-        "1y": 99.53
-      }
-    },
-    {
-      "ip": "197.253.36.34",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Mainone Cable Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 72.19,
-        "90d": 73.15,
-        "1y": 60.29
-      }
-    },
-    {
-      "ip": "41.184.212.17",
-      "version": 4,
-      "country_code": "ng",
-      "country": "Nigeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ipNX NIGERIA LIMITED",
-      "domain": "41-184-212-17.rv.ipnxtelecoms.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 36.36,
-        "30d": 42.86,
-        "90d": 39.21,
-        "1y": 30.65
       }
     },
     {
@@ -267,42 +240,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 56.82,
-        "90d": 57.51,
-        "1y": 31.46
+        "24h": 100.0,
+        "30d": 61.22,
+        "90d": 58.88,
+        "1y": 31.86
       }
     },
     {
-      "ip": "102.135.217.69",
+      "ip": "41.184.153.133",
       "version": 4,
       "country_code": "ng",
       "country": "Nigeria",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "VDT COMMUNICATIONS LIMITED",
-      "domain": null,
+      "organization": "ipNX NIGERIA LIMITED",
+      "domain": "41-184-153-133.rv.ipnxtelecoms.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 55.48,
-        "90d": 64.99,
-        "1y": 41.24
+        "24h": 33.33,
+        "30d": 32.04,
+        "90d": 22.45,
+        "1y": 11.0
       }
     }
   ]

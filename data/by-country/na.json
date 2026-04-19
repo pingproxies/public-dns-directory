@@ -4,7 +4,7 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-19T06:43:23Z",
+    "generated_at": "2026-04-19T18:10:00Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 74.31,
-        "90d": 68.44,
-        "1y": 63.73
+        "24h": 91.67,
+        "30d": 74.68,
+        "90d": 68.5,
+        "1y": 63.76
       }
     },
     {
@@ -48,18 +48,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 59.36,
+        "90d": 59.37,
+        "1y": 60.78
+      }
+    },
+    {
+      "ip": "41.63.249.222",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Mobile Telecommunications LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 58.78,
-        "90d": 59.03,
-        "1y": 60.8
+        "24h": 91.67,
+        "30d": 92.66,
+        "90d": 89.09,
+        "1y": 93.53
       }
     },
     {
@@ -78,42 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.93,
-        "90d": 95.49,
-        "1y": 97.1
-      }
-    },
-    {
-      "ip": "41.63.244.89",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "DIA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.7,
-        "90d": 83.96,
-        "1y": 86.33
+        "30d": 90.89,
+        "90d": 95.47,
+        "1y": 97.11
       }
     }
   ]

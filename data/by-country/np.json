@@ -4,8 +4,8 @@
     "country_name": "Nepal",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-19T06:43:23Z",
-    "total_servers": 3
+    "generated_at": "2026-04-19T18:10:00Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 61.29,
-        "90d": 78.78,
-        "1y": 71.18
+        "24h": 100.0,
+        "30d": 61.19,
+        "90d": 78.76,
+        "1y": 71.22
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.98,
+        "30d": 97.97,
         "90d": 98.39,
-        "1y": 99.48
+        "1y": 99.49
       }
     },
     {
@@ -84,9 +84,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 68.28,
-        "90d": 81.38,
-        "1y": 86.09
+        "30d": 68.4,
+        "90d": 81.52,
+        "1y": 86.11
+      }
+    },
+    {
+      "ip": "182.93.84.123",
+      "version": 4,
+      "country_code": "np",
+      "country": "Nepal",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Subisu D17",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 89.57,
+        "90d": 93.02,
+        "1y": 95.81
       }
     }
   ]
