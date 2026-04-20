@@ -4,8 +4,8 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-19T18:10:00Z",
-    "total_servers": 4
+    "generated_at": "2026-04-20T06:56:38Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 74.68,
-        "90d": 68.5,
-        "1y": 63.76
+        "30d": 75.06,
+        "90d": 68.62,
+        "1y": 63.81
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 59.36,
-        "90d": 59.37,
-        "1y": 60.78
+        "24h": 66.67,
+        "30d": 59.68,
+        "90d": 59.05,
+        "1y": 60.81
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 91.67,
-        "30d": 92.66,
-        "90d": 89.09,
-        "1y": 93.53
+        "30d": 92.62,
+        "90d": 89.17,
+        "1y": 93.54
       }
     },
     {
@@ -105,15 +105,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.89,
-        "90d": 95.47,
+        "30d": 90.84,
+        "90d": 95.44,
         "1y": 97.11
+      }
+    },
+    {
+      "ip": "41.63.244.89",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "DIA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 92.62,
+        "90d": 83.94,
+        "1y": 86.32
       }
     }
   ]

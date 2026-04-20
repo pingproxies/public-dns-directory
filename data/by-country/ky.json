@@ -4,7 +4,7 @@
     "country_name": "Cayman Islands",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-19T18:10:00Z",
+    "generated_at": "2026-04-20T06:56:38Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 96.71,
-        "90d": 98.46,
-        "1y": 92.5
+        "24h": 91.67,
+        "30d": 96.69,
+        "90d": 98.53,
+        "1y": 92.51
       }
     }
   ]
