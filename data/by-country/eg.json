@@ -4,7 +4,7 @@
     "country_name": "Egypt",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-21T06:48:09Z",
+    "generated_at": "2026-04-21T18:19:17Z",
     "total_servers": 10
   },
   "resolvers": [
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 62.92,
-        "90d": 89.88,
+        "30d": 61.85,
+        "90d": 89.79,
         "1y": 93.29
       }
     },
@@ -52,12 +52,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.22,
+        "30d": 99.21,
         "90d": 99.53,
         "1y": 99.15
       }
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.16,
-        "90d": 98.35,
-        "1y": 95.55
+        "30d": 97.11,
+        "90d": 98.34,
+        "1y": 95.56
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 75.0,
-        "90d": 71.15,
-        "1y": 57.52
+        "24h": 87.5,
+        "30d": 74.33,
+        "90d": 71.13,
+        "1y": 57.51
       }
     },
     {
@@ -132,15 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 86.3,
-        "90d": 90.16,
-        "1y": 90.48
+        "24h": 100.0,
+        "30d": 86.05,
+        "90d": 90.06,
+        "1y": 90.49
+      }
+    },
+    {
+      "ip": "195.43.12.163",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ENSTINET",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.54,
+        "90d": 96.37,
+        "1y": 98.31
       }
     },
     {
@@ -161,13 +188,67 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.6,
-        "90d": 85.04,
+        "30d": 87.4,
+        "90d": 85.02,
         "1y": 89.77
+      }
+    },
+    {
+      "ip": "195.246.42.210",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Egyptian Universities Network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.85,
+        "90d": 97.47,
+        "1y": 97.17
+      }
+    },
+    {
+      "ip": "196.216.252.65",
+      "version": 4,
+      "country_code": "eg",
+      "country": "Egypt",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Xceed Contact Center",
+      "domain": "sly.xceedcc.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 86.91,
+        "90d": 83.51,
+        "1y": 88.22
       }
     },
     {
@@ -191,91 +272,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 65.22,
-        "90d": 33.71,
-        "1y": 12.3
-      }
-    },
-    {
-      "ip": "195.43.12.163",
-      "version": 4,
-      "country_code": "eg",
-      "country": "Egypt",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ENSTINET",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.25,
-        "90d": 96.4,
-        "1y": 98.31
-      }
-    },
-    {
-      "ip": "196.216.252.65",
-      "version": 4,
-      "country_code": "eg",
-      "country": "Egypt",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Xceed Contact Center",
-      "domain": "sly.xceedcc.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 86.56,
-        "90d": 83.55,
-        "1y": 88.24
-      }
-    },
-    {
-      "ip": "195.246.42.210",
-      "version": 4,
-      "country_code": "eg",
-      "country": "Egypt",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Egyptian Universities Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.89,
-        "90d": 97.41,
-        "1y": 97.17
+        "24h": 85.71,
+        "30d": 65.96,
+        "90d": 34.44,
+        "1y": 12.6
       }
     }
   ]
