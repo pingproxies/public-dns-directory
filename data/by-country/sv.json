@@ -4,19 +4,19 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-20T18:17:10Z",
-    "total_servers": 4
+    "generated_at": "2026-04-21T06:48:09Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "201.247.112.236",
+      "ip": "168.243.48.33",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
-      "domain": null,
+      "organization": "SVNet",
+      "domain": "ns.telecam.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,42 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 73.66,
-        "90d": 80.31,
-        "1y": 80.0
-      }
-    },
-    {
-      "ip": "200.85.7.28",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telemovil El Salvador S.A",
-      "domain": "ftp.grupotropigas.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.69,
-        "1y": 98.67
+        "30d": 82.12,
+        "90d": 93.65,
+        "1y": 97.48
       }
     },
     {
@@ -80,40 +53,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 40.0,
-        "30d": 52.43,
-        "90d": 74.71,
+        "24h": 66.67,
+        "30d": 52.07,
+        "90d": 74.53,
         "1y": 80.37
       }
     },
     {
-      "ip": "168.243.48.33",
+      "ip": "200.85.7.28",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.telecam.com.sv",
+      "organization": "Telemovil El Salvador S.A",
+      "domain": "ftp.grupotropigas.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 82.35,
-        "90d": 93.7,
-        "1y": 97.48
+        "30d": 100.0,
+        "90d": 99.69,
+        "1y": 98.68
       }
     }
   ]

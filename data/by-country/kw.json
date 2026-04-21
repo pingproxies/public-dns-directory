@@ -4,8 +4,8 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-20T18:17:10Z",
-    "total_servers": 3
+    "generated_at": "2026-04-21T06:48:09Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.09,
-        "90d": 96.58,
-        "1y": 88.39
+        "30d": 93.01,
+        "90d": 96.55,
+        "1y": 88.4
       }
     },
     {
@@ -52,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.49,
-        "90d": 98.52,
+        "30d": 99.48,
+        "90d": 98.59,
         "1y": 97.31
+      }
+    },
+    {
+      "ip": "62.150.254.82",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "QualityNet General Trading & Contracting Co.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 33.33,
+        "30d": 38.71,
+        "90d": 36.79,
+        "1y": 55.05
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 30.0,
-        "30d": 46.04,
-        "90d": 49.16,
-        "1y": 30.49
+        "24h": 44.44,
+        "30d": 45.99,
+        "90d": 48.94,
+        "1y": 30.51
       }
     }
   ]

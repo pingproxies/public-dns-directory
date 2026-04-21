@@ -4,37 +4,10 @@
     "country_name": "Norway",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-20T18:17:10Z",
-    "total_servers": 26
+    "generated_at": "2026-04-21T06:48:09Z",
+    "total_servers": 27
   },
   "resolvers": [
-    {
-      "ip": "195.159.253.130",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CENTERTEAM",
-      "domain": "195-159-253-130.customer.powertech.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 67.26,
-        "90d": 74.47,
-        "1y": 71.0
-      }
-    },
     {
       "ip": "217.170.128.27",
       "version": 4,
@@ -56,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 78.21,
-        "90d": 71.18,
-        "1y": 68.36
+        "24h": 66.67,
+        "30d": 77.78,
+        "90d": 71.1,
+        "1y": 68.34
       }
     },
     {
@@ -111,8 +84,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
-        "90d": 98.91,
+        "30d": 99.22,
+        "90d": 98.9,
         "1y": 99.56
       }
     },
@@ -132,8 +105,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -192,8 +165,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.49,
-        "90d": 99.77,
+        "30d": 99.48,
+        "90d": 99.76,
         "1y": 99.85
       }
     },
@@ -213,14 +186,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.17,
-        "90d": 95.48,
+        "30d": 93.09,
+        "90d": 95.44,
         "1y": 98.33
       }
     },
@@ -264,17 +237,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 91.82,
-        "90d": 83.27,
+        "24h": 77.78,
+        "30d": 91.71,
+        "90d": 83.05,
         "1y": 78.73
       }
     },
@@ -294,14 +267,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
-        "90d": 99.77,
+        "30d": 99.22,
+        "90d": 99.76,
         "1y": 99.93
       }
     },
@@ -323,13 +296,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 85.93,
-        "90d": 87.07,
-        "1y": 81.74
+        "24h": 66.67,
+        "30d": 85.23,
+        "90d": 86.98,
+        "1y": 81.71
       }
     },
     {
@@ -348,8 +321,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -357,60 +330,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "94.127.63.6",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "mnemonic",
-      "domain": "host-63-6.mnemonic.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.92,
-        "1y": 99.95
-      }
-    },
-    {
-      "ip": "94.127.63.9",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "mnemonic",
-      "domain": "host-63-9.mnemonic.no",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.92,
-        "1y": 99.93
       }
     },
     {
@@ -429,15 +348,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 65.73,
-        "90d": 70.46,
-        "1y": 57.3
+        "24h": 100.0,
+        "30d": 65.28,
+        "90d": 70.49,
+        "1y": 57.35
       }
     },
     {
@@ -463,19 +382,73 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.77,
+        "90d": 99.76,
         "1y": 99.93
       }
     },
     {
-      "ip": "94.127.59.6",
+      "ip": "141.0.102.130",
       "version": 4,
       "country_code": "no",
       "country": "Norway",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Mnemonic OSL",
-      "domain": "osl-clouddnsdist1.mnemonic.no",
+      "organization": "Lyse Customer Corporate Linknets",
+      "domain": "141.0.102.130.static.lyse.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.71,
+        "90d": 98.43,
+        "1y": 98.85
+      }
+    },
+    {
+      "ip": "212.169.104.57",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Netcom GSM",
+      "domain": "m2m-host-104-57.osl255.netcom.no",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 56.74,
+        "90d": 54.49,
+        "1y": 57.21
+      }
+    },
+    {
+      "ip": "193.215.179.34",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telenor Norge",
+      "domain": "34.179.215.193.static.cust.telenor.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -488,10 +461,118 @@
         "adult": false
       },
       "uptime": {
+        "24h": 77.78,
+        "30d": 56.47,
+        "90d": 63.18,
+        "1y": 71.86
+      }
+    },
+    {
+      "ip": "89.191.31.6",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Broadnet NO Buvik",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 67.68,
+        "90d": 56.32,
+        "1y": 37.33
+      }
+    },
+    {
+      "ip": "94.127.63.6",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "mnemonic",
+      "domain": "host-63-6.mnemonic.no",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 99.49,
-        "90d": 99.84,
-        "1y": 99.88
+        "30d": 100.0,
+        "90d": 99.92,
+        "1y": 99.95
+      }
+    },
+    {
+      "ip": "79.161.9.164",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Altibox",
+      "domain": "164.79-161-9.customer.lyse.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 77.78,
+        "30d": 78.18,
+        "90d": 83.05,
+        "1y": 71.79
+      }
+    },
+    {
+      "ip": "94.127.59.10",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Mnemonic OSL",
+      "domain": "osl-securednsdist1.mnemonic.no",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -516,74 +597,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
-        "90d": 99.38,
+        "30d": 99.22,
+        "90d": 99.37,
         "1y": 99.76
       }
     },
     {
-      "ip": "193.19.64.88",
+      "ip": "94.127.59.6",
       "version": 4,
       "country_code": "no",
       "country": "Norway",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Itera Norge",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 97.23,
-        "1y": 98.97
-      }
-    },
-    {
-      "ip": "79.161.9.164",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Altibox",
-      "domain": "164.79-161-9.customer.lyse.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 78.69,
-        "90d": 83.19,
-        "1y": 71.78
-      }
-    },
-    {
-      "ip": "193.215.179.34",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telenor Norge",
-      "domain": "34.179.215.193.static.cust.telenor.net",
+      "organization": "Mnemonic OSL",
+      "domain": "osl-clouddnsdist1.mnemonic.no",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -591,15 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 56.95,
-        "90d": 63.48,
-        "1y": 71.87
+        "30d": 99.48,
+        "90d": 99.84,
+        "1y": 99.88
       }
     },
     {
@@ -619,7 +646,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -630,14 +657,14 @@
       }
     },
     {
-      "ip": "94.127.59.10",
+      "ip": "94.127.63.9",
       "version": 4,
       "country_code": "no",
       "country": "Norway",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Mnemonic OSL",
-      "domain": "osl-securednsdist1.mnemonic.no",
+      "organization": "mnemonic",
+      "domain": "host-63-9.mnemonic.no",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -647,13 +674,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "90d": 99.92,
+        "1y": 99.93
+      }
+    },
+    {
+      "ip": "193.19.64.88",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Itera Norge",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 97.21,
+        "1y": 98.97
       }
     },
     {
@@ -669,45 +723,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 55.07,
-        "90d": 74.43,
-        "1y": 64.14
-      }
-    },
-    {
-      "ip": "141.0.102.130",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Lyse Customer Corporate Linknets",
-      "domain": "141.0.102.130.static.lyse.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.72,
-        "90d": 98.44,
-        "1y": 98.85
+        "30d": 55.14,
+        "90d": 74.45,
+        "1y": 64.18
       }
     }
   ]
