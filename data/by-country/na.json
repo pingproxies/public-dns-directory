@@ -4,8 +4,8 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-21T18:19:17Z",
-    "total_servers": 3
+    "generated_at": "2026-04-22T06:47:24Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 57.14,
-        "30d": 73.42,
-        "90d": 68.06,
-        "1y": 63.78
+        "24h": 66.67,
+        "30d": 73.33,
+        "90d": 67.85,
+        "1y": 63.81
+      }
+    },
+    {
+      "ip": "41.63.244.146",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "DIA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 59.44,
+        "90d": 59.14,
+        "1y": 60.77
       }
     },
     {
@@ -56,10 +83,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 87.5,
-        "30d": 92.91,
-        "90d": 89.27,
-        "1y": 93.53
+        "24h": 83.33,
+        "30d": 92.8,
+        "90d": 89.15,
+        "1y": 93.54
+      }
+    },
+    {
+      "ip": "41.218.90.154",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Paratus Regional - Namibia",
+      "domain": "ns1.methealth.com.na",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 90.4,
+        "90d": 95.22,
+        "1y": 97.1
       }
     },
     {
@@ -75,18 +129,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 91.86,
-        "90d": 84.0,
-        "1y": 86.3
+        "24h": 100.0,
+        "30d": 91.73,
+        "90d": 83.82,
+        "1y": 86.31
       }
     }
   ]

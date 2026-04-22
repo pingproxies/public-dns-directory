@@ -4,10 +4,37 @@
     "country_name": "Angola",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-21T18:19:17Z",
-    "total_servers": 2
+    "generated_at": "2026-04-22T06:47:24Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "192.12.111.30",
+      "version": 4,
+      "country_code": "ao",
+      "country": "Angola",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "BPC WAN SERVICES",
+      "domain": "ns3.bpc.ao",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.13,
+        "90d": 95.45,
+        "1y": 87.21
+      }
+    },
     {
       "ip": "196.29.199.76",
       "version": 4,
@@ -25,25 +52,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.16,
-        "90d": 98.82,
-        "1y": 98.97
+        "30d": 98.13,
+        "90d": 98.8,
+        "1y": 98.98
       }
     },
     {
-      "ip": "192.12.111.30",
+      "ip": "196.13.243.20",
       "version": 4,
       "country_code": "ao",
       "country": "Angola",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "BPC WAN SERVICES",
-      "domain": "ns3.bpc.ao",
+      "organization": "Associacao Escola Internacional de Luanda",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.16,
-        "90d": 95.34,
-        "1y": 87.2
+        "30d": 6.25,
+        "90d": 1.69,
+        "1y": 64.62
       }
     }
   ]
