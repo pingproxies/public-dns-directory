@@ -1,6 +1,6 @@
 <div align="center">
 
-# Public DNS Servers List by Ping Proxies
+# Public DNS Servers List by Byteful (Formerly Ping Proxies)
 
 ### The most comprehensive public DNS server list on GitHub
 
