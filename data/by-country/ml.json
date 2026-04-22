@@ -4,7 +4,7 @@
     "country_name": "Mali",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-22T06:47:24Z",
+    "generated_at": "2026-04-22T18:19:38Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 77.71,
-        "90d": 75.35,
-        "1y": 76.81
+        "30d": 77.75,
+        "90d": 75.76,
+        "1y": 76.83
       }
     },
     {
@@ -57,9 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.4,
+        "30d": 86.25,
         "90d": 84.38,
-        "1y": 87.93
+        "1y": 87.94
       }
     }
   ]

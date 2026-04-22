@@ -4,8 +4,8 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-22T06:47:24Z",
-    "total_servers": 3
+    "generated_at": "2026-04-22T18:19:38Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -21,17 +21,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.8,
-        "90d": 96.49,
+        "30d": 92.72,
+        "90d": 96.46,
         "1y": 88.42
       }
     },
@@ -47,7 +47,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -57,36 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.47,
-        "90d": 98.57,
+        "30d": 99.46,
+        "90d": 98.55,
         "1y": 97.32
-      }
-    },
-    {
-      "ip": "62.150.254.82",
-      "version": 4,
-      "country_code": "kw",
-      "country": "Kuwait",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "QualityNet General Trading & Contracting Co.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 38.82,
-        "90d": 37.57,
-        "1y": 55.0
       }
     }
   ]
