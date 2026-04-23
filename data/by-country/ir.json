@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-22T18:19:38Z",
-    "total_servers": 6
+    "generated_at": "2026-04-23T06:48:07Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -21,17 +21,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.9,
-        "90d": 96.78,
+        "30d": 93.83,
+        "90d": 96.74,
         "1y": 96.97
       }
     },
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.97,
-        "90d": 93.41,
-        "1y": 95.54
+        "30d": 95.05,
+        "90d": 93.55,
+        "1y": 95.55
       }
     },
     {
@@ -80,11 +80,11 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.46,
+        "30d": 99.45,
         "90d": 97.8,
         "1y": 97.8
       }
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 47.06,
-        "90d": 82.42,
-        "1y": 94.01
+        "24h": 66.67,
+        "30d": 46.4,
+        "90d": 82.23,
+        "1y": 93.98
       }
     },
     {
@@ -138,36 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 87.4,
-        "90d": 94.78,
-        "1y": 96.35
-      }
-    },
-    {
-      "ip": "178.22.122.100",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Asiatech Data Transmission company",
-      "domain": "free.shecan.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 29.63,
-        "90d": 29.63,
-        "1y": 29.63
+        "30d": 87.19,
+        "90d": 94.72,
+        "1y": 96.36
       }
     }
   ]
