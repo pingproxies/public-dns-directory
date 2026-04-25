@@ -4,19 +4,19 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-25T06:38:51Z",
-    "total_servers": 3
+    "generated_at": "2026-04-25T18:11:05Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "91.151.226.102",
+      "ip": "80.81.147.82",
       "version": 4,
       "country_code": "lb",
       "country": "Lebanon",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "bcdbbn-bloc1",
-      "domain": null,
+      "organization": "CYBERIA",
+      "domain": "ppp-03-82.cyberia.net.lb",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 80.95,
-        "90d": 86.73,
-        "1y": 88.69
+        "24h": 72.73,
+        "30d": 42.27,
+        "90d": 52.1,
+        "1y": 21.74
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 57.82,
+        "90d": 76.48,
+        "1y": 73.11
+      }
+    },
+    {
+      "ip": "212.98.146.97",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "corp-212-98-146-97.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 57.42,
-        "90d": 76.57,
-        "1y": 73.08
+        "30d": 34.69,
+        "90d": 32.88,
+        "1y": 33.15
       }
     },
     {

@@ -4,7 +4,7 @@
     "country_name": "Mauritania",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-25T06:38:51Z",
+    "generated_at": "2026-04-25T18:11:05Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -31,8 +31,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 85.43,
-        "90d": 90.55,
-        "1y": 96.72
+        "90d": 90.67,
+        "1y": 96.73
       }
     },
     {
@@ -47,19 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 77.02,
-        "90d": 73.89,
-        "1y": 86.01
+        "24h": 63.64,
+        "30d": 76.13,
+        "90d": 73.49,
+        "1y": 85.96
       }
     }
   ]
