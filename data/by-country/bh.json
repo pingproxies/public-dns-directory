@@ -4,7 +4,7 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-24T18:12:06Z",
+    "generated_at": "2026-04-25T06:38:51Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -20,18 +20,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.72,
-        "90d": 98.17,
+        "90d": 98.16,
         "1y": 98.76
       }
     }
