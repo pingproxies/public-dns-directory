@@ -4,37 +4,10 @@
     "country_name": "Angola",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-25T18:11:05Z",
+    "generated_at": "2026-04-26T06:46:41Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "196.29.199.76",
-      "version": 4,
-      "country_code": "ao",
-      "country": "Angola",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "NET",
-      "domain": "ns1.upra.ao",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.04,
-        "90d": 98.82,
-        "1y": 98.98
-      }
-    },
     {
       "ip": "196.13.243.20",
       "version": 4,
@@ -52,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 68.29,
-        "90d": 34.57,
-        "1y": 65.13
+        "30d": 78.69,
+        "90d": 48.0,
+        "1y": 65.5
       }
     },
     {
@@ -79,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.04,
-        "90d": 96.0,
-        "1y": 87.33
+        "30d": 98.1,
+        "90d": 96.06,
+        "1y": 87.42
+      }
+    },
+    {
+      "ip": "196.29.199.76",
+      "version": 4,
+      "country_code": "ao",
+      "country": "Angola",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "NET",
+      "domain": "ns1.upra.ao",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.1,
+        "90d": 98.83,
+        "1y": 98.99
       }
     }
   ]

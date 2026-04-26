@@ -4,37 +4,10 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-25T18:11:05Z",
+    "generated_at": "2026-04-26T06:46:41Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "81.22.26.6",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kalaam Telcom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.72,
-        "90d": 98.15,
-        "1y": 98.76
-      }
-    },
     {
       "ip": "89.148.55.251",
       "version": 4,
@@ -52,14 +25,41 @@
       },
       "blocking": {
         "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 62.33,
+        "90d": 64.38,
+        "1y": 68.24
+      }
+    },
+    {
+      "ip": "81.22.26.6",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kalaam Telcom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 72.73,
-        "30d": 63.87,
-        "90d": 65.03,
-        "1y": 68.32
+        "24h": 100.0,
+        "30d": 99.73,
+        "90d": 98.16,
+        "1y": 98.77
       }
     }
   ]
