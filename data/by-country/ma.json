@@ -4,19 +4,19 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-27T07:04:14Z",
-    "total_servers": 3
+    "generated_at": "2026-04-27T18:23:51Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "194.204.223.244",
+      "ip": "41.137.170.250",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Casa Americain school",
-      "domain": "srv3-cas.ac.ma",
+      "organization": "Provider 36884 Wana Corporate",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,42 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.17,
-        "90d": 98.22,
-        "1y": 98.77
-      }
-    },
-    {
-      "ip": "102.50.253.95",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maroc telecom static ip adress",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.49,
-        "90d": 99.59,
-        "1y": 99.86
+        "24h": 51.43,
+        "30d": 30.28,
+        "90d": 36.33,
+        "1y": 32.68
       }
     },
     {
@@ -83,10 +56,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 74.69,
-        "90d": 85.69,
-        "1y": 90.98
+        "24h": 100.0,
+        "30d": 76.84,
+        "90d": 86.05,
+        "1y": 91.01
+      }
+    },
+    {
+      "ip": "102.50.253.95",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maroc telecom static ip adress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.5,
+        "90d": 99.59,
+        "1y": 99.86
+      }
+    },
+    {
+      "ip": "194.204.223.244",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Casa Americain school",
+      "domain": "srv3-cas.ac.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.26,
+        "90d": 98.23,
+        "1y": 98.78
       }
     }
   ]

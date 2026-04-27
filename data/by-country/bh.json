@@ -4,37 +4,10 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-27T07:04:14Z",
-    "total_servers": 3
+    "generated_at": "2026-04-27T18:23:51Z",
+    "total_servers": 1
   },
   "resolvers": [
-    {
-      "ip": "77.69.141.243",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.77.69.141.243.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 62.84,
-        "90d": 74.35,
-        "1y": 81.46
-      }
-    },
     {
       "ip": "81.22.26.6",
       "version": 4,
@@ -51,42 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.74,
+        "30d": 99.75,
         "90d": 98.18,
-        "1y": 98.78
-      }
-    },
-    {
-      "ip": "89.148.55.251",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.89.148.55.251.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 69.23,
-        "30d": 63.17,
-        "90d": 64.04,
-        "1y": 68.24
+        "1y": 98.79
       }
     }
   ]

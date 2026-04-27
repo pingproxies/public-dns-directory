@@ -4,8 +4,8 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-27T07:04:14Z",
-    "total_servers": 3
+    "generated_at": "2026-04-27T18:23:51Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 56.41,
-        "30d": 70.08,
-        "90d": 71.35,
-        "1y": 69.88
+        "24h": 80.0,
+        "30d": 70.68,
+        "90d": 71.3,
+        "1y": 69.89
       }
     },
     {
@@ -51,9 +51,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -80,13 +80,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 78.95,
-        "30d": 70.0,
-        "90d": 79.8,
-        "1y": 87.47
+        "24h": 82.86,
+        "30d": 70.07,
+        "90d": 79.89,
+        "1y": 87.41
+      }
+    },
+    {
+      "ip": "196.43.199.61",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Zimbabwe Open University",
+      "domain": "z0udns1.zou.ac.zw",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 54.29,
+        "30d": 70.42,
+        "90d": 79.39,
+        "1y": 78.3
       }
     }
   ]
