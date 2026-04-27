@@ -4,37 +4,10 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-26T18:11:21Z",
+    "generated_at": "2026-04-27T07:04:14Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "41.137.170.250",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Provider 36884 Wana Corporate",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 34.21,
-        "30d": 23.36,
-        "90d": 36.46,
-        "1y": 32.44
-      }
-    },
     {
       "ip": "194.204.223.244",
       "version": 4,
@@ -52,13 +25,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.06,
-        "90d": 98.21,
+        "30d": 96.17,
+        "90d": 98.22,
         "1y": 98.77
       }
     },
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.47,
-        "90d": 99.58,
+        "30d": 99.49,
+        "90d": 99.59,
         "1y": 99.86
+      }
+    },
+    {
+      "ip": "197.230.15.206",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "OS Meditel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.75,
+        "30d": 74.69,
+        "90d": 85.69,
+        "1y": 90.98
       }
     }
   ]

@@ -4,37 +4,10 @@
     "country_name": "Trinidad and Tobago",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-26T18:11:21Z",
+    "generated_at": "2026-04-27T07:04:14Z",
     "total_servers": 5
   },
   "resolvers": [
-    {
-      "ip": "196.3.132.154",
-      "version": 4,
-      "country_code": "tt",
-      "country": "Trinidad and Tobago",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telecommunications Services of Trinidad and Tobago",
-      "domain": "nssec.tstt.net.tt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.93
-      }
-    },
     {
       "ip": "200.1.104.36",
       "version": 4,
@@ -51,8 +24,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -60,33 +33,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "196.3.132.153",
-      "version": 4,
-      "country_code": "tt",
-      "country": "Trinidad and Tobago",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telecommunications Services of Trinidad and Tobago",
-      "domain": "ns.tstt.net.tt",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.47,
-        "90d": 99.67,
-        "1y": 99.47
       }
     },
     {
@@ -105,15 +51,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.88,
+        "90d": 95.61,
+        "1y": 97.83
+      }
+    },
+    {
+      "ip": "196.3.132.153",
+      "version": 4,
+      "country_code": "tt",
+      "country": "Trinidad and Tobago",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telecommunications Services of Trinidad and Tobago",
+      "domain": "ns.tstt.net.tt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 92.11,
-        "30d": 94.47,
-        "90d": 95.58,
-        "1y": 97.82
+        "24h": 100.0,
+        "30d": 99.49,
+        "90d": 99.67,
+        "1y": 99.47
       }
     },
     {
@@ -133,14 +106,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "196.3.132.154",
+      "version": 4,
+      "country_code": "tt",
+      "country": "Trinidad and Tobago",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telecommunications Services of Trinidad and Tobago",
+      "domain": "nssec.tstt.net.tt",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.93
       }
     }
   ]

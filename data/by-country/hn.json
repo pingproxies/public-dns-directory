@@ -4,19 +4,19 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-26T18:11:21Z",
+    "generated_at": "2026-04-27T07:04:14Z",
     "total_servers": 6
   },
   "resolvers": [
     {
-      "ip": "190.92.7.76",
+      "ip": "190.4.18.218",
       "version": 4,
       "country_code": "hn",
       "country": "Honduras",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "UNIPOLE",
-      "domain": "maicabe.tecnocolor.hn",
+      "organization": "COINCA",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 33.33,
-        "30d": 14.47,
-        "90d": 19.9,
-        "1y": 18.58
+        "30d": 30.54,
+        "90d": 31.66,
+        "1y": 37.77
       }
     },
     {
@@ -51,96 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 57.89,
-        "30d": 44.79,
-        "90d": 55.52,
-        "1y": 51.63
-      }
-    },
-    {
-      "ip": "190.124.166.45",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "REYTEL",
-      "domain": "block166-static45.reytelhn.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 76.92,
-        "30d": 58.74,
-        "90d": 72.85,
-        "1y": 52.3
-      }
-    },
-    {
-      "ip": "190.11.225.2",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Psinet, S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 86.84,
-        "30d": 90.79,
-        "90d": 90.83,
-        "1y": 88.96
-      }
-    },
-    {
-      "ip": "181.114.59.245",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Netsys",
-      "domain": "www.netsys.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.0,
-        "90d": 92.67,
-        "1y": 92.63
+        "24h": 64.1,
+        "30d": 47.68,
+        "90d": 55.48,
+        "1y": 51.75
       }
     },
     {
@@ -168,6 +87,87 @@
         "30d": 99.74,
         "90d": 99.5,
         "1y": 99.47
+      }
+    },
+    {
+      "ip": "181.114.59.245",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Netsys",
+      "domain": "www.netsys.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.14,
+        "90d": 93.21,
+        "1y": 92.67
+      }
+    },
+    {
+      "ip": "190.124.166.45",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "REYTEL",
+      "domain": "block166-static45.reytelhn.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 61.15,
+        "90d": 73.02,
+        "1y": 52.48
+      }
+    },
+    {
+      "ip": "190.11.225.2",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Psinet, S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 89.47,
+        "30d": 90.79,
+        "90d": 90.89,
+        "1y": 88.99
       }
     }
   ]
