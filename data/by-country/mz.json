@@ -4,8 +4,8 @@
     "country_name": "Mozambique",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-27T18:23:51Z",
-    "total_servers": 1
+    "generated_at": "2026-04-28T07:04:25Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 75.76,
+        "30d": 79.17,
+        "90d": 85.78,
+        "1y": 75.99
+      }
+    },
+    {
+      "ip": "197.158.3.246",
+      "version": 4,
+      "country_code": "mz",
+      "country": "Mozambique",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "TMCEL - Moçambique Telecom, SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 82.86,
-        "30d": 79.65,
-        "90d": 85.96,
-        "1y": 75.98
+        "24h": 100.0,
+        "30d": 44.83,
+        "90d": 19.4,
+        "1y": 26.98
       }
     }
   ]
