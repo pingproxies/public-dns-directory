@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-28T07:04:25Z",
-    "total_servers": 11
+    "generated_at": "2026-04-28T18:28:15Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.28,
-        "90d": 97.29,
-        "1y": 98.34
+        "30d": 98.31,
+        "90d": 97.3,
+        "1y": 98.35
       }
     },
     {
@@ -51,13 +51,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 84.85,
-        "30d": 98.53,
+        "30d": 98.55,
         "90d": 99.51,
         "1y": 99.86
       }
@@ -83,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 48.48,
-        "30d": 50.49,
-        "90d": 55.44,
-        "1y": 43.28
+        "24h": 45.45,
+        "30d": 50.84,
+        "90d": 55.23,
+        "1y": 43.34
       }
     },
     {
@@ -132,7 +132,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -161,11 +161,11 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 96.97,
-        "30d": 99.51,
+        "30d": 99.52,
         "90d": 99.67,
         "1y": 99.86
       }
@@ -191,10 +191,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 69.7,
-        "30d": 79.66,
-        "90d": 80.72,
-        "1y": 85.18
+        "24h": 72.73,
+        "30d": 79.76,
+        "90d": 80.84,
+        "1y": 85.16
       }
     },
     {
@@ -220,8 +220,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.04,
-        "1y": 99.61
+        "90d": 99.05,
+        "1y": 99.62
+      }
+    },
+    {
+      "ip": "89.236.106.156",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TNNet Oy",
+      "domain": "59ec6a9c.adsl.tnnet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 72.73,
+        "30d": 83.37,
+        "90d": 84.37,
+        "1y": 77.53
       }
     },
     {
@@ -246,63 +273,9 @@
       },
       "uptime": {
         "24h": 84.85,
-        "30d": 89.46,
-        "90d": 90.63,
-        "1y": 91.25
-      }
-    },
-    {
-      "ip": "80.220.131.128",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TeliaSonera Finland Oyj",
-      "domain": "dsl-roibng12-50dc83-128.dhcp.inet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 75.0,
-        "90d": 71.09,
-        "1y": 62.47
-      }
-    },
-    {
-      "ip": "89.236.106.156",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TNNet Oy",
-      "domain": "59ec6a9c.adsl.tnnet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.76,
-        "30d": 82.84,
-        "90d": 84.31,
-        "1y": 77.48
+        "30d": 89.64,
+        "90d": 90.6,
+        "1y": 91.26
       }
     }
   ]

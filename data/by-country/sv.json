@@ -4,10 +4,37 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-28T07:04:25Z",
+    "generated_at": "2026-04-28T18:28:15Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "200.85.7.28",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telemovil El Salvador S.A",
+      "domain": "ftp.grupotropigas.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.75,
+        "1y": 98.72
+      }
+    },
     {
       "ip": "201.247.112.236",
       "version": 4,
@@ -29,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 78.79,
-        "30d": 68.63,
-        "90d": 78.55,
-        "1y": 79.62
+        "24h": 60.61,
+        "30d": 67.47,
+        "90d": 78.09,
+        "1y": 79.49
       }
     },
     {
@@ -53,40 +80,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 84.56,
-        "90d": 93.43,
-        "1y": 97.53
-      }
-    },
-    {
-      "ip": "200.85.7.28",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telemovil El Salvador S.A",
-      "domain": "ftp.grupotropigas.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.75,
-        "1y": 98.72
+        "24h": 96.97,
+        "30d": 84.58,
+        "90d": 93.38,
+        "1y": 97.52
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.94,
-        "30d": 52.5,
-        "90d": 71.34,
-        "1y": 80.34
+        "24h": 87.88,
+        "30d": 53.41,
+        "90d": 71.32,
+        "1y": 80.36
       }
     }
   ]

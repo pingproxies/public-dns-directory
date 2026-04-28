@@ -4,37 +4,10 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-28T07:04:25Z",
+    "generated_at": "2026-04-28T18:28:15Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "62.150.254.82",
-      "version": 4,
-      "country_code": "kw",
-      "country": "Kuwait",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "QualityNet General Trading & Contracting Co.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 41.48,
-        "90d": 39.94,
-        "1y": 54.68
-      }
-    },
     {
       "ip": "62.150.77.106",
       "version": 4,
@@ -51,15 +24,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.77,
+        "30d": 98.8,
         "90d": 98.36,
-        "1y": 97.32
+        "1y": 97.33
+      }
+    },
+    {
+      "ip": "83.96.104.7",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "FASTTELCO - Corp",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.97,
+        "30d": 93.49,
+        "90d": 96.97,
+        "1y": 88.76
       }
     }
   ]
