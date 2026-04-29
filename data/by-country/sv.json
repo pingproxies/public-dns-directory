@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-29T06:59:37Z",
-    "total_servers": 3
+    "generated_at": "2026-04-29T18:26:28Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 84.83,
-        "90d": 93.39,
-        "1y": 97.53
+        "24h": 100.0,
+        "30d": 85.35,
+        "90d": 93.4,
+        "1y": 97.54
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.76,
-        "1y": 98.72
+        "1y": 98.73
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 55.47,
-        "90d": 71.45,
-        "1y": 80.43
+        "24h": 100.0,
+        "30d": 57.44,
+        "90d": 71.59,
+        "1y": 80.5
+      }
+    },
+    {
+      "ip": "201.247.112.236",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 46.67,
+        "30d": 64.88,
+        "90d": 77.1,
+        "1y": 79.26
       }
     }
   ]

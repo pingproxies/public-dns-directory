@@ -4,7 +4,7 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-29T06:59:37Z",
+    "generated_at": "2026-04-29T18:26:28Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.02,
-        "90d": 86.79,
-        "1y": 88.41
+        "30d": 86.28,
+        "90d": 86.81,
+        "1y": 88.45
+      }
+    },
+    {
+      "ip": "115.84.79.71",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Lao Telecommunication Co Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.67,
+        "30d": 88.6,
+        "90d": 93.56,
+        "1y": 73.06
       }
     },
     {
@@ -53,40 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.42,
-        "90d": 96.49,
-        "1y": 91.31
-      }
-    },
-    {
-      "ip": "115.84.79.71",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Lao Telecommunication Co Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 89.57,
-        "90d": 93.96,
-        "1y": 73.09
+        "24h": 100.0,
+        "30d": 92.58,
+        "90d": 96.49,
+        "1y": 91.36
       }
     },
     {
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.08,
+        "30d": 94.2,
         "90d": 95.84,
-        "1y": 92.59
+        "1y": 92.61
       }
     }
   ]
