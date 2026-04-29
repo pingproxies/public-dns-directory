@@ -4,37 +4,10 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-28T18:28:15Z",
+    "generated_at": "2026-04-29T06:59:37Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "41.63.244.89",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "DIA",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.91,
-        "30d": 90.12,
-        "90d": 84.15,
-        "1y": 86.51
-      }
-    },
     {
       "ip": "41.218.90.154",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.97,
-        "30d": 90.36,
+        "24h": 96.67,
+        "30d": 90.52,
         "90d": 94.44,
-        "1y": 96.98
+        "1y": 96.99
       }
     },
     {
@@ -80,13 +53,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 78.79,
-        "30d": 72.77,
-        "90d": 66.87,
-        "1y": 64.17
+        "24h": 90.0,
+        "30d": 73.22,
+        "90d": 67.01,
+        "1y": 64.28
+      }
+    },
+    {
+      "ip": "41.63.244.89",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "DIA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.28,
+        "90d": 84.19,
+        "1y": 86.56
       }
     },
     {
@@ -110,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.91,
-        "30d": 89.88,
-        "90d": 88.96,
-        "1y": 93.29
+        "24h": 100.0,
+        "30d": 90.05,
+        "90d": 88.98,
+        "1y": 93.31
       }
     }
   ]
