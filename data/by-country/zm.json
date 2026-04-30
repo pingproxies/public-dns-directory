@@ -4,8 +4,8 @@
     "country_name": "Zambia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-04-30T07:02:04Z",
-    "total_servers": 1
+    "generated_at": "2026-04-30T18:25:47Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 84.51,
-        "90d": 87.43,
-        "1y": 94.12
+        "24h": 93.33,
+        "30d": 85.46,
+        "90d": 87.45,
+        "1y": 94.09
+      }
+    },
+    {
+      "ip": "41.173.23.150",
+      "version": 4,
+      "country_code": "zm",
+      "country": "Zambia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.67,
+        "30d": 27.44,
+        "90d": 41.25,
+        "1y": 30.39
       }
     }
   ]

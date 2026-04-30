@@ -4,8 +4,8 @@
     "country_name": "Ecuador",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-04-30T07:02:04Z",
-    "total_servers": 39
+    "generated_at": "2026-04-30T18:25:47Z",
+    "total_servers": 41
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 67.95,
-        "90d": 72.46,
-        "1y": 61.06
+        "24h": 93.33,
+        "30d": 69.5,
+        "90d": 72.59,
+        "1y": 61.16
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 77.05,
-        "90d": 80.98,
-        "1y": 71.97
+        "24h": 90.0,
+        "30d": 78.07,
+        "90d": 80.85,
+        "1y": 72.02
       }
     },
     {
@@ -84,7 +84,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.09,
+        "30d": 99.11,
         "90d": 99.51,
         "1y": 99.77
       }
@@ -107,7 +107,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -133,7 +133,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -141,33 +141,6 @@
         "30d": 100.0,
         "90d": 99.92,
         "1y": 99.51
-      }
-    },
-    {
-      "ip": "177.234.232.87",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "87-232-234-177.ufinetlatam.net.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 23.33,
-        "30d": 39.46,
-        "90d": 48.44,
-        "1y": 60.02
       }
     },
     {
@@ -191,10 +164,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 84.93,
-        "90d": 84.78,
+        "24h": 86.67,
+        "30d": 84.98,
+        "90d": 84.65,
         "1y": 78.68
+      }
+    },
+    {
+      "ip": "179.60.244.1",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Wisp Internet Ecuador",
+      "domain": "179-60-244-1-mtk.wisp.net.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 26.67,
+        "30d": 20.11,
+        "90d": 16.13,
+        "1y": 7.96
       }
     },
     {
@@ -214,7 +214,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -241,7 +241,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -264,7 +264,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -272,10 +272,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 76.67,
-        "30d": 57.4,
-        "90d": 62.08,
-        "1y": 58.09
+        "24h": 80.0,
+        "30d": 58.3,
+        "90d": 62.01,
+        "1y": 58.16
       }
     },
     {
@@ -294,13 +294,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.09,
+        "30d": 99.11,
         "90d": 99.59,
         "1y": 99.74
       }
@@ -349,7 +349,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -372,6 +372,33 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 69.91,
+        "90d": 67.03,
+        "1y": 59.57
+      }
+    },
+    {
+      "ip": "200.24.131.97",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Negocios Y Telefonia Nedetel S.A",
+      "domain": "97-131-24-200.ufinetlatam.net.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -380,21 +407,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 68.12,
-        "90d": 66.86,
-        "1y": 59.34
+        "24h": 93.33,
+        "30d": 84.08,
+        "90d": 86.84,
+        "1y": 91.17
       }
     },
     {
-      "ip": "200.55.248.253",
+      "ip": "186.68.87.82",
       "version": 4,
       "country_code": "ec",
       "country": "Ecuador",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Comm & Net S.A",
-      "domain": "dns4.easynet.ec",
+      "organization": "Xtrim EC",
+      "domain": "82.cpe-186-68-87.gye.satnet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 68.01,
+        "90d": 71.32,
+        "1y": 67.85
+      }
+    },
+    {
+      "ip": "131.196.115.45",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Negocios Y Telefonia Nedetel S.A",
+      "domain": "45-115-196-131.ufinetlatam.net.ec",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -408,20 +462,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.17,
-        "90d": 99.19,
-        "1y": 99.58
+        "30d": 99.11,
+        "90d": 99.59,
+        "1y": 99.77
       }
     },
     {
-      "ip": "45.71.185.100",
+      "ip": "177.234.212.94",
       "version": 4,
       "country_code": "ec",
       "country": "Ecuador",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "100-185-71-45.ufinetlatam.net.ec",
+      "organization": "Ufinet Panama S.A.",
+      "domain": "94-212-234-177.ufinetlatam.net.ec",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -434,14 +488,41 @@
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 72.21,
-        "90d": 75.02,
-        "1y": 79.01
+        "24h": 100.0,
+        "30d": 98.37,
+        "90d": 87.79,
+        "1y": 58.98
       }
     },
     {
-      "ip": "45.228.181.252",
+      "ip": "131.196.115.190",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Negocios Y Telefonia Nedetel S.A",
+      "domain": "190-115-196-131.ufinetlatam.net.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.11,
+        "90d": 99.51,
+        "1y": 99.7
+      }
+    },
+    {
+      "ip": "45.228.181.248",
       "version": 4,
       "country_code": "ec",
       "country": "Ecuador",
@@ -463,46 +544,19 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.19,
-        "1y": 99.63
+        "90d": 99.35,
+        "1y": 99.67
       }
     },
     {
-      "ip": "191.100.20.116",
+      "ip": "181.112.60.126",
       "version": 4,
       "country_code": "ec",
       "country": "Ecuador",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "ETAPA EP",
-      "domain": "116.191-100-20.etapanet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 66.76,
-        "90d": 70.81,
-        "1y": 61.63
-      }
-    },
-    {
-      "ip": "190.63.160.34",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "CONECEL",
-      "domain": "customer-190-63-160-34.claro.com.ec",
+      "organization": "Corporacion Nacional De Telecomunicaciones - CNT EP",
+      "domain": "126.60.112.181.static.anycast.cnt-grms.ec",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -511,311 +565,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 76.26,
-        "90d": 73.53,
-        "1y": 84.11
-      }
-    },
-    {
-      "ip": "45.224.96.67",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "67-96-224-45.ufinetlatam.net.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 63.33,
-        "30d": 42.93,
-        "90d": 37.01,
-        "1y": 25.51
-      }
-    },
-    {
-      "ip": "157.100.63.48",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "host-157-100-63-48.ecua.net.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.92,
-        "1y": 99.74
-      }
-    },
-    {
-      "ip": "157.100.58.252",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "host-157-100-58-252.nedetel.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.09,
-        "90d": 99.51,
-        "1y": 99.72
-      }
-    },
-    {
-      "ip": "201.234.210.179",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Exportadora Aurifera S.a. Expausa",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 63.47,
-        "90d": 71.68,
-        "1y": 70.01
-      }
-    },
-    {
-      "ip": "186.68.87.82",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Xtrim EC",
-      "domain": "82.cpe-186-68-87.gye.satnet.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 66.97,
-        "90d": 71.0,
-        "1y": 67.77
-      }
-    },
-    {
-      "ip": "177.234.212.94",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Ufinet Panama S.A.",
-      "domain": "94-212-234-177.ufinetlatam.net.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.96,
-        "90d": 87.01,
-        "1y": 57.83
-      }
-    },
-    {
-      "ip": "131.196.115.45",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "45-115-196-131.ufinetlatam.net.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.09,
-        "90d": 99.59,
-        "1y": 99.77
-      }
-    },
-    {
-      "ip": "131.196.115.190",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "190-115-196-131.ufinetlatam.net.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.09,
-        "90d": 99.51,
-        "1y": 99.7
-      }
-    },
-    {
-      "ip": "200.24.131.97",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Negocios Y Telefonia Nedetel S.A",
-      "domain": "97-131-24-200.ufinetlatam.net.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 83.11,
-        "90d": 86.98,
-        "1y": 91.19
-      }
-    },
-    {
-      "ip": "186.4.206.188",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Clientes NETLIFE Quito - gepon",
-      "domain": "host-186-4-206-188.netlife.ec",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.84,
-        "1y": 98.76
-      }
-    },
-    {
-      "ip": "170.239.204.230",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "FIBERNET",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.51
+        "24h": 54.84,
+        "30d": 62.64,
+        "90d": 67.63,
+        "1y": 44.6
       }
     },
     {
@@ -835,7 +592,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
@@ -868,8 +625,62 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.02,
-        "1y": 97.08
+        "90d": 99.03,
+        "1y": 97.09
+      }
+    },
+    {
+      "ip": "170.239.204.175",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "FIBERNET",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.92,
+        "1y": 99.51
+      }
+    },
+    {
+      "ip": "170.239.204.230",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "FIBERNET",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.51
       }
     },
     {
@@ -894,9 +705,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.54,
+        "30d": 99.55,
         "90d": 98.21,
-        "1y": 98.5
+        "1y": 98.51
       }
     },
     {
@@ -927,84 +738,30 @@
       }
     },
     {
-      "ip": "45.228.181.248",
+      "ip": "201.234.210.179",
       "version": 4,
       "country_code": "ec",
       "country": "Ecuador",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "ZORRILLA SOLEDISPA JUAN JOBINO (JJ COMP)",
+      "organization": "Exportadora Aurifera S.a. Expausa",
       "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.35,
-        "1y": 99.67
-      }
-    },
-    {
-      "ip": "181.112.60.126",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Corporacion Nacional De Telecomunicaciones - CNT EP",
-      "domain": "126.60.112.181.static.anycast.cnt-grms.ec",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 63.33,
-        "90d": 67.88,
-        "1y": 44.58
-      }
-    },
-    {
-      "ip": "170.239.204.175",
-      "version": 4,
-      "country_code": "ec",
-      "country": "Ecuador",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "FIBERNET",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.92,
-        "1y": 99.51
+        "24h": 90.0,
+        "30d": 64.8,
+        "90d": 71.57,
+        "1y": 70.06
       }
     },
     {
@@ -1059,6 +816,303 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 99.56
+      }
+    },
+    {
+      "ip": "191.100.20.116",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "ETAPA EP",
+      "domain": "116.191-100-20.etapanet.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 68.27,
+        "90d": 70.86,
+        "1y": 61.71
+      }
+    },
+    {
+      "ip": "45.71.185.100",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Negocios Y Telefonia Nedetel S.A",
+      "domain": "100-185-71-45.ufinetlatam.net.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 72.26,
+        "90d": 74.65,
+        "1y": 78.92
+      }
+    },
+    {
+      "ip": "45.228.181.252",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "ZORRILLA SOLEDISPA JUAN JOBINO (JJ COMP)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.19,
+        "1y": 99.63
+      }
+    },
+    {
+      "ip": "45.224.96.67",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Negocios Y Telefonia Nedetel S.A",
+      "domain": "67-96-224-45.ufinetlatam.net.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 63.33,
+        "30d": 43.88,
+        "90d": 37.6,
+        "1y": 25.67
+      }
+    },
+    {
+      "ip": "200.55.248.253",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Comm & Net S.A",
+      "domain": "dns4.easynet.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.21,
+        "90d": 99.19,
+        "1y": 99.58
+      }
+    },
+    {
+      "ip": "190.63.160.34",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CONECEL",
+      "domain": "customer-190-63-160-34.claro.com.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 76.01,
+        "90d": 74.19,
+        "1y": 84.06
+      }
+    },
+    {
+      "ip": "179.60.244.11",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Wisp Internet Ecuador",
+      "domain": "179-60-244-11-ptr.wisp.net.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 13.33,
+        "30d": 19.9,
+        "90d": 13.51,
+        "1y": 7.87
+      }
+    },
+    {
+      "ip": "179.60.245.9",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Wisp Internet Ecuador",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 13.33,
+        "30d": 16.2,
+        "90d": 11.73,
+        "1y": 7.69
+      }
+    },
+    {
+      "ip": "186.4.206.188",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Clientes NETLIFE Quito - gepon",
+      "domain": "host-186-4-206-188.netlife.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.78,
+        "90d": 99.84,
+        "1y": 98.76
+      }
+    },
+    {
+      "ip": "157.100.63.48",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Negocios Y Telefonia Nedetel S.A",
+      "domain": "host-157-100-63-48.ecua.net.ec",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.92,
+        "1y": 99.74
+      }
+    },
+    {
+      "ip": "157.100.58.252",
+      "version": 4,
+      "country_code": "ec",
+      "country": "Ecuador",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Negocios Y Telefonia Nedetel S.A",
+      "domain": "host-157-100-58-252.nedetel.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.1,
+        "90d": 99.51,
+        "1y": 99.72
       }
     }
   ]

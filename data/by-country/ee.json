@@ -4,7 +4,7 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-30T07:02:04Z",
+    "generated_at": "2026-04-30T18:25:47Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -21,16 +21,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 96.67,
-        "30d": 99.77,
+        "30d": 99.78,
         "90d": 99.92,
         "1y": 99.98
       }
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -57,9 +57,36 @@
       },
       "uptime": {
         "24h": 96.67,
-        "30d": 99.77,
+        "30d": 99.78,
         "90d": 99.92,
         "1y": 98.94
+      }
+    },
+    {
+      "ip": "46.226.143.83",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cert",
+      "domain": "ns1.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 97.76,
+        "90d": 99.11,
+        "1y": 99.72
       }
     },
     {
@@ -84,35 +111,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.72,
-        "90d": 99.02,
-        "1y": 99.72
-      }
-    },
-    {
-      "ip": "46.226.143.83",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cert",
-      "domain": "ns1.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 97.72,
-        "90d": 99.1,
+        "30d": 97.76,
+        "90d": 99.03,
         "1y": 99.72
       }
     }
