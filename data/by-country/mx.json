@@ -4,8 +4,8 @@
     "country_name": "Mexico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-04-29T18:26:28Z",
-    "total_servers": 96
+    "generated_at": "2026-04-30T07:02:04Z",
+    "total_servers": 94
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 96.67,
-        "30d": 74.19,
-        "90d": 66.24,
-        "1y": 63.94
+        "30d": 75.17,
+        "90d": 66.64,
+        "1y": 64.05
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 45.83,
-        "90d": 53.39,
-        "1y": 51.9
+        "24h": 63.33,
+        "30d": 45.8,
+        "90d": 53.17,
+        "1y": 51.82
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.81,
-        "90d": 93.51,
-        "1y": 95.74
+        "30d": 95.89,
+        "90d": 93.53,
+        "1y": 95.75
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 66.76,
-        "90d": 49.14,
-        "1y": 42.92
+        "30d": 68.56,
+        "90d": 49.9,
+        "1y": 43.15
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.77,
-        "90d": 99.16,
-        "1y": 97.76
+        "90d": 99.17,
+        "1y": 97.77
       }
     },
     {
@@ -161,13 +161,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 92.56,
-        "90d": 94.59,
-        "1y": 79.16
+        "30d": 94.31,
+        "90d": 94.6,
+        "1y": 79.34
       }
     },
     {
@@ -186,7 +186,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -214,7 +214,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -241,14 +241,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 93.72,
-        "90d": 94.38,
-        "1y": 93.81
+        "30d": 93.85,
+        "90d": 94.39,
+        "1y": 93.83
       }
     },
     {
@@ -300,63 +300,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.75,
-        "90d": 83.33,
-        "1y": 96.43
-      }
-    },
-    {
-      "ip": "189.204.6.253",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mexico Red de Telecomunicaciones, S. de R.L. de C.V",
-      "domain": "189.204.6.253-customer-izzi-mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 99.77,
-        "90d": 99.84,
-        "1y": 99.86
-      }
-    },
-    {
-      "ip": "186.96.11.240",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
-      "domain": "fixed-186-96-11-240.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.3,
-        "90d": 98.45,
-        "1y": 98.66
+        "30d": 85.39,
+        "90d": 83.39,
+        "1y": 96.44
       }
     },
     {
@@ -375,15 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.52,
-        "90d": 68.27,
-        "1y": 80.68
+        "30d": 89.16,
+        "90d": 69.08,
+        "1y": 80.77
       }
     },
     {
@@ -402,42 +348,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.91,
-        "90d": 98.21,
-        "1y": 97.98
-      }
-    },
-    {
-      "ip": "187.141.176.81",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "customer-187-141-176-81-sta.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.84,
-        "1y": 99.84
+        "30d": 98.17,
+        "90d": 98.21,
+        "1y": 97.99
       }
     },
     {
@@ -456,15 +375,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
+        "30d": 99.54,
         "90d": 99.35,
-        "1y": 98.47
+        "1y": 98.48
       }
     },
     {
@@ -484,14 +403,1796 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.54,
+        "90d": 99.43,
+        "1y": 99.21
+      }
+    },
+    {
+      "ip": "201.151.196.110",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Alestra, S. de R.L. de C.V",
+      "domain": "micsacv.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
+        "30d": 99.09,
+        "90d": 89.7,
+        "1y": 87.08
+      }
+    },
+    {
+      "ip": "201.140.157.33",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Axtel, S.A.B. de C.V",
+      "domain": "tj-201-140-157-33.gtel.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 66.43,
+        "90d": 56.53,
+        "1y": 52.54
+      }
+    },
+    {
+      "ip": "201.130.73.234",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mexico Red de Telecomunicaciones, S. de R.L. de C.V",
+      "domain": "linx2.dscorp.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 82.46,
+        "90d": 87.52,
+        "1y": 89.26
+      }
+    },
+    {
+      "ip": "148.235.148.162",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "mail.gitsa.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 97.72,
+        "90d": 95.33,
+        "1y": 97.61
+      }
+    },
+    {
+      "ip": "201.182.22.253",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Coeficiente Comunicaciones",
+      "domain": "static-201-182-22-253.ip4.coeficiente.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.05,
+        "90d": 82.95,
+        "1y": 73.1
+      }
+    },
+    {
+      "ip": "189.203.66.130",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Total Play Telecomunicaciones SA De CV",
+      "domain": "fixed-189-203-66-130.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 97.03,
+        "90d": 96.99,
+        "1y": 98.01
+      }
+    },
+    {
+      "ip": "189.206.218.22",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Alestra, S. de R.L. de C.V",
+      "domain": "static-189.206.218-22.alestra.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 13.33,
+        "30d": 16.9,
+        "90d": 27.25,
+        "1y": 80.88
+      }
+    },
+    {
+      "ip": "201.174.80.178",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IP Matrix, S.A. de C.V",
+      "domain": "201-174-80-178.transtelco.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 89.9,
+        "90d": 95.19,
+        "1y": 97.91
+      }
+    },
+    {
+      "ip": "189.204.252.157",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Operbes, S.A. de C.V",
+      "domain": "157.189-204-252.bestelclientes.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 73.72,
+        "90d": 75.79,
+        "1y": 64.82
+      }
+    },
+    {
+      "ip": "187.190.50.24",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Total Play Telecomunicaciones SA De CV",
+      "domain": "fixed-187-190-50-24.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.89,
+        "90d": 81.37,
+        "1y": 88.24
+      }
+    },
+    {
+      "ip": "186.96.145.231",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Total Play Telecomunicaciones SA De CV",
+      "domain": "fixed-186-96-145-231.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 82.92,
+        "90d": 87.39,
+        "1y": 91.8
+      }
+    },
+    {
+      "ip": "201.151.40.54",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Alestra, S. de R.L. de C.V",
+      "domain": "static-201-151-40-54.alestra.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 97.83,
+        "90d": 77.64,
+        "1y": 82.15
+      }
+    },
+    {
+      "ip": "187.130.63.137",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "187-130-63-137.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 83.14,
+        "90d": 92.27,
+        "1y": 94.46
+      }
+    },
+    {
+      "ip": "45.167.112.2",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cosmored Puerto Vallarta S.A. de C.V",
+      "domain": "2.45-167-112.cosmored.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 76.67,
+        "30d": 60.51,
+        "90d": 49.17,
+        "1y": 36.43
+      }
+    },
+    {
+      "ip": "187.188.199.38",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
+      "domain": "fixed-187-188-199-38.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 56.67,
+        "30d": 40.35,
+        "90d": 37.05,
+        "1y": 34.23
+      }
+    },
+    {
+      "ip": "189.223.164.9",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonos del Noroeste, S.A. de C.V",
+      "domain": "189.223.164.9.dsl.dyn.telnor.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.72,
+        "90d": 98.62,
+        "1y": 96.04
+      }
+    },
+    {
+      "ip": "207.17.190.5",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "BBG Communications, Inc.",
+      "domain": "azteca.gtel.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.12,
+        "90d": 96.83,
+        "1y": 98.82
+      }
+    },
+    {
+      "ip": "189.197.187.35",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-DGO-MCA-187-35.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 95.33,
+        "90d": 96.25,
+        "1y": 96.96
+      }
+    },
+    {
+      "ip": "189.254.225.213",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "mail.cesantoni.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
         "90d": 99.43,
-        "1y": 99.2
+        "1y": 99.32
+      }
+    },
+    {
+      "ip": "148.244.179.157",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Profesionistas Asociados, SC",
+      "domain": "static-148-244-179-157.alestra.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.63,
+        "90d": 97.88,
+        "1y": 97.57
+      }
+    },
+    {
+      "ip": "148.243.126.229",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Internet World Service SA De CV",
+      "domain": "148-243-126-229.static.axtel.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 75.85,
+        "90d": 77.54,
+        "1y": 83.22
+      }
+    },
+    {
+      "ip": "45.178.74.107",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Abix Telecomunicaciones S.a. De C.V",
+      "domain": "ax-pyc-crc-lasalle02.abix.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.22,
+        "90d": 87.71,
+        "1y": 91.51
+      }
+    },
+    {
+      "ip": "187.188.57.147",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
+      "domain": "fixed-187-188-57-147.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 83.83,
+        "90d": 87.17,
+        "1y": 92.34
+      }
+    },
+    {
+      "ip": "189.223.164.81",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonos del Noroeste, S.A. de C.V",
+      "domain": "189.223.164.81.dsl.dyn.telnor.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.09,
+        "90d": 98.62,
+        "1y": 98.11
+      }
+    },
+    {
+      "ip": "177.240.8.182",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-PUE-MCA-8-182.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 62.87,
+        "90d": 69.16,
+        "1y": 64.66
+      }
+    },
+    {
+      "ip": "187.190.112.108",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Total Play Telecomunicaciones SA De CV",
+      "domain": "fixed-187-190-112-108.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 71.16,
+        "90d": 53.66,
+        "1y": 60.76
+      }
+    },
+    {
+      "ip": "170.239.149.98",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Ientc S De RL De CV",
+      "domain": "170-239-149-98.internet.ientc.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 63.33,
+        "30d": 82.65,
+        "90d": 81.33,
+        "1y": 75.61
+      }
+    },
+    {
+      "ip": "187.251.130.25",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Total Play Telecomunicaciones SA De CV",
+      "domain": "fixed-187-251-130-25.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 76.47,
+        "90d": 76.74,
+        "1y": 69.79
+      }
+    },
+    {
+      "ip": "38.49.136.214",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IENTC S de RL de CV",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 82.43,
+        "90d": 78.13,
+        "1y": 67.78
+      }
+    },
+    {
+      "ip": "177.241.245.222",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-MCA-STAA-245-222.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 64.25,
+        "90d": 68.65,
+        "1y": 69.4
+      }
+    },
+    {
+      "ip": "201.171.254.115",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonos del Noroeste, S.A. de C.V",
+      "domain": "201.171.254.115.dsl.dyn.telnor.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.75,
+        "90d": 90.73,
+        "1y": 94.03
+      }
+    },
+    {
+      "ip": "148.240.22.102",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Axtel Servicios Dial-up",
+      "domain": "148-240-22-102.reservada.static.axtel.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 94.76,
+        "90d": 94.72,
+        "1y": 79.12
+      }
+    },
+    {
+      "ip": "201.165.54.242",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-ZITA-54-242.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 76.67,
+        "30d": 68.29,
+        "90d": 73.1,
+        "1y": 68.67
+      }
+    },
+    {
+      "ip": "200.92.202.26",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-PUE-MCA-202-26.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.67,
+        "30d": 25.75,
+        "90d": 36.17,
+        "1y": 68.87
+      }
+    },
+    {
+      "ip": "45.231.221.1",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Distrokom S De RL De CV",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 74.88,
+        "90d": 62.93,
+        "1y": 56.5
+      }
+    },
+    {
+      "ip": "148.233.136.82",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "customer-148-233-136-82.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.25
+      }
+    },
+    {
+      "ip": "187.157.84.101",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Uninet S.A. de C.V.",
+      "domain": "customer-187-157-84-101-sta.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 90.56,
+        "90d": 79.4,
+        "1y": 89.85
+      }
+    },
+    {
+      "ip": "189.211.77.206",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Axtel - Recursos WiMAX",
+      "domain": "189-211-77-206.static.axtel.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 92.48,
+        "90d": 95.69,
+        "1y": 94.98
+      }
+    },
+    {
+      "ip": "201.163.81.90",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Alestra, S. de R.L. de C.V",
+      "domain": "static-201-163-81-90.alestra.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.81,
+        "90d": 91.0,
+        "1y": 93.35
+      }
+    },
+    {
+      "ip": "187.217.225.181",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "customer-187-217-225-181.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.68,
+        "90d": 84.05,
+        "1y": 67.34
+      }
+    },
+    {
+      "ip": "200.56.98.113",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sentidos Cafe Internet S.A de C.V",
+      "domain": "200.56.98.113.ded.telnor.net.^M.98.56.200.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 98.41,
+        "90d": 97.64,
+        "1y": 96.1
+      }
+    },
+    {
+      "ip": "189.194.63.25",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-TEP-MCA-63-25.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.82,
+        "90d": 78.04,
+        "1y": 91.15
+      }
+    },
+    {
+      "ip": "189.196.17.222",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-LEON-MCA-17-222.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 83.33,
+        "90d": 80.91,
+        "1y": 87.31
+      }
+    },
+    {
+      "ip": "201.151.196.107",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Alestra, S. de R.L. de C.V",
+      "domain": "sistemamim.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 90.78,
+        "1y": 79.68
+      }
+    },
+    {
+      "ip": "187.216.41.205",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "customer-187-216-41-205.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 63.55,
+        "90d": 56.32,
+        "1y": 53.42
+      }
+    },
+    {
+      "ip": "201.96.27.129",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Gestión de direccionamiento UniNet",
+      "domain": "customer-201-96-27-129.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.77,
+        "90d": 99.43,
+        "1y": 99.32
+      }
+    },
+    {
+      "ip": "200.39.23.4",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Pegaso PCS",
+      "domain": "pc234.optele.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 63.33,
+        "30d": 66.89,
+        "90d": 77.3,
+        "1y": 92.05
+      }
+    },
+    {
+      "ip": "201.174.235.68",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IP Matrix, S.A. de C.V",
+      "domain": "201-174-235-68.transtelco.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.44,
+        "90d": 91.62,
+        "1y": 89.25
+      }
+    },
+    {
+      "ip": "45.174.240.139",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sistemas Y Soluciones De Campeche SAS De CV",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.0,
+        "30d": 64.25,
+        "90d": 55.99,
+        "1y": 59.6
+      }
+    },
+    {
+      "ip": "200.56.98.145",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonos del Noroeste, S.A. de C.V",
+      "domain": "200.56.98.145.ded.telnor.net.^M.98.56.200.in-addr.arpa",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 99.32,
+        "90d": 98.86,
+        "1y": 99.04
+      }
+    },
+    {
+      "ip": "200.56.117.25",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Alestra",
+      "domain": "lahuerta.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.54,
+        "90d": 99.59,
+        "1y": 98.69
+      }
+    },
+    {
+      "ip": "201.140.114.161",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Operbes, S.A. de C.V",
+      "domain": "dns4.bestel.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "200.94.156.193",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Alestra, S. de R.L. de C.V",
+      "domain": "static-200-94-156-193.alestra.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.59,
+        "1y": 99.56
+      }
+    },
+    {
+      "ip": "207.248.57.11",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Television Internacional, S.A. de C.V",
+      "domain": "dns2.telumasp.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.09,
+        "90d": 99.1,
+        "1y": 98.97
+      }
+    },
+    {
+      "ip": "201.174.80.34",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IP Matrix, S.A. de C.V",
+      "domain": "201-174-80-34.transtelco.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 97.95,
+        "90d": 80.2,
+        "1y": 93.32
+      }
+    },
+    {
+      "ip": "201.148.17.110",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Gigacable de Aguascalientes SA de CV",
+      "domain": "110.201-148-17.bestelclientes.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 99.54,
+        "90d": 99.76,
+        "1y": 99.65
+      }
+    },
+    {
+      "ip": "200.52.80.60",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Planeta Local Mexico SA de CV",
+      "domain": "service-static-52.80.60.mcm-telecom.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.77,
+        "90d": 99.67,
+        "1y": 99.53
+      }
+    },
+    {
+      "ip": "189.204.6.253",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mexico Red de Telecomunicaciones, S. de R.L. de C.V",
+      "domain": "189.204.6.253-customer-izzi-mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.77,
+        "90d": 99.84,
+        "1y": 99.86
+      }
+    },
+    {
+      "ip": "201.147.242.124",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Gestión de direccionamiento UniNet",
+      "domain": "static.customer-201-147-242-124.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 98.86,
+        "1y": 98.48
+      }
+    },
+    {
+      "ip": "186.96.11.240",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
+      "domain": "fixed-186-96-11-240.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 98.54,
+        "1y": 98.67
+      }
+    },
+    {
+      "ip": "45.5.94.178",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Señal Interactiva, S.A De C.V",
+      "domain": "slw.nrtmexico.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 87.2,
+        "90d": 86.13,
+        "1y": 90.34
+      }
+    },
+    {
+      "ip": "45.175.237.66",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Hulux Telecomunicaciones",
+      "domain": "host237-66.hulux.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 69.31,
+        "90d": 74.09,
+        "1y": 69.72
+      }
+    },
+    {
+      "ip": "189.204.240.235",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Operbes, S.A. de C.V",
+      "domain": "235.189-204-240.bestelclientes.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 99.02,
+        "1y": 96.61
+      }
+    },
+    {
+      "ip": "187.218.44.161",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "customer-187-218-44-161.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.77,
+        "90d": 99.92,
+        "1y": 98.66
+      }
+    },
+    {
+      "ip": "187.141.176.81",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "customer-187-141-176-81-sta.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.84,
+        "1y": 99.84
+      }
+    },
+    {
+      "ip": "201.117.254.241",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Gestión de direccionamiento UniNet",
+      "domain": "customer-201-117-254-241.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 70.0,
+        "30d": 60.17,
+        "90d": 59.92,
+        "1y": 73.21
       }
     },
     {
@@ -511,12 +2212,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.07,
+        "30d": 99.32,
         "90d": 98.94,
         "1y": 99.6
       }
@@ -543,819 +2244,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.53,
+        "30d": 99.54,
         "90d": 98.94,
         "1y": 99.44
-      }
-    },
-    {
-      "ip": "201.151.196.110",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Alestra, S. de R.L. de C.V",
-      "domain": "micsacv.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.07,
-        "90d": 89.69,
-        "1y": 87.03
-      }
-    },
-    {
-      "ip": "201.140.157.33",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Axtel, S.A.B. de C.V",
-      "domain": "tj-201-140-157-33.gtel.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 64.78,
-        "90d": 56.06,
-        "1y": 52.42
-      }
-    },
-    {
-      "ip": "201.165.54.242",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-ZITA-54-242.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 68.41,
-        "90d": 73.03,
-        "1y": 68.64
-      }
-    },
-    {
-      "ip": "200.39.23.4",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Pegaso PCS",
-      "domain": "pc234.optele.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 60.0,
-        "30d": 67.29,
-        "90d": 77.73,
-        "1y": 92.17
-      }
-    },
-    {
-      "ip": "148.235.148.162",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "mail.gitsa.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.88,
-        "90d": 95.41,
-        "1y": 97.63
-      }
-    },
-    {
-      "ip": "189.203.66.130",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Total Play Telecomunicaciones SA De CV",
-      "domain": "fixed-189-203-66-130.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 97.21,
-        "90d": 97.07,
-        "1y": 98.03
-      }
-    },
-    {
-      "ip": "189.197.187.35",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-DGO-MCA-187-35.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 92.97,
-        "90d": 96.33,
-        "1y": 96.98
-      }
-    },
-    {
-      "ip": "45.178.74.107",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Abix Telecomunicaciones S.a. De C.V",
-      "domain": "ax-pyc-crc-lasalle02.abix.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.97,
-        "90d": 87.68,
-        "1y": 91.48
-      }
-    },
-    {
-      "ip": "177.244.25.118",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-GTO-MCA-25-118.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 13.33,
-        "30d": 21.93,
-        "90d": 23.4,
-        "1y": 36.36
-      }
-    },
-    {
-      "ip": "189.203.141.69",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Total Play Telecomunicaciones SA De CV",
-      "domain": "fixed-189-203-141-69.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 57.55,
-        "90d": 64.21,
-        "1y": 64.01
-      }
-    },
-    {
-      "ip": "187.190.112.108",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Total Play Telecomunicaciones SA De CV",
-      "domain": "fixed-187-190-112-108.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 67.85,
-        "90d": 52.69,
-        "1y": 60.61
-      }
-    },
-    {
-      "ip": "187.251.130.25",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Total Play Telecomunicaciones SA De CV",
-      "domain": "fixed-187-251-130-25.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 74.15,
-        "90d": 76.43,
-        "1y": 69.69
-      }
-    },
-    {
-      "ip": "200.106.167.196",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Cybernetworks S.A De C.V",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 57.66,
-        "90d": 43.15,
-        "1y": 39.0
-      }
-    },
-    {
-      "ip": "186.96.11.196",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
-      "domain": "fixed-186-96-11-196.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 13.33,
-        "30d": 25.1,
-        "90d": 21.15,
-        "1y": 10.13
-      }
-    },
-    {
-      "ip": "187.189.99.168",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
-      "domain": "fixed-187-189-99-168.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 88.6,
-        "90d": 77.42,
-        "1y": 53.78
-      }
-    },
-    {
-      "ip": "200.56.98.21",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Industrias Seco de Mexico",
-      "domain": "200.56.98.21.ded.telnor.net.^M.98.56.200.in-addr.arpa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 97.06,
-        "1y": 90.62
-      }
-    },
-    {
-      "ip": "200.52.80.60",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Planeta Local Mexico SA de CV",
-      "domain": "service-static-52.80.60.mcm-telecom.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.67,
-        "1y": 99.53
-      }
-    },
-    {
-      "ip": "201.163.81.90",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Alestra, S. de R.L. de C.V",
-      "domain": "static-201-163-81-90.alestra.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.74,
-        "90d": 90.99,
-        "1y": 93.33
-      }
-    },
-    {
-      "ip": "45.167.112.2",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Cosmored Puerto Vallarta S.A. de C.V",
-      "domain": "2.45-167-112.cosmored.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 59.27,
-        "90d": 48.97,
-        "1y": 36.27
-      }
-    },
-    {
-      "ip": "45.5.94.178",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Señal Interactiva, S.A De C.V",
-      "domain": "slw.nrtmexico.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 84.98,
-        "90d": 85.77,
-        "1y": 90.3
-      }
-    },
-    {
-      "ip": "189.194.63.25",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-TEP-MCA-63-25.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.21,
-        "90d": 75.88,
-        "1y": 91.11
-      }
-    },
-    {
-      "ip": "189.196.17.222",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-LEON-MCA-17-222.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 81.28,
-        "90d": 80.61,
-        "1y": 87.29
-      }
-    },
-    {
-      "ip": "45.231.221.1",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Distrokom S De RL De CV",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 72.66,
-        "90d": 62.3,
-        "1y": 56.36
-      }
-    },
-    {
-      "ip": "189.254.225.213",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "mail.cesantoni.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.43,
-        "1y": 99.32
-      }
-    },
-    {
-      "ip": "200.76.52.60",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Alestra, S. de R.L. de C.V",
-      "domain": "static-200-76-52-60.alestra.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 85.81,
-        "90d": 74.37,
-        "1y": 68.86
-      }
-    },
-    {
-      "ip": "148.244.211.136",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TV URUAPAN S.A. DE C.V",
-      "domain": "static-148-244-211-136.alestra.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.39,
-        "90d": 92.67,
-        "1y": 82.59
-      }
-    },
-    {
-      "ip": "201.170.249.229",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telefonos del Noroeste, S.A. de C.V",
-      "domain": "201.170.249.229.dsl.dyn.telnor.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.0,
-        "90d": 92.63,
-        "1y": 95.51
-      }
-    },
-    {
-      "ip": "201.164.60.34",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-MCA-ZRA-60-34.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 47.78,
-        "90d": 55.75,
-        "1y": 57.0
-      }
-    },
-    {
-      "ip": "201.140.114.161",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Operbes, S.A. de C.V",
-      "domain": "dns4.bestel.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "201.174.235.68",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "IP Matrix, S.A. de C.V",
-      "domain": "201-174-235-68.transtelco.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.61,
-        "90d": 91.52,
-        "1y": 89.21
       }
     },
     {
@@ -1380,1035 +2271,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.64,
-        "90d": 81.02,
-        "1y": 51.73
-      }
-    },
-    {
-      "ip": "201.96.27.129",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Gestión de direccionamiento UniNet",
-      "domain": "customer-201-96-27-129.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.43,
-        "1y": 99.32
-      }
-    },
-    {
-      "ip": "189.223.164.81",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telefonos del Noroeste, S.A. de C.V",
-      "domain": "189.223.164.81.dsl.dyn.telnor.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.07,
-        "90d": 98.61,
-        "1y": 98.11
-      }
-    },
-    {
-      "ip": "207.17.190.5",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "BBG Communications, Inc.",
-      "domain": "azteca.gtel.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.05,
-        "90d": 96.83,
-        "1y": 98.82
-      }
-    },
-    {
-      "ip": "38.49.136.214",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "IENTC S de RL de CV",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 81.49,
-        "90d": 77.99,
-        "1y": 67.52
-      }
-    },
-    {
-      "ip": "201.174.80.178",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "IP Matrix, S.A. de C.V",
-      "domain": "201-174-80-178.transtelco.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 88.24,
-        "90d": 95.27,
-        "1y": 97.92
-      }
-    },
-    {
-      "ip": "201.147.242.124",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Gestión de direccionamiento UniNet",
-      "domain": "static.customer-201-147-242-124.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.3,
-        "90d": 98.86,
-        "1y": 98.47
-      }
-    },
-    {
-      "ip": "200.56.98.113",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Sentidos Cafe Internet S.A de C.V",
-      "domain": "200.56.98.113.ded.telnor.net.^M.98.56.200.in-addr.arpa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 98.37,
-        "90d": 97.64,
-        "1y": 96.09
-      }
-    },
-    {
-      "ip": "177.241.245.222",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-MCA-STAA-245-222.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 62.07,
-        "90d": 68.34,
-        "1y": 69.31
-      }
-    },
-    {
-      "ip": "201.171.254.115",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telefonos del Noroeste, S.A. de C.V",
-      "domain": "201.171.254.115.dsl.dyn.telnor.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.95,
-        "90d": 90.71,
-        "1y": 94.01
-      }
-    },
-    {
-      "ip": "187.218.44.161",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "customer-187-218-44-161.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.92,
-        "1y": 98.65
-      }
-    },
-    {
-      "ip": "187.130.63.137",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "187-130-63-137.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 10.0,
-        "30d": 83.02,
-        "90d": 92.34,
-        "1y": 94.46
-      }
-    },
-    {
-      "ip": "200.106.167.195",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Cybernetworks S.A De C.V",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 70.0,
-        "30d": 56.4,
-        "90d": 40.54,
-        "1y": 38.76
-      }
-    },
-    {
-      "ip": "200.92.202.26",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-PUE-MCA-202-26.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 40.0,
-        "30d": 24.48,
-        "90d": 36.78,
-        "1y": 68.97
-      }
-    },
-    {
-      "ip": "200.56.98.145",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telefonos del Noroeste, S.A. de C.V",
-      "domain": "200.56.98.145.ded.telnor.net.^M.98.56.200.in-addr.arpa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 99.3,
-        "90d": 98.86,
-        "1y": 99.04
-      }
-    },
-    {
-      "ip": "200.56.117.25",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Alestra",
-      "domain": "lahuerta.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.53,
-        "90d": 99.59,
-        "1y": 98.69
-      }
-    },
-    {
-      "ip": "189.204.252.157",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Operbes, S.A. de C.V",
-      "domain": "157.189-204-252.bestelclientes.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 72.92,
-        "90d": 75.39,
-        "1y": 64.32
-      }
-    },
-    {
-      "ip": "170.0.15.49",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Tu Casa Inalambrica de Mexico",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 98.37,
-        "90d": 99.1,
-        "1y": 99.34
-      }
-    },
-    {
-      "ip": "187.188.98.54",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
-      "domain": "fixed-187-188-98-54.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 73.33,
-        "30d": 51.6,
-        "90d": 59.24,
-        "1y": 67.6
-      }
-    },
-    {
-      "ip": "189.223.164.9",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telefonos del Noroeste, S.A. de C.V",
-      "domain": "189.223.164.9.dsl.dyn.telnor.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.67,
-        "90d": 98.61,
-        "1y": 96.03
-      }
-    },
-    {
-      "ip": "177.240.8.182",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mega Cable, S.A. de C.V",
-      "domain": "customer-PUE-MCA-8-182.megared.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 61.72,
-        "90d": 69.11,
-        "1y": 64.58
-      }
-    },
-    {
-      "ip": "187.188.57.147",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
-      "domain": "fixed-187-188-57-147.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 82.13,
-        "90d": 87.23,
-        "1y": 92.34
-      }
-    },
-    {
-      "ip": "200.33.3.123",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNIVERSIDAD LATINOAMERICANA, S.C.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.68,
-        "90d": 97.15,
-        "1y": 96.15
-      }
-    },
-    {
-      "ip": "201.151.40.54",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Alestra, S. de R.L. de C.V",
-      "domain": "static-201-151-40-54.alestra.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 95.81,
-        "90d": 76.66,
-        "1y": 82.08
-      }
-    },
-    {
-      "ip": "201.151.196.107",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Alestra, S. de R.L. de C.V",
-      "domain": "sistemamim.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.3,
-        "90d": 90.76,
-        "1y": 79.6
-      }
-    },
-    {
-      "ip": "148.240.22.102",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Axtel Servicios Dial-up",
-      "domain": "148-240-22-102.reservada.static.axtel.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 94.65,
-        "90d": 94.5,
-        "1y": 78.78
-      }
-    },
-    {
-      "ip": "187.190.50.24",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Total Play Telecomunicaciones SA De CV",
-      "domain": "fixed-187-190-50-24.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 90.23,
-        "90d": 81.01,
-        "1y": 88.2
-      }
-    },
-    {
-      "ip": "186.96.145.231",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Total Play Telecomunicaciones SA De CV",
-      "domain": "fixed-186-96-145-231.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 82.56,
-        "90d": 87.37,
-        "1y": 91.79
-      }
-    },
-    {
-      "ip": "189.204.240.235",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Operbes, S.A. de C.V",
-      "domain": "235.189-204-240.bestelclientes.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.3,
-        "90d": 99.02,
-        "1y": 96.6
-      }
-    },
-    {
-      "ip": "201.174.80.34",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "IP Matrix, S.A. de C.V",
-      "domain": "201-174-80-34.transtelco.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 97.91,
-        "90d": 79.8,
-        "1y": 93.29
-      }
-    },
-    {
-      "ip": "200.94.156.193",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Alestra, S. de R.L. de C.V",
-      "domain": "static-200-94-156-193.alestra.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.59,
-        "1y": 99.55
-      }
-    },
-    {
-      "ip": "207.248.57.11",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Television Internacional, S.A. de C.V",
-      "domain": "dns2.telumasp.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.07,
-        "90d": 99.1,
-        "1y": 98.97
-      }
-    },
-    {
-      "ip": "45.174.240.139",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Sistemas Y Soluciones De Campeche SAS De CV",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 62.07,
-        "90d": 55.52,
-        "1y": 59.49
-      }
-    },
-    {
-      "ip": "201.130.73.234",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Mexico Red de Telecomunicaciones, S. de R.L. de C.V",
-      "domain": "linx2.dscorp.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.0,
-        "30d": 82.6,
-        "90d": 87.33,
-        "1y": 89.27
-      }
-    },
-    {
-      "ip": "45.175.237.66",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Hulux Telecomunicaciones",
-      "domain": "host237-66.hulux.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 66.84,
-        "90d": 73.88,
-        "1y": 69.6
-      }
-    },
-    {
-      "ip": "189.211.77.206",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Axtel - Recursos WiMAX",
-      "domain": "189-211-77-206.static.axtel.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 92.09,
-        "90d": 95.68,
-        "1y": 94.96
-      }
-    },
-    {
-      "ip": "187.217.225.181",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "customer-187-217-225-181.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 85.47,
-        "90d": 83.61,
-        "1y": 67.04
-      }
-    },
-    {
-      "ip": "201.117.254.241",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Gestión de direccionamiento UniNet",
-      "domain": "customer-201-117-254-241.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 30.0,
-        "30d": 59.23,
-        "90d": 58.89,
-        "1y": 73.1
-      }
-    },
-    {
-      "ip": "187.216.41.205",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "customer-187-216-41-205.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 62.33,
-        "90d": 55.57,
-        "1y": 53.24
+        "30d": 93.04,
+        "90d": 82.2,
+        "1y": 53.25
       }
     },
     {
@@ -2432,10 +2297,199 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 91.97,
-        "90d": 90.01,
-        "1y": 94.62
+        "24h": 83.33,
+        "30d": 91.78,
+        "90d": 90.03,
+        "1y": 94.59
+      }
+    },
+    {
+      "ip": "200.33.3.123",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNIVERSIDAD LATINOAMERICANA, S.C.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.72,
+        "90d": 97.15,
+        "1y": 96.17
+      }
+    },
+    {
+      "ip": "148.244.211.136",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TV URUAPAN S.A. DE C.V",
+      "domain": "static-148-244-211-136.alestra.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 91.73,
+        "90d": 92.68,
+        "1y": 82.66
+      }
+    },
+    {
+      "ip": "201.170.249.229",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonos del Noroeste, S.A. de C.V",
+      "domain": "201.170.249.229.dsl.dyn.telnor.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 90.29,
+        "90d": 92.93,
+        "1y": 95.53
+      }
+    },
+    {
+      "ip": "187.174.213.18",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "customer-187-174-213-18.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 95.21,
+        "90d": 94.55,
+        "1y": 89.8
+      }
+    },
+    {
+      "ip": "200.106.167.195",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cybernetworks S.A De C.V",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 83.33,
+        "30d": 58.23,
+        "90d": 41.28,
+        "1y": 38.95
+      }
+    },
+    {
+      "ip": "200.106.167.196",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cybernetworks S.A De C.V",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 59.95,
+        "90d": 43.97,
+        "1y": 39.17
+      }
+    },
+    {
+      "ip": "201.164.60.34",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-MCA-ZRA-60-34.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.67,
+        "30d": 49.28,
+        "90d": 56.09,
+        "1y": 57.11
       }
     },
     {
@@ -2455,79 +2509,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 76.19,
-        "90d": 84.05,
-        "1y": 81.62
-      }
-    },
-    {
-      "ip": "148.233.136.82",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "customer-148-233-136-82.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.25
-      }
-    },
-    {
-      "ip": "201.182.22.253",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Coeficiente Comunicaciones",
-      "domain": "static-201-182-22-253.ip4.coeficiente.net.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.75,
-        "90d": 81.53,
-        "1y": 72.95
+        "30d": 78.7,
+        "90d": 84.08,
+        "1y": 81.7
       }
     },
     {
-      "ip": "148.244.179.157",
+      "ip": "170.0.15.49",
       "version": 4,
       "country_code": "mx",
       "country": "Mexico",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Profesionistas Asociados, SC",
-      "domain": "static-148-244-179-157.alestra.net.mx",
+      "organization": "Tu Casa Inalambrica de Mexico",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2535,69 +2535,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.38,
-        "90d": 97.88,
-        "1y": 97.56
-      }
-    },
-    {
-      "ip": "187.174.213.18",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNINET",
-      "domain": "customer-187-174-213-18.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 95.35,
-        "90d": 93.47,
-        "1y": 89.78
-      }
-    },
-    {
-      "ip": "148.243.126.229",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Internet World Service SA De CV",
-      "domain": "148-243-126-229.static.axtel.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 75.87,
-        "90d": 77.51,
-        "1y": 83.2
+        "24h": 100.0,
+        "30d": 98.86,
+        "90d": 99.19,
+        "1y": 99.35
       }
     }
   ]

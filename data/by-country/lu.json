@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-04-29T18:26:28Z",
+    "generated_at": "2026-04-30T07:02:04Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.11,
-        "90d": 89.89,
-        "1y": 89.68
+        "24h": 96.67,
+        "30d": 92.03,
+        "90d": 89.91,
+        "1y": 89.69
+      }
+    },
+    {
+      "ip": "107.189.31.10",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BuyVM",
+      "domain": "mail.denshi.org",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.67,
+        "30d": 99.09,
+        "90d": 99.27,
+        "1y": 97.55
       }
     },
     {
@@ -52,12 +79,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.3,
+        "30d": 99.32,
         "90d": 99.76,
         "1y": 99.93
       }
@@ -84,36 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.84,
+        "30d": 98.86,
         "90d": 99.35,
         "1y": 99.79
-      }
-    },
-    {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.67,
-        "30d": 99.07,
-        "90d": 99.27,
-        "1y": 97.54
       }
     }
   ]

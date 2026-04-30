@@ -4,62 +4,35 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-29T18:26:28Z",
-    "total_servers": 6
+    "generated_at": "2026-04-30T07:02:04Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
-      "ip": "213.176.123.5",
+      "ip": "194.225.152.10",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Iranian Research Organization Science & Technology",
-      "domain": "dns.irost.ir",
+      "organization": "IPM/Iranet",
+      "domain": "ns1.iranet.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 53.33,
-        "30d": 47.5,
-        "90d": 79.17,
-        "1y": 63.4
-      }
-    },
-    {
-      "ip": "217.218.155.155",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive2.dci.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.33,
-        "30d": 93.95,
-        "90d": 95.1,
-        "1y": 96.61
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 98.02,
+        "1y": 98.11
       }
     },
     {
@@ -83,10 +56,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 97.18,
-        "90d": 93.57,
-        "1y": 95.63
+        "24h": 96.67,
+        "30d": 97.57,
+        "90d": 93.58,
+        "1y": 95.65
+      }
+    },
+    {
+      "ip": "213.176.123.5",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iranian Research Organization Science & Technology",
+      "domain": "dns.irost.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 49.54,
+        "90d": 78.62,
+        "1y": 63.61
       }
     },
     {
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 83.33,
-        "30d": 64.97,
-        "90d": 80.47,
-        "1y": 93.32
+        "30d": 67.18,
+        "90d": 80.32,
+        "1y": 93.3
       }
     },
     {
@@ -139,35 +139,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 94.69,
-        "1y": 96.5
-      }
-    },
-    {
-      "ip": "194.225.152.10",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "IPM/Iranet",
-      "domain": "ns1.iranet.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 98.01,
-        "1y": 98.09
+        "90d": 94.7,
+        "1y": 96.51
       }
     }
   ]

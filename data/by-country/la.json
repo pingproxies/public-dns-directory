@@ -4,7 +4,7 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-29T18:26:28Z",
+    "generated_at": "2026-04-30T07:02:04Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.28,
-        "90d": 86.81,
-        "1y": 88.45
+        "30d": 86.56,
+        "90d": 86.83,
+        "1y": 88.49
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 73.33,
+        "30d": 88.13,
+        "90d": 93.33,
+        "1y": 73.09
+      }
+    },
+    {
+      "ip": "202.123.179.205",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sky Telecom State Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 76.67,
-        "30d": 88.6,
-        "90d": 93.56,
-        "1y": 73.06
+        "24h": 100.0,
+        "30d": 94.98,
+        "90d": 95.85,
+        "1y": 92.64
       }
     },
     {
@@ -80,40 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.58,
-        "90d": 96.49,
-        "1y": 91.36
-      }
-    },
-    {
-      "ip": "202.123.179.205",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Sky Telecom State Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.2,
-        "90d": 95.84,
-        "1y": 92.61
+        "30d": 93.61,
+        "90d": 96.5,
+        "1y": 91.4
       }
     }
   ]
