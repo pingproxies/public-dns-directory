@@ -4,8 +4,8 @@
     "country_name": "DR Congo",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-01T07:04:04Z",
-    "total_servers": 1
+    "generated_at": "2026-05-01T18:19:27Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 53.57,
-        "30d": 29.82,
-        "90d": 21.57,
-        "1y": 13.4
+        "24h": 75.0,
+        "30d": 32.87,
+        "90d": 23.24,
+        "1y": 14.42
+      }
+    },
+    {
+      "ip": "41.174.133.118",
+      "version": 4,
+      "country_code": "cd",
+      "country": "DR Congo",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "LIT DRC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 82.14,
+        "30d": 58.27,
+        "90d": 48.72,
+        "1y": 46.88
       }
     }
   ]
