@@ -4,37 +4,10 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-04-30T18:25:47Z",
+    "generated_at": "2026-05-01T07:04:04Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "115.84.79.71",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Lao Telecommunication Co Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 88.12,
-        "90d": 93.34,
-        "1y": 73.16
-      }
-    },
     {
       "ip": "115.84.91.78",
       "version": 4,
@@ -57,9 +30,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.72,
+        "30d": 94.91,
         "90d": 96.51,
-        "1y": 91.44
+        "1y": 91.48
+      }
+    },
+    {
+      "ip": "115.84.79.71",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Lao Telecommunication Co Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 88.05,
+        "90d": 93.26,
+        "1y": 73.22
       }
     },
     {
@@ -83,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 86.1,
-        "90d": 86.61,
-        "1y": 88.46
+        "24h": 89.29,
+        "30d": 86.28,
+        "90d": 86.7,
+        "1y": 88.5
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.29,
-        "90d": 95.86,
-        "1y": 92.66
+        "30d": 96.24,
+        "90d": 96.19,
+        "1y": 92.68
       }
     }
   ]
