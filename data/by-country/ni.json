@@ -4,8 +4,8 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-02T06:48:05Z",
-    "total_servers": 3
+    "generated_at": "2026-05-02T18:14:46Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 86.09,
-        "90d": 75.83,
-        "1y": 48.52
+        "24h": 100.0,
+        "30d": 87.02,
+        "90d": 77.5,
+        "1y": 50.51
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.01,
-        "90d": 66.61,
-        "1y": 73.88
+        "30d": 94.41,
+        "90d": 68.84,
+        "1y": 74.03
       }
     },
     {
@@ -80,13 +80,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.18,
+        "30d": 82.11,
+        "90d": 86.31,
+        "1y": 89.77
+      }
+    },
+    {
+      "ip": "161.0.62.217",
+      "version": 4,
+      "country_code": "ni",
+      "country": "Nicaragua",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IBW Communications",
+      "domain": "host-217-62-0-161.ibw.com.ni",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 82.08,
-        "90d": 86.29,
-        "1y": 89.77
+        "24h": 58.97,
+        "30d": 43.77,
+        "90d": 43.74,
+        "1y": 33.32
       }
     }
   ]
