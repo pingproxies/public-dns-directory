@@ -4,10 +4,37 @@
     "country_name": "Maldives",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-02T18:14:46Z",
-    "total_servers": 1
+    "generated_at": "2026-05-03T18:15:22Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "216.183.223.168",
+      "version": 4,
+      "country_code": "mv",
+      "country": "Maldives",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Ooredoo Maldives Plc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 23.81,
+        "30d": 8.16,
+        "90d": 16.62,
+        "1y": 16.62
+      }
+    },
     {
       "ip": "123.176.4.39",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 64.1,
-        "30d": 54.5,
-        "90d": 54.35,
-        "1y": 46.19
+        "24h": 66.67,
+        "30d": 55.34,
+        "90d": 54.54,
+        "1y": 46.39
       }
     }
   ]
