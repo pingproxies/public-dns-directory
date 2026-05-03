@@ -4,35 +4,35 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-02T18:14:46Z",
-    "total_servers": 4
+    "generated_at": "2026-05-03T07:00:00Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "92.223.105.162",
+      "ip": "95.85.95.85",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
+      "organization": "G-Core Labs S.A",
+      "domain": null,
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
         "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.14,
-        "90d": 90.39,
-        "1y": 89.86
+        "30d": 98.99,
+        "90d": 99.44,
+        "1y": 99.79
       }
     },
     {
@@ -57,63 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.38,
+        "30d": 99.39,
         "90d": 99.76,
         "1y": 99.93
-      }
-    },
-    {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.31,
-        "30d": 97.71,
-        "90d": 98.72,
-        "1y": 97.43
-      }
-    },
-    {
-      "ip": "95.85.95.85",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "G-Core Labs S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.96,
-        "90d": 99.44,
-        "1y": 99.79
       }
     }
   ]
