@@ -4,18 +4,72 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-03T18:15:22Z",
+    "generated_at": "2026-05-04T07:13:16Z",
     "total_servers": 9
   },
   "resolvers": [
     {
-      "ip": "197.13.5.134",
+      "ip": "197.25.154.185",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "ATI - Agence Tunisienne Internet",
+      "organization": "Globalnet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "196.179.250.10",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 51.11,
+        "30d": 62.28,
+        "90d": 48.3,
+        "1y": 37.31
+      }
+    },
+    {
+      "ip": "196.179.250.11",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -24,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.24,
-        "30d": 88.15,
-        "90d": 63.68,
-        "1y": 48.81
+        "24h": 33.33,
+        "30d": 55.53,
+        "90d": 46.82,
+        "1y": 41.03
+      }
+    },
+    {
+      "ip": "196.203.125.131",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ATI - Agence Tunisienne Internet",
+      "domain": "ns1.cck.rnu.tn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.41,
+        "90d": 97.61,
+        "1y": 99.11
       }
     },
     {
@@ -63,33 +144,6 @@
       }
     },
     {
-      "ip": "196.203.125.131",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ATI - Agence Tunisienne Internet",
-      "domain": "ns1.cck.rnu.tn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.32,
-        "90d": 97.59,
-        "1y": 99.11
-      }
-    },
-    {
       "ip": "196.203.125.133",
       "version": 4,
       "country_code": "tn",
@@ -111,40 +165,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.46,
-        "90d": 97.08,
-        "1y": 99.2
+        "30d": 98.79,
+        "90d": 97.11,
+        "1y": 99.21
       }
     },
     {
-      "ip": "196.179.250.10",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ooredoo TN",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 40.48,
-        "30d": 62.97,
-        "90d": 47.76,
-        "1y": 37.24
-      }
-    },
-    {
-      "ip": "41.225.39.102",
+      "ip": "197.13.5.134",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
@@ -156,49 +183,22 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "24h": 95.56,
+        "30d": 89.45,
+        "90d": 65.83,
+        "1y": 49.16
       }
     },
     {
-      "ip": "197.25.154.185",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Globalnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "196.179.250.95",
+      "ip": "196.179.250.89",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
@@ -209,8 +209,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -218,10 +218,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 40.48,
-        "30d": 59.76,
-        "90d": 46.56,
-        "1y": 43.53
+        "24h": 35.56,
+        "30d": 70.28,
+        "90d": 50.88,
+        "1y": 37.42
       }
     },
     {
@@ -246,8 +246,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.8,
-        "90d": 99.29,
+        "30d": 99.81,
+        "90d": 99.3,
         "1y": 99.68
       }
     }
