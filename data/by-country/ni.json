@@ -4,37 +4,10 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-04T07:13:16Z",
+    "generated_at": "2026-05-04T18:28:13Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "190.124.39.34",
-      "version": 4,
-      "country_code": "ni",
-      "country": "Nicaragua",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telefonia Celular de Nicaragua SA",
-      "domain": "static.navega.com.ni",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 83.26,
-        "90d": 86.39,
-        "1y": 89.86
-      }
-    },
     {
       "ip": "45.170.224.187",
       "version": 4,
@@ -57,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.66,
-        "90d": 75.2,
-        "1y": 74.5
+        "30d": 95.89,
+        "90d": 75.98,
+        "1y": 74.63
       }
     },
     {
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 85.71,
+        "90d": 78.52,
+        "1y": 55.02
+      }
+    },
+    {
+      "ip": "190.124.39.34",
+      "version": 4,
+      "country_code": "ni",
+      "country": "Nicaragua",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonia Celular de Nicaragua SA",
+      "domain": "static.navega.com.ni",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 86.04,
-        "90d": 78.44,
-        "1y": 54.12
+        "24h": 91.11,
+        "30d": 83.37,
+        "90d": 86.26,
+        "1y": 89.84
       }
     }
   ]

@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-04T07:13:16Z",
-    "total_servers": 5
+    "generated_at": "2026-05-04T18:28:13Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 77.67,
-        "90d": 74.18,
-        "1y": 54.67
+        "24h": 95.56,
+        "30d": 78.15,
+        "90d": 74.39,
+        "1y": 54.83
+      }
+    },
+    {
+      "ip": "190.5.81.230",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "LIBERTY NETWORKS HONDURAS, SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "domain": "190.5.81.230.multidatahn.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 64.44,
+        "30d": 51.72,
+        "90d": 53.54,
+        "1y": 42.86
       }
     },
     {
@@ -52,68 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.43,
-        "90d": 99.45,
+        "30d": 99.44,
+        "90d": 99.46,
         "1y": 99.46
-      }
-    },
-    {
-      "ip": "190.11.225.2",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Psinet, S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.33,
-        "30d": 92.18,
-        "90d": 91.16,
-        "1y": 89.24
-      }
-    },
-    {
-      "ip": "164.163.74.82",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Diser Solution Honduras",
-      "domain": "host82.diser.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 62.0,
-        "90d": 59.52,
-        "1y": 53.31
       }
     },
     {
@@ -138,9 +111,90 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.09,
-        "90d": 96.17,
-        "1y": 93.06
+        "30d": 98.14,
+        "90d": 96.35,
+        "1y": 93.09
+      }
+    },
+    {
+      "ip": "164.163.74.82",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Diser Solution Honduras",
+      "domain": "host82.diser.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 57.78,
+        "30d": 61.26,
+        "90d": 59.14,
+        "1y": 53.27
+      }
+    },
+    {
+      "ip": "201.190.11.254",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SERCOM de Honduras",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 69.76,
+        "90d": 70.91,
+        "1y": 59.33
+      }
+    },
+    {
+      "ip": "190.11.225.2",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Psinet, S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.56,
+        "30d": 92.21,
+        "90d": 91.23,
+        "1y": 89.27
       }
     }
   ]
