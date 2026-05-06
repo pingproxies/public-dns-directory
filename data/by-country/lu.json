@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-05T18:26:19Z",
+    "generated_at": "2026-05-06T07:05:15Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 99.46,
+        "30d": 99.12,
+        "90d": 99.47,
         "1y": 99.8
-      }
-    },
-    {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 94.44,
-        "30d": 96.98,
-        "90d": 98.31,
-        "1y": 97.37
       }
     },
     {
@@ -107,13 +80,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.31,
-        "90d": 91.26,
-        "1y": 90.07
+        "30d": 94.38,
+        "90d": 91.32,
+        "1y": 90.1
+      }
+    },
+    {
+      "ip": "107.189.31.10",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BuyVM",
+      "domain": "mail.denshi.org",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 96.31,
+        "90d": 98.02,
+        "1y": 97.29
       }
     }
   ]

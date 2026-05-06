@@ -4,37 +4,10 @@
     "country_name": "Uganda",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-05T18:26:19Z",
+    "generated_at": "2026-05-06T07:05:15Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "81.199.137.188",
-      "version": 4,
-      "country_code": "ug",
-      "country": "Uganda",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Gilat Telecom Ltd",
-      "domain": "81.199.137.188.gilat.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 79.89,
-        "90d": 76.66,
-        "1y": 68.0
-      }
-    },
     {
       "ip": "81.199.16.1",
       "version": 4,
@@ -51,14 +24,14 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 99.46,
+        "30d": 99.12,
+        "90d": 99.47,
         "1y": 98.98
       }
     },
@@ -75,18 +48,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.46,
+        "30d": 68.99,
+        "90d": 68.88,
+        "1y": 78.23
+      }
+    },
+    {
+      "ip": "81.199.137.188",
+      "version": 4,
+      "country_code": "ug",
+      "country": "Uganda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Gilat Telecom Ltd",
+      "domain": "81.199.137.188.gilat.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 68.38,
-        "90d": 68.95,
-        "1y": 78.24
+        "24h": 88.0,
+        "30d": 80.67,
+        "90d": 76.94,
+        "1y": 68.1
       }
     }
   ]

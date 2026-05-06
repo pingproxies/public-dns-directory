@@ -4,37 +4,10 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-05T18:26:19Z",
+    "generated_at": "2026-05-06T07:05:15Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "77.69.141.243",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.77.69.141.243.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 67.23,
-        "90d": 73.0,
-        "1y": 80.86
-      }
-    },
     {
       "ip": "89.148.55.251",
       "version": 4,
@@ -51,15 +24,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 64.32,
+        "90d": 62.88,
+        "1y": 68.14
+      }
+    },
+    {
+      "ip": "77.69.141.243",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 64.41,
-        "90d": 62.99,
-        "1y": 68.16
+        "24h": 100.0,
+        "30d": 68.2,
+        "90d": 73.41,
+        "1y": 80.92
       }
     },
     {
@@ -74,18 +74,18 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 97.3,
-        "30d": 98.75,
-        "90d": 98.08,
+        "24h": 100.0,
+        "30d": 98.77,
+        "90d": 98.1,
         "1y": 98.73
       }
     }
