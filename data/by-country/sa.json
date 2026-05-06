@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-06T07:05:15Z",
-    "total_servers": 6
+    "generated_at": "2026-05-06T18:29:38Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -25,7 +25,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -36,30 +36,30 @@
       }
     },
     {
-      "ip": "87.101.204.72",
+      "ip": "86.51.155.82",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Khalid Ali AlTurki and Sons Co",
-      "domain": "hrpms.alturkigroup.net",
+      "organization": "Etihad Etisalat, a joint stock company",
+      "domain": "static-86-51-155-82.mobily.com.sa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.92,
-        "1y": 99.84
+        "24h": 65.22,
+        "30d": 38.17,
+        "90d": 42.71,
+        "1y": 36.33
       }
     },
     {
@@ -75,16 +75,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.82,
+        "30d": 99.83,
         "90d": 99.7,
         "1y": 99.76
       }
@@ -106,7 +106,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -133,12 +133,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.82,
+        "30d": 99.83,
         "90d": 99.92,
         "1y": 98.86
       }
@@ -160,14 +160,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.24,
+        "30d": 98.26,
         "90d": 96.88,
-        "1y": 98.26
+        "1y": 98.27
+      }
+    },
+    {
+      "ip": "87.101.204.72",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Khalid Ali AlTurki and Sons Co",
+      "domain": "hrpms.alturkigroup.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.92,
+        "1y": 99.84
       }
     }
   ]
