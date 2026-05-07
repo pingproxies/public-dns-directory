@@ -4,10 +4,37 @@
     "country_name": "Bahamas",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-06T18:29:38Z",
+    "generated_at": "2026-05-07T07:10:32Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "206.138.18.20",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Digital Systems (Bahamas) Ltd./Internet Bahamas LTD.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.65,
+        "90d": 98.35,
+        "1y": 93.71
+      }
+    },
     {
       "ip": "65.75.74.124",
       "version": 4,
@@ -25,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.25,
-        "90d": 94.07,
-        "1y": 95.78
-      }
-    },
-    {
-      "ip": "206.138.18.20",
-      "version": 4,
-      "country_code": "bs",
-      "country": "Bahamas",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Digital Systems (Bahamas) Ltd./Internet Bahamas LTD.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.65,
-        "90d": 98.24,
-        "1y": 93.7
+        "30d": 94.23,
+        "90d": 94.19,
+        "1y": 95.79
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.77,
-        "90d": 94.07,
-        "1y": 95.8
+        "30d": 94.76,
+        "90d": 94.19,
+        "1y": 95.81
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.82,
-        "90d": 92.9,
-        "1y": 86.32
+        "30d": 95.8,
+        "90d": 93.74,
+        "1y": 86.34
       }
     }
   ]
