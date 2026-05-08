@@ -4,62 +4,89 @@
     "country_name": "Cyprus",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-08T06:45:12Z",
-    "total_servers": 20
+    "generated_at": "2026-05-08T18:25:51Z",
+    "total_servers": 18
   },
   "resolvers": [
     {
-      "ip": "93.109.234.70",
+      "ip": "94.140.14.14",
+      "version": 4,
+      "country_code": "cy",
+      "country": "Cyprus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "AdGuard Software Limited",
+      "domain": "dns.adguard-dns.com",
+      "trusted": true,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "94.140.14.59",
+      "version": 4,
+      "country_code": "cy",
+      "country": "Cyprus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "AdGuard Software Limited",
+      "domain": "94-140-14-59.adguard-dns.com",
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "213.149.177.25",
       "version": 4,
       "country_code": "cy",
       "country": "Cyprus",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "CYTANET - Cyprus Telecommunications Authority",
-      "domain": "nb41-70.static.cytanet.com.cy",
+      "domain": "static-ip177-25.static.cytanet.com.cy",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 69.57,
-        "30d": 69.57,
-        "90d": 69.57,
-        "1y": 69.57
-      }
-    },
-    {
-      "ip": "213.207.132.189",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "HTTP Planitis Communications Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 78.72,
-        "30d": 78.72,
-        "90d": 78.72,
-        "1y": 78.72
+        "24h": 33.87,
+        "30d": 31.58,
+        "90d": 31.58,
+        "1y": 31.58
       }
     },
     {
@@ -79,41 +106,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 86.96,
-        "30d": 86.96,
-        "90d": 86.96,
-        "1y": 86.96
+        "24h": 88.71,
+        "30d": 89.47,
+        "90d": 89.47,
+        "1y": 89.47
       }
     },
     {
-      "ip": "94.140.15.15",
+      "ip": "213.207.187.249",
       "version": 4,
       "country_code": "cy",
       "country": "Cyprus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "AdGuard Software Limited",
-      "domain": "dns.adguard-dns.com",
-      "trusted": true,
-      "anycast": true,
+      "organization": "EPIC Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.39,
+        "30d": 98.68,
+        "90d": 98.68,
+        "1y": 98.68
+      }
+    },
+    {
+      "ip": "93.109.243.17",
+      "version": 4,
+      "country_code": "cy",
+      "country": "Cyprus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "CYTANET - Cyprus Telecommunications Authority",
+      "domain": "buscust74-17.static.cytanet.com.cy",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "24h": 75.81,
+        "30d": 72.37,
+        "90d": 72.37,
+        "1y": 72.37
       }
     },
     {
@@ -144,95 +198,14 @@
       }
     },
     {
-      "ip": "94.140.14.59",
+      "ip": "194.30.145.73",
       "version": 4,
       "country_code": "cy",
       "country": "Cyprus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "AdGuard Software Limited",
-      "domain": "94-140-14-59.adguard-dns.com",
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "94.140.14.49",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "AdGuard Software Limited",
-      "domain": "94-140-14-49.adguard-dns.com",
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "94.140.14.140",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "AdGuard Software Limited",
-      "domain": "unfiltered.adguard-dns.com",
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "93.109.243.17",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "CYTANET - Cyprus Telecommunications Authority",
-      "domain": "buscust74-17.static.cytanet.com.cy",
+      "organization": "AS PA to Beto Ltd",
+      "domain": "mstefan-adsl-gw.logos.cy.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -240,69 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 74.47,
-        "30d": 74.47,
-        "90d": 74.47,
-        "1y": 74.47
-      }
-    },
-    {
-      "ip": "213.207.131.97",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "EPIC Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 97.83,
-        "30d": 97.83,
-        "90d": 97.83,
-        "1y": 97.83
-      }
-    },
-    {
-      "ip": "213.207.187.249",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "EPIC Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 97.83,
-        "30d": 97.83,
-        "90d": 97.83,
-        "1y": 97.83
+        "24h": 69.35,
+        "30d": 63.16,
+        "90d": 63.16,
+        "1y": 63.16
       }
     },
     {
@@ -326,64 +245,91 @@
         "adult": false
       },
       "uptime": {
-        "24h": 86.96,
-        "30d": 86.96,
-        "90d": 86.96,
-        "1y": 86.96
+        "24h": 88.71,
+        "30d": 90.79,
+        "90d": 90.79,
+        "1y": 90.79
       }
     },
     {
-      "ip": "46.199.82.115",
+      "ip": "94.140.14.49",
       "version": 4,
       "country_code": "cy",
       "country": "Cyprus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "CYTANET",
-      "domain": "mail.diloretio.com.cy",
+      "organization": "AdGuard Software Limited",
+      "domain": "94-140-14-49.adguard-dns.com",
       "trusted": false,
-      "anycast": false,
+      "anycast": true,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
+    {
+      "ip": "213.207.132.189",
+      "version": 4,
+      "country_code": "cy",
+      "country": "Cyprus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "HTTP Planitis Communications Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 53.19,
-        "30d": 53.19,
-        "90d": 53.19,
-        "1y": 53.19
+        "24h": 74.19,
+        "30d": 72.37,
+        "90d": 72.37,
+        "1y": 72.37
       }
     },
     {
-      "ip": "194.30.145.73",
+      "ip": "213.207.131.97",
       "version": 4,
       "country_code": "cy",
       "country": "Cyprus",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "AS PA to Beto Ltd",
-      "domain": "mstefan-adsl-gw.logos.cy.net",
+      "organization": "EPIC Ltd",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 63.04,
-        "30d": 63.04,
-        "90d": 63.04,
-        "1y": 63.04
+        "24h": 98.39,
+        "30d": 98.68,
+        "90d": 98.68,
+        "1y": 98.68
       }
     },
     {
@@ -403,14 +349,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 52.17,
-        "30d": 52.17,
-        "90d": 52.17,
-        "1y": 52.17
+        "24h": 53.23,
+        "30d": 53.95,
+        "90d": 53.95,
+        "1y": 53.95
+      }
+    },
+    {
+      "ip": "94.140.14.140",
+      "version": 4,
+      "country_code": "cy",
+      "country": "Cyprus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "AdGuard Software Limited",
+      "domain": "unfiltered.adguard-dns.com",
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -429,15 +402,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 73.91,
-        "30d": 73.91,
-        "90d": 73.91,
-        "1y": 73.91
+        "24h": 80.65,
+        "30d": 76.32,
+        "90d": 76.32,
+        "1y": 76.32
+      }
+    },
+    {
+      "ip": "94.140.15.15",
+      "version": 4,
+      "country_code": "cy",
+      "country": "Cyprus",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "AdGuard Software Limited",
+      "domain": "dns.adguard-dns.com",
+      "trusted": true,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -453,7 +453,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -488,64 +488,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 58.7,
-        "30d": 58.7,
-        "90d": 58.7,
-        "1y": 58.7
-      }
-    },
-    {
-      "ip": "94.140.14.14",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "AdGuard Software Limited",
-      "domain": "dns.adguard-dns.com",
-      "trusted": true,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "81.4.149.154",
-      "version": 4,
-      "country_code": "cy",
-      "country": "Cyprus",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cytanet",
-      "domain": "nb29-154.static.cytanet.com.cy",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.0,
-        "30d": 50.0,
-        "90d": 50.0,
-        "1y": 50.0
+        "24h": 53.23,
+        "30d": 56.58,
+        "90d": 56.58,
+        "1y": 56.58
       }
     }
   ]
