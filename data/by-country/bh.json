@@ -4,7 +4,7 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-08T18:25:51Z",
+    "generated_at": "2026-05-09T06:52:08Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 75.81,
-        "30d": 74.03,
-        "90d": 74.03,
-        "1y": 74.03
+        "24h": 77.05,
+        "30d": 77.57,
+        "90d": 77.57,
+        "1y": 77.57
       }
     },
     {
@@ -47,19 +47,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.16,
-        "30d": 96.05,
-        "90d": 96.05,
-        "1y": 96.05
+        "24h": 98.36,
+        "30d": 97.2,
+        "90d": 97.2,
+        "1y": 97.2
       }
     }
   ]

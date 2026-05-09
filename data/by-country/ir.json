@@ -4,19 +4,46 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-08T18:25:51Z",
-    "total_servers": 6
+    "generated_at": "2026-05-09T06:52:08Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
-      "ip": "217.218.127.127",
+      "ip": "2.189.44.44",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iran Information Technology Company PJSC",
+      "domain": "anycast.ticdns.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 67.21,
+        "30d": 71.96,
+        "90d": 71.96,
+        "1y": 71.96
+      }
+    },
+    {
+      "ip": "217.218.155.155",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive1.dci.ir",
+      "domain": "recursive2.dci.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -33,33 +60,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "2.189.44.44",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 79.03,
-        "30d": 75.0,
-        "90d": 75.0,
-        "1y": 75.0
       }
     },
     {
@@ -107,40 +107,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 53.23,
-        "30d": 51.32,
-        "90d": 51.32,
-        "1y": 51.32
-      }
-    },
-    {
-      "ip": "217.218.155.155",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive2.dci.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "24h": 55.74,
+        "30d": 49.53,
+        "90d": 49.53,
+        "1y": 49.53
       }
     },
     {
@@ -156,7 +129,34 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 99.07,
+        "90d": 99.07,
+        "1y": 99.07
+      }
+    },
+    {
+      "ip": "178.22.122.100",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Asiatech Data Transmission company",
+      "domain": "free.shecan.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -164,10 +164,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.39,
-        "30d": 98.68,
-        "90d": 98.68,
-        "1y": 98.68
+        "24h": 70.49,
+        "30d": 58.88,
+        "90d": 58.88,
+        "1y": 58.88
+      }
+    },
+    {
+      "ip": "217.218.127.127",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive1.dci.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     }
   ]
