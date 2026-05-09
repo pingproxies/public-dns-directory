@@ -4,8 +4,8 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-09T06:52:08Z",
-    "total_servers": 7
+    "generated_at": "2026-05-09T18:16:10Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -20,8 +20,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -29,21 +29,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 67.21,
-        "30d": 71.96,
-        "90d": 71.96,
-        "1y": 71.96
+        "24h": 70.0,
+        "30d": 72.59,
+        "90d": 72.59,
+        "1y": 72.59
       }
     },
     {
-      "ip": "217.218.155.155",
+      "ip": "217.218.127.127",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive2.dci.ir",
+      "domain": "recursive1.dci.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -90,95 +90,14 @@
       }
     },
     {
-      "ip": "213.176.123.5",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iranian Research Organization Science & Technology",
-      "domain": "dns.irost.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 55.74,
-        "30d": 49.53,
-        "90d": 49.53,
-        "1y": 49.53
-      }
-    },
-    {
-      "ip": "194.225.152.10",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "IPM/Iranet",
-      "domain": "ns1.iranet.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 99.07,
-        "90d": 99.07,
-        "1y": 99.07
-      }
-    },
-    {
-      "ip": "178.22.122.100",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Asiatech Data Transmission company",
-      "domain": "free.shecan.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.49,
-        "30d": 58.88,
-        "90d": 58.88,
-        "1y": 58.88
-      }
-    },
-    {
-      "ip": "217.218.127.127",
+      "ip": "217.218.155.155",
       "version": 4,
       "country_code": "ir",
       "country": "Iran",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive1.dci.ir",
+      "domain": "recursive2.dci.ir",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -195,6 +114,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "194.225.152.10",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "IPM/Iranet",
+      "domain": "ns1.iranet.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.26,
+        "90d": 99.26,
+        "1y": 99.26
       }
     }
   ]

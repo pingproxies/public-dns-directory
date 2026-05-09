@@ -4,8 +4,8 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-09T06:52:08Z",
-    "total_servers": 2
+    "generated_at": "2026-05-09T18:16:10Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -21,18 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 77.05,
-        "30d": 77.57,
-        "90d": 77.57,
-        "1y": 77.57
+        "24h": 78.33,
+        "30d": 75.74,
+        "90d": 75.74,
+        "1y": 75.74
+      }
+    },
+    {
+      "ip": "77.69.141.243",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 56.67,
+        "30d": 60.74,
+        "90d": 60.74,
+        "1y": 60.74
       }
     },
     {
@@ -47,19 +74,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 97.2,
-        "90d": 97.2,
-        "1y": 97.2
+        "24h": 100.0,
+        "30d": 97.78,
+        "90d": 97.78,
+        "1y": 97.78
       }
     }
   ]
