@@ -4,10 +4,37 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-12T07:09:42Z",
+    "generated_at": "2026-05-12T18:32:59Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "78.108.160.207",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-160-207.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 17.24,
+        "30d": 23.05,
+        "90d": 23.05,
+        "1y": 23.05
+      }
+    },
     {
       "ip": "77.75.93.86",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.22,
-        "30d": 87.2,
-        "90d": 87.2,
-        "1y": 87.2
+        "24h": 94.83,
+        "30d": 87.66,
+        "90d": 87.66,
+        "1y": 87.66
       }
     },
     {
@@ -60,33 +87,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "78.108.160.207",
-      "version": 4,
-      "country_code": "lb",
-      "country": "Lebanon",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TerraNet sal",
-      "domain": "dsl-78-108-160-207.terra.net.lb",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 18.64,
-        "30d": 23.51,
-        "90d": 23.51,
-        "1y": 23.51
       }
     }
   ]
