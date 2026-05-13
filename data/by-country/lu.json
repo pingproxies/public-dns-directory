@@ -4,19 +4,19 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-12T18:32:59Z",
-    "total_servers": 4
+    "generated_at": "2026-05-13T07:13:35Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "92.223.105.162",
+      "ip": "107.189.31.10",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
+      "organization": "BuyVM",
+      "domain": "mail.denshi.org",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,19 +24,19 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 93.35,
-        "90d": 93.35,
-        "1y": 93.35
+        "24h": 98.28,
+        "30d": 80.64,
+        "90d": 80.64,
+        "1y": 80.64
       }
     },
     {
-      "ip": "95.85.95.85",
+      "ip": "2.56.220.2",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
@@ -44,7 +44,7 @@
       "continent": "Europe",
       "organization": "G-Core Labs S.A",
       "domain": null,
-      "trusted": false,
+      "trusted": true,
       "anycast": true,
       "dnssec": {
         "aware": true,
@@ -63,34 +63,7 @@
       }
     },
     {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.55,
-        "30d": 78.8,
-        "90d": 78.8,
-        "1y": 78.8
-      }
-    },
-    {
-      "ip": "2.56.220.2",
+      "ip": "95.85.95.85",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
@@ -98,7 +71,7 @@
       "continent": "Europe",
       "organization": "G-Core Labs S.A",
       "domain": null,
-      "trusted": true,
+      "trusted": false,
       "anycast": true,
       "dnssec": {
         "aware": true,
