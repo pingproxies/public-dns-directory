@@ -4,19 +4,46 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-15T18:29:49Z",
-    "total_servers": 6
+    "generated_at": "2026-05-16T06:55:08Z",
+    "total_servers": 8
   },
   "resolvers": [
     {
-      "ip": "196.203.125.133",
+      "ip": "41.228.23.137",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "ATI - Agence Tunisienne Internet",
-      "domain": "ns3.cck.rnu.tn",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.85,
+        "30d": 30.94,
+        "90d": 30.94,
+        "1y": 30.94
+      }
+    },
+    {
+      "ip": "196.203.125.132",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ATI - Agence Tunisienne Internet",
+      "domain": "ns2.cck.rnu.tn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -36,41 +63,14 @@
       }
     },
     {
-      "ip": "197.13.5.134",
+      "ip": "196.203.125.133",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "ATI - Agence Tunisienne Internet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.55,
-        "30d": 89.0,
-        "90d": 89.0,
-        "1y": 89.0
-      }
-    },
-    {
-      "ip": "196.179.196.177",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ooredoo TN",
-      "domain": null,
+      "domain": "ns3.cck.rnu.tn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -79,8 +79,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -117,13 +117,40 @@
       }
     },
     {
-      "ip": "41.228.23.137",
+      "ip": "196.179.250.10",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "ATI - Agence Tunisienne Internet",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 20.75,
+        "30d": 23.12,
+        "90d": 23.12,
+        "1y": 23.12
+      }
+    },
+    {
+      "ip": "196.179.250.89",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -137,21 +164,48 @@
         "adult": true
       },
       "uptime": {
-        "24h": 32.73,
-        "30d": 29.88,
-        "90d": 29.88,
-        "1y": 29.88
+        "24h": 18.87,
+        "30d": 22.64,
+        "90d": 22.64,
+        "1y": 22.64
       }
     },
     {
-      "ip": "196.203.125.132",
+      "ip": "41.228.23.167",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
       "continent_code": "af",
       "continent": "Africa",
       "organization": "ATI - Agence Tunisienne Internet",
-      "domain": "ns2.cck.rnu.tn",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 32.08,
+        "30d": 31.36,
+        "90d": 31.36,
+        "1y": 31.36
+      }
+    },
+    {
+      "ip": "196.179.196.177",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -160,8 +214,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,

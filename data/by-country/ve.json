@@ -4,10 +4,64 @@
     "country_name": "Venezuela",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-05-15T18:29:49Z",
-    "total_servers": 6
+    "generated_at": "2026-05-16T06:55:08Z",
+    "total_servers": 8
   },
   "resolvers": [
+    {
+      "ip": "201.249.140.166",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CANTV Servicios, Venezuela",
+      "domain": "201-249-140-166.chc-00.rai.cantv.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 20.75,
+        "30d": 21.15,
+        "90d": 21.15,
+        "1y": 21.15
+      }
+    },
+    {
+      "ip": "200.11.138.11",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CANTV Servicios, Venezuela",
+      "domain": "200-11-138-11.cnt-02.rai.cantv.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.57,
+        "30d": 98.23,
+        "90d": 98.23,
+        "1y": 98.23
+      }
+    },
     {
       "ip": "138.122.4.226",
       "version": 4,
@@ -20,7 +74,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -29,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.36,
-        "30d": 89.42,
-        "90d": 89.42,
-        "1y": 89.42
+        "24h": 98.11,
+        "30d": 89.78,
+        "90d": 89.78,
+        "1y": 89.78
       }
     },
     {
@@ -53,13 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 81.82,
-        "30d": 65.98,
-        "90d": 65.98,
-        "1y": 65.98
+        "24h": 79.25,
+        "30d": 66.6,
+        "90d": 66.6,
+        "1y": 66.6
       }
     },
     {
@@ -79,7 +133,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -87,33 +141,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "200.74.203.116",
-      "version": 4,
-      "country_code": "ve",
-      "country": "Venezuela",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Dayco Telecom, C.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.18,
-        "30d": 99.38,
-        "90d": 99.38,
-        "1y": 99.38
       }
     },
     {
@@ -132,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 60.0,
-        "30d": 64.32,
-        "90d": 64.32,
-        "1y": 64.32
+        "24h": 50.94,
+        "30d": 64.05,
+        "90d": 64.05,
+        "1y": 64.05
       }
     },
     {
@@ -160,14 +187,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.55,
-        "30d": 71.37,
-        "90d": 71.37,
-        "1y": 71.37
+        "24h": 92.45,
+        "30d": 72.69,
+        "90d": 72.69,
+        "1y": 72.69
+      }
+    },
+    {
+      "ip": "200.74.203.116",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Dayco Telecom, C.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.41,
+        "90d": 99.41,
+        "1y": 99.41
       }
     }
   ]
