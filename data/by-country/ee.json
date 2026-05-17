@@ -4,10 +4,37 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-16T18:15:56Z",
+    "generated_at": "2026-05-17T07:07:13Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "195.80.119.101",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Estonia",
+      "domain": "ns4.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.82,
+        "90d": 99.82,
+        "1y": 99.82
+      }
+    },
     {
       "ip": "46.226.143.83",
       "version": 4,
@@ -48,33 +75,6 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.81,
-        "90d": 99.81,
-        "1y": 99.81
-      }
-    },
-    {
-      "ip": "195.80.119.101",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Estonia",
-      "domain": "ns4.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -84,9 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.81,
-        "90d": 99.81,
-        "1y": 99.81
+        "30d": 99.82,
+        "90d": 99.82,
+        "1y": 99.82
       }
     },
     {
@@ -102,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.11,
-        "30d": 99.25,
-        "90d": 99.25,
-        "1y": 99.25
+        "24h": 98.15,
+        "30d": 99.29,
+        "90d": 99.29,
+        "1y": 99.29
       }
     }
   ]
