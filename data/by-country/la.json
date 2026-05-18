@@ -4,37 +4,10 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-18T07:36:52Z",
+    "generated_at": "2026-05-18T18:32:49Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "115.84.79.71",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Lao Telecommunication Co Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.73,
-        "90d": 97.73,
-        "1y": 97.73
-      }
-    },
     {
       "ip": "115.84.91.78",
       "version": 4,
@@ -53,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.35,
-        "90d": 99.35,
-        "1y": 99.35
+        "30d": 99.38,
+        "90d": 99.38,
+        "1y": 99.38
       }
     },
     {
@@ -78,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.54,
-        "90d": 98.54,
-        "1y": 98.54
+        "24h": 98.11,
+        "30d": 98.44,
+        "90d": 98.44,
+        "1y": 98.44
       }
     },
     {
@@ -111,9 +84,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.03,
-        "90d": 99.03,
-        "1y": 99.03
+        "30d": 99.06,
+        "90d": 99.06,
+        "1y": 99.06
+      }
+    },
+    {
+      "ip": "115.84.79.71",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Lao Telecommunication Co Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.81,
+        "90d": 97.81,
+        "1y": 97.81
       }
     }
   ]
