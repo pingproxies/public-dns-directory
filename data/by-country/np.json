@@ -4,10 +4,37 @@
     "country_name": "Nepal",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-17T18:18:57Z",
+    "generated_at": "2026-05-18T07:36:52Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "202.63.243.159",
+      "version": 4,
+      "country_code": "np",
+      "country": "Nepal",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Subisu Cablenet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.57,
+        "30d": 93.83,
+        "90d": 93.83,
+        "1y": 93.83
+      }
+    },
     {
       "ip": "110.44.112.19",
       "version": 4,
@@ -25,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 90.97,
-        "90d": 90.97,
-        "1y": 90.97
-      }
-    },
-    {
-      "ip": "202.63.244.21",
-      "version": 4,
-      "country_code": "np",
-      "country": "Nepal",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SUBISU A5",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 98.11,
-        "30d": 88.93,
-        "90d": 88.93,
-        "1y": 88.93
+        "30d": 91.23,
+        "90d": 91.23,
+        "1y": 91.23
       }
     },
     {
@@ -79,24 +79,24 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 96.23,
-        "30d": 80.41,
-        "90d": 80.41,
-        "1y": 80.41
+        "24h": 94.34,
+        "30d": 81.17,
+        "90d": 81.17,
+        "1y": 81.17
       }
     },
     {
-      "ip": "202.63.243.159",
+      "ip": "202.63.244.21",
       "version": 4,
       "country_code": "np",
       "country": "Nepal",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Subisu Cablenet",
+      "organization": "SUBISU A5",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 98.11,
-        "30d": 94.21,
-        "90d": 94.21,
-        "1y": 94.21
+        "24h": 100.0,
+        "30d": 89.45,
+        "90d": 89.45,
+        "1y": 89.45
       }
     }
   ]
