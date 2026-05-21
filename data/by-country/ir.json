@@ -4,118 +4,10 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-21T07:29:01Z",
-    "total_servers": 6
+    "generated_at": "2026-05-21T18:34:23Z",
+    "total_servers": 5
   },
   "resolvers": [
-    {
-      "ip": "2.189.44.44",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 84.21,
-        "30d": 82.77,
-        "90d": 82.77,
-        "1y": 82.77
-      }
-    },
-    {
-      "ip": "217.218.155.155",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive2.dci.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 97.04,
-        "90d": 97.04,
-        "1y": 97.04
-      }
-    },
-    {
-      "ip": "194.225.62.80",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TUMS Network",
-      "domain": "ourdns1.tums.ac.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.46,
-        "90d": 99.46,
-        "1y": 99.46
-      }
-    },
-    {
-      "ip": "213.176.123.5",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iranian Research Organization Science & Technology",
-      "domain": "dns.irost.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 31.58,
-        "30d": 43.61,
-        "90d": 43.61,
-        "1y": 43.61
-      }
-    },
     {
       "ip": "194.225.152.10",
       "version": 4,
@@ -133,7 +25,7 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -141,6 +33,60 @@
         "30d": 99.87,
         "90d": 99.87,
         "1y": 99.87
+      }
+    },
+    {
+      "ip": "2.189.44.44",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iran Information Technology Company PJSC",
+      "domain": "anycast.ticdns.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.84,
+        "30d": 82.89,
+        "90d": 82.89,
+        "1y": 82.89
+      }
+    },
+    {
+      "ip": "194.225.62.80",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TUMS Network",
+      "domain": "ourdns1.tums.ac.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.47,
+        "90d": 99.47,
+        "1y": 99.47
       }
     },
     {
@@ -168,6 +114,33 @@
         "30d": 99.6,
         "90d": 99.6,
         "1y": 99.6
+      }
+    },
+    {
+      "ip": "217.218.155.155",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive2.dci.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.1,
+        "90d": 97.1,
+        "1y": 97.1
       }
     }
   ]

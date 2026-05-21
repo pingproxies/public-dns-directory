@@ -4,37 +4,10 @@
     "country_name": "Maldives",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-21T07:29:01Z",
+    "generated_at": "2026-05-21T18:34:23Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "216.183.223.168",
-      "version": 4,
-      "country_code": "mv",
-      "country": "Maldives",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Ooredoo Maldives Plc",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 34.21,
-        "30d": 26.29,
-        "90d": 26.29,
-        "1y": 26.29
-      }
-    },
     {
       "ip": "123.176.4.227",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 35.48,
-        "90d": 35.48,
-        "1y": 35.48
+        "24h": 71.05,
+        "30d": 41.77,
+        "90d": 41.77,
+        "1y": 41.77
       }
     },
     {
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.89,
+        "30d": 47.76,
+        "90d": 47.76,
+        "1y": 47.76
+      }
+    },
+    {
+      "ip": "216.183.223.168",
+      "version": 4,
+      "country_code": "mv",
+      "country": "Maldives",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Ooredoo Maldives Plc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 39.47,
-        "30d": 47.78,
-        "90d": 47.78,
-        "1y": 47.78
+        "24h": 47.37,
+        "30d": 26.61,
+        "90d": 26.61,
+        "1y": 26.61
       }
     }
   ]

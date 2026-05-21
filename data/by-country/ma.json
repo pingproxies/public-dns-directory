@@ -4,10 +4,37 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-21T07:29:01Z",
-    "total_servers": 4
+    "generated_at": "2026-05-21T18:34:23Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "102.50.253.95",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maroc telecom static ip adress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.34,
+        "90d": 99.34,
+        "1y": 99.34
+      }
+    },
     {
       "ip": "194.204.223.244",
       "version": 4,
@@ -24,42 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.73,
-        "90d": 99.73,
-        "1y": 99.73
-      }
-    },
-    {
-      "ip": "81.192.7.147",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "LLI ccm",
-      "domain": "ll81-147-7-192-81.ll81.iam.net.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.89,
-        "30d": 32.73,
-        "90d": 32.73,
-        "1y": 32.73
+        "30d": 99.74,
+        "90d": 99.74,
+        "1y": 99.74
       }
     },
     {
@@ -80,40 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.65,
-        "90d": 98.65,
-        "1y": 98.65
-      }
-    },
-    {
-      "ip": "102.50.253.95",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maroc telecom static ip adress",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.33,
-        "90d": 99.33,
-        "1y": 99.33
+        "30d": 98.68,
+        "90d": 98.68,
+        "1y": 98.68
       }
     }
   ]

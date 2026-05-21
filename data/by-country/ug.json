@@ -4,10 +4,37 @@
     "country_name": "Uganda",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-21T07:29:01Z",
+    "generated_at": "2026-05-21T18:34:23Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "81.199.16.1",
+      "version": 4,
+      "country_code": "ug",
+      "country": "Uganda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Gilat Telecom Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
+      }
+    },
     {
       "ip": "154.72.202.86",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 53.57,
-        "90d": 53.57,
-        "1y": 53.57
+        "24h": 94.74,
+        "30d": 54.34,
+        "90d": 54.34,
+        "1y": 54.34
       }
     },
     {
@@ -56,37 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 78.95,
-        "30d": 72.41,
-        "90d": 72.41,
-        "1y": 72.41
-      }
-    },
-    {
-      "ip": "81.199.16.1",
-      "version": 4,
-      "country_code": "ug",
-      "country": "Uganda",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Gilat Telecom Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "24h": 89.47,
+        "30d": 72.63,
+        "90d": 72.63,
+        "1y": 72.63
       }
     }
   ]
