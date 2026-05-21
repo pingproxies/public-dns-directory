@@ -4,37 +4,10 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-20T18:44:09Z",
+    "generated_at": "2026-05-21T07:29:01Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "45.170.224.187",
-      "version": 4,
-      "country_code": "ni",
-      "country": "Nicaragua",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA",
-      "domain": "dns1.energias-renovables.gob.ni",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
     {
       "ip": "190.124.39.34",
       "version": 4,
@@ -56,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 85.0,
-        "30d": 81.99,
-        "90d": 81.99,
-        "1y": 81.99
+        "24h": 55.26,
+        "30d": 80.86,
+        "90d": 80.86,
+        "1y": 80.86
       }
     },
     {
@@ -83,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 47.5,
-        "30d": 70.22,
-        "90d": 70.22,
-        "1y": 70.22
+        "24h": 65.79,
+        "30d": 70.93,
+        "90d": 70.93,
+        "1y": 70.93
       }
     },
     {
@@ -105,15 +78,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.79,
+        "30d": 48.32,
+        "90d": 48.32,
+        "1y": 48.32
+      }
+    },
+    {
+      "ip": "45.170.224.187",
+      "version": 4,
+      "country_code": "ni",
+      "country": "Nicaragua",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA",
+      "domain": "dns1.energias-renovables.gob.ni",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 65.0,
-        "30d": 47.51,
-        "90d": 47.51,
-        "1y": 47.51
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     }
   ]
