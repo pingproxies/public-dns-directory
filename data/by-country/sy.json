@@ -4,37 +4,10 @@
     "country_name": "Syria",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-21T18:34:23Z",
+    "generated_at": "2026-05-22T07:25:04Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "91.144.22.198",
-      "version": 4,
-      "country_code": "sy",
-      "country": "Syria",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "STE Public Data Network Backbone and LIR",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.42,
-        "90d": 98.42,
-        "1y": 98.42
-      }
-    },
     {
       "ip": "82.137.245.41",
       "version": 4,
@@ -52,14 +25,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 71.05,
-        "30d": 56.58,
-        "90d": 56.58,
-        "1y": 56.58
+        "24h": 80.56,
+        "30d": 57.51,
+        "90d": 57.51,
+        "1y": 57.51
+      }
+    },
+    {
+      "ip": "91.144.22.198",
+      "version": 4,
+      "country_code": "sy",
+      "country": "Syria",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "STE Public Data Network Backbone and LIR",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.46,
+        "90d": 98.46,
+        "1y": 98.46
       }
     }
   ]
