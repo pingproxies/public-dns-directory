@@ -4,37 +4,10 @@
     "country_name": "Jordan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-22T18:32:54Z",
+    "generated_at": "2026-05-23T07:04:16Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "87.236.233.117",
-      "version": 4,
-      "country_code": "jo",
-      "country": "Jordan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Jordanian Universities Network L.L.C.",
-      "domain": "dns2.bau.edu.jo",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.12,
-        "90d": 99.12,
-        "1y": 99.12
-      }
-    },
     {
       "ip": "212.118.12.22",
       "version": 4,
@@ -51,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
@@ -60,6 +33,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "87.236.233.117",
+      "version": 4,
+      "country_code": "jo",
+      "country": "Jordan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Jordanian Universities Network L.L.C.",
+      "domain": "dns2.bau.edu.jo",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.14,
+        "90d": 99.14,
+        "1y": 99.14
       }
     }
   ]
