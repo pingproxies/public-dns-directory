@@ -4,8 +4,8 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-24T07:16:04Z",
-    "total_servers": 4
+    "generated_at": "2026-05-24T18:18:20Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 86.67,
-        "30d": 72.49,
-        "90d": 72.49,
-        "1y": 72.49
+        "30d": 72.6,
+        "90d": 72.6,
+        "1y": 72.6
       }
     },
     {
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -56,10 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 84.44,
-        "30d": 66.43,
-        "90d": 66.43,
-        "1y": 66.43
+        "24h": 86.67,
+        "30d": 66.7,
+        "90d": 66.7,
+        "1y": 66.7
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 93.33,
-        "30d": 89.04,
-        "90d": 89.04,
-        "1y": 89.04
+        "30d": 89.05,
+        "90d": 89.05,
+        "1y": 89.05
       }
     },
     {
@@ -106,14 +106,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.88,
-        "90d": 99.88,
-        "1y": 99.88
+        "30d": 99.89,
+        "90d": 99.89,
+        "1y": 99.89
+      }
+    },
+    {
+      "ip": "80.81.147.82",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CYBERIA",
+      "domain": "ppp-03-82.cyberia.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 22.73,
+        "30d": 60.84,
+        "90d": 60.84,
+        "1y": 60.84
       }
     }
   ]
