@@ -4,7 +4,7 @@
     "country_name": "Suriname",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-05-23T18:18:00Z",
+    "generated_at": "2026-05-24T07:16:04Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.76,
-        "90d": 99.76,
-        "1y": 99.76
+        "30d": 99.77,
+        "90d": 99.77,
+        "1y": 99.77
       }
     }
   ]
