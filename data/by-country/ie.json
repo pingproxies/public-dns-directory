@@ -4,7 +4,7 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-24T18:18:20Z",
+    "generated_at": "2026-05-25T07:47:12Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -25,11 +25,11 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 60.0,
+        "24h": 50.0,
         "30d": 46.07,
         "90d": 46.07,
         "1y": 46.07
@@ -52,14 +52,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 68.89,
-        "30d": 55.25,
-        "90d": 55.25,
-        "1y": 55.25
+        "24h": 54.55,
+        "30d": 54.99,
+        "90d": 54.99,
+        "1y": 54.99
+      }
+    },
+    {
+      "ip": "194.125.133.10",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "INDIGO",
+      "domain": "ann.indigo.ie",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -79,41 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.92,
-        "90d": 96.92,
-        "1y": 96.92
-      }
-    },
-    {
-      "ip": "194.125.133.10",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "INDIGO",
-      "domain": "ann.indigo.ie",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "30d": 97.01,
+        "90d": 97.01,
+        "1y": 97.01
       }
     },
     {
@@ -138,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
-        "90d": 99.66,
-        "1y": 99.66
+        "30d": 99.67,
+        "90d": 99.67,
+        "1y": 99.67
       }
     }
   ]

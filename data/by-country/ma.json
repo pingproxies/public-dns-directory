@@ -4,37 +4,10 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-24T18:18:20Z",
-    "total_servers": 5
+    "generated_at": "2026-05-25T07:47:12Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "41.137.170.250",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Provider 36884 Wana Corporate",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 48.89,
-        "30d": 42.76,
-        "90d": 42.76,
-        "1y": 42.76
-      }
-    },
     {
       "ip": "102.50.253.95",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.43,
-        "90d": 99.43,
-        "1y": 99.43
+        "30d": 99.45,
+        "90d": 99.45,
+        "1y": 99.45
       }
     },
     {
@@ -78,42 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.77,
-        "90d": 99.77,
-        "1y": 99.77
-      }
-    },
-    {
-      "ip": "81.192.7.147",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "LLI ccm",
-      "domain": "ll81-147-7-192-81.ll81.iam.net.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 71.11,
-        "30d": 37.56,
-        "90d": 37.56,
-        "1y": 37.56
+        "30d": 99.78,
+        "90d": 99.78,
+        "1y": 99.78
       }
     },
     {
@@ -132,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.75,
-        "90d": 98.75,
-        "1y": 98.75
+        "30d": 98.79,
+        "90d": 98.79,
+        "1y": 98.79
       }
     }
   ]
