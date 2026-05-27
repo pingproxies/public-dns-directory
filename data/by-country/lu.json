@@ -4,12 +4,39 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-26T18:45:20Z",
-    "total_servers": 3
+    "generated_at": "2026-05-27T07:37:45Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "2.56.220.2",
+      "ip": "92.223.105.162",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GCL",
+      "domain": "lux.1c1g",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.23,
+        "30d": 96.38,
+        "90d": 96.38,
+        "1y": 96.38
+      }
+    },
+    {
+      "ip": "95.85.95.85",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
@@ -17,7 +44,7 @@
       "continent": "Europe",
       "organization": "G-Core Labs S.A",
       "domain": null,
-      "trusted": true,
+      "trusted": false,
       "anycast": true,
       "dnssec": {
         "aware": true,
@@ -57,13 +84,13 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.43,
-        "90d": 88.43,
-        "1y": 88.43
+        "30d": 88.83,
+        "90d": 88.83,
+        "1y": 88.83
       }
     },
     {
-      "ip": "95.85.95.85",
+      "ip": "2.56.220.2",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
@@ -71,15 +98,15 @@
       "continent": "Europe",
       "organization": "G-Core Labs S.A",
       "domain": null,
-      "trusted": false,
+      "trusted": true,
       "anycast": true,
       "dnssec": {
         "aware": true,
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
