@@ -4,37 +4,10 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-28T07:32:49Z",
+    "generated_at": "2026-05-28T18:48:10Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "190.124.39.34",
-      "version": 4,
-      "country_code": "ni",
-      "country": "Nicaragua",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Telefonia Celular de Nicaragua SA",
-      "domain": "static.navega.com.ni",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.8,
-        "30d": 82.59,
-        "90d": 82.59,
-        "1y": 82.59
-      }
-    },
     {
       "ip": "186.1.5.66",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 58.54,
-        "30d": 69.34,
-        "90d": 69.34,
-        "1y": 69.34
+        "24h": 80.65,
+        "30d": 69.56,
+        "90d": 69.56,
+        "1y": 69.56
       }
     },
     {
@@ -79,7 +52,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -87,6 +60,33 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "190.124.39.34",
+      "version": 4,
+      "country_code": "ni",
+      "country": "Nicaragua",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telefonia Celular de Nicaragua SA",
+      "domain": "static.navega.com.ni",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.77,
+        "30d": 82.81,
+        "90d": 82.81,
+        "1y": 82.81
       }
     }
   ]
