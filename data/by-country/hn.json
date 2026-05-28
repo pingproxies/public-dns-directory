@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-27T18:43:00Z",
-    "total_servers": 7
+    "generated_at": "2026-05-28T07:32:49Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -21,45 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 70.18,
-        "30d": 64.31,
-        "90d": 64.31,
-        "1y": 64.31
-      }
-    },
-    {
-      "ip": "164.163.74.82",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Diser Solution Honduras",
-      "domain": "host82.diser.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 49.12,
-        "30d": 65.68,
-        "90d": 65.68,
-        "1y": 65.68
+        "24h": 65.85,
+        "30d": 64.22,
+        "90d": 64.22,
+        "1y": 64.22
       }
     },
     {
@@ -78,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 91.23,
-        "30d": 84.96,
-        "90d": 84.96,
-        "1y": 84.96
-      }
-    },
-    {
-      "ip": "181.210.92.7",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Hondutel",
-      "domain": "Correo.hondutel.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.61,
-        "90d": 99.61,
-        "1y": 99.61
+        "24h": 80.95,
+        "30d": 84.82,
+        "90d": 84.82,
+        "1y": 84.82
       }
     },
     {
@@ -132,42 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 94.64,
-        "30d": 91.05,
-        "90d": 91.05,
-        "1y": 91.05
-      }
-    },
-    {
-      "ip": "190.92.7.76",
-      "version": 4,
-      "country_code": "hn",
-      "country": "Honduras",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "UNIPOLE",
-      "domain": "maicabe.tecnocolor.hn",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 25.0,
-        "30d": 20.26,
-        "90d": 20.26,
-        "1y": 20.26
+        "24h": 90.24,
+        "30d": 90.91,
+        "90d": 90.91,
+        "1y": 90.91
       }
     },
     {
@@ -188,13 +107,67 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 58.54,
+        "30d": 50.97,
+        "90d": 50.97,
+        "1y": 50.97
+      }
+    },
+    {
+      "ip": "164.163.74.82",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Diser Solution Honduras",
+      "domain": "host82.diser.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 69.64,
-        "30d": 51.03,
-        "90d": 51.03,
-        "1y": 51.03
+        "24h": 68.29,
+        "30d": 65.86,
+        "90d": 65.86,
+        "1y": 65.86
+      }
+    },
+    {
+      "ip": "181.210.92.7",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Hondutel",
+      "domain": "rs02.hondutel.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.61,
+        "90d": 99.61,
+        "1y": 99.61
       }
     }
   ]
