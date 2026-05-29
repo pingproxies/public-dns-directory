@@ -4,7 +4,7 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-05-29T07:31:59Z",
+    "generated_at": "2026-05-29T18:48:50Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -24,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -33,6 +33,33 @@
         "30d": 99.44,
         "90d": 99.44,
         "1y": 99.44
+      }
+    },
+    {
+      "ip": "197.230.174.153",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.0,
+        "90d": 99.0,
+        "1y": 99.0
       }
     },
     {
@@ -52,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -60,33 +87,6 @@
         "30d": 99.81,
         "90d": 99.81,
         "1y": 99.81
-      }
-    },
-    {
-      "ip": "197.230.174.153",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Fixed",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.99,
-        "90d": 98.99,
-        "1y": 98.99
       }
     }
   ]
