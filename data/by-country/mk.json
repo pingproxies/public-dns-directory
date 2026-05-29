@@ -4,19 +4,19 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-28T18:48:10Z",
-    "total_servers": 4
+    "generated_at": "2026-05-29T07:31:59Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
-      "ip": "79.125.163.149",
+      "ip": "82.214.84.133",
       "version": 4,
       "country_code": "mk",
       "country": "North Macedonia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "MPT",
-      "domain": null,
+      "organization": "AKTON-MACEDONIA",
+      "domain": "c82-214-84-133.loc.akton.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 53.33,
+        "30d": 83.65,
+        "90d": 83.65,
+        "1y": 83.65
+      }
+    },
+    {
+      "ip": "95.128.184.40",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Telesmart services",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 61.29,
-        "30d": 57.44,
-        "90d": 57.44,
-        "1y": 57.44
+        "24h": 93.33,
+        "30d": 98.5,
+        "90d": 98.5,
+        "1y": 98.5
       }
     },
     {
@@ -52,51 +79,51 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.77,
-        "30d": 86.64,
-        "90d": 86.64,
-        "1y": 86.64
+        "24h": 96.67,
+        "30d": 86.84,
+        "90d": 86.84,
+        "1y": 86.84
       }
     },
     {
-      "ip": "95.128.184.40",
+      "ip": "81.17.232.196",
       "version": 4,
       "country_code": "mk",
       "country": "North Macedonia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Telesmart services",
-      "domain": null,
+      "organization": "Akton provider - Macedonia",
+      "domain": "n232-h196.loc-d.akton.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.32,
-        "30d": 98.47,
-        "90d": 98.47,
-        "1y": 98.47
+        "24h": 61.29,
+        "30d": 55.45,
+        "90d": 55.45,
+        "1y": 55.45
       }
     },
     {
-      "ip": "217.16.79.246",
+      "ip": "79.125.163.149",
       "version": 4,
       "country_code": "mk",
       "country": "North Macedonia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "On.net ISP",
+      "organization": "MPT",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -105,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 70.97,
-        "30d": 65.65,
-        "90d": 65.65,
-        "1y": 65.65
+        "24h": 70.0,
+        "30d": 57.71,
+        "90d": 57.71,
+        "1y": 57.71
       }
     }
   ]
