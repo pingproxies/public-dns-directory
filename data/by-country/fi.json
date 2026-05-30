@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-29T18:48:50Z",
-    "total_servers": 10
+    "generated_at": "2026-05-30T07:10:23Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.62,
-        "30d": 75.25,
-        "90d": 75.25,
-        "1y": 75.25
+        "24h": 91.43,
+        "30d": 75.71,
+        "90d": 75.71,
+        "1y": 75.71
       }
     },
     {
@@ -56,64 +56,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 74.42,
-        "90d": 74.42,
-        "1y": 74.42
+        "24h": 68.57,
+        "30d": 74.32,
+        "90d": 74.32,
+        "1y": 74.32
       }
     },
     {
-      "ip": "65.108.195.182",
+      "ip": "195.140.195.21",
       "version": 4,
       "country_code": "fi",
       "country": "Finland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Hetzner Online GmbH",
-      "domain": "static.182.195.108.65.clients.your-server.de",
+      "organization": "TREX Tampere Region Exchange Oy",
+      "domain": "resolver1.dns.trex.fi",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.91,
-        "90d": 99.91,
-        "1y": 99.91
-      }
-    },
-    {
-      "ip": "95.216.141.159",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hetzner Online GmbH",
-      "domain": "static.159.141.216.95.clients.your-server.de",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.81,
-        "90d": 99.81,
-        "1y": 99.81
+        "30d": 95.91,
+        "90d": 95.91,
+        "1y": 95.91
       }
     },
     {
@@ -144,14 +117,14 @@
       }
     },
     {
-      "ip": "195.140.195.21",
+      "ip": "84.249.85.95",
       "version": 4,
       "country_code": "fi",
       "country": "Finland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "TREX Tampere Region Exchange Oy",
-      "domain": "resolver1.dns.trex.fi",
+      "organization": "TeliaSonera Finland Oyj",
+      "domain": "dsl-tkubng12-54f955-95.dhcp.inet.fi",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -164,64 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.83,
-        "90d": 95.83,
-        "1y": 95.83
-      }
-    },
-    {
-      "ip": "85.23.204.137",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "DNA Oy",
-      "domain": "85-23-204-137.bb.dnainternet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.76,
-        "90d": 96.76,
-        "1y": 96.76
-      }
-    },
-    {
-      "ip": "84.248.207.134",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TeliaSonera Finland Oyj",
-      "domain": "dsl-hkibng21-54f8cf-134.dhcp.inet.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 68.75,
-        "30d": 67.66,
-        "90d": 67.66,
-        "1y": 67.66
+        "24h": 28.57,
+        "30d": 51.37,
+        "90d": 51.37,
+        "1y": 51.37
       }
     },
     {
@@ -242,13 +161,94 @@
       "blocking": {
         "ads": false,
         "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 77.84,
+        "90d": 77.84,
+        "1y": 77.84
+      }
+    },
+    {
+      "ip": "65.108.195.182",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hetzner Online GmbH",
+      "domain": "static.182.195.108.65.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 75.43,
-        "90d": 75.43,
-        "1y": 75.43
+        "30d": 99.91,
+        "90d": 99.91,
+        "1y": 99.91
+      }
+    },
+    {
+      "ip": "85.23.204.137",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "DNA Oy",
+      "domain": "85-23-204-137.bb.dnainternet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.81,
+        "90d": 96.81,
+        "1y": 96.81
+      }
+    },
+    {
+      "ip": "84.248.207.134",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TeliaSonera Finland Oyj",
+      "domain": "dsl-hkibng21-54f8cf-134.dhcp.inet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 82.86,
+        "30d": 67.94,
+        "90d": 67.94,
+        "1y": 67.94
       }
     },
     {
@@ -269,13 +269,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "95.216.141.159",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hetzner Online GmbH",
+      "domain": "static.159.141.216.95.clients.your-server.de",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.82,
+        "90d": 99.82,
+        "1y": 99.82
       }
     }
   ]

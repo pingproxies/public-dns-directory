@@ -4,37 +4,10 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-29T18:48:50Z",
+    "generated_at": "2026-05-30T07:10:23Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "157.157.138.227",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MILA",
-      "domain": "gss-postur.stykk.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.62,
-        "30d": 86.81,
-        "90d": 86.81,
-        "1y": 86.81
-      }
-    },
     {
       "ip": "46.22.99.226",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 68.75,
-        "30d": 78.04,
-        "90d": 78.04,
-        "1y": 78.04
+        "24h": 80.0,
+        "30d": 78.34,
+        "90d": 78.34,
+        "1y": 78.34
       }
     },
     {
@@ -79,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.75,
-        "30d": 98.8,
-        "90d": 98.8,
-        "1y": 98.8
+        "24h": 91.43,
+        "30d": 98.73,
+        "90d": 98.73,
+        "1y": 98.73
+      }
+    },
+    {
+      "ip": "157.157.138.227",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "MILA",
+      "domain": "gss-postur.stykk.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.54,
+        "90d": 87.54,
+        "1y": 87.54
       }
     }
   ]
