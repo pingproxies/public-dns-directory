@@ -4,37 +4,10 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-05-30T18:19:36Z",
+    "generated_at": "2026-05-31T07:28:15Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "95.85.95.85",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "G-Core Labs S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": true,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
     {
       "ip": "92.223.105.162",
       "version": 4,
@@ -57,9 +30,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.77,
-        "90d": 96.77,
-        "1y": 96.77
+        "30d": 96.83,
+        "90d": 96.83,
+        "1y": 96.83
+      }
+    },
+    {
+      "ip": "95.85.95.85",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "G-Core Labs S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": true,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.12,
-        "90d": 90.12,
-        "1y": 90.12
+        "30d": 90.31,
+        "90d": 90.31,
+        "1y": 90.31
       }
     },
     {
