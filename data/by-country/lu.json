@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-01T08:00:19Z",
+    "generated_at": "2026-06-01T19:35:55Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -25,7 +25,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.93,
-        "90d": 96.93,
-        "1y": 96.93
+        "30d": 96.97,
+        "90d": 96.97,
+        "1y": 96.97
       }
     },
     {
@@ -75,7 +75,7 @@
       "anycast": true,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.62,
-        "90d": 90.62,
-        "1y": 90.62
+        "30d": 90.76,
+        "90d": 90.76,
+        "1y": 90.76
       }
     }
   ]
