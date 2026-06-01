@@ -4,37 +4,10 @@
     "country_name": "Jordan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-05-31T18:21:27Z",
+    "generated_at": "2026-06-01T08:00:19Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "87.236.233.117",
-      "version": 4,
-      "country_code": "jo",
-      "country": "Jordan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Jordanian Universities Network L.L.C.",
-      "domain": "dns2.bau.edu.jo",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.39,
-        "90d": 99.39,
-        "1y": 99.39
-      }
-    },
     {
       "ip": "212.118.12.22",
       "version": 4,
@@ -51,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 97.3,
+        "24h": 100.0,
         "30d": 99.91,
         "90d": 99.91,
         "1y": 99.91
+      }
+    },
+    {
+      "ip": "87.236.233.117",
+      "version": 4,
+      "country_code": "jo",
+      "country": "Jordan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Jordanian Universities Network L.L.C.",
+      "domain": "dns2.bau.edu.jo",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.4,
+        "90d": 99.4,
+        "1y": 99.4
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 70.27,
-        "30d": 64.67,
-        "90d": 64.67,
-        "1y": 64.67
+        "24h": 69.44,
+        "30d": 65.07,
+        "90d": 65.07,
+        "1y": 65.07
       }
     }
   ]

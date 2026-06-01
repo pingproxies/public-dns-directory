@@ -4,37 +4,10 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-05-31T18:21:27Z",
+    "generated_at": "2026-06-01T08:00:19Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "168.243.48.33",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.symtek.com.sv",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.46,
-        "90d": 93.46,
-        "1y": 93.46
-      }
-    },
     {
       "ip": "200.85.7.28",
       "version": 4,
@@ -52,7 +25,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -79,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 81.08,
-        "30d": 68.92,
-        "90d": 68.92,
-        "1y": 68.92
+        "24h": 100.0,
+        "30d": 69.43,
+        "90d": 69.43,
+        "1y": 69.43
       }
     },
     {
@@ -110,10 +83,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 83.78,
-        "30d": 75.95,
-        "90d": 75.95,
-        "1y": 75.95
+        "24h": 72.22,
+        "30d": 75.94,
+        "90d": 75.94,
+        "1y": 75.94
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.symtek.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.57,
+        "90d": 93.57,
+        "1y": 93.57
       }
     }
   ]
