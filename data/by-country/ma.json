@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-01T19:35:55Z",
-    "total_servers": 4
+    "generated_at": "2026-06-02T07:50:33Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -16,7 +16,7 @@
       "continent_code": "af",
       "continent": "Africa",
       "organization": "LLI ccm",
-      "domain": "ll81-147-7-192-81.ll81.iam.net.ma",
+      "domain": "srv1-ccm.ma",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 38.86,
-        "90d": 38.86,
-        "1y": 38.86
+        "24h": 90.0,
+        "30d": 39.77,
+        "90d": 39.77,
+        "1y": 39.77
+      }
+    },
+    {
+      "ip": "197.230.174.153",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 91.67,
+        "30d": 98.85,
+        "90d": 98.85,
+        "1y": 98.85
       }
     },
     {
@@ -57,63 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.49,
-        "90d": 99.49,
-        "1y": 99.49
-      }
-    },
-    {
-      "ip": "197.230.174.153",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Fixed",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.1,
-        "90d": 99.1,
-        "1y": 99.1
-      }
-    },
-    {
-      "ip": "194.204.223.244",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Casa Americain school",
-      "domain": "srv3-cas.ac.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.83,
-        "90d": 99.83,
-        "1y": 99.83
+        "30d": 99.5,
+        "90d": 99.5,
+        "1y": 99.5
       }
     }
   ]
