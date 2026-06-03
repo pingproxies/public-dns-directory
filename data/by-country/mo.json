@@ -4,10 +4,37 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-03T07:53:58Z",
-    "total_servers": 5
+    "generated_at": "2026-06-03T19:13:35Z",
+    "total_servers": 8
   },
   "resolvers": [
+    {
+      "ip": "202.86.149.20",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM",
+      "domain": "n20286z149l20.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 58.46,
+        "30d": 72.38,
+        "90d": 72.38,
+        "1y": 72.38
+      }
+    },
     {
       "ip": "202.175.113.124",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 89.44,
-        "90d": 89.44,
-        "1y": 89.44
+        "24h": 75.38,
+        "30d": 88.91,
+        "90d": 88.91,
+        "1y": 88.91
       }
     },
     {
@@ -63,30 +90,57 @@
       }
     },
     {
-      "ip": "202.175.125.44",
+      "ip": "45.123.201.235",
       "version": 4,
       "country_code": "mo",
       "country": "Macao",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "CTM Internet Service",
-      "domain": "z125l44.static.ctm.net",
+      "organization": "Rua de Afonso de Albuqerque",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.67,
-        "90d": 96.67,
-        "1y": 96.67
+        "30d": 96.43,
+        "90d": 96.43,
+        "1y": 96.43
+      }
+    },
+    {
+      "ip": "202.86.149.18",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM",
+      "domain": "n20286z149l18.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 72.4,
+        "90d": 72.4,
+        "1y": 72.4
       }
     },
     {
@@ -110,21 +164,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.77,
-        "30d": 87.67,
-        "90d": 87.67,
-        "1y": 87.67
+        "24h": 83.08,
+        "30d": 87.83,
+        "90d": 87.83,
+        "1y": 87.83
       }
     },
     {
-      "ip": "45.123.201.235",
+      "ip": "202.175.125.44",
       "version": 4,
       "country_code": "mo",
       "country": "Macao",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Rua de Afonso de Albuqerque",
-      "domain": null,
+      "organization": "CTM Internet Service",
+      "domain": "z125l44.static.ctm.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.46,
+        "30d": 96.67,
+        "90d": 96.67,
+        "1y": 96.67
+      }
+    },
+    {
+      "ip": "202.175.66.122",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM Internet Services",
+      "domain": "z66l122.static.ctm.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -134,13 +215,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.35,
-        "90d": 96.35,
-        "1y": 96.35
+        "24h": 76.92,
+        "30d": 93.57,
+        "90d": 93.57,
+        "1y": 93.57
       }
     }
   ]
