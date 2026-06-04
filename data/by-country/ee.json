@@ -4,10 +4,37 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-03T19:13:35Z",
+    "generated_at": "2026-06-04T07:48:31Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "195.80.119.101",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Estonia",
+      "domain": "ns4.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.39,
+        "90d": 99.39,
+        "1y": 99.39
+      }
+    },
     {
       "ip": "195.80.119.99",
       "version": 4,
@@ -30,63 +57,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.91,
-        "90d": 98.91,
-        "1y": 98.91
-      }
-    },
-    {
-      "ip": "46.226.143.86",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cert",
-      "domain": "ns3.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.38,
-        "90d": 99.38,
-        "1y": 99.38
-      }
-    },
-    {
-      "ip": "195.80.119.101",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Estonia",
-      "domain": "ns4.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.38,
-        "90d": 99.38,
-        "1y": 99.38
+        "30d": 98.94,
+        "90d": 98.94,
+        "1y": 98.94
       }
     },
     {
@@ -102,6 +75,33 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.47,
+        "90d": 99.47,
+        "1y": 99.47
+      }
+    },
+    {
+      "ip": "46.226.143.86",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cert",
+      "domain": "ns3.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.46,
-        "90d": 99.46,
-        "1y": 99.46
+        "30d": 99.4,
+        "90d": 99.4,
+        "1y": 99.4
       }
     }
   ]
