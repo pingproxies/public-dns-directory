@@ -4,39 +4,12 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-05T07:40:42Z",
-    "total_servers": 3
+    "generated_at": "2026-06-05T18:35:42Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "194.204.223.244",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Casa Americain school",
-      "domain": "dns.cas.ac.ma",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.28,
-        "90d": 99.28,
-        "1y": 99.28
-      }
-    },
-    {
-      "ip": "197.230.174.153",
+      "ip": "41.87.158.142",
       "version": 4,
       "country_code": "ma",
       "country": "Morocco",
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 96.77,
-        "30d": 98.47,
-        "90d": 98.47,
-        "1y": 98.47
+        "24h": 14.29,
+        "30d": 10.57,
+        "90d": 10.57,
+        "1y": 10.57
       }
     },
     {
@@ -83,10 +56,64 @@
         "adult": false
       },
       "uptime": {
+        "24h": 98.41,
+        "30d": 99.15,
+        "90d": 99.15,
+        "1y": 99.15
+      }
+    },
+    {
+      "ip": "194.204.223.244",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Casa Americain school",
+      "domain": "dns.cas.ac.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
         "24h": 100.0,
-        "30d": 99.21,
-        "90d": 99.21,
-        "1y": 99.21
+        "30d": 99.29,
+        "90d": 99.29,
+        "1y": 99.29
+      }
+    },
+    {
+      "ip": "197.230.174.153",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Fixed",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.83,
+        "30d": 98.5,
+        "90d": 98.5,
+        "1y": 98.5
       }
     }
   ]
