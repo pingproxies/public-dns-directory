@@ -4,64 +4,10 @@
     "country_name": "Bahamas",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-06-06T07:14:20Z",
-    "total_servers": 4
+    "generated_at": "2026-06-06T18:23:42Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "216.137.13.22",
-      "version": 4,
-      "country_code": "bs",
-      "country": "Bahamas",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "The Bahamas Telecommunications Company, Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 65.08,
-        "30d": 80.68,
-        "90d": 80.68,
-        "1y": 80.68
-      }
-    },
-    {
-      "ip": "206.138.18.20",
-      "version": 4,
-      "country_code": "bs",
-      "country": "Bahamas",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Digital Systems (Bahamas) Ltd./Internet Bahamas LTD.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.83,
-        "30d": 99.38,
-        "90d": 99.38,
-        "1y": 99.38
-      }
-    },
     {
       "ip": "65.75.74.124",
       "version": 4,
@@ -78,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 74.6,
-        "30d": 87.4,
-        "90d": 87.4,
-        "1y": 87.4
+        "24h": 88.89,
+        "30d": 87.66,
+        "90d": 87.51,
+        "1y": 87.51
       }
     },
     {
@@ -105,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 74.6,
-        "30d": 87.4,
-        "90d": 87.4,
-        "1y": 87.4
+        "24h": 90.48,
+        "30d": 87.73,
+        "90d": 87.58,
+        "1y": 87.58
+      }
+    },
+    {
+      "ip": "206.138.18.20",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Digital Systems (Bahamas) Ltd./Internet Bahamas LTD.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.45,
+        "90d": 99.39,
+        "1y": 99.39
       }
     }
   ]

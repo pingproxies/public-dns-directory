@@ -4,10 +4,37 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-06T07:14:20Z",
+    "generated_at": "2026-06-06T18:23:42Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "43.252.244.118",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise of Telecommunications Lao",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.18,
+        "90d": 99.19,
+        "1y": 99.19
+      }
+    },
     {
       "ip": "115.84.79.71",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.48,
-        "90d": 98.48,
-        "1y": 98.48
+        "30d": 98.49,
+        "90d": 98.51,
+        "1y": 98.51
       }
     },
     {
@@ -53,40 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.17,
-        "90d": 99.17,
-        "1y": 99.17
-      }
-    },
-    {
-      "ip": "43.252.244.118",
-      "version": 4,
-      "country_code": "la",
-      "country": "Laos",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Enterprise of Telecommunications Lao",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 98.41,
-        "30d": 99.17,
-        "90d": 99.17,
-        "1y": 99.17
+        "30d": 99.11,
+        "90d": 99.12,
+        "1y": 99.12
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.58,
-        "90d": 99.58,
-        "1y": 99.58
+        "30d": 99.59,
+        "90d": 99.59,
+        "1y": 99.59
       }
     }
   ]
