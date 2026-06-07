@@ -4,37 +4,10 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-07T07:34:10Z",
+    "generated_at": "2026-06-07T18:23:32Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "46.226.143.86",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cert",
-      "domain": "ns3.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.45,
-        "90d": 99.47,
-        "1y": 99.47
-      }
-    },
     {
       "ip": "46.226.143.83",
       "version": 4,
@@ -48,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -85,8 +58,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.04,
-        "90d": 99.07,
-        "1y": 99.07
+        "90d": 99.09,
+        "1y": 99.09
+      }
+    },
+    {
+      "ip": "46.226.143.86",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cert",
+      "domain": "ns3.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.45,
+        "90d": 99.48,
+        "1y": 99.48
       }
     },
     {
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.45,
-        "90d": 99.47,
-        "1y": 99.47
+        "24h": 98.41,
+        "30d": 99.38,
+        "90d": 99.41,
+        "1y": 99.41
       }
     }
   ]
