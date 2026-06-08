@@ -4,64 +4,10 @@
     "country_name": "Bahamas",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-06-08T07:56:43Z",
+    "generated_at": "2026-06-08T18:45:30Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "65.75.74.124",
-      "version": 4,
-      "country_code": "bs",
-      "country": "Bahamas",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Cable Bahamas",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.16,
-        "30d": 88.57,
-        "90d": 88.09,
-        "1y": 88.09
-      }
-    },
-    {
-      "ip": "65.75.74.123",
-      "version": 4,
-      "country_code": "bs",
-      "country": "Bahamas",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Cable Bahamas",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.16,
-        "30d": 88.91,
-        "90d": 88.15,
-        "1y": 88.15
-      }
-    },
     {
       "ip": "216.137.13.22",
       "version": 4,
@@ -80,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 74.19,
-        "30d": 79.06,
-        "90d": 79.58,
-        "1y": 79.58
+        "24h": 73.77,
+        "30d": 78.45,
+        "90d": 79.31,
+        "1y": 79.31
       }
     },
     {
@@ -106,14 +52,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
+        "24h": 98.36,
         "30d": 99.52,
-        "90d": 99.43,
-        "1y": 99.43
+        "90d": 99.37,
+        "1y": 99.37
+      }
+    },
+    {
+      "ip": "65.75.74.124",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cable Bahamas",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.8,
+        "30d": 88.78,
+        "90d": 88.05,
+        "1y": 88.05
+      }
+    },
+    {
+      "ip": "65.75.74.123",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cable Bahamas",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.8,
+        "30d": 89.19,
+        "90d": 88.11,
+        "1y": 88.11
       }
     }
   ]
