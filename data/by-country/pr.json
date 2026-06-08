@@ -4,7 +4,7 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-06-07T18:23:32Z",
+    "generated_at": "2026-06-08T07:56:43Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -24,42 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.83,
+        "24h": 96.77,
         "30d": 91.92,
-        "90d": 91.47,
-        "1y": 91.47
-      }
-    },
-    {
-      "ip": "162.251.158.88",
-      "version": 4,
-      "country_code": "pr",
-      "country": "Puerto Rico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Smart Networks, LLC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 92.06,
-        "30d": 90.35,
-        "90d": 90.62,
-        "1y": 90.62
+        "90d": 91.66,
+        "1y": 91.66
       }
     },
     {
@@ -79,14 +52,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 66.74,
-        "90d": 67.25,
-        "1y": 67.25
+        "24h": 80.65,
+        "30d": 67.49,
+        "90d": 67.83,
+        "1y": 67.83
+      }
+    },
+    {
+      "ip": "162.251.158.88",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Smart Networks, LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.16,
+        "30d": 90.62,
+        "90d": 90.83,
+        "1y": 90.83
       }
     }
   ]

@@ -4,10 +4,37 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-07T18:23:32Z",
+    "generated_at": "2026-06-08T07:56:43Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "195.80.119.101",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Estonia",
+      "domain": "ns4.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.39,
+        "30d": 99.38,
+        "90d": 99.43,
+        "1y": 99.43
+      }
+    },
     {
       "ip": "46.226.143.83",
       "version": 4,
@@ -31,35 +58,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.52,
-        "90d": 99.54,
-        "1y": 99.54
-      }
-    },
-    {
-      "ip": "195.80.119.99",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Estonia",
-      "domain": "ns2.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.04,
-        "90d": 99.09,
-        "1y": 99.09
+        "90d": 99.55,
+        "1y": 99.55
       }
     },
     {
@@ -85,24 +85,24 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.45,
-        "90d": 99.48,
-        "1y": 99.48
+        "90d": 99.49,
+        "1y": 99.49
       }
     },
     {
-      "ip": "195.80.119.101",
+      "ip": "195.80.119.99",
       "version": 4,
       "country_code": "ee",
       "country": "Estonia",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "Estonia",
-      "domain": "ns4.rpz.cert.ee",
+      "domain": "ns2.rpz.cert.ee",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 98.41,
-        "30d": 99.38,
-        "90d": 99.41,
-        "1y": 99.41
+        "24h": 100.0,
+        "30d": 99.04,
+        "90d": 99.11,
+        "1y": 99.11
       }
     }
   ]

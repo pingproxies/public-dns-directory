@@ -4,10 +4,37 @@
     "country_name": "Uruguay",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-06-07T18:23:32Z",
+    "generated_at": "2026-06-08T07:56:43Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "179.27.64.34",
+      "version": 4,
+      "country_code": "uy",
+      "country": "Uruguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cliente Antel Uruguay",
+      "domain": "r179-27-64-34.ir-static.anteldata.net.uy",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 93.91,
+        "90d": 94.27,
+        "1y": 94.27
+      }
+    },
     {
       "ip": "190.64.84.30",
       "version": 4,
@@ -25,41 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 85.76,
-        "90d": 86.46,
-        "1y": 86.46
-      }
-    },
-    {
-      "ip": "179.27.64.34",
-      "version": 4,
-      "country_code": "uy",
-      "country": "Uruguay",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Cliente Antel Uruguay",
-      "domain": "r179-27-64-34.ir-static.anteldata.net.uy",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.83,
-        "30d": 93.84,
-        "90d": 94.14,
-        "1y": 94.14
+        "90d": 86.76,
+        "1y": 86.76
       }
     }
   ]
