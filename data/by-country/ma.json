@@ -4,10 +4,64 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-08T18:45:30Z",
-    "total_servers": 3
+    "generated_at": "2026-06-09T07:25:55Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "102.50.253.95",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maroc telecom static ip adress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.18,
+        "90d": 99.26,
+        "1y": 99.26
+      }
+    },
+    {
+      "ip": "81.192.7.147",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "LLI ccm",
+      "domain": "srv1-ccm.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 60.66,
+        "30d": 43.88,
+        "90d": 44.91,
+        "1y": 44.91
+      }
+    },
     {
       "ip": "194.204.223.244",
       "version": 4,
@@ -26,40 +80,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.38,
-        "90d": 99.37,
-        "1y": 99.37
-      }
-    },
-    {
-      "ip": "102.50.253.95",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maroc telecom static ip adress",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.18,
-        "90d": 99.25,
-        "1y": 99.25
+        "90d": 99.39,
+        "1y": 99.39
       }
     },
     {
@@ -79,14 +106,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.56,
+        "90d": 98.39,
+        "1y": 98.39
+      }
+    },
+    {
+      "ip": "41.137.170.250",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Provider 36884 Wana Corporate",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.72,
-        "30d": 98.5,
-        "90d": 98.36,
-        "1y": 98.36
+        "24h": 50.82,
+        "30d": 40.4,
+        "90d": 40.7,
+        "1y": 40.7
       }
     }
   ]

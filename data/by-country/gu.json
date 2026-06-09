@@ -4,10 +4,37 @@
     "country_name": "Guam",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-06-08T18:45:30Z",
-    "total_servers": 1
+    "generated_at": "2026-06-09T07:25:55Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "209.164.189.54",
+      "version": 4,
+      "country_code": "gu",
+      "country": "Guam",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "Level 3",
+      "domain": "209-164-189-54.biz.static.teleguam.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 47.54,
+        "30d": 77.02,
+        "90d": 77.54,
+        "1y": 77.54
+      }
+    },
     {
       "ip": "202.151.81.209",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.44,
-        "30d": 87.89,
-        "90d": 88.24,
-        "1y": 88.24
+        "24h": 95.08,
+        "30d": 88.1,
+        "90d": 88.47,
+        "1y": 88.47
       }
     }
   ]

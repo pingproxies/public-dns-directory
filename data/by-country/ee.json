@@ -4,10 +4,37 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-08T18:45:30Z",
+    "generated_at": "2026-06-09T07:25:55Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "46.226.143.83",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cert",
+      "domain": "ns1.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.52,
+        "90d": 99.57,
+        "1y": 99.57
+      }
+    },
     {
       "ip": "195.80.119.101",
       "version": 4,
@@ -31,35 +58,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.38,
-        "90d": 99.44,
-        "1y": 99.44
-      }
-    },
-    {
-      "ip": "46.226.143.83",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cert",
-      "domain": "ns1.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.52,
-        "90d": 99.56,
-        "1y": 99.56
+        "90d": 99.45,
+        "1y": 99.45
       }
     },
     {
@@ -75,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -85,8 +85,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.45,
-        "90d": 99.5,
-        "1y": 99.5
+        "90d": 99.51,
+        "1y": 99.51
       }
     },
     {
@@ -102,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -112,8 +112,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.04,
-        "90d": 99.12,
-        "1y": 99.12
+        "90d": 99.14,
+        "1y": 99.14
       }
     }
   ]

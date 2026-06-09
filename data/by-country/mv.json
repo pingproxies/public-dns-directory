@@ -4,19 +4,19 @@
     "country_name": "Maldives",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-08T18:45:30Z",
-    "total_servers": 3
+    "generated_at": "2026-06-09T07:25:55Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "123.176.31.226",
+      "ip": "123.176.27.94",
       "version": 4,
       "country_code": "mv",
       "country": "Maldives",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Dhiraagu Leased",
-      "domain": "123-176-31-226.dhivehinet.net.mv",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 31.15,
-        "30d": 13.71,
-        "90d": 12.84,
-        "1y": 12.84
+        "24h": 59.02,
+        "30d": 15.35,
+        "90d": 14.45,
+        "1y": 14.45
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 86.89,
-        "30d": 49.25,
-        "90d": 48.62,
-        "1y": 48.62
+        "24h": 85.25,
+        "30d": 50.55,
+        "90d": 49.26,
+        "1y": 49.26
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.16,
-        "30d": 71.79,
-        "90d": 71.32,
-        "1y": 71.32
+        "24h": 96.72,
+        "30d": 72.61,
+        "90d": 72.08,
+        "1y": 72.08
+      }
+    },
+    {
+      "ip": "216.183.210.171",
+      "version": 4,
+      "country_code": "mv",
+      "country": "Maldives",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Ooredoo Maldives Plc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 24.59,
+        "30d": 30.25,
+        "90d": 30.14,
+        "1y": 30.14
       }
     }
   ]
