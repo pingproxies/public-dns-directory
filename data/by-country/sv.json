@@ -4,19 +4,46 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-06-09T07:25:55Z",
-    "total_servers": 2
+    "generated_at": "2026-06-09T18:40:03Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "168.243.48.33",
+      "ip": "201.247.112.236",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SVNet",
-      "domain": "ns.symtek.com.sv",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.46,
+        "30d": 65.39,
+        "90d": 67.15,
+        "1y": 67.15
+      }
+    },
+    {
+      "ip": "190.86.205.194",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 95.21,
-        "90d": 95.28,
-        "1y": 95.28
+        "24h": 73.77,
+        "30d": 74.42,
+        "90d": 73.72,
+        "1y": 73.72
       }
     },
     {
@@ -52,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.symtek.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.28,
+        "90d": 95.36,
+        "1y": 95.36
       }
     }
   ]
