@@ -4,10 +4,37 @@
     "country_name": "Philippines",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-10T07:40:39Z",
-    "total_servers": 194
+    "generated_at": "2026-06-10T18:48:11Z",
+    "total_servers": 199
   },
   "resolvers": [
+    {
+      "ip": "180.232.81.98",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "DSL Network",
+      "domain": "98.81.232.180.dsl.static.inet.as18190",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.77,
+        "30d": 68.17,
+        "90d": 65.58,
+        "1y": 65.58
+      }
+    },
     {
       "ip": "122.54.62.137",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 95.0,
-        "90d": 94.97,
-        "1y": 94.97
+        "24h": 96.72,
+        "30d": 95.07,
+        "90d": 95.0,
+        "1y": 95.0
       }
     },
     {
@@ -51,13 +78,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.72,
-        "30d": 95.89,
+        "24h": 98.36,
+        "30d": 95.82,
         "90d": 96.1,
         "1y": 96.1
       }
@@ -80,40 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 92.31,
-        "90d": 92.48,
-        "1y": 92.48
-      }
-    },
-    {
-      "ip": "180.191.23.110",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Globe Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 77.05,
-        "30d": 24.15,
-        "90d": 22.42,
-        "1y": 22.42
+        "24h": 98.36,
+        "30d": 92.6,
+        "90d": 92.61,
+        "1y": 92.61
       }
     },
     {
@@ -134,13 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.08,
-        "30d": 98.56,
-        "90d": 98.52,
-        "1y": 98.52
+        "24h": 88.52,
+        "30d": 98.29,
+        "90d": 98.31,
+        "1y": 98.31
       }
     },
     {
@@ -159,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.72,
-        "30d": 90.31,
-        "90d": 88.8,
-        "1y": 88.8
+        "24h": 95.08,
+        "30d": 90.56,
+        "90d": 88.99,
+        "1y": 88.99
       }
     },
     {
@@ -187,14 +187,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.16,
-        "30d": 95.55,
-        "90d": 95.8,
-        "1y": 95.8
+        "24h": 91.8,
+        "30d": 95.48,
+        "90d": 95.81,
+        "1y": 95.81
       }
     },
     {
@@ -214,14 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 95.08,
-        "30d": 94.32,
-        "90d": 92.61,
-        "1y": 92.61
+        "30d": 94.52,
+        "90d": 92.62,
+        "1y": 92.62
       }
     },
     {
@@ -241,14 +241,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 98.36,
-        "30d": 87.9,
-        "90d": 86.75,
-        "1y": 86.75
+        "30d": 88.45,
+        "90d": 87.1,
+        "1y": 87.1
       }
     },
     {
@@ -274,8 +274,8 @@
       "uptime": {
         "24h": 98.36,
         "30d": 98.56,
-        "90d": 98.4,
-        "1y": 98.4
+        "90d": 98.43,
+        "1y": 98.43
       }
     },
     {
@@ -295,14 +295,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.44,
-        "30d": 94.66,
-        "90d": 92.97,
-        "1y": 92.97
+        "24h": 96.72,
+        "30d": 94.73,
+        "90d": 93.08,
+        "1y": 93.08
       }
     },
     {
@@ -323,13 +323,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.08,
+        "24h": 96.72,
         "30d": 96.65,
-        "90d": 95.98,
-        "1y": 95.98
+        "90d": 95.99,
+        "1y": 95.99
       }
     },
     {
@@ -348,15 +348,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 78.69,
-        "30d": 67.42,
-        "90d": 64.58,
-        "1y": 64.58
+        "24h": 65.57,
+        "30d": 67.62,
+        "90d": 64.53,
+        "1y": 64.53
       }
     },
     {
@@ -376,14 +376,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 81.97,
-        "30d": 71.53,
-        "90d": 68.78,
-        "1y": 68.78
+        "24h": 80.33,
+        "30d": 71.87,
+        "90d": 68.84,
+        "1y": 68.84
       }
     },
     {
@@ -403,12 +403,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.66,
+        "30d": 99.73,
         "90d": 99.53,
         "1y": 99.53
       }
@@ -435,9 +435,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.06,
-        "90d": 96.75,
-        "1y": 96.75
+        "30d": 97.19,
+        "90d": 96.8,
+        "1y": 96.8
       }
     },
     {
@@ -457,14 +457,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
+        "24h": 98.36,
         "30d": 97.4,
-        "90d": 97.4,
-        "1y": 97.4
+        "90d": 97.38,
+        "1y": 97.38
       }
     },
     {
@@ -485,40 +485,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.72,
+        "24h": 98.36,
         "30d": 97.74,
-        "90d": 97.22,
-        "1y": 97.22
-      }
-    },
-    {
-      "ip": "27.110.152.250",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 89.29,
-        "90d": 90.5,
-        "1y": 90.5
+        "90d": 97.27,
+        "1y": 97.27
       }
     },
     {
@@ -544,8 +517,8 @@
       "uptime": {
         "24h": 96.72,
         "30d": 98.7,
-        "90d": 98.64,
-        "1y": 98.64
+        "90d": 98.66,
+        "1y": 98.66
       }
     },
     {
@@ -570,9 +543,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.45,
-        "90d": 93.57,
-        "1y": 93.57
+        "30d": 92.46,
+        "90d": 93.72,
+        "1y": 93.72
       }
     },
     {
@@ -596,10 +569,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 77.05,
-        "30d": 71.26,
-        "90d": 70.51,
-        "1y": 70.51
+        "24h": 72.13,
+        "30d": 71.27,
+        "90d": 70.47,
+        "1y": 70.47
       }
     },
     {
@@ -630,60 +603,6 @@
       }
     },
     {
-      "ip": "58.69.21.74",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "58.69.21.74.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 97.26,
-        "90d": 96.81,
-        "1y": 96.81
-      }
-    },
-    {
-      "ip": "103.95.148.6",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Telmarc Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 77.05,
-        "30d": 60.96,
-        "90d": 59.4,
-        "1y": 59.4
-      }
-    },
-    {
       "ip": "124.104.152.215",
       "version": 4,
       "country_code": "ph",
@@ -696,18 +615,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 52.46,
-        "30d": 72.95,
-        "90d": 71.97,
-        "1y": 71.97
+        "24h": 62.3,
+        "30d": 73.03,
+        "90d": 72.27,
+        "1y": 72.27
       }
     },
     {
@@ -727,14 +646,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 98.36,
+        "24h": 96.72,
         "30d": 98.22,
-        "90d": 98.11,
-        "1y": 98.11
+        "90d": 98.08,
+        "1y": 98.08
       }
     },
     {
@@ -760,8 +679,8 @@
       "uptime": {
         "24h": 98.36,
         "30d": 98.7,
-        "90d": 98.7,
-        "1y": 98.7
+        "90d": 98.72,
+        "1y": 98.72
       }
     },
     {
@@ -786,9 +705,9 @@
       },
       "uptime": {
         "24h": 98.36,
-        "30d": 91.7,
-        "90d": 92.39,
-        "1y": 92.39
+        "30d": 91.77,
+        "90d": 92.52,
+        "1y": 92.52
       }
     },
     {
@@ -813,9 +732,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.08,
-        "90d": 97.81,
-        "1y": 97.81
+        "30d": 98.15,
+        "90d": 97.85,
+        "1y": 97.85
       }
     },
     {
@@ -835,14 +754,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.44,
-        "30d": 73.99,
-        "90d": 71.99,
-        "1y": 71.99
+        "24h": 90.16,
+        "30d": 75.09,
+        "90d": 72.15,
+        "1y": 72.15
       }
     },
     {
@@ -861,15 +780,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 81.18,
-        "90d": 77.6,
-        "1y": 77.6
+        "90d": 77.97,
+        "1y": 77.97
       }
     },
     {
@@ -889,14 +808,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 86.15,
-        "90d": 85.02,
-        "1y": 85.02
+        "24h": 96.72,
+        "30d": 86.74,
+        "90d": 85.42,
+        "1y": 85.42
       }
     },
     {
@@ -916,14 +835,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 98.36,
-        "30d": 89.93,
-        "90d": 91.26,
-        "1y": 91.26
+        "30d": 89.86,
+        "90d": 91.35,
+        "1y": 91.35
       }
     },
     {
@@ -942,15 +861,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 73.77,
-        "30d": 16.02,
-        "90d": 15.56,
-        "1y": 15.56
+        "24h": 90.16,
+        "30d": 17.45,
+        "90d": 16.88,
+        "1y": 16.88
       }
     },
     {
@@ -970,14 +889,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 96.72,
         "30d": 98.84,
-        "90d": 98.7,
-        "1y": 98.7
+        "90d": 98.72,
+        "1y": 98.72
       }
     },
     {
@@ -998,13 +917,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 98.36,
         "30d": 98.29,
-        "90d": 98.4,
-        "1y": 98.4
+        "90d": 98.43,
+        "1y": 98.43
       }
     },
     {
@@ -1024,14 +943,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 94.66,
-        "90d": 95.2,
-        "1y": 95.2
+        "30d": 94.67,
+        "90d": 95.22,
+        "1y": 95.22
       }
     },
     {
@@ -1051,14 +970,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 73.77,
-        "30d": 65.28,
-        "90d": 63.05,
-        "1y": 63.05
+        "30d": 66.08,
+        "90d": 63.25,
+        "1y": 63.25
       }
     },
     {
@@ -1082,10 +1001,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.52,
-        "30d": 82.27,
-        "90d": 79.91,
-        "1y": 79.91
+        "24h": 85.25,
+        "30d": 82.34,
+        "90d": 79.88,
+        "1y": 79.88
       }
     },
     {
@@ -1109,10 +1028,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 95.08,
+        "24h": 96.72,
         "30d": 98.84,
-        "90d": 98.88,
-        "1y": 98.88
+        "90d": 98.9,
+        "1y": 98.9
       }
     },
     {
@@ -1131,15 +1050,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 98.36,
         "30d": 98.43,
-        "90d": 98.46,
-        "1y": 98.46
+        "90d": 98.49,
+        "1y": 98.49
       }
     },
     {
@@ -1190,37 +1109,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.8,
-        "30d": 95.28,
-        "90d": 94.26,
-        "1y": 94.26
-      }
-    },
-    {
-      "ip": "122.54.78.230",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Enterprise Client",
-      "domain": "122.54.78.230.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 97.95,
-        "90d": 98.11,
-        "1y": 98.11
+        "24h": 93.44,
+        "30d": 95.35,
+        "90d": 94.24,
+        "1y": 94.24
       }
     },
     {
@@ -1240,14 +1132,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 91.8,
-        "30d": 94.66,
-        "90d": 93.97,
-        "1y": 93.97
+        "30d": 94.73,
+        "90d": 94.01,
+        "1y": 94.01
       }
     },
     {
@@ -1272,63 +1164,9 @@
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 97.13,
-        "90d": 96.98,
-        "1y": 96.98
-      }
-    },
-    {
-      "ip": "122.54.86.1",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "1-11ry9cd_rs2 Software Apac Inc.",
-      "domain": "122.54.86.1.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.7,
-        "90d": 98.76,
-        "1y": 98.76
-      }
-    },
-    {
-      "ip": "122.55.143.170",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.143.170.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.05,
-        "30d": 74.13,
-        "90d": 71.73,
-        "1y": 71.73
+        "30d": 97.26,
+        "90d": 97.03,
+        "1y": 97.03
       }
     },
     {
@@ -1354,8 +1192,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 84.07,
-        "90d": 86.59,
-        "1y": 86.59
+        "90d": 86.87,
+        "1y": 86.87
       }
     },
     {
@@ -1380,9 +1218,9 @@
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 98.7,
-        "90d": 98.76,
-        "1y": 98.76
+        "30d": 98.84,
+        "90d": 98.78,
+        "1y": 98.78
       }
     },
     {
@@ -1402,95 +1240,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 98.36,
-        "30d": 89.72,
-        "90d": 90.19,
-        "1y": 90.19
-      }
-    },
-    {
-      "ip": "124.105.157.110",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.43,
-        "90d": 98.29,
-        "1y": 98.29
-      }
-    },
-    {
-      "ip": "124.107.126.1",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "1-uyou9v_megawide Construction Corporation",
-      "domain": "124.107.126.1.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 98.36,
-        "90d": 98.23,
-        "1y": 98.23
-      }
-    },
-    {
-      "ip": "122.54.86.193",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.54.86.193.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.36,
-        "90d": 98.23,
-        "1y": 98.23
+        "30d": 90.15,
+        "90d": 90.35,
+        "1y": 90.35
       }
     },
     {
@@ -1511,23 +1268,23 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 98.36,
-        "30d": 98.22,
-        "90d": 97.87,
-        "1y": 97.87
+        "30d": 98.36,
+        "90d": 97.91,
+        "1y": 97.91
       }
     },
     {
-      "ip": "222.127.168.25",
+      "ip": "103.178.27.20",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Globe Telecom Inc.",
+      "organization": "Palash Silpanchal College",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1536,26 +1293,188 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 19.67,
-        "30d": 14.8,
-        "90d": 14.32,
-        "1y": 14.32
+        "24h": 72.13,
+        "30d": 86.98,
+        "90d": 85.64,
+        "1y": 85.64
       }
     },
     {
-      "ip": "122.53.95.126",
+      "ip": "124.104.153.139",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "1-14w5fc3_ninja Express Tech Philippines Inc",
-      "domain": "122.53.95.126.static.pldt.net",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "124.104.153.139.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 50.84,
+        "90d": 52.53,
+        "1y": 52.53
+      }
+    },
+    {
+      "ip": "122.2.76.81",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.2.76.81.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 66.13,
+        "90d": 64.86,
+        "1y": 64.86
+      }
+    },
+    {
+      "ip": "180.193.179.18",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 97.6,
+        "90d": 97.73,
+        "1y": 97.73
+      }
+    },
+    {
+      "ip": "122.54.17.114",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.54.17.114.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 94.66,
+        "90d": 94.77,
+        "1y": 94.77
+      }
+    },
+    {
+      "ip": "115.146.250.193",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 85.67,
+        "90d": 86.79,
+        "1y": 86.79
+      }
+    },
+    {
+      "ip": "180.193.182.10",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 92.86,
+        "90d": 92.86,
+        "1y": 92.86
+      }
+    },
+    {
+      "ip": "124.107.131.17",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "124.107.131.17.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1569,9 +1488,198 @@
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 98.02,
-        "90d": 98.23,
-        "1y": 98.23
+        "30d": 98.84,
+        "90d": 98.66,
+        "1y": 98.66
+      }
+    },
+    {
+      "ip": "122.55.34.214",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "1-yhecuz_smart Communications Inc.",
+      "domain": "122.55.34.214.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.8,
+        "30d": 96.65,
+        "90d": 95.93,
+        "1y": 95.93
+      }
+    },
+    {
+      "ip": "112.198.179.23",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Globe Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.11,
+        "90d": 99.01,
+        "1y": 99.01
+      }
+    },
+    {
+      "ip": "210.1.94.54",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "210.1.94.54.pldtvibe.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 94.87,
+        "90d": 94.07,
+        "1y": 94.07
+      }
+    },
+    {
+      "ip": "122.55.145.178",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.55.145.178.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 73.77,
+        "30d": 70.5,
+        "90d": 67.07,
+        "1y": 67.07
+      }
+    },
+    {
+      "ip": "210.5.89.193",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "host.2.static.gaisanogroup.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.16,
+        "30d": 92.06,
+        "90d": 91.91,
+        "1y": 91.91
+      }
+    },
+    {
+      "ip": "210.5.64.10",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "South Luzon Tollway Corporation",
+      "domain": "host.19.static.sltc.ph",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 67.21,
+        "30d": 58.11,
+        "90d": 57.53,
+        "1y": 57.53
+      }
+    },
+    {
+      "ip": "210.5.92.6",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "210.5.92.6.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.84,
+        "90d": 98.78,
+        "1y": 98.78
       }
     },
     {
@@ -1587,22 +1695,211 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 95.89,
+        "90d": 96.34,
+        "1y": 96.34
+      }
+    },
+    {
+      "ip": "122.54.69.14",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "1-vimljq_smart Communications Inc.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 95.41,
+        "90d": 94.48,
+        "1y": 94.48
+      }
+    },
+    {
+      "ip": "210.213.74.129",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise Client",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.02,
+        "90d": 97.85,
+        "1y": 97.85
+      }
+    },
+    {
+      "ip": "122.53.214.65",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": "122.53.214.65.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 97.4,
+        "90d": 97.33,
+        "1y": 97.33
+      }
+    },
+    {
+      "ip": "116.50.180.210",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Eastern Telecommunications Philippines, Inc",
+      "domain": "210.180.50.116.ids.service.static.eastern-tele.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 98.63,
+        "90d": 98.66,
+        "1y": 98.66
+      }
+    },
+    {
+      "ip": "124.105.154.238",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "1-z2bgnu_airswift Transport, Inc.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 95.82,
-        "90d": 96.27,
-        "1y": 96.27
+        "30d": 96.44,
+        "90d": 96.8,
+        "1y": 96.8
       }
     },
     {
-      "ip": "27.110.139.78",
+      "ip": "124.105.209.234",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 97.47,
+        "90d": 97.67,
+        "1y": 97.67
+      }
+    },
+    {
+      "ip": "114.198.144.44",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Globalreach",
+      "domain": "dns3.eglobalreach.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.73,
+        "90d": 99.77,
+        "1y": 99.77
+      }
+    },
+    {
+      "ip": "115.147.62.56",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
@@ -1622,21 +1919,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 96.72,
-        "30d": 96.78,
-        "90d": 96.34,
-        "1y": 96.34
+        "24h": 83.61,
+        "30d": 61.78,
+        "90d": 59.74,
+        "1y": 59.74
       }
     },
     {
-      "ip": "124.83.13.150",
+      "ip": "210.213.242.242",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "University of ST. Lasalle-bacolod",
-      "domain": "NS2.usls.edu.ph",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "210.213.242.242.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1644,15 +1941,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.81,
-        "90d": 97.69,
-        "1y": 97.69
+        "24h": 96.72,
+        "30d": 96.44,
+        "90d": 95.23,
+        "1y": 95.23
+      }
+    },
+    {
+      "ip": "210.213.198.41",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Apex Mining Co, Inc",
+      "domain": "host.10.static.apexmining.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 26.23,
+        "30d": 38.81,
+        "90d": 39.07,
+        "1y": 39.07
       }
     },
     {
@@ -1673,24 +1997,51 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 95.84,
-        "90d": 92.72,
-        "1y": 92.72
+        "30d": 96.19,
+        "90d": 92.78,
+        "1y": 92.78
       }
     },
     {
-      "ip": "114.198.144.44",
+      "ip": "210.5.67.241",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Globalreach",
-      "domain": "dns3.eglobalreach.net",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 97.88,
+        "90d": 97.79,
+        "1y": 97.79
+      }
+    },
+    {
+      "ip": "121.58.203.1",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ConvergeICT Solution Inc",
+      "domain": "121.58.203.1.convergeict.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1700,23 +2051,131 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.73,
-        "90d": 99.76,
-        "1y": 99.76
+        "24h": 91.8,
+        "30d": 74.81,
+        "90d": 71.75,
+        "1y": 71.75
       }
     },
     {
-      "ip": "210.213.74.41",
+      "ip": "119.92.187.97",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "host.2.static.techsupportglobal.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 98.77,
+        "90d": 98.9,
+        "1y": 98.9
+      }
+    },
+    {
+      "ip": "210.213.126.161",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Co",
+      "domain": "210.213.126.161.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 97.67,
+        "90d": 97.09,
+        "1y": 97.09
+      }
+    },
+    {
+      "ip": "210.213.75.161",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "210.213.75.161.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 95.21,
+        "90d": 95.64,
+        "1y": 95.64
+      }
+    },
+    {
+      "ip": "222.127.7.54",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "BPX",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 19.67,
+        "30d": 15.26,
+        "90d": 14.25,
+        "1y": 14.25
+      }
+    },
+    {
+      "ip": "210.5.124.161",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -1731,20 +2190,47 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.22,
-        "90d": 98.4,
-        "1y": 98.4
+        "30d": 98.49,
+        "90d": 98.25,
+        "1y": 98.25
       }
     },
     {
-      "ip": "210.5.101.242",
+      "ip": "210.5.125.6",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.5.101.242.pldt.net",
+      "domain": "210.5.125.6.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.81,
+        "90d": 97.32,
+        "1y": 97.32
+      }
+    },
+    {
+      "ip": "210.213.65.118",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1757,10 +2243,145 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 97.54,
-        "90d": 97.58,
-        "1y": 97.58
+        "24h": 96.72,
+        "30d": 85.76,
+        "90d": 87.46,
+        "1y": 87.46
+      }
+    },
+    {
+      "ip": "115.146.189.170",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise Client",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 96.1,
+        "90d": 95.81,
+        "1y": 95.81
+      }
+    },
+    {
+      "ip": "210.5.72.13",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 18.03,
+        "30d": 15.38,
+        "90d": 15.25,
+        "1y": 15.25
+      }
+    },
+    {
+      "ip": "210.5.98.130",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "210.5.98.130.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.17,
+        "90d": 95.7,
+        "1y": 95.7
+      }
+    },
+    {
+      "ip": "210.1.86.1",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": "210.1.86.1.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.56,
+        "90d": 98.37,
+        "1y": 98.37
+      }
+    },
+    {
+      "ip": "210.1.83.201",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": "corporatehost.18.palawanpawnshop.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 91.1,
+        "90d": 90.87,
+        "1y": 90.87
       }
     },
     {
@@ -1786,39 +2407,12 @@
       "uptime": {
         "24h": 100.0,
         "30d": 97.67,
-        "90d": 97.46,
-        "1y": 97.46
+        "90d": 97.5,
+        "1y": 97.5
       }
     },
     {
-      "ip": "103.105.212.98",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Fil Products Service Television Incorporated",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 32.79,
-        "30d": 46.3,
-        "90d": 45.71,
-        "1y": 45.71
-      }
-    },
-    {
-      "ip": "115.147.21.134",
+      "ip": "210.14.13.209",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
@@ -1836,104 +2430,23 @@
         "ads": false,
         "malware": false,
         "adult": false
-      },
-      "uptime": {
-        "24h": 90.16,
-        "30d": 78.29,
-        "90d": 76.29,
-        "1y": 76.29
-      }
-    },
-    {
-      "ip": "122.52.229.125",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Smart Communications Inc.",
-      "domain": "122.52.229.125.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 91.3,
-        "90d": 90.6,
-        "1y": 90.6
+        "30d": 98.63,
+        "90d": 98.6,
+        "1y": 98.6
       }
     },
     {
-      "ip": "27.110.176.225",
+      "ip": "203.158.9.5",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 95.21,
-        "90d": 95.27,
-        "1y": 95.27
-      }
-    },
-    {
-      "ip": "115.146.174.102",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 95.27,
-        "90d": 94.03,
-        "1y": 94.03
-      }
-    },
-    {
-      "ip": "116.50.230.138",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Eastern Telecommunications Philippines, Inc",
-      "domain": "138.230.50.116.ids.service.static.eastern-tele.com",
+      "organization": "Seven Seven Global Services Inc",
+      "domain": "dns2.77globalservices.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1941,181 +2454,46 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 93.36,
-        "90d": 91.96,
-        "1y": 91.96
-      }
-    },
-    {
-      "ip": "58.69.182.53",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "58.69.182.53.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 78.69,
-        "30d": 56.95,
-        "90d": 53.22,
-        "1y": 53.22
-      }
-    },
-    {
-      "ip": "122.3.232.38",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Enterprise Client",
-      "domain": "122.3.232.38.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 95.82,
-        "90d": 95.86,
-        "1y": 95.86
-      }
-    },
-    {
-      "ip": "119.92.80.57",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "119.92.80.57.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 98.77,
-        "90d": 98.76,
-        "1y": 98.76
-      }
-    },
-    {
-      "ip": "119.92.191.34",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "119.92.191.34.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 92.47,
-        "90d": 92.08,
-        "1y": 92.08
-      }
-    },
-    {
-      "ip": "124.105.214.174",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 98.56,
-        "90d": 98.29,
-        "1y": 98.29
-      }
-    },
-    {
-      "ip": "58.69.174.39",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "58.69.174.39.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 40.98,
-        "30d": 58.59,
-        "90d": 57.36,
-        "1y": 57.36
+        "24h": 90.16,
+        "30d": 87.13,
+        "90d": 87.85,
+        "1y": 87.85
       }
     },
     {
-      "ip": "115.146.192.218",
+      "ip": "180.193.179.138",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "host.0.static.ctsglobalgroup.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.29,
+        "90d": 98.43,
+        "1y": 98.43
+      }
+    },
+    {
+      "ip": "124.105.217.50",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
@@ -2131,18 +2509,18 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 95.08,
-        "30d": 97.54,
-        "90d": 97.28,
-        "1y": 97.28
+        "30d": 94.73,
+        "90d": 93.2,
+        "1y": 93.2
       }
     },
     {
-      "ip": "103.225.36.238",
+      "ip": "103.225.36.226",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
@@ -2158,79 +2536,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.11,
-        "90d": 99.11,
-        "1y": 99.11
+        "24h": 93.44,
+        "30d": 97.74,
+        "90d": 97.56,
+        "1y": 97.56
       }
     },
     {
-      "ip": "124.83.72.92",
+      "ip": "122.3.23.255",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "124.83.72.92.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 68.85,
-        "30d": 46.34,
-        "90d": 43.06,
-        "1y": 43.06
-      }
-    },
-    {
-      "ip": "122.53.148.218",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kyocera Crystal Device Philippines",
-      "domain": "dns1.philmech.gov.ph",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.36,
-        "90d": 97.69,
-        "1y": 97.69
-      }
-    },
-    {
-      "ip": "119.92.65.97",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "119.92.65.97.static.pldt.net",
+      "domain": "122.3.23.255.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2243,10 +2567,226 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.49,
-        "90d": 98.46,
-        "1y": 98.46
+        "24h": 98.36,
+        "30d": 94.05,
+        "90d": 90.47,
+        "1y": 90.47
+      }
+    },
+    {
+      "ip": "27.110.245.97",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 97.13,
+        "90d": 97.03,
+        "1y": 97.03
+      }
+    },
+    {
+      "ip": "180.232.96.162",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "IDS Network",
+      "domain": "arellanolaw.edu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 93.16,
+        "90d": 92.97,
+        "1y": 92.97
+      }
+    },
+    {
+      "ip": "124.105.217.62",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 90.35,
+        "90d": 89.58,
+        "1y": 89.58
+      }
+    },
+    {
+      "ip": "115.146.249.49",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 97.54,
+        "90d": 97.5,
+        "1y": 97.5
+      }
+    },
+    {
+      "ip": "27.110.146.233",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.77,
+        "90d": 98.72,
+        "1y": 98.72
+      }
+    },
+    {
+      "ip": "122.55.142.154",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.55.142.154.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 94.87,
+        "90d": 94.13,
+        "1y": 94.13
+      }
+    },
+    {
+      "ip": "58.69.78.37",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "58.69.78.37.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.89,
+        "30d": 69.75,
+        "90d": 71.05,
+        "1y": 71.05
+      }
+    },
+    {
+      "ip": "58.71.19.113",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 97.54,
+        "90d": 97.79,
+        "1y": 97.79
       }
     },
     {
@@ -2271,20 +2811,20 @@
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 94.66,
-        "90d": 93.79,
-        "1y": 93.79
+        "30d": 94.73,
+        "90d": 93.89,
+        "1y": 93.89
       }
     },
     {
-      "ip": "180.193.183.230",
+      "ip": "122.55.203.38",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
+      "domain": "122.55.203.38.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2293,25 +2833,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 98.29,
-        "90d": 98.46,
-        "1y": 98.46
+        "30d": 96.6,
+        "90d": 93.27,
+        "1y": 93.27
       }
     },
     {
-      "ip": "122.54.23.49",
+      "ip": "27.110.139.78",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": "122.54.23.49.static.pldt.net",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2326,208 +2866,19 @@
       "uptime": {
         "24h": 95.08,
         "30d": 96.65,
-        "90d": 96.75,
-        "1y": 96.75
+        "90d": 96.28,
+        "1y": 96.28
       }
     },
     {
-      "ip": "122.53.148.193",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Moog Control Corporation",
-      "domain": "122.53.148.193.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 94.27,
-        "90d": 94.9,
-        "1y": 94.9
-      }
-    },
-    {
-      "ip": "210.213.242.242",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.213.242.242.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 96.37,
-        "90d": 95.21,
-        "1y": 95.21
-      }
-    },
-    {
-      "ip": "124.106.123.241",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.97,
-        "30d": 90.84,
-        "90d": 87.16,
-        "1y": 87.16
-      }
-    },
-    {
-      "ip": "210.5.111.178",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.5.111.178.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 83.86,
-        "90d": 81.41,
-        "1y": 81.41
-      }
-    },
-    {
-      "ip": "124.105.219.106",
+      "ip": "210.1.81.41",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 96.58,
-        "90d": 95.39,
-        "1y": 95.39
-      }
-    },
-    {
-      "ip": "115.146.252.198",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Enterprise Client",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.89,
-        "30d": 81.79,
-        "90d": 79.3,
-        "1y": 79.3
-      }
-    },
-    {
-      "ip": "27.110.222.98",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.78,
-        "90d": 96.75,
-        "1y": 96.75
-      }
-    },
-    {
-      "ip": "180.193.182.10",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
+      "domain": "210.1.81.41.pldtvibe.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -2537,590 +2888,23 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 92.29,
-        "90d": 92.29,
-        "1y": 92.29
-      }
-    },
-    {
-      "ip": "58.69.116.138",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "58.69.116.138.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 85.25,
-        "30d": 76.8,
-        "90d": 76.17,
-        "1y": 76.17
-      }
-    },
-    {
-      "ip": "124.107.131.17",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "124.107.131.17.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 98.77,
-        "90d": 98.64,
-        "1y": 98.64
-      }
-    },
-    {
-      "ip": "124.83.68.171",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "124.83.68.171.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
         "adult": true
-      },
-      "uptime": {
-        "24h": 86.89,
-        "30d": 87.61,
-        "90d": 88.06,
-        "1y": 88.06
-      }
-    },
-    {
-      "ip": "210.5.98.46",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.5.98.46.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 76.25,
-        "90d": 77.5,
-        "1y": 77.5
-      }
-    },
-    {
-      "ip": "115.147.62.56",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 84.62,
-        "30d": 60.29,
-        "90d": 59.32,
-        "1y": 59.32
-      }
-    },
-    {
-      "ip": "124.105.219.222",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 97.4,
-        "90d": 96.87,
-        "1y": 96.87
-      }
-    },
-    {
-      "ip": "210.213.74.129",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Enterprise Client",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.02,
-        "90d": 97.87,
-        "1y": 97.87
-      }
-    },
-    {
-      "ip": "210.5.67.241",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 97.88,
-        "90d": 97.81,
-        "1y": 97.81
-      }
-    },
-    {
-      "ip": "122.55.80.210",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "1-113vmm3_san Beda College",
-      "domain": "dns1.sanbeda.edu.ph",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 94.88,
-        "90d": 93.53,
-        "1y": 93.53
-      }
-    },
-    {
-      "ip": "210.5.125.6",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.5.125.6.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.74,
-        "90d": 97.28,
-        "1y": 97.28
-      }
-    },
-    {
-      "ip": "122.55.34.214",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "1-yhecuz_smart Communications Inc.",
-      "domain": "122.55.34.214.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 96.71,
-        "90d": 95.98,
-        "1y": 95.98
-      }
-    },
-    {
-      "ip": "122.54.69.14",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "1-vimljq_smart Communications Inc.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 95.35,
-        "90d": 94.5,
-        "1y": 94.5
-      }
-    },
-    {
-      "ip": "122.55.242.174",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.242.174.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.08,
-        "90d": 97.75,
-        "1y": 97.75
-      }
-    },
-    {
-      "ip": "121.58.203.4",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "ConvergeICT Solution Inc",
-      "domain": "121.58.203.4.convergeict.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 70.88,
-        "90d": 64.48,
-        "1y": 64.48
-      }
-    },
-    {
-      "ip": "122.53.190.38",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Quickflo Forwarders Inc.",
-      "domain": "122.53.190.38.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.36,
-        "90d": 98.35,
-        "1y": 98.35
-      }
-    },
-    {
-      "ip": "122.53.221.170",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": "122.53.221.170.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.63,
-        "90d": 98.52,
-        "1y": 98.52
-      }
-    },
-    {
-      "ip": "222.127.25.226",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Globe-WIZ GRAND CAPRICE",
-      "domain": "hari-realm.hyundai-asia.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
       },
       "uptime": {
         "24h": 83.61,
-        "30d": 90.8,
-        "90d": 89.45,
-        "1y": 89.45
+        "30d": 95.62,
+        "90d": 94.89,
+        "1y": 94.89
       }
     },
     {
-      "ip": "124.105.154.238",
+      "ip": "119.93.121.146",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "1-z2bgnu_airswift Transport, Inc.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 96.3,
-        "90d": 96.75,
-        "1y": 96.75
-      }
-    },
-    {
-      "ip": "122.55.158.162",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.158.162.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 96.85,
-        "90d": 96.04,
-        "1y": 96.04
-      }
-    },
-    {
-      "ip": "122.55.145.178",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.145.178.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 77.05,
-        "30d": 69.88,
-        "90d": 66.94,
-        "1y": 66.94
-      }
-    },
-    {
-      "ip": "124.105.209.234",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 97.4,
-        "90d": 97.63,
-        "1y": 97.63
-      }
-    },
-    {
-      "ip": "27.110.239.50",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
+      "organization": "Supersonic Manufacturing Incorporated",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -3134,10 +2918,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 95.08,
-        "30d": 94.18,
-        "90d": 93.44,
-        "1y": 93.44
+        "24h": 65.57,
+        "30d": 69.47,
+        "90d": 67.73,
+        "1y": 67.73
       }
     },
     {
@@ -3163,8 +2947,8 @@
       "uptime": {
         "24h": 98.36,
         "30d": 98.49,
-        "90d": 98.58,
-        "1y": 98.58
+        "90d": 98.6,
+        "1y": 98.6
       }
     },
     {
@@ -3180,61 +2964,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 96.1,
-        "90d": 95.21,
-        "1y": 95.21
-      }
-    },
-    {
-      "ip": "222.127.151.3",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AUB Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.43,
-        "90d": 98.4,
-        "1y": 98.4
-      }
-    },
-    {
-      "ip": "124.106.235.59",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -3243,20 +2973,20 @@
       },
       "uptime": {
         "24h": 95.08,
-        "30d": 95.55,
-        "90d": 93.44,
-        "1y": 93.44
+        "30d": 96.1,
+        "90d": 95.23,
+        "1y": 95.23
       }
     },
     {
-      "ip": "210.5.89.193",
+      "ip": "124.105.214.174",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "host.2.static.gaisanogroup.com",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3266,105 +2996,24 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 90.16,
-        "30d": 91.79,
-        "90d": 91.84,
-        "1y": 91.84
-      }
-    },
-    {
-      "ip": "130.105.145.84",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Sky Cable Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.56,
-        "90d": 95.63,
-        "1y": 95.63
+        "30d": 98.63,
+        "90d": 98.31,
+        "1y": 98.31
       }
     },
     {
-      "ip": "210.1.94.54",
+      "ip": "58.69.9.25",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.1.94.54.pldtvibe.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 94.93,
-        "90d": 94.09,
-        "1y": 94.09
-      }
-    },
-    {
-      "ip": "210.5.92.6",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.5.92.6.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 98.77,
-        "90d": 98.76,
-        "1y": 98.76
-      }
-    },
-    {
-      "ip": "124.105.212.158",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
+      "organization": "1-qnvulg_rockwell Land Corporation",
+      "domain": "host.2.static.ku-emb.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3377,75 +3026,48 @@
         "adult": true
       },
       "uptime": {
-        "24h": 96.72,
-        "30d": 98.77,
-        "90d": 98.88,
-        "1y": 98.88
+        "24h": 100.0,
+        "30d": 98.7,
+        "90d": 98.84,
+        "1y": 98.84
       }
     },
     {
-      "ip": "58.69.29.58",
+      "ip": "103.105.212.98",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "1-z18i7f_smart Communications Inc.",
-      "domain": "58.69.29.58.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 93.98,
-        "90d": 93.08,
-        "1y": 93.08
-      }
-    },
-    {
-      "ip": "43.247.16.2",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Blackfiber Communications Corporation",
+      "organization": "Fil Products Service Television Incorporated",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.16,
-        "30d": 88.97,
-        "90d": 87.64,
-        "1y": 87.64
+        "24h": 34.43,
+        "30d": 46.54,
+        "90d": 45.81,
+        "1y": 45.81
       }
     },
     {
-      "ip": "122.55.143.226",
+      "ip": "119.92.65.97",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.143.226.static.pldt.net",
+      "domain": "119.92.65.97.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3453,53 +3075,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.77,
-        "90d": 98.82,
-        "1y": 98.82
+        "24h": 98.36,
+        "30d": 98.49,
+        "90d": 98.43,
+        "1y": 98.43
       }
     },
     {
-      "ip": "122.54.69.130",
+      "ip": "122.53.148.193",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "1-z77wc2_smart Communications Inc.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.33,
-        "30d": 68.45,
-        "90d": 65.43,
-        "1y": 65.43
-      }
-    },
-    {
-      "ip": "210.14.13.209",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
+      "organization": "Moog Control Corporation",
+      "domain": "122.53.148.193.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3513,20 +3108,20 @@
       },
       "uptime": {
         "24h": 98.36,
-        "30d": 98.63,
-        "90d": 98.64,
-        "1y": 98.64
+        "30d": 94.28,
+        "90d": 94.99,
+        "1y": 94.99
       }
     },
     {
-      "ip": "122.55.31.181",
+      "ip": "122.53.148.218",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Enterprise Client",
-      "domain": "www.thici.com",
+      "organization": "Kyocera Crystal Device Philippines",
+      "domain": "dns1.philmech.gov.ph",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3539,47 +3134,47 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 92.28,
-        "90d": 83.57,
-        "1y": 83.57
+        "24h": 96.72,
+        "30d": 98.43,
+        "90d": 97.67,
+        "1y": 97.67
       }
     },
     {
-      "ip": "210.1.83.201",
+      "ip": "222.127.25.226",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Globe-WIZ GRAND CAPRICE",
+      "domain": "hari-realm.hyundai-asia.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 73.77,
+        "30d": 89.87,
+        "90d": 88.46,
+        "1y": 88.46
+      }
+    },
+    {
+      "ip": "115.146.199.242",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Co",
-      "domain": "corporatehost.18.palawanpawnshop.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 90.97,
-        "90d": 90.77,
-        "1y": 90.77
-      }
-    },
-    {
-      "ip": "115.146.189.170",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Enterprise Client",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -3593,10 +3188,118 @@
         "adult": true
       },
       "uptime": {
+        "24h": 57.38,
+        "30d": 74.13,
+        "90d": 75.87,
+        "1y": 75.87
+      }
+    },
+    {
+      "ip": "58.69.21.74",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "58.69.21.74.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 97.26,
+        "90d": 96.8,
+        "1y": 96.8
+      }
+    },
+    {
+      "ip": "27.126.155.4",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "RADIUS TELECOMS, INC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.25,
+        "30d": 79.4,
+        "90d": 76.8,
+        "1y": 76.8
+      }
+    },
+    {
+      "ip": "180.193.189.154",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
         "24h": 98.36,
-        "30d": 95.96,
-        "90d": 95.8,
-        "1y": 95.8
+        "30d": 98.9,
+        "90d": 98.9,
+        "1y": 98.9
+      }
+    },
+    {
+      "ip": "210.5.111.178",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "210.5.111.178.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 87.91,
+        "90d": 82.19,
+        "1y": 82.19
       }
     },
     {
@@ -3622,8 +3325,278 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.84,
-        "90d": 98.88,
-        "1y": 98.88
+        "90d": 98.9,
+        "1y": 98.9
+      }
+    },
+    {
+      "ip": "58.69.41.17",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "58.69.41.17.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.95,
+        "90d": 97.33,
+        "1y": 97.33
+      }
+    },
+    {
+      "ip": "124.105.151.86",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 95.28,
+        "90d": 94.59,
+        "1y": 94.59
+      }
+    },
+    {
+      "ip": "210.1.81.40",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": "210.1.81.40.pldtvibe.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 95.35,
+        "90d": 91.4,
+        "1y": 91.4
+      }
+    },
+    {
+      "ip": "161.49.226.52",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Converge ICT Solution Inc",
+      "domain": "161.49.226.52.convergeict.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.39,
+        "90d": 96.94,
+        "1y": 96.94
+      }
+    },
+    {
+      "ip": "124.83.68.171",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "124.83.68.171.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.16,
+        "30d": 87.75,
+        "90d": 88.08,
+        "1y": 88.08
+      }
+    },
+    {
+      "ip": "58.69.225.205",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.36,
+        "90d": 98.37,
+        "1y": 98.37
+      }
+    },
+    {
+      "ip": "27.110.222.98",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 96.78,
+        "90d": 96.69,
+        "1y": 96.69
+      }
+    },
+    {
+      "ip": "124.105.219.222",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 97.47,
+        "90d": 96.92,
+        "1y": 96.92
+      }
+    },
+    {
+      "ip": "27.110.232.161",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 98.22,
+        "90d": 97.44,
+        "1y": 97.44
+      }
+    },
+    {
+      "ip": "124.83.34.156",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "124.83.34.156.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.89,
+        "30d": 56.88,
+        "90d": 49.74,
+        "1y": 49.74
       }
     },
     {
@@ -3648,20 +3621,128 @@
       },
       "uptime": {
         "24h": 90.16,
-        "30d": 75.98,
-        "90d": 73.86,
-        "1y": 73.86
+        "30d": 76.04,
+        "90d": 74.0,
+        "1y": 74.0
       }
     },
     {
-      "ip": "210.1.86.1",
+      "ip": "122.54.69.130",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": "210.1.86.1.pldt.net",
+      "organization": "1-z77wc2_smart Communications Inc.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.89,
+        "30d": 69.34,
+        "90d": 65.7,
+        "1y": 65.7
+      }
+    },
+    {
+      "ip": "122.55.31.181",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise Client",
+      "domain": "www.thici.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 92.88,
+        "90d": 83.61,
+        "1y": 83.61
+      }
+    },
+    {
+      "ip": "203.177.52.229",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Globe Telecom",
+      "domain": "mail.universityofcebu.edu.ph",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 95.14,
+        "90d": 93.37,
+        "1y": 93.37
+      }
+    },
+    {
+      "ip": "124.83.13.150",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "University of ST. Lasalle-bacolod",
+      "domain": "NS2.usls.edu.ph",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.88,
+        "90d": 97.73,
+        "1y": 97.73
+      }
+    },
+    {
+      "ip": "152.32.80.251",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Converge Information and Communications Technology Solutions",
+      "domain": "251.80.32.152.convergeict.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3674,10 +3755,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.56,
-        "90d": 98.34,
-        "1y": 98.34
+        "24h": 85.25,
+        "30d": 79.33,
+        "90d": 77.67,
+        "1y": 77.67
+      }
+    },
+    {
+      "ip": "103.95.148.6",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Telmarc Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.13,
+        "30d": 61.19,
+        "90d": 59.36,
+        "1y": 59.36
       }
     },
     {
@@ -3698,17 +3806,233 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 81.97,
-        "30d": 92.27,
+        "24h": 80.33,
+        "30d": 92.2,
         "90d": 92.73,
         "1y": 92.73
       }
     },
     {
-      "ip": "124.105.217.62",
+      "ip": "58.69.116.138",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "58.69.116.138.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.25,
+        "30d": 76.8,
+        "90d": 76.27,
+        "1y": 76.27
+      }
+    },
+    {
+      "ip": "210.5.101.242",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "210.5.101.242.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 97.67,
+        "90d": 97.61,
+        "1y": 97.61
+      }
+    },
+    {
+      "ip": "43.247.16.2",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Blackfiber Communications Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.69,
+        "30d": 88.57,
+        "90d": 87.33,
+        "1y": 87.33
+      }
+    },
+    {
+      "ip": "115.147.21.134",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.16,
+        "30d": 79.12,
+        "90d": 76.45,
+        "1y": 76.45
+      }
+    },
+    {
+      "ip": "119.93.218.129",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 89.47,
+        "30d": 20.73,
+        "90d": 18.09,
+        "1y": 18.09
+      }
+    },
+    {
+      "ip": "124.106.123.241",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.33,
+        "30d": 90.92,
+        "90d": 87.19,
+        "1y": 87.19
+      }
+    },
+    {
+      "ip": "122.52.229.125",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Smart Communications Inc.",
+      "domain": "122.52.229.125.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 91.58,
+        "90d": 90.7,
+        "1y": 90.7
+      }
+    },
+    {
+      "ip": "122.2.5.42",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.2.5.42.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.7,
+        "90d": 98.55,
+        "1y": 98.55
+      }
+    },
+    {
+      "ip": "115.146.174.102",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
@@ -3728,10 +4052,577 @@
         "adult": false
       },
       "uptime": {
+        "24h": 95.08,
+        "30d": 95.55,
+        "90d": 94.07,
+        "1y": 94.07
+      }
+    },
+    {
+      "ip": "122.55.102.170",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.55.102.170.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 24.59,
+        "30d": 42.52,
+        "90d": 44.64,
+        "1y": 44.64
+      }
+    },
+    {
+      "ip": "203.177.84.2",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "San Pedro College",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 91.8,
+        "30d": 95.14,
+        "90d": 86.45,
+        "1y": 86.45
+      }
+    },
+    {
+      "ip": "58.69.182.53",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "58.69.182.53.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.13,
+        "30d": 57.84,
+        "90d": 53.26,
+        "1y": 53.26
+      }
+    },
+    {
+      "ip": "122.3.232.38",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise Client",
+      "domain": "122.3.232.38.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 95.82,
+        "90d": 95.87,
+        "1y": 95.87
+      }
+    },
+    {
+      "ip": "203.177.88.250",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Globe Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.36,
+        "90d": 98.43,
+        "1y": 98.43
+      }
+    },
+    {
+      "ip": "210.213.74.41",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.36,
+        "90d": 98.43,
+        "1y": 98.43
+      }
+    },
+    {
+      "ip": "115.146.252.198",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise Client",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.25,
+        "30d": 81.66,
+        "90d": 79.24,
+        "1y": 79.24
+      }
+    },
+    {
+      "ip": "58.69.174.39",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "58.69.174.39.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.7,
+        "30d": 58.45,
+        "90d": 56.92,
+        "1y": 56.92
+      }
+    },
+    {
+      "ip": "115.146.192.218",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 97.6,
+        "90d": 97.33,
+        "1y": 97.33
+      }
+    },
+    {
+      "ip": "122.53.184.177",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Subdelegated to_1-11K9ZN8_TOYOTA TSUSHO CORPORATION",
+      "domain": "122.53.184.177.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.15,
+        "90d": 98.08,
+        "1y": 98.08
+      }
+    },
+    {
+      "ip": "121.58.248.195",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Converge ICT Solution Inc",
+      "domain": "philhealth.gov.ph",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.89,
+        "30d": 80.36,
+        "90d": 79.65,
+        "1y": 79.65
+      }
+    },
+    {
+      "ip": "103.225.36.238",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Blackfiber Communications Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.11,
+        "90d": 99.13,
+        "1y": 99.13
+      }
+    },
+    {
+      "ip": "119.92.191.34",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "119.92.191.34.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 92.61,
+        "90d": 92.21,
+        "1y": 92.21
+      }
+    },
+    {
+      "ip": "122.3.205.241",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": "122.3.205.241.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.16,
+        "30d": 77.14,
+        "90d": 73.2,
+        "1y": 73.2
+      }
+    },
+    {
+      "ip": "119.92.192.241",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Itrs (phils.) Inc.",
+      "domain": "119.92.192.241.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.7,
+        "90d": 98.66,
+        "1y": 98.66
+      }
+    },
+    {
+      "ip": "116.50.230.138",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Eastern Telecommunications Philippines, Inc",
+      "domain": "138.230.50.116.ids.service.static.eastern-tele.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 93.29,
+        "90d": 92.03,
+        "1y": 92.03
+      }
+    },
+    {
+      "ip": "180.193.184.97",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.22,
+        "90d": 98.26,
+        "1y": 98.26
+      }
+    },
+    {
+      "ip": "122.54.78.230",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Enterprise Client",
+      "domain": "122.54.78.230.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
         "24h": 96.72,
-        "30d": 90.34,
-        "90d": 89.52,
-        "1y": 89.52
+        "30d": 98.15,
+        "90d": 98.14,
+        "1y": 98.14
+      }
+    },
+    {
+      "ip": "122.55.242.174",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.55.242.174.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 98.15,
+        "90d": 97.79,
+        "1y": 97.79
+      }
+    },
+    {
+      "ip": "124.105.219.106",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 96.58,
+        "90d": 95.35,
+        "1y": 95.35
+      }
+    },
+    {
+      "ip": "122.54.86.1",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "1-11ry9cd_rs2 Software Apac Inc.",
+      "domain": "122.54.86.1.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 98.7,
+        "90d": 98.72,
+        "1y": 98.72
       }
     },
     {
@@ -3757,127 +4648,19 @@
       "uptime": {
         "24h": 95.08,
         "30d": 94.73,
-        "90d": 94.15,
-        "1y": 94.15
+        "90d": 94.18,
+        "1y": 94.18
       }
     },
     {
-      "ip": "210.213.65.118",
+      "ip": "122.55.142.178",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 85.68,
-        "90d": 87.3,
-        "1y": 87.3
-      }
-    },
-    {
-      "ip": "122.53.214.65",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": "122.53.214.65.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 97.4,
-        "90d": 97.28,
-        "1y": 97.28
-      }
-    },
-    {
-      "ip": "116.50.180.210",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Eastern Telecommunications Philippines, Inc",
-      "domain": "210.180.50.116.ids.service.static.eastern-tele.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 98.84,
-        "90d": 98.82,
-        "1y": 98.82
-      }
-    },
-    {
-      "ip": "58.69.225.205",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.36,
-        "90d": 98.34,
-        "1y": 98.34
-      }
-    },
-    {
-      "ip": "180.193.184.97",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
+      "domain": "122.55.142.178.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3891,20 +4674,20 @@
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 98.22,
-        "90d": 98.23,
-        "1y": 98.23
+        "30d": 89.24,
+        "90d": 88.4,
+        "1y": 88.4
       }
     },
     {
-      "ip": "27.110.146.233",
+      "ip": "119.92.80.57",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
+      "domain": "119.92.80.57.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -3914,402 +4697,24 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 96.72,
+        "24h": 98.36,
         "30d": 98.77,
-        "90d": 98.7,
-        "1y": 98.7
+        "90d": 98.78,
+        "1y": 98.78
       }
     },
     {
-      "ip": "115.146.250.193",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 85.66,
-        "90d": 86.45,
-        "1y": 86.45
-      }
-    },
-    {
-      "ip": "222.127.61.166",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Globe Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 80.33,
-        "30d": 57.08,
-        "90d": 54.88,
-        "1y": 54.88
-      }
-    },
-    {
-      "ip": "122.3.23.255",
+      "ip": "210.5.98.46",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.3.23.255.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 93.16,
-        "90d": 90.31,
-        "1y": 90.31
-      }
-    },
-    {
-      "ip": "180.232.96.162",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "IDS Network",
-      "domain": "arellanolaw.edu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 93.09,
-        "90d": 92.91,
-        "1y": 92.91
-      }
-    },
-    {
-      "ip": "115.146.249.49",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.6,
-        "90d": 97.52,
-        "1y": 97.52
-      }
-    },
-    {
-      "ip": "161.49.226.52",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Converge ICT Solution Inc",
-      "domain": "161.49.226.52.convergeict.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 96.39,
-        "90d": 96.89,
-        "1y": 96.89
-      }
-    },
-    {
-      "ip": "124.83.34.156",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "124.83.34.156.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.16,
-        "30d": 55.44,
-        "90d": 49.14,
-        "1y": 49.14
-      }
-    },
-    {
-      "ip": "210.213.126.161",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": "210.213.126.161.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 97.6,
-        "90d": 97.04,
-        "1y": 97.04
-      }
-    },
-    {
-      "ip": "210.213.75.161",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.213.75.161.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 95.28,
-        "90d": 95.62,
-        "1y": 95.62
-      }
-    },
-    {
-      "ip": "27.110.163.162",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 75.41,
-        "30d": 88.64,
-        "90d": 88.23,
-        "1y": 88.23
-      }
-    },
-    {
-      "ip": "27.110.231.42",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 95.96,
-        "90d": 94.86,
-        "1y": 94.86
-      }
-    },
-    {
-      "ip": "27.110.232.161",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 98.22,
-        "90d": 97.46,
-        "1y": 97.46
-      }
-    },
-    {
-      "ip": "210.5.124.161",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.49,
-        "90d": 98.23,
-        "1y": 98.23
-      }
-    },
-    {
-      "ip": "122.53.184.177",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Subdelegated to_1-11K9ZN8_TOYOTA TSUSHO CORPORATION",
-      "domain": "122.53.184.177.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.08,
-        "90d": 98.05,
-        "1y": 98.05
-      }
-    },
-    {
-      "ip": "124.105.151.86",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": null,
+      "domain": "210.5.98.46.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4323,100 +4728,19 @@
       },
       "uptime": {
         "24h": 91.8,
-        "30d": 95.34,
-        "90d": 94.62,
-        "1y": 94.62
+        "30d": 76.25,
+        "90d": 77.75,
+        "1y": 77.75
       }
     },
     {
-      "ip": "119.93.121.146",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Supersonic Manufacturing Incorporated",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 68.85,
-        "30d": 69.79,
-        "90d": 68.01,
-        "1y": 68.01
-      }
-    },
-    {
-      "ip": "119.92.192.241",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Itrs (phils.) Inc.",
-      "domain": "119.92.192.241.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.63,
-        "90d": 98.64,
-        "1y": 98.64
-      }
-    },
-    {
-      "ip": "122.55.203.38",
+      "ip": "124.106.235.59",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.203.38.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.41,
-        "90d": 93.27,
-        "1y": 93.27
-      }
-    },
-    {
-      "ip": "203.177.84.2",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "San Pedro College",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -4430,21 +4754,21 @@
         "adult": true
       },
       "uptime": {
-        "24h": 93.44,
-        "30d": 93.63,
-        "90d": 86.46,
-        "1y": 86.46
+        "24h": 95.08,
+        "30d": 96.24,
+        "90d": 93.54,
+        "1y": 93.54
       }
     },
     {
-      "ip": "58.69.193.62",
+      "ip": "122.55.143.170",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "58.69.193.62.pldt.net",
+      "domain": "122.55.143.170.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4453,106 +4777,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 44.26,
-        "30d": 40.67,
-        "90d": 40.01,
-        "1y": 40.01
+        "24h": 65.57,
+        "30d": 73.85,
+        "90d": 71.5,
+        "1y": 71.5
       }
     },
     {
-      "ip": "210.5.98.130",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "210.5.98.130.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 96.17,
-        "90d": 95.62,
-        "1y": 95.62
-      }
-    },
-    {
-      "ip": "122.55.142.154",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.142.154.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 94.87,
-        "90d": 94.21,
-        "1y": 94.21
-      }
-    },
-    {
-      "ip": "210.1.81.41",
+      "ip": "122.54.23.49",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Co",
-      "domain": "210.1.81.41.pldtvibe.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 95.96,
-        "90d": 95.29,
-        "1y": 95.29
-      }
-    },
-    {
-      "ip": "58.69.9.25",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "1-qnvulg_rockwell Land Corporation",
-      "domain": "host.2.static.ku-emb.net",
+      "domain": "122.54.23.49.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4562,24 +4805,24 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.7,
-        "90d": 98.82,
-        "1y": 98.82
+        "24h": 90.16,
+        "30d": 96.51,
+        "90d": 96.63,
+        "1y": 96.63
       }
     },
     {
-      "ip": "122.2.5.42",
+      "ip": "122.53.95.126",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.2.5.42.static.pldt.net",
+      "organization": "1-14w5fc3_ninja Express Tech Philippines Inc",
+      "domain": "122.53.95.126.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4593,13 +4836,40 @@
       },
       "uptime": {
         "24h": 96.72,
-        "30d": 98.7,
-        "90d": 98.52,
-        "1y": 98.52
+        "30d": 98.15,
+        "90d": 98.25,
+        "1y": 98.25
       }
     },
     {
-      "ip": "124.105.217.50",
+      "ip": "124.107.126.1",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "1-uyou9v_megawide Construction Corporation",
+      "domain": "124.107.126.1.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 95.08,
+        "30d": 98.43,
+        "90d": 98.25,
+        "1y": 98.25
+      }
+    },
+    {
+      "ip": "124.105.212.158",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
@@ -4615,79 +4885,52 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 98.9,
+        "90d": 98.89,
+        "1y": 98.89
+      }
+    },
+    {
+      "ip": "58.69.29.58",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "1-z18i7f_smart Communications Inc.",
+      "domain": "58.69.29.58.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 94.59,
-        "90d": 93.2,
-        "1y": 93.2
-      }
-    },
-    {
-      "ip": "121.58.203.1",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "ConvergeICT Solution Inc",
-      "domain": "121.58.203.1.convergeict.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 72.17,
-        "90d": 69.17,
-        "1y": 69.17
-      }
-    },
-    {
-      "ip": "103.225.36.226",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Blackfiber Communications Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 93.44,
-        "30d": 97.67,
-        "90d": 97.52,
-        "1y": 97.52
+        "30d": 93.91,
+        "90d": 93.08,
+        "1y": 93.08
       }
     },
     {
-      "ip": "119.92.187.97",
+      "ip": "122.54.86.193",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "host.2.static.techsupportglobal.com",
+      "domain": "122.54.86.193.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -4700,52 +4943,25 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 98.84,
-        "90d": 98.94,
-        "1y": 98.94
-      }
-    },
-    {
-      "ip": "203.177.88.250",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Globe Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 98.36,
+        "24h": 96.72,
         "30d": 98.43,
-        "90d": 98.46,
-        "1y": 98.46
+        "90d": 98.25,
+        "1y": 98.25
       }
     },
     {
-      "ip": "121.58.248.195",
+      "ip": "124.105.212.146",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Converge ICT Solution Inc",
-      "domain": "philhealth.gov.ph",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -4754,14 +4970,68 @@
         "adult": false
       },
       "uptime": {
-        "24h": 78.69,
-        "30d": 80.01,
-        "90d": 79.54,
-        "1y": 79.54
+        "24h": 96.72,
+        "30d": 98.43,
+        "90d": 98.31,
+        "1y": 98.31
       }
     },
     {
-      "ip": "27.110.245.97",
+      "ip": "222.127.151.3",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AUB Network",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.36,
+        "90d": 98.37,
+        "1y": 98.37
+      }
+    },
+    {
+      "ip": "130.105.145.84",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sky Cable Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 95.56,
+        "90d": 95.7,
+        "1y": 95.7
+      }
+    },
+    {
+      "ip": "124.105.157.110",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
@@ -4777,14 +5047,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 95.08,
-        "30d": 97.19,
-        "90d": 97.04,
-        "1y": 97.04
+        "24h": 96.72,
+        "30d": 98.56,
+        "90d": 98.31,
+        "1y": 98.31
+      }
+    },
+    {
+      "ip": "122.55.80.210",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "1-113vmm3_san Beda College",
+      "domain": "dns1.sanbeda.edu.ph",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 95.19,
+        "90d": 93.77,
+        "1y": 93.77
       }
     },
     {
@@ -4810,185 +5107,104 @@
       "uptime": {
         "24h": 98.36,
         "30d": 98.56,
-        "90d": 98.05,
-        "1y": 98.05
+        "90d": 98.02,
+        "1y": 98.02
       }
     },
     {
-      "ip": "58.69.78.37",
+      "ip": "210.5.72.22",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Philippine Long Distance Telephone Company",
-      "domain": "58.69.78.37.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.61,
-        "30d": 69.27,
-        "90d": 70.86,
-        "1y": 70.86
-      }
-    },
-    {
-      "ip": "180.193.189.154",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 98.9,
-        "90d": 98.88,
-        "1y": 98.88
-      }
-    },
-    {
-      "ip": "58.71.19.113",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 95.08,
-        "30d": 97.53,
-        "90d": 97.75,
-        "1y": 97.75
-      }
-    },
-    {
-      "ip": "112.198.179.23",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Globe Telecom",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 18.03,
+        "30d": 12.89,
+        "90d": 12.13,
+        "1y": 12.13
+      }
+    },
+    {
+      "ip": "121.58.203.4",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "ConvergeICT Solution Inc",
+      "domain": "121.58.203.4.convergeict.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 70.83,
+        "90d": 65.02,
+        "1y": 65.02
+      }
+    },
+    {
+      "ip": "122.53.190.38",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Quickflo Forwarders Inc.",
+      "domain": "122.53.190.38.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.11,
-        "90d": 98.99,
-        "1y": 98.99
+        "30d": 98.36,
+        "90d": 98.37,
+        "1y": 98.37
       }
     },
     {
-      "ip": "152.32.80.251",
+      "ip": "122.53.221.170",
       "version": 4,
       "country_code": "ph",
       "country": "Philippines",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Converge Information and Communications Technology Solutions",
-      "domain": "251.80.32.152.convergeict.com",
+      "organization": "Philippine Long Distance Telephone Co",
+      "domain": "122.53.221.170.static.pldt.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.52,
-        "30d": 79.4,
-        "90d": 77.65,
-        "1y": 77.65
-      }
-    },
-    {
-      "ip": "203.177.52.229",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Globe Telecom",
-      "domain": "mail.universityofcebu.edu.ph",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 95.28,
-        "90d": 93.49,
-        "1y": 93.49
-      }
-    },
-    {
-      "ip": "111.125.72.190",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Converge ICT Solution Inc",
-      "domain": "190.72.125.111-rev.convergeict.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -4997,10 +5213,145 @@
         "adult": false
       },
       "uptime": {
-        "24h": 68.85,
-        "30d": 62.46,
-        "90d": 61.57,
-        "1y": 61.57
+        "24h": 100.0,
+        "30d": 98.77,
+        "90d": 98.55,
+        "1y": 98.55
+      }
+    },
+    {
+      "ip": "27.110.231.42",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.44,
+        "30d": 95.76,
+        "90d": 94.76,
+        "1y": 94.76
+      }
+    },
+    {
+      "ip": "180.193.183.230",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 98.36,
+        "90d": 98.49,
+        "1y": 98.49
+      }
+    },
+    {
+      "ip": "122.55.158.162",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.55.158.162.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 96.78,
+        "90d": 96.05,
+        "1y": 96.05
+      }
+    },
+    {
+      "ip": "122.55.143.226",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Philippine Long Distance Telephone Company",
+      "domain": "122.55.143.226.static.pldt.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.36,
+        "30d": 98.7,
+        "90d": 98.78,
+        "1y": 98.78
+      }
+    },
+    {
+      "ip": "222.127.61.166",
+      "version": 4,
+      "country_code": "ph",
+      "country": "Philippines",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Globe Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.97,
+        "30d": 57.84,
+        "90d": 55.09,
+        "1y": 55.09
       }
     },
     {
@@ -5021,229 +5372,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 96.72,
+        "24h": 98.36,
         "30d": 98.84,
-        "90d": 98.82,
-        "1y": 98.82
-      }
-    },
-    {
-      "ip": "122.54.17.114",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.54.17.114.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 94.66,
-        "90d": 94.8,
-        "1y": 94.8
-      }
-    },
-    {
-      "ip": "180.193.179.138",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "host.0.static.ctsglobalgroup.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 98.29,
-        "90d": 98.4,
-        "1y": 98.4
-      }
-    },
-    {
-      "ip": "122.55.142.178",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "122.55.142.178.static.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.44,
-        "30d": 89.01,
-        "90d": 88.22,
-        "1y": 88.22
-      }
-    },
-    {
-      "ip": "210.1.81.40",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": "210.1.81.40.pldtvibe.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 95.28,
-        "90d": 91.31,
-        "1y": 91.31
-      }
-    },
-    {
-      "ip": "203.158.9.5",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Seven Seven Global Services Inc",
-      "domain": "dns2.77globalservices.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 90.16,
-        "30d": 87.12,
-        "90d": 87.64,
-        "1y": 87.64
-      }
-    },
-    {
-      "ip": "180.193.179.18",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 97.54,
-        "90d": 97.69,
-        "1y": 97.69
-      }
-    },
-    {
-      "ip": "58.69.41.17",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Company",
-      "domain": "58.69.41.17.pldt.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 97.88,
-        "90d": 97.28,
-        "1y": 97.28
-      }
-    },
-    {
-      "ip": "124.105.212.146",
-      "version": 4,
-      "country_code": "ph",
-      "country": "Philippines",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Philippine Long Distance Telephone Co",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 98.36,
-        "30d": 98.36,
-        "90d": 98.34,
-        "1y": 98.34
+        "90d": 98.84,
+        "1y": 98.84
       }
     }
   ]
