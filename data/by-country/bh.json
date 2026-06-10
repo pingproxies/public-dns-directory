@@ -4,10 +4,37 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-09T18:40:03Z",
+    "generated_at": "2026-06-10T07:40:39Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "77.69.141.243",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Bahrain Telcommunication Company",
+      "domain": "static.ip.77.69.141.243.batelco.com.bh",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.72,
+        "30d": 71.59,
+        "90d": 68.36,
+        "1y": 68.36
+      }
+    },
     {
       "ip": "89.148.55.251",
       "version": 4,
@@ -25,41 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 72.13,
-        "30d": 64.13,
-        "90d": 64.44,
-        "1y": 64.44
-      }
-    },
-    {
-      "ip": "77.69.141.243",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Bahrain Telcommunication Company",
-      "domain": "static.ip.77.69.141.243.batelco.com.bh",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 96.72,
-        "30d": 69.9,
-        "90d": 67.87,
-        "1y": 67.87
+        "24h": 81.97,
+        "30d": 65.62,
+        "90d": 64.95,
+        "1y": 64.95
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.25,
-        "90d": 99.16,
-        "1y": 99.16
+        "90d": 99.17,
+        "1y": 99.17
       }
     }
   ]
