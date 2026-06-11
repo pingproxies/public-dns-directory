@@ -4,23 +4,50 @@
     "country_name": "Venezuela",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-06-10T18:48:11Z",
+    "generated_at": "2026-06-11T07:53:19Z",
     "total_servers": 7
   },
   "resolvers": [
     {
-      "ip": "186.166.202.49",
+      "ip": "201.249.140.166",
       "version": 4,
       "country_code": "ve",
       "country": "Venezuela",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "TELEFONICA VENEZOLANA, C.A",
-      "domain": "186-166-202-49.genericrev.telcel.net.ve",
+      "organization": "CANTV Servicios, Venezuela",
+      "domain": "201-249-140-166.chc-00.rai.cantv.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 54.1,
+        "30d": 27.87,
+        "90d": 26.33,
+        "1y": 26.33
+      }
+    },
+    {
+      "ip": "200.11.138.11",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CANTV Servicios, Venezuela",
+      "domain": "200-11-138-11.cnt-02.rai.cantv.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -29,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.93,
-        "90d": 99.94,
-        "1y": 99.94
+        "24h": 98.36,
+        "30d": 98.08,
+        "90d": 98.29,
+        "1y": 98.29
       }
     },
     {
@@ -48,34 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 83.61,
-        "30d": 65.47,
-        "90d": 64.06,
-        "1y": 64.06
-      }
-    },
-    {
-      "ip": "190.94.212.10",
-      "version": 4,
-      "country_code": "ve",
-      "country": "Venezuela",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "IFX Networks Venezuela C.A",
-      "domain": "190-94-212-10.ifxnw.com.ve",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -83,37 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 77.05,
-        "30d": 66.12,
-        "90d": 65.17,
-        "1y": 65.17
-      }
-    },
-    {
-      "ip": "138.122.4.226",
-      "version": 4,
-      "country_code": "ve",
-      "country": "Venezuela",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Lan-online C.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 83.61,
-        "30d": 92.61,
-        "90d": 91.92,
-        "1y": 91.92
+        "24h": 90.16,
+        "30d": 66.13,
+        "90d": 64.7,
+        "1y": 64.7
       }
     },
     {
@@ -129,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -137,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 78.69,
-        "30d": 78.71,
-        "90d": 76.8,
-        "1y": 76.8
+        "24h": 85.25,
+        "30d": 78.8,
+        "90d": 77.12,
+        "1y": 77.12
       }
     },
     {
@@ -164,21 +137,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.83,
-        "1y": 99.83
+        "24h": 98.36,
+        "30d": 99.79,
+        "90d": 99.77,
+        "1y": 99.77
       }
     },
     {
-      "ip": "200.11.138.11",
+      "ip": "138.122.4.226",
       "version": 4,
       "country_code": "ve",
       "country": "Venezuela",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "CANTV Servicios, Venezuela",
-      "domain": "200-11-138-11.cnt-02.rai.cantv.net",
+      "organization": "Lan-online C.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.52,
+        "30d": 92.75,
+        "90d": 91.96,
+        "1y": 91.96
+      }
+    },
+    {
+      "ip": "190.94.212.10",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "IFX Networks Venezuela C.A",
+      "domain": "190-94-212-10.ifxnw.com.ve",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -187,14 +187,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.08,
-        "90d": 98.31,
-        "1y": 98.31
+        "24h": 83.61,
+        "30d": 66.62,
+        "90d": 65.72,
+        "1y": 65.72
       }
     }
   ]
