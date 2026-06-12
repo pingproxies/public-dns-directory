@@ -4,35 +4,35 @@
     "country_name": "Angola",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-11T18:56:01Z",
-    "total_servers": 3
+    "generated_at": "2026-06-12T07:49:09Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "196.29.194.146",
+      "ip": "196.29.199.76",
       "version": 4,
       "country_code": "ao",
       "country": "Angola",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Dedicated / Leased Line",
-      "domain": null,
+      "organization": "NET",
+      "domain": "ns1.upra.ao",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 18.33,
-        "30d": 15.36,
-        "90d": 15.04,
-        "1y": 15.04
+        "24h": 100.0,
+        "30d": 99.32,
+        "90d": 99.28,
+        "1y": 99.28
       }
     },
     {
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.47,
-        "90d": 93.36,
-        "1y": 93.36
-      }
-    },
-    {
-      "ip": "196.29.199.76",
-      "version": 4,
-      "country_code": "ao",
-      "country": "Angola",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "NET",
-      "domain": "ns1.upra.ao",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.32,
-        "90d": 99.27,
-        "1y": 99.27
+        "30d": 92.75,
+        "90d": 93.47,
+        "1y": 93.47
       }
     }
   ]

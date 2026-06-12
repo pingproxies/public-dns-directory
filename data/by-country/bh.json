@@ -4,10 +4,37 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-11T18:56:01Z",
+    "generated_at": "2026-06-12T07:49:09Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "81.22.26.6",
+      "version": 4,
+      "country_code": "bh",
+      "country": "Bahrain",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kalaam Telcom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.25,
+        "90d": 99.23,
+        "1y": 99.23
+      }
+    },
     {
       "ip": "84.255.173.210",
       "version": 4,
@@ -25,41 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 47.54,
-        "30d": 31.44,
-        "90d": 29.53,
-        "1y": 29.53
-      }
-    },
-    {
-      "ip": "81.22.26.6",
-      "version": 4,
-      "country_code": "bh",
-      "country": "Bahrain",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kalaam Telcom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.25,
-        "90d": 99.21,
-        "1y": 99.21
+        "24h": 59.65,
+        "30d": 32.6,
+        "90d": 30.6,
+        "1y": 30.6
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 98.36,
-        "30d": 74.04,
-        "90d": 69.66,
-        "1y": 69.66
+        "24h": 100.0,
+        "30d": 74.76,
+        "90d": 70.13,
+        "1y": 70.13
       }
     },
     {
@@ -110,10 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 77.05,
-        "30d": 66.67,
-        "90d": 65.62,
-        "1y": 65.62
+        "24h": 75.44,
+        "30d": 67.35,
+        "90d": 65.95,
+        "1y": 65.95
       }
     }
   ]
