@@ -4,8 +4,8 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-12T07:49:09Z",
-    "total_servers": 2
+    "generated_at": "2026-06-12T18:36:12Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.25,
-        "30d": 95.48,
-        "90d": 93.59,
-        "1y": 93.59
+        "24h": 96.08,
+        "30d": 95.33,
+        "90d": 93.55,
+        "1y": 93.55
       }
     },
     {
@@ -52,14 +52,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.2,
+        "30d": 84.21,
+        "90d": 83.55,
+        "1y": 83.55
+      }
+    },
+    {
+      "ip": "41.63.249.222",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Mobile Telecommunications LTD",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 87.72,
-        "30d": 84.53,
-        "90d": 83.58,
-        "1y": 83.58
+        "24h": 92.16,
+        "30d": 90.25,
+        "90d": 87.76,
+        "1y": 87.76
+      }
+    },
+    {
+      "ip": "41.63.240.79",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "MTC Netman",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.2,
+        "30d": 71.04,
+        "90d": 65.88,
+        "1y": 65.88
       }
     }
   ]
