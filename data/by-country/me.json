@@ -4,8 +4,8 @@
     "country_name": "Montenegro",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-12T18:36:12Z",
-    "total_servers": 1
+    "generated_at": "2026-06-13T07:28:56Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 78.43,
+        "24h": 77.55,
         "30d": 65.68,
-        "90d": 64.37,
-        "1y": 64.37
+        "90d": 64.55,
+        "1y": 64.55
+      }
+    },
+    {
+      "ip": "213.149.113.211",
+      "version": 4,
+      "country_code": "me",
+      "country": "Montenegro",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Dan PG",
+      "domain": "jumediamont-dan.211.crnagora.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 48.98,
+        "30d": 70.56,
+        "90d": 68.64,
+        "1y": 68.64
       }
     }
   ]

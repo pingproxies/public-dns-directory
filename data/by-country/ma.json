@@ -4,37 +4,10 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-12T18:36:12Z",
+    "generated_at": "2026-06-13T07:28:56Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "41.137.170.250",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Provider 36884 Wana Corporate",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 43.14,
-        "30d": 40.73,
-        "90d": 41.21,
-        "1y": 41.21
-      }
-    },
     {
       "ip": "81.192.7.147",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 39.22,
-        "30d": 46.61,
-        "90d": 45.4,
-        "1y": 45.4
+        "24h": 34.69,
+        "30d": 46.37,
+        "90d": 45.35,
+        "1y": 45.35
       }
     },
     {
@@ -79,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.76,
-        "90d": 98.46,
-        "1y": 98.46
+        "24h": 97.96,
+        "30d": 98.69,
+        "90d": 98.43,
+        "1y": 98.43
       }
     },
     {
@@ -105,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.08,
-        "30d": 99.04,
-        "90d": 99.13,
-        "1y": 99.13
+        "24h": 95.92,
+        "30d": 98.97,
+        "90d": 99.08,
+        "1y": 99.08
+      }
+    },
+    {
+      "ip": "41.137.170.250",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Provider 36884 Wana Corporate",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 40.24,
+        "90d": 41.15,
+        "1y": 41.15
       }
     }
   ]
