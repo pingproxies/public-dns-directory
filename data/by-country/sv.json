@@ -4,7 +4,7 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-06-13T18:25:39Z",
+    "generated_at": "2026-06-14T07:45:59Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.94,
-        "90d": 95.91,
-        "1y": 95.91
+        "30d": 95.93,
+        "90d": 95.96,
+        "1y": 95.96
       }
     },
     {
@@ -51,9 +51,9 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -74,19 +74,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 54.17,
-        "30d": 61.86,
-        "90d": 64.62,
-        "1y": 64.62
+        "24h": 58.33,
+        "30d": 61.92,
+        "90d": 64.71,
+        "1y": 64.71
       }
     }
   ]
