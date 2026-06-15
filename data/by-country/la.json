@@ -4,8 +4,8 @@
     "country_name": "Laos",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-14T18:25:37Z",
-    "total_servers": 3
+    "generated_at": "2026-06-15T08:15:49Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.54,
-        "90d": 98.54,
-        "1y": 98.54
+        "90d": 98.56,
+        "1y": 98.56
       }
     },
     {
@@ -53,13 +53,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 99.1,
-        "90d": 99.01,
-        "1y": 99.01
+        "24h": 43.48,
+        "30d": 97.57,
+        "90d": 97.9,
+        "1y": 97.9
+      }
+    },
+    {
+      "ip": "115.84.79.71",
+      "version": 4,
+      "country_code": "la",
+      "country": "Laos",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Lao Telecommunication Co Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 39.13,
+        "30d": 95.76,
+        "90d": 96.16,
+        "1y": 96.16
       }
     },
     {
@@ -78,13 +105,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 99.45,
+        "24h": 100.0,
+        "30d": 99.44,
         "90d": 99.38,
         "1y": 99.38
       }
