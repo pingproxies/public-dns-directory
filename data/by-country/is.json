@@ -4,7 +4,7 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-15T08:15:49Z",
+    "generated_at": "2026-06-15T19:15:33Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -31,8 +31,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.26,
-        "90d": 98.41,
-        "1y": 98.41
+        "90d": 98.42,
+        "1y": 98.42
       }
     },
     {
@@ -52,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.05,
+        "30d": 82.97,
+        "90d": 81.0,
+        "1y": 81.0
+      }
+    },
+    {
+      "ip": "78.40.253.33",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Nova ehf",
+      "domain": "nova-078-040-253-033.cpe.novanet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 95.65,
-        "30d": 83.47,
-        "90d": 81.14,
-        "1y": 81.14
+        "24h": 72.09,
+        "30d": 54.09,
+        "90d": 49.29,
+        "1y": 49.29
       }
     },
     {
@@ -80,40 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 97.83,
-        "30d": 88.89,
-        "90d": 86.58,
-        "1y": 86.58
-      }
-    },
-    {
-      "ip": "78.40.253.33",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Nova ehf",
-      "domain": "nova-078-040-253-033.cpe.novanet.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 69.57,
-        "30d": 52.5,
-        "90d": 47.73,
-        "1y": 47.73
+        "24h": 95.35,
+        "30d": 88.97,
+        "90d": 86.61,
+        "1y": 86.61
       }
     }
   ]
