@@ -4,19 +4,19 @@
     "country_name": "Chile",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-06-16T08:09:08Z",
-    "total_servers": 17
+    "generated_at": "2026-06-16T19:09:33Z",
+    "total_servers": 26
   },
   "resolvers": [
     {
-      "ip": "200.75.8.110",
+      "ip": "200.113.10.155",
       "version": 4,
       "country_code": "cl",
       "country": "Chile",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "PROEXSI",
-      "domain": "correo.proexsi.cl",
+      "organization": "Corporacion De Desarrollo Social De Buin",
+      "domain": "200-113-10-155.static.tie.cl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -25,41 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 80.8,
-        "90d": 76.36,
-        "1y": 76.36
-      }
-    },
-    {
-      "ip": "201.219.154.75",
-      "version": 4,
-      "country_code": "cl",
-      "country": "Chile",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Netline",
-      "domain": "ppp75.dsl.netline.cl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.74,
-        "90d": 96.99,
-        "1y": 96.99
+        "30d": 44.49,
+        "90d": 44.76,
+        "1y": 44.76
       }
     },
     {
@@ -90,6 +63,33 @@
       }
     },
     {
+      "ip": "190.82.70.214",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telefonica Empresas Chile SA",
+      "domain": "190-82-70-214.static.tie.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 32.5,
+        "30d": 17.76,
+        "90d": 17.63,
+        "1y": 17.63
+      }
+    },
+    {
       "ip": "200.10.221.16",
       "version": 4,
       "country_code": "cl",
@@ -117,13 +117,13 @@
       }
     },
     {
-      "ip": "186.67.172.51",
+      "ip": "216.155.91.251",
       "version": 4,
       "country_code": "cl",
       "country": "Chile",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Entel Chile S.A",
+      "organization": "Telefonica del Sur S.A",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -132,107 +132,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.79,
-        "90d": 98.54,
-        "1y": 98.54
-      }
-    },
-    {
-      "ip": "200.91.28.35",
-      "version": 4,
-      "country_code": "cl",
-      "country": "Chile",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "CTC Transmisiones Regionales S.A",
-      "domain": "mail.marco.cl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 88.1,
-        "30d": 83.19,
-        "90d": 80.81,
-        "1y": 80.81
-      }
-    },
-    {
-      "ip": "200.111.82.197",
-      "version": 4,
-      "country_code": "cl",
-      "country": "Chile",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Entel Chile S.A",
-      "domain": "mail.antartica.cl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.23,
-        "90d": 97.94,
-        "1y": 97.94
-      }
-    },
-    {
-      "ip": "200.113.10.155",
-      "version": 4,
-      "country_code": "cl",
-      "country": "Chile",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Corporacion De Desarrollo Social De Buin",
-      "domain": "200-113-10-155.static.tie.cl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 43.95,
-        "90d": 44.34,
-        "1y": 44.34
+        "30d": 99.51,
+        "90d": 98.16,
+        "1y": 98.16
       }
     },
     {
-      "ip": "190.151.104.178",
+      "ip": "186.103.167.190",
       "version": 4,
       "country_code": "cl",
       "country": "Chile",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Entel Chile S.A",
-      "domain": null,
+      "organization": "Telefonica Empresas Chile SA",
+      "domain": "186-103-167-190.static.tie.cl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -240,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 97.56,
-        "30d": 99.93,
-        "90d": 99.65,
-        "1y": 99.65
+        "24h": 42.5,
+        "30d": 50.25,
+        "90d": 49.28,
+        "1y": 49.28
       }
     },
     {
@@ -273,9 +192,333 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.25,
-        "90d": 97.59,
-        "1y": 97.59
+        "30d": 98.24,
+        "90d": 97.61,
+        "1y": 97.61
+      }
+    },
+    {
+      "ip": "186.67.172.51",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Entel Chile S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.79,
+        "90d": 98.56,
+        "1y": 98.56
+      }
+    },
+    {
+      "ip": "190.96.93.74",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Servicios Compartidos Ticel Ltda",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.0,
+        "30d": 93.45,
+        "90d": 93.56,
+        "1y": 93.56
+      }
+    },
+    {
+      "ip": "186.10.6.226",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Entel Chile S.A",
+      "domain": "b6226.entelchile.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 37.5,
+        "30d": 75.97,
+        "90d": 75.49,
+        "1y": 75.49
+      }
+    },
+    {
+      "ip": "201.219.154.75",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Netline",
+      "domain": "ppp75.dsl.netline.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.73,
+        "90d": 97.01,
+        "1y": 97.01
+      }
+    },
+    {
+      "ip": "200.54.51.6",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "CL-TEEMSR-LACNIC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 47.5,
+        "30d": 67.44,
+        "90d": 65.07,
+        "1y": 65.07
+      }
+    },
+    {
+      "ip": "200.75.8.110",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "PROEXSI",
+      "domain": "correo.proexsi.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 81.19,
+        "90d": 76.54,
+        "1y": 76.54
+      }
+    },
+    {
+      "ip": "146.155.226.12",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Pontificia Universidad Catolica de Chile",
+      "domain": "adn.bio.puc.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.0,
+        "30d": 81.4,
+        "90d": 80.72,
+        "1y": 80.72
+      }
+    },
+    {
+      "ip": "64.76.163.165",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "ImpSat Chile, Soluziona Chile S.A.",
+      "domain": "64-76-163-165.static.impsat.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 35.0,
+        "30d": 36.84,
+        "90d": 35.36,
+        "1y": 35.36
+      }
+    },
+    {
+      "ip": "200.11.71.203",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Entel Chile S.A",
+      "domain": "nt5.ricardorodriguez.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 22.5,
+        "30d": 37.37,
+        "90d": 34.21,
+        "1y": 34.21
+      }
+    },
+    {
+      "ip": "201.148.107.14",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "HOSTING.CL",
+      "domain": "cloud105200.dedicados.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 97.5,
+        "30d": 97.04,
+        "90d": 96.02,
+        "1y": 96.02
+      }
+    },
+    {
+      "ip": "190.13.146.123",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Arteche Telecomunicaciones Ltda",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 55.0,
+        "30d": 69.42,
+        "90d": 66.77,
+        "1y": 66.77
+      }
+    },
+    {
+      "ip": "200.111.82.197",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Entel Chile S.A",
+      "domain": "mail.antartica.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.22,
+        "90d": 97.96,
+        "1y": 97.96
       }
     },
     {
@@ -306,14 +549,14 @@
       }
     },
     {
-      "ip": "201.148.107.14",
+      "ip": "190.151.104.178",
       "version": 4,
       "country_code": "cl",
       "country": "Chile",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "HOSTING.CL",
-      "domain": "cloud105200.dedicados.cl",
+      "organization": "Entel Chile S.A",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -321,42 +564,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 97.06,
-        "90d": 95.98,
-        "1y": 95.98
-      }
-    },
-    {
-      "ip": "186.103.142.221",
-      "version": 4,
-      "country_code": "cl",
-      "country": "Chile",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "RS INDUSTRIAL SERVICE SPA",
-      "domain": "186-103-142-221.static.tie.cl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.8,
-        "30d": 79.27,
-        "90d": 80.42,
-        "1y": 80.42
+        "24h": 100.0,
+        "30d": 99.93,
+        "90d": 99.65,
+        "1y": 99.65
       }
     },
     {
@@ -376,7 +592,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -387,14 +603,14 @@
       }
     },
     {
-      "ip": "45.7.228.232",
+      "ip": "200.111.47.43",
       "version": 4,
       "country_code": "cl",
       "country": "Chile",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "OPENCLOUD SpA",
-      "domain": "NEG.CAPRICORN.CL",
+      "organization": "Entel Chile S.A",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -403,14 +619,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 78.05,
-        "30d": 92.23,
-        "90d": 89.61,
-        "1y": 89.61
+        "24h": 45.0,
+        "30d": 82.1,
+        "90d": 85.5,
+        "1y": 85.5
+      }
+    },
+    {
+      "ip": "186.103.142.221",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "RS INDUSTRIAL SERVICE SPA",
+      "domain": "186-103-142-221.static.tie.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 87.5,
+        "30d": 79.49,
+        "90d": 80.37,
+        "1y": 80.37
+      }
+    },
+    {
+      "ip": "186.190.236.11",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Luz Linares S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 35.0,
+        "30d": 52.5,
+        "90d": 51.07,
+        "1y": 51.07
       }
     },
     {
@@ -430,41 +700,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.18,
-        "90d": 95.98,
-        "1y": 95.98
-      }
-    },
-    {
-      "ip": "216.155.91.251",
-      "version": 4,
-      "country_code": "cl",
-      "country": "Chile",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Telefonica del Sur S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.51,
-        "90d": 98.14,
-        "1y": 98.14
+        "30d": 98.17,
+        "90d": 96.01,
+        "1y": 96.01
       }
     }
   ]

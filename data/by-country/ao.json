@@ -4,37 +4,10 @@
     "country_name": "Angola",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-16T08:09:08Z",
+    "generated_at": "2026-06-16T19:09:33Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "196.29.199.76",
-      "version": 4,
-      "country_code": "ao",
-      "country": "Angola",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "NET",
-      "domain": "ns1.upra.ao",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 87.8,
-        "30d": 98.95,
-        "90d": 99.1,
-        "1y": 99.1
-      }
-    },
     {
       "ip": "192.12.111.30",
       "version": 4,
@@ -53,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.87,
-        "90d": 94.11,
-        "1y": 94.11
+        "30d": 92.98,
+        "90d": 94.15,
+        "1y": 94.15
+      }
+    },
+    {
+      "ip": "196.29.199.76",
+      "version": 4,
+      "country_code": "ao",
+      "country": "Angola",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "NET",
+      "domain": "ns1.upra.ao",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.94,
+        "90d": 99.1,
+        "1y": 99.1
       }
     }
   ]

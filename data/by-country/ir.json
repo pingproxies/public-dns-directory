@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-16T08:09:08Z",
+    "generated_at": "2026-06-16T19:09:33Z",
     "total_servers": 11
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.31,
-        "90d": 94.94,
-        "1y": 94.94
+        "30d": 97.44,
+        "90d": 95.01,
+        "1y": 95.01
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.59,
-        "90d": 92.2,
-        "1y": 92.2
+        "30d": 94.77,
+        "90d": 92.31,
+        "1y": 92.31
       }
     },
     {
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 74.63,
-        "90d": 66.47,
-        "1y": 66.47
+        "24h": 97.5,
+        "30d": 75.69,
+        "90d": 66.67,
+        "1y": 66.67
       }
     },
     {
@@ -102,7 +102,88 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.95,
+        "1y": 99.95
+      }
+    },
+    {
+      "ip": "217.218.155.155",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
+      "domain": "recursive2.dci.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.18,
+        "90d": 97.36,
+        "1y": 97.36
+      }
+    },
+    {
+      "ip": "185.161.112.33",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Parvaz System Information Technology Company (Ltd)",
+      "domain": "fw1.parvazsys.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 97.63,
+        "90d": 95.2,
+        "1y": 95.2
+      }
+    },
+    {
+      "ip": "185.161.112.34",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Parvaz System Information Technology Company (Ltd)",
+      "domain": "fw2.parvazsys.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -111,9 +192,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.95,
-        "1y": 99.95
+        "30d": 96.5,
+        "90d": 94.1,
+        "1y": 94.1
       }
     },
     {
@@ -132,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.7,
-        "90d": 90.61,
-        "1y": 90.61
+        "30d": 94.08,
+        "90d": 90.68,
+        "1y": 90.68
       }
     },
     {
@@ -165,63 +246,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 64.43,
-        "90d": 58.28,
-        "1y": 58.28
-      }
-    },
-    {
-      "ip": "185.161.112.34",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Parvaz System Information Technology Company (Ltd)",
-      "domain": "fw2.parvazsys.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.36,
-        "90d": 94.01,
-        "1y": 94.01
-      }
-    },
-    {
-      "ip": "217.218.155.155",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "\"Telecommunication Intfrastructure Company\" IP range.",
-      "domain": "recursive2.dci.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 97.62,
-        "30d": 97.13,
-        "90d": 97.34,
-        "1y": 97.34
+        "30d": 64.87,
+        "90d": 58.61,
+        "1y": 58.61
       }
     },
     {
@@ -240,8 +267,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -267,42 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.95,
+        "30d": 98.94,
         "90d": 99.15,
         "1y": 99.15
-      }
-    },
-    {
-      "ip": "185.161.112.33",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Parvaz System Information Technology Company (Ltd)",
-      "domain": "fw1.parvazsys.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 97.56,
-        "30d": 97.51,
-        "90d": 95.14,
-        "1y": 95.14
       }
     }
   ]
