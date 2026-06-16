@@ -4,12 +4,12 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-15T19:15:33Z",
+    "generated_at": "2026-06-16T08:09:08Z",
     "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "95.85.95.85",
+      "ip": "2.56.220.2",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
@@ -17,7 +17,7 @@
       "continent": "Europe",
       "organization": "G-Core Labs S.A",
       "domain": null,
-      "trusted": false,
+      "trusted": true,
       "anycast": true,
       "dnssec": {
         "aware": true,
@@ -33,33 +33,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "92.223.105.162",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.53,
-        "90d": 97.56,
-        "1y": 97.56
       }
     },
     {
@@ -79,18 +52,45 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 95.35,
-        "30d": 96.72,
-        "90d": 94.02,
-        "1y": 94.02
+        "24h": 95.24,
+        "30d": 96.7,
+        "90d": 94.09,
+        "1y": 94.09
       }
     },
     {
-      "ip": "2.56.220.2",
+      "ip": "92.223.105.162",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GCL",
+      "domain": "lux.1c1g",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.53,
+        "90d": 97.59,
+        "1y": 97.59
+      }
+    },
+    {
+      "ip": "95.85.95.85",
       "version": 4,
       "country_code": "lu",
       "country": "Luxembourg",
@@ -98,7 +98,7 @@
       "continent": "Europe",
       "organization": "G-Core Labs S.A",
       "domain": null,
-      "trusted": true,
+      "trusted": false,
       "anycast": true,
       "dnssec": {
         "aware": true,
