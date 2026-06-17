@@ -4,8 +4,8 @@
     "country_name": "Switzerland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-17T08:03:53Z",
-    "total_servers": 36
+    "generated_at": "2026-06-17T18:45:48Z",
+    "total_servers": 37
   },
   "resolvers": [
     {
@@ -25,8 +25,8 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -63,33 +63,6 @@
       }
     },
     {
-      "ip": "82.136.80.15",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Telezug AG",
-      "domain": "dzcpe6023roeoesli01-e0.static-hfc.datazug.ch",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 78.95,
-        "30d": 36.3,
-        "90d": 38.2,
-        "1y": 38.2
-      }
-    },
-    {
       "ip": "85.195.248.249",
       "version": 4,
       "country_code": "ch",
@@ -102,18 +75,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 92.11,
-        "30d": 91.58,
-        "90d": 92.11,
-        "1y": 92.11
+        "30d": 91.52,
+        "90d": 92.07,
+        "1y": 92.07
+      }
+    },
+    {
+      "ip": "213.3.42.193",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Swisscom (Schweiz) AG",
+      "domain": "193.42.3.213.static.wline.lns.sme.cust.swisscom.ch",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 65.79,
+        "30d": 84.62,
+        "90d": 82.05,
+        "1y": 82.05
       }
     },
     {
@@ -138,9 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.68,
-        "90d": 93.89,
-        "1y": 93.89
+        "30d": 95.66,
+        "90d": 93.93,
+        "1y": 93.93
       }
     },
     {
@@ -159,9 +159,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -192,9 +192,9 @@
       },
       "uptime": {
         "24h": 89.47,
-        "30d": 89.67,
-        "90d": 89.11,
-        "1y": 89.11
+        "30d": 89.6,
+        "90d": 89.19,
+        "1y": 89.19
       }
     },
     {
@@ -213,7 +213,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -246,9 +246,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.1,
-        "90d": 96.7,
-        "1y": 96.7
+        "30d": 97.08,
+        "90d": 96.72,
+        "1y": 96.72
       }
     },
     {
@@ -299,10 +299,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 88.54,
-        "90d": 85.81,
-        "1y": 85.81
+        "24h": 97.37,
+        "30d": 89.1,
+        "90d": 85.9,
+        "1y": 85.9
       }
     },
     {
@@ -322,14 +322,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 42.76,
-        "90d": 38.87,
-        "1y": 38.87
+        "24h": 55.26,
+        "30d": 43.23,
+        "90d": 39.34,
+        "1y": 39.34
       }
     },
     {
@@ -349,7 +349,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -375,7 +375,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -407,10 +407,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.37,
-        "30d": 98.94,
-        "90d": 99.11,
-        "1y": 99.11
+        "24h": 100.0,
+        "30d": 98.93,
+        "90d": 99.12,
+        "1y": 99.12
       }
     },
     {
@@ -434,10 +434,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 65.79,
-        "30d": 70.84,
-        "90d": 72.3,
-        "1y": 72.3
+        "24h": 68.42,
+        "30d": 70.8,
+        "90d": 72.26,
+        "1y": 72.26
       }
     },
     {
@@ -490,62 +490,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.72,
-        "90d": 99.26,
-        "1y": 99.26
-      }
-    },
-    {
-      "ip": "85.90.9.166",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "netplusFR SA",
-      "domain": "166.9.90.85.static.netplusfr.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.93,
-        "90d": 99.85,
-        "1y": 99.85
-      }
-    },
-    {
-      "ip": "31.10.243.92",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UPC Schweiz GmbH",
-      "domain": "31-10-243-92.static.upc.ch",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.93,
-        "90d": 98.52,
-        "1y": 98.52
+        "90d": 99.27,
+        "1y": 99.27
       }
     },
     {
@@ -576,13 +522,40 @@
       }
     },
     {
-      "ip": "154.44.130.160",
+      "ip": "195.186.4.110",
       "version": 4,
       "country_code": "ch",
       "country": "Switzerland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Cogent Communications",
+      "organization": "DNS Infra",
+      "domain": "dns3.bluewin.ch",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.93,
+        "90d": 99.95,
+        "1y": 99.95
+      }
+    },
+    {
+      "ip": "194.209.225.15",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Kaktus Online GmbH",
       "domain": null,
       "trusted": false,
       "anycast": false,
@@ -597,9 +570,117 @@
       },
       "uptime": {
         "24h": 100.0,
+        "30d": 99.79,
+        "90d": 99.61,
+        "1y": 99.61
+      }
+    },
+    {
+      "ip": "46.140.228.158",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "UPC Schweiz GmbH",
+      "domain": "46-140-228-158.static.upc.ch",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.51,
+        "90d": 96.04,
+        "1y": 96.04
+      }
+    },
+    {
+      "ip": "194.209.90.8",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Klein Computer System AG",
+      "domain": "ns2.wws24.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 89.03,
+        "90d": 92.47,
+        "1y": 92.47
+      }
+    },
+    {
+      "ip": "154.44.130.160",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cogent Communications",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
+      }
+    },
+    {
+      "ip": "193.200.144.35",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "fenaco Genossenschaft",
+      "domain": "dns4.fenaco.ch",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
+        "90d": 99.76,
+        "1y": 99.76
       }
     },
     {
@@ -684,19 +765,46 @@
       }
     },
     {
-      "ip": "193.200.144.35",
+      "ip": "81.6.51.208",
       "version": 4,
       "country_code": "ch",
       "country": "Switzerland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "fenaco Genossenschaft",
-      "domain": "dns4.fenaco.ch",
+      "organization": "green.ch AG",
+      "domain": "208-51-6-81.static.dsl-net.ch",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": true
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.22,
+        "90d": 95.79,
+        "1y": 95.79
+      }
+    },
+    {
+      "ip": "85.90.9.166",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "netplusFR SA",
+      "domain": "166.9.90.85.static.netplusfr.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -705,9 +813,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.75,
-        "1y": 99.75
+        "30d": 99.93,
+        "90d": 99.85,
+        "1y": 99.85
       }
     },
     {
@@ -738,19 +846,19 @@
       }
     },
     {
-      "ip": "81.6.51.208",
+      "ip": "80.242.196.55",
       "version": 4,
       "country_code": "ch",
       "country": "Switzerland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "green.ch AG",
-      "domain": "208-51-6-81.static.dsl-net.ch",
+      "organization": "Brain Park",
+      "domain": "static-80-242-196-055.catv.glattnet.ch",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -758,48 +866,48 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.22,
-        "90d": 95.76,
-        "1y": 95.76
+        "24h": 97.37,
+        "30d": 96.87,
+        "90d": 96.38,
+        "1y": 96.38
       }
     },
     {
-      "ip": "46.140.228.158",
+      "ip": "213.193.122.202",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Soho13",
+      "domain": "213-193-122-202.static.cablecom.ch",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.68,
+        "30d": 99.07,
+        "90d": 99.22,
+        "1y": 99.22
+      }
+    },
+    {
+      "ip": "31.10.243.92",
       "version": 4,
       "country_code": "ch",
       "country": "Switzerland",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "UPC Schweiz GmbH",
-      "domain": "46-140-228-158.static.upc.ch",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 97.37,
-        "30d": 96.53,
-        "90d": 96.01,
-        "1y": 96.01
-      }
-    },
-    {
-      "ip": "141.195.95.131",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Init7 (Switzerland) Ltd",
-      "domain": "131-95-195-141.init7.net",
+      "domain": "31-10-243-92.static.upc.ch",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -808,14 +916,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "30d": 99.93,
+        "90d": 98.53,
+        "1y": 98.53
+      }
+    },
+    {
+      "ip": "212.203.109.68",
+      "version": 4,
+      "country_code": "ch",
+      "country": "Switzerland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "THF Informatik GmbH",
+      "domain": "212-203-109-68.thf4it.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.11,
+        "30d": 88.75,
+        "90d": 87.33,
+        "1y": 87.33
       }
     },
     {
@@ -846,18 +981,18 @@
       }
     },
     {
-      "ip": "212.203.109.68",
+      "ip": "141.195.95.131",
       "version": 4,
       "country_code": "ch",
       "country": "Switzerland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "THF Informatik GmbH",
-      "domain": "212-203-109-68.thf4it.net",
+      "organization": "Init7 (Switzerland) Ltd",
+      "domain": "131-95-195-141.init7.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
@@ -866,118 +1001,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.11,
-        "30d": 88.39,
-        "90d": 87.33,
-        "1y": 87.33
-      }
-    },
-    {
-      "ip": "80.242.196.55",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Brain Park",
-      "domain": "static-80-242-196-055.catv.glattnet.ch",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.74,
-        "30d": 96.89,
-        "90d": 96.4,
-        "1y": 96.4
-      }
-    },
-    {
-      "ip": "194.209.90.8",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Klein Computer System AG",
-      "domain": "ns2.wws24.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
         "24h": 100.0,
-        "30d": 89.1,
-        "90d": 92.41,
-        "1y": 92.41
-      }
-    },
-    {
-      "ip": "195.186.4.110",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "DNS Infra",
-      "domain": "dns3.bluewin.ch",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.93,
-        "90d": 99.95,
-        "1y": 99.95
-      }
-    },
-    {
-      "ip": "194.209.225.15",
-      "version": 4,
-      "country_code": "ch",
-      "country": "Switzerland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Kaktus Online GmbH",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.79,
-        "90d": 99.61,
-        "1y": 99.61
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     }
   ]

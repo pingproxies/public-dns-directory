@@ -4,37 +4,10 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-17T08:03:53Z",
+    "generated_at": "2026-06-17T18:45:48Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "46.226.143.83",
-      "version": 4,
-      "country_code": "ee",
-      "country": "Estonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Cert",
-      "domain": "ns1.rpz.cert.ee",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.5,
-        "90d": 99.66,
-        "1y": 99.66
-      }
-    },
     {
       "ip": "195.80.119.101",
       "version": 4,
@@ -48,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -57,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.08,
-        "90d": 99.26,
-        "1y": 99.26
+        "30d": 99.07,
+        "90d": 99.27,
+        "1y": 99.27
       }
     },
     {
@@ -85,8 +58,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.36,
-        "90d": 99.31,
-        "1y": 99.31
+        "90d": 99.32,
+        "1y": 99.32
       }
     },
     {
@@ -114,6 +87,33 @@
         "30d": 99.5,
         "90d": 99.56,
         "1y": 99.56
+      }
+    },
+    {
+      "ip": "46.226.143.83",
+      "version": 4,
+      "country_code": "ee",
+      "country": "Estonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Cert",
+      "domain": "ns1.rpz.cert.ee",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.5,
+        "90d": 99.66,
+        "1y": 99.66
       }
     }
   ]
