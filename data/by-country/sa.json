@@ -4,7 +4,7 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-18T07:53:40Z",
+    "generated_at": "2026-06-18T18:44:22Z",
     "total_servers": 7
   },
   "resolvers": [
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 67.5,
-        "30d": 61.37,
-        "90d": 47.4,
-        "1y": 47.4
+        "24h": 84.09,
+        "30d": 62.28,
+        "90d": 47.74,
+        "1y": 47.74
       }
     },
     {
@@ -85,62 +85,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.65,
-        "90d": 98.94,
-        "1y": 98.94
-      }
-    },
-    {
-      "ip": "85.194.70.173",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Mobily Corp.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.86,
-        "90d": 99.9,
-        "1y": 99.9
-      }
-    },
-    {
-      "ip": "8.213.0.111",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Alibaba.com Singapore E-Commerce Private Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
+        "90d": 98.95,
+        "1y": 98.95
       }
     },
     {
@@ -160,7 +106,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -168,6 +114,33 @@
         "30d": 99.79,
         "90d": 99.81,
         "1y": 99.81
+      }
+    },
+    {
+      "ip": "8.213.0.111",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Alibaba.com Singapore E-Commerce Private Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -187,12 +160,39 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
+        "90d": 99.9,
+        "1y": 99.9
+      }
+    },
+    {
+      "ip": "85.194.70.173",
+      "version": 4,
+      "country_code": "sa",
+      "country": "Saudi Arabia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobily Corp.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.86,
         "90d": 99.9,
         "1y": 99.9
       }
