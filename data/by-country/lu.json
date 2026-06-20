@@ -4,10 +4,37 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-19T18:32:31Z",
+    "generated_at": "2026-06-20T07:30:14Z",
     "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "92.223.105.162",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GCL",
+      "domain": "lux.1c1g",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.73,
+        "90d": 97.77,
+        "1y": 97.77
+      }
+    },
     {
       "ip": "2.56.220.2",
       "version": 4,
@@ -33,33 +60,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "92.223.105.162",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.72,
-        "90d": 97.75,
-        "1y": 97.75
       }
     },
     {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 96.74,
-        "90d": 94.49,
-        "1y": 94.49
+        "90d": 94.56,
+        "1y": 94.56
       }
     }
   ]

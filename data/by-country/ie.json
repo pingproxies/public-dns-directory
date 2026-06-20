@@ -4,7 +4,7 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-19T18:32:31Z",
+    "generated_at": "2026-06-20T07:30:14Z",
     "total_servers": 7
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 48.93,
-        "90d": 58.19,
-        "1y": 58.19
+        "24h": 100.0,
+        "30d": 49.39,
+        "90d": 58.83,
+        "1y": 58.83
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -85,89 +85,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.65,
-        "90d": 99.62,
-        "1y": 99.62
-      }
-    },
-    {
-      "ip": "86.47.80.38",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Eircom Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 49.5,
-        "90d": 58.3,
-        "1y": 58.3
-      }
-    },
-    {
-      "ip": "95.45.222.78",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Eircom Limited",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 48.9,
-        "90d": 57.7,
-        "1y": 57.7
-      }
-    },
-    {
-      "ip": "54.72.70.84",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "AWS EC2 (eu-west-1)",
-      "domain": "ec2-54-72-70-84.eu-west-1.compute.amazonaws.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 92.09,
-        "90d": 86.7,
-        "1y": 86.7
+        "90d": 99.63,
+        "1y": 99.63
       }
     },
     {
@@ -187,14 +106,95 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.36,
+        "90d": 98.33,
+        "1y": 98.33
+      }
+    },
+    {
+      "ip": "95.45.222.78",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.36,
-        "90d": 98.31,
-        "1y": 98.31
+        "30d": 49.38,
+        "90d": 58.33,
+        "1y": 58.33
+      }
+    },
+    {
+      "ip": "86.47.80.38",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eircom Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 49.95,
+        "90d": 58.93,
+        "1y": 58.93
+      }
+    },
+    {
+      "ip": "54.72.70.84",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "AWS EC2 (eu-west-1)",
+      "domain": "ec2-54-72-70-84.eu-west-1.compute.amazonaws.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 92.6,
+        "90d": 87.24,
+        "1y": 87.24
       }
     }
   ]
