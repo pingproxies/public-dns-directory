@@ -4,37 +4,10 @@
     "country_name": "Afghanistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-21T07:48:48Z",
+    "generated_at": "2026-06-21T18:28:05Z",
     "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "180.94.94.194",
-      "version": 4,
-      "country_code": "af",
-      "country": "Afghanistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "AFTEL in Kabul",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.5,
-        "30d": 90.97,
-        "90d": 88.71,
-        "1y": 88.71
-      }
-    },
     {
       "ip": "180.94.94.195",
       "version": 4,
@@ -60,6 +33,33 @@
         "30d": 99.93,
         "90d": 99.95,
         "1y": 99.95
+      }
+    },
+    {
+      "ip": "180.94.94.194",
+      "version": 4,
+      "country_code": "af",
+      "country": "Afghanistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AFTEL in Kabul",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 94.87,
+        "30d": 91.13,
+        "90d": 88.79,
+        "1y": 88.79
       }
     }
   ]
