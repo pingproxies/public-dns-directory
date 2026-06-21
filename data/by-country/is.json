@@ -4,37 +4,10 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-20T18:26:33Z",
-    "total_servers": 3
+    "generated_at": "2026-06-21T07:48:48Z",
+    "total_servers": 2
   },
   "resolvers": [
-    {
-      "ip": "82.148.69.71",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Fsnet",
-      "domain": "kvenno-7.fsnet.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.37,
-        "90d": 98.57,
-        "1y": 98.57
-      }
-    },
     {
       "ip": "46.22.99.226",
       "version": 4,
@@ -52,25 +25,25 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 83.96,
-        "90d": 81.55,
-        "1y": 81.55
+        "24h": 87.5,
+        "30d": 84.06,
+        "90d": 81.69,
+        "1y": 81.69
       }
     },
     {
-      "ip": "78.40.253.33",
+      "ip": "82.148.69.71",
       "version": 4,
       "country_code": "is",
       "country": "Iceland",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Nova ehf",
-      "domain": "nova-078-040-253-033.cpe.novanet.is",
+      "organization": "Fsnet",
+      "domain": "kvenno-7.fsnet.is",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -78,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 76.74,
-        "30d": 63.94,
-        "90d": 59.34,
-        "1y": 59.34
+        "24h": 100.0,
+        "30d": 98.38,
+        "90d": 98.59,
+        "1y": 98.59
       }
     }
   ]
