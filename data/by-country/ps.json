@@ -4,37 +4,10 @@
     "country_name": "Palestine",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-21T18:28:05Z",
+    "generated_at": "2026-06-22T08:16:18Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "82.213.32.29",
-      "version": 4,
-      "country_code": "ps",
-      "country": "Palestine",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "PALTEL (Palestine Telecommunications Co.)",
-      "domain": "mail.sahem-inv.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 86.49,
-        "90d": 75.92,
-        "1y": 75.92
-      }
-    },
     {
       "ip": "213.6.20.57",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 72.91,
-        "90d": 69.03,
-        "1y": 69.03
+        "24h": 91.3,
+        "30d": 73.27,
+        "90d": 69.4,
+        "1y": 69.4
       }
     },
     {
@@ -79,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 89.74,
-        "30d": 71.78,
-        "90d": 71.56,
-        "1y": 71.56
+        "24h": 84.78,
+        "30d": 71.94,
+        "90d": 71.82,
+        "1y": 71.82
+      }
+    },
+    {
+      "ip": "82.213.32.29",
+      "version": 4,
+      "country_code": "ps",
+      "country": "Palestine",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "PALTEL (Palestine Telecommunications Co.)",
+      "domain": "mail.sahem-inv.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 97.83,
+        "30d": 87.26,
+        "90d": 76.19,
+        "1y": 76.19
       }
     }
   ]

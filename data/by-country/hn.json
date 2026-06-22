@@ -4,24 +4,78 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-06-21T18:28:05Z",
-    "total_servers": 4
+    "generated_at": "2026-06-22T08:16:18Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
-      "ip": "181.210.92.7",
+      "ip": "164.163.74.82",
       "version": 4,
       "country_code": "hn",
       "country": "Honduras",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Hondutel",
-      "domain": "Correo.hondutel.hn",
+      "organization": "Diser Solution Honduras",
+      "domain": "host82.diser.hn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 26.09,
+        "30d": 60.53,
+        "90d": 62.46,
+        "1y": 62.46
+      }
+    },
+    {
+      "ip": "201.190.11.254",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SERCOM de Honduras",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 82.61,
+        "30d": 70.75,
+        "90d": 67.54,
+        "1y": 67.54
+      }
+    },
+    {
+      "ip": "190.124.166.45",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "REYTEL",
+      "domain": "block166-static45.reytelhn.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -29,10 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.79,
-        "90d": 99.68,
-        "1y": 99.68
+        "24h": 89.13,
+        "30d": 81.39,
+        "90d": 82.08,
+        "1y": 82.08
       }
     },
     {
@@ -56,26 +110,26 @@
         "adult": false
       },
       "uptime": {
-        "24h": 89.74,
-        "30d": 92.05,
-        "90d": 91.41,
-        "1y": 91.41
+        "24h": 89.13,
+        "30d": 92.09,
+        "90d": 91.44,
+        "1y": 91.44
       }
     },
     {
-      "ip": "190.124.166.45",
+      "ip": "181.210.92.7",
       "version": 4,
       "country_code": "hn",
       "country": "Honduras",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "REYTEL",
-      "domain": "block166-static45.reytelhn.net",
+      "organization": "Hondutel",
+      "domain": "Correo.hondutel.hn",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -83,21 +137,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 81.35,
-        "90d": 81.97,
-        "1y": 81.97
+        "24h": 100.0,
+        "30d": 99.79,
+        "90d": 99.69,
+        "1y": 99.69
       }
     },
     {
-      "ip": "201.190.11.254",
+      "ip": "190.5.81.230",
       "version": 4,
       "country_code": "hn",
       "country": "Honduras",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SERCOM de Honduras",
-      "domain": null,
+      "organization": "LIBERTY NETWORKS HONDURAS, SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "domain": "190.5.81.230.multidatahn.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -106,14 +160,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 89.74,
-        "30d": 70.58,
-        "90d": 67.28,
-        "1y": 67.28
+        "24h": 80.43,
+        "30d": 56.75,
+        "90d": 54.53,
+        "1y": 54.53
       }
     }
   ]

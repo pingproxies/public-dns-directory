@@ -4,7 +4,7 @@
     "country_name": "Mozambique",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-21T18:28:05Z",
+    "generated_at": "2026-06-22T08:16:18Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 30.77,
-        "30d": 30.28,
-        "90d": 28.59,
-        "1y": 28.59
+        "24h": 34.78,
+        "30d": 30.99,
+        "90d": 28.83,
+        "1y": 28.83
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 56.41,
-        "30d": 32.68,
-        "90d": 26.32,
-        "1y": 26.32
+        "24h": 69.57,
+        "30d": 39.56,
+        "90d": 32.73,
+        "1y": 32.73
       }
     },
     {
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 66.48,
-        "90d": 45.02,
-        "1y": 45.02
+        "30d": 71.71,
+        "90d": 50.5,
+        "1y": 50.5
       }
     }
   ]

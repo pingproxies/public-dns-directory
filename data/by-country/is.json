@@ -4,8 +4,8 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-21T18:28:05Z",
-    "total_servers": 2
+    "generated_at": "2026-06-22T08:16:18Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.65,
+        "30d": 84.53,
+        "90d": 81.99,
+        "1y": 81.99
+      }
+    },
+    {
+      "ip": "78.40.253.33",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Nova ehf",
+      "domain": "nova-078-040-253-033.cpe.novanet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.31,
-        "30d": 84.31,
-        "90d": 81.74,
-        "1y": 81.74
+        "24h": 67.39,
+        "30d": 65.44,
+        "90d": 60.97,
+        "1y": 60.97
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.38,
-        "90d": 98.6,
-        "1y": 98.6
+        "30d": 98.39,
+        "90d": 98.62,
+        "1y": 98.62
       }
     }
   ]
