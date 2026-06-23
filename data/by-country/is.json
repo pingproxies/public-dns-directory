@@ -4,10 +4,37 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-22T19:03:16Z",
+    "generated_at": "2026-06-23T07:25:58Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "46.22.99.226",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hringdu",
+      "domain": "226-99-22-46.business.hringdu.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.24,
+        "30d": 84.31,
+        "90d": 82.11,
+        "1y": 82.11
+      }
+    },
     {
       "ip": "82.148.69.71",
       "version": 4,
@@ -25,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.46,
-        "90d": 98.63,
-        "1y": 98.63
-      }
-    },
-    {
-      "ip": "46.22.99.226",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hringdu",
-      "domain": "226-99-22-46.business.hringdu.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 92.16,
-        "30d": 84.42,
-        "90d": 81.99,
-        "1y": 81.99
+        "24h": 98.04,
+        "30d": 98.4,
+        "90d": 98.6,
+        "1y": 98.6
       }
     }
   ]
