@@ -4,8 +4,8 @@
     "country_name": "DR Congo",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-06-23T18:36:46Z",
-    "total_servers": 1
+    "generated_at": "2026-06-24T07:21:51Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 83.64,
-        "30d": 59.26,
-        "90d": 58.02,
-        "1y": 58.02
+        "24h": 89.29,
+        "30d": 60.17,
+        "90d": 58.56,
+        "1y": 58.56
+      }
+    },
+    {
+      "ip": "102.64.76.49",
+      "version": 4,
+      "country_code": "cd",
+      "country": "DR Congo",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Seacom Africa Line",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 33.93,
+        "30d": 17.36,
+        "90d": 17.45,
+        "1y": 17.45
       }
     }
   ]
