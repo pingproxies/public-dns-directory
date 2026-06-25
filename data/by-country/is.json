@@ -4,37 +4,10 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-25T07:22:56Z",
-    "total_servers": 2
+    "generated_at": "2026-06-25T18:40:40Z",
+    "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "82.148.69.71",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Fsnet",
-      "domain": "kvenno-7.fsnet.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.5,
-        "90d": 98.67,
-        "1y": 98.67
-      }
-    },
     {
       "ip": "46.22.99.226",
       "version": 4,
@@ -52,14 +25,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 85.16,
-        "90d": 82.56,
-        "1y": 82.56
+        "24h": 98.21,
+        "30d": 85.41,
+        "90d": 82.7,
+        "1y": 82.7
+      }
+    },
+    {
+      "ip": "78.40.253.33",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Nova ehf",
+      "domain": "nova-078-040-253-033.cpe.novanet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 64.9,
+        "90d": 61.05,
+        "1y": 61.05
+      }
+    },
+    {
+      "ip": "82.148.69.71",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fsnet",
+      "domain": "kvenno-7.fsnet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.5,
+        "90d": 98.68,
+        "1y": 98.68
       }
     }
   ]

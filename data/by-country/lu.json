@@ -4,7 +4,7 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-25T07:22:56Z",
+    "generated_at": "2026-06-25T18:40:40Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -36,6 +36,33 @@
       }
     },
     {
+      "ip": "92.223.105.162",
+      "version": 4,
+      "country_code": "lu",
+      "country": "Luxembourg",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "GCL",
+      "domain": "lux.1c1g",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.21,
+        "30d": 98.98,
+        "90d": 97.9,
+        "1y": 97.9
+      }
+    },
+    {
       "ip": "2.56.220.2",
       "version": 4,
       "country_code": "lu",
@@ -51,8 +78,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -79,41 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.32,
-        "90d": 95.13,
-        "1y": 95.13
-      }
-    },
-    {
-      "ip": "92.223.105.162",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.91,
-        "90d": 97.92,
-        "1y": 97.92
+        "24h": 98.21,
+        "30d": 99.25,
+        "90d": 95.14,
+        "1y": 95.14
       }
     }
   ]
