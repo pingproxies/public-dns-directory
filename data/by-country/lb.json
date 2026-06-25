@@ -4,8 +4,8 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-24T18:32:15Z",
-    "total_servers": 5
+    "generated_at": "2026-06-25T07:22:56Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -21,7 +21,34 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 65.55,
+        "90d": 65.96,
+        "1y": 65.96
+      }
+    },
+    {
+      "ip": "77.42.253.91",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Contains GGC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -29,37 +56,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 65.08,
-        "90d": 65.72,
-        "1y": 65.72
-      }
-    },
-    {
-      "ip": "78.108.160.207",
-      "version": 4,
-      "country_code": "lb",
-      "country": "Lebanon",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TerraNet sal",
-      "domain": "dsl-78-108-160-207.terra.net.lb",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 27.27,
-        "30d": 27.21,
-        "90d": 25.96,
-        "1y": 25.96
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.83,
+        "1y": 99.83
       }
     },
     {
@@ -83,37 +83,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.64,
-        "30d": 65.38,
-        "90d": 64.08,
-        "1y": 64.08
+        "24h": 67.86,
+        "30d": 64.98,
+        "90d": 64.11,
+        "1y": 64.11
       }
     },
     {
-      "ip": "77.42.253.91",
+      "ip": "212.98.146.97",
       "version": 4,
       "country_code": "lb",
       "country": "Lebanon",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Contains GGC",
-      "domain": null,
+      "organization": "TerraNet sal",
+      "domain": "corp-212-98-146-97.terra.net.lb",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.83,
-        "1y": 99.83
+        "24h": 33.93,
+        "30d": 42.89,
+        "90d": 37.76,
+        "1y": 37.76
       }
     },
     {
@@ -132,15 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.55,
-        "30d": 91.12,
-        "90d": 90.35,
-        "1y": 90.35
+        "24h": 91.07,
+        "30d": 91.04,
+        "90d": 90.39,
+        "1y": 90.39
+      }
+    },
+    {
+      "ip": "78.108.160.207",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-160-207.terra.net.lb",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 30.36,
+        "30d": 27.55,
+        "90d": 26.18,
+        "1y": 26.18
       }
     }
   ]
