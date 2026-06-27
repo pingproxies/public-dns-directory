@@ -4,8 +4,8 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-27T07:14:37Z",
-    "total_servers": 5
+    "generated_at": "2026-06-27T18:21:58Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -24,15 +24,96 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.85,
-        "90d": 92.0,
-        "1y": 92.0
+        "30d": 97.04,
+        "90d": 92.18,
+        "1y": 92.18
+      }
+    },
+    {
+      "ip": "84.203.162.227",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Viatel Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 51.02,
+        "30d": 49.12,
+        "90d": 38.61,
+        "1y": 38.61
+      }
+    },
+    {
+      "ip": "88.87.181.244",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "EOBO Ltd T/A BBnet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 46.94,
+        "30d": 58.99,
+        "90d": 57.18,
+        "1y": 57.18
+      }
+    },
+    {
+      "ip": "78.155.252.220",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "NWE Wireless Networks Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.19,
+        "90d": 98.46,
+        "1y": 98.46
       }
     },
     {
@@ -63,33 +144,6 @@
       }
     },
     {
-      "ip": "88.87.181.244",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "EOBO Ltd T/A BBnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 50.98,
-        "30d": 58.97,
-        "90d": 57.17,
-        "1y": 57.17
-      }
-    },
-    {
       "ip": "83.71.132.188",
       "version": 4,
       "country_code": "ie",
@@ -106,41 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.86,
+        "30d": 99.93,
         "90d": 99.68,
         "1y": 99.68
-      }
-    },
-    {
-      "ip": "78.155.252.220",
-      "version": 4,
-      "country_code": "ie",
-      "country": "Ireland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "NWE Wireless Networks Ltd.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.19,
-        "90d": 98.44,
-        "1y": 98.44
       }
     }
   ]
