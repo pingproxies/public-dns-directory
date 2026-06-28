@@ -4,10 +4,37 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-27T18:21:58Z",
+    "generated_at": "2026-06-28T07:31:22Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "103.121.228.5",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MyanmarAPN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.73,
+        "90d": 99.37,
+        "1y": 99.37
+      }
+    },
     {
       "ip": "202.165.94.226",
       "version": 4,
@@ -26,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 51.02,
-        "30d": 58.23,
-        "90d": 49.71,
-        "1y": 49.71
+        "24h": 64.58,
+        "30d": 58.73,
+        "90d": 50.17,
+        "1y": 50.17
       }
     },
     {
@@ -51,42 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 57.14,
-        "30d": 68.65,
-        "90d": 66.56,
-        "1y": 66.56
-      }
-    },
-    {
-      "ip": "103.121.228.5",
-      "version": 4,
-      "country_code": "mm",
-      "country": "Myanmar",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MyanmarAPN",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.73,
-        "90d": 99.37,
-        "1y": 99.37
+        "24h": 68.75,
+        "30d": 68.46,
+        "90d": 66.55,
+        "1y": 66.55
       }
     }
   ]
