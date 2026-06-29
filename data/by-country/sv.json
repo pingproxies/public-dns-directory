@@ -4,37 +4,10 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-06-29T07:57:47Z",
+    "generated_at": "2026-06-29T18:37:20Z",
     "total_servers": 3
   },
   "resolvers": [
-    {
-      "ip": "201.247.112.236",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 56.25,
-        "30d": 61.52,
-        "90d": 64.41,
-        "1y": 64.41
-      }
-    },
     {
       "ip": "168.243.48.33",
       "version": 4,
@@ -52,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.67,
-        "90d": 96.94,
-        "1y": 96.94
+        "90d": 96.96,
+        "1y": 96.96
       }
     },
     {
@@ -87,6 +60,33 @@
         "30d": 99.87,
         "90d": 99.92,
         "1y": 99.92
+      }
+    },
+    {
+      "ip": "201.247.112.236",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.45,
+        "30d": 61.38,
+        "90d": 64.42,
+        "1y": 64.42
       }
     }
   ]
