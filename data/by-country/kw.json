@@ -4,10 +4,64 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-29T18:37:20Z",
-    "total_servers": 3
+    "generated_at": "2026-06-30T07:28:52Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "195.88.223.73",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Kuwait Petroleum Corporation",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.87,
+        "90d": 95.14,
+        "1y": 95.14
+      }
+    },
+    {
+      "ip": "168.187.161.250",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KEMS",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 43.48,
+        "30d": 46.59,
+        "90d": 45.24,
+        "1y": 45.24
+      }
+    },
     {
       "ip": "62.150.254.82",
       "version": 4,
@@ -21,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 59.57,
-        "30d": 59.26,
-        "90d": 58.27,
-        "1y": 58.27
+        "24h": 63.04,
+        "30d": 58.62,
+        "90d": 58.19,
+        "1y": 58.19
       }
     },
     {
@@ -52,41 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.0,
-        "90d": 99.08,
-        "1y": 99.08
-      }
-    },
-    {
-      "ip": "195.88.223.73",
-      "version": 4,
-      "country_code": "kw",
-      "country": "Kuwait",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Kuwait Petroleum Corporation",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.77,
-        "90d": 95.06,
-        "1y": 95.06
+        "30d": 99.01,
+        "90d": 99.09,
+        "1y": 99.09
       }
     }
   ]
