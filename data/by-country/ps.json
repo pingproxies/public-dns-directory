@@ -4,10 +4,37 @@
     "country_name": "Palestine",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-06-30T18:33:01Z",
+    "generated_at": "2026-07-01T07:41:29Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "82.213.32.29",
+      "version": 4,
+      "country_code": "ps",
+      "country": "Palestine",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "PALTEL (Palestine Telecommunications Co.)",
+      "domain": "mail.sahem-inv.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 71.11,
+        "30d": 85.54,
+        "90d": 76.75,
+        "1y": 76.75
+      }
+    },
     {
       "ip": "213.6.77.30",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 91.11,
-        "30d": 72.85,
-        "90d": 72.21,
-        "1y": 72.21
+        "30d": 72.98,
+        "90d": 72.43,
+        "1y": 72.43
       }
     },
     {
@@ -57,36 +84,9 @@
       },
       "uptime": {
         "24h": 88.89,
-        "30d": 77.34,
-        "90d": 71.76,
-        "1y": 71.76
-      }
-    },
-    {
-      "ip": "82.213.32.29",
-      "version": 4,
-      "country_code": "ps",
-      "country": "Palestine",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "PALTEL (Palestine Telecommunications Co.)",
-      "domain": "mail.sahem-inv.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 62.22,
-        "30d": 85.61,
-        "90d": 76.68,
-        "1y": 76.68
+        "30d": 77.45,
+        "90d": 71.91,
+        "1y": 71.91
       }
     }
   ]

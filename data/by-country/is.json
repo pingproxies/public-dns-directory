@@ -4,10 +4,37 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-06-30T18:33:01Z",
+    "generated_at": "2026-07-01T07:41:29Z",
     "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "46.22.99.226",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Hringdu",
+      "domain": "226-99-22-46.business.hringdu.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 87.11,
+        "90d": 83.5,
+        "1y": 83.5
+      }
+    },
     {
       "ip": "78.40.253.33",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 64.44,
-        "30d": 66.77,
-        "90d": 63.16,
-        "1y": 63.16
+        "24h": 71.11,
+        "30d": 67.09,
+        "90d": 63.48,
+        "1y": 63.48
       }
     },
     {
@@ -57,36 +84,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.94,
-        "90d": 98.69,
-        "1y": 98.69
-      }
-    },
-    {
-      "ip": "46.22.99.226",
-      "version": 4,
-      "country_code": "is",
-      "country": "Iceland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hringdu",
-      "domain": "226-99-22-46.business.hringdu.is",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 80.0,
-        "30d": 87.19,
-        "90d": 83.42,
-        "1y": 83.42
+        "30d": 99.28,
+        "90d": 98.7,
+        "1y": 98.7
       }
     }
   ]
