@@ -4,10 +4,37 @@
     "country_name": "Algeria",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-02T07:17:25Z",
+    "generated_at": "2026-07-02T18:29:28Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "41.111.135.226",
+      "version": 4,
+      "country_code": "dz",
+      "country": "Algeria",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Algerie Telecom",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.87,
+        "90d": 96.2,
+        "1y": 96.2
+      }
+    },
     {
       "ip": "41.111.204.186",
       "version": 4,
@@ -24,42 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 85.38,
-        "90d": 82.98,
-        "1y": 82.98
-      }
-    },
-    {
-      "ip": "41.111.135.226",
-      "version": 4,
-      "country_code": "dz",
-      "country": "Algeria",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Algerie Telecom",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.87,
-        "90d": 96.16,
-        "1y": 96.16
+        "24h": 89.58,
+        "30d": 85.69,
+        "90d": 83.04,
+        "1y": 83.04
       }
     }
   ]

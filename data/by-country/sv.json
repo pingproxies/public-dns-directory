@@ -4,35 +4,35 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-07-02T07:17:25Z",
-    "total_servers": 2
+    "generated_at": "2026-07-02T18:29:28Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "200.85.7.28",
+      "ip": "190.86.205.194",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Telemovil El Salvador S.A",
-      "domain": "ftp.grupotropigas.com.sv",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "mail.coopex.com.sv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.87,
-        "90d": 99.93,
-        "1y": 99.93
+        "24h": 75.0,
+        "30d": 59.91,
+        "90d": 67.93,
+        "1y": 67.93
       }
     },
     {
@@ -58,8 +58,35 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.61,
-        "90d": 97.06,
-        "1y": 97.06
+        "90d": 97.08,
+        "1y": 97.08
+      }
+    },
+    {
+      "ip": "200.85.7.28",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Telemovil El Salvador S.A",
+      "domain": "ftp.grupotropigas.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.87,
+        "90d": 99.93,
+        "1y": 99.93
       }
     }
   ]

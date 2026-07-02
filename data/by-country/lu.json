@@ -4,8 +4,8 @@
     "country_name": "Luxembourg",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-07-02T07:17:25Z",
-    "total_servers": 4
+    "generated_at": "2026-07-02T18:29:28Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -17,14 +17,14 @@
       "continent": "Europe",
       "organization": "G-Core Labs S.A",
       "domain": null,
-      "trusted": true,
+      "trusted": false,
       "anycast": true,
       "dnssec": {
         "aware": true,
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -33,60 +33,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "107.189.31.10",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "BuyVM",
-      "domain": "mail.denshi.org",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 95.74,
-        "30d": 99.09,
-        "90d": 95.59,
-        "1y": 95.59
-      }
-    },
-    {
-      "ip": "92.223.105.162",
-      "version": 4,
-      "country_code": "lu",
-      "country": "Luxembourg",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GCL",
-      "domain": "lux.1c1g",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 97.87,
-        "30d": 98.76,
-        "90d": 97.99,
-        "1y": 97.99
       }
     },
     {
