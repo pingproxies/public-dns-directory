@@ -4,10 +4,37 @@
     "country_name": "Mozambique",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-01T18:35:37Z",
-    "total_servers": 1
+    "generated_at": "2026-07-02T07:17:25Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "169.255.135.218",
+      "version": 4,
+      "country_code": "mz",
+      "country": "Mozambique",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Webmasters",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 43.75,
+        "30d": 53.18,
+        "90d": 49.09,
+        "1y": 49.09
+      }
+    },
     {
       "ip": "102.222.88.10",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 82.61,
-        "30d": 82.5,
-        "90d": 71.04,
-        "1y": 71.04
+        "24h": 85.11,
+        "30d": 83.02,
+        "90d": 71.86,
+        "1y": 71.86
       }
     }
   ]
