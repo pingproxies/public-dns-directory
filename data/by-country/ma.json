@@ -4,7 +4,7 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-05T08:57:32Z",
+    "generated_at": "2026-07-05T18:59:33Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -31,35 +31,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.87,
-        "90d": 98.69,
-        "1y": 98.69
-      }
-    },
-    {
-      "ip": "102.50.253.95",
-      "version": 4,
-      "country_code": "ma",
-      "country": "Morocco",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Maroc telecom static ip adress",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 98.28,
-        "30d": 97.21,
-        "90d": 98.17,
-        "1y": 98.17
+        "90d": 98.7,
+        "1y": 98.7
       }
     },
     {
@@ -78,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 98.25,
+        "30d": 64.0,
+        "90d": 46.86,
+        "1y": 46.86
+      }
+    },
+    {
+      "ip": "81.192.7.147",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "LLI ccm",
+      "domain": "ll81-147-7-192-81.ll81.iam.net.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 98.28,
-        "30d": 58.44,
-        "90d": 41.47,
-        "1y": 41.47
+        "24h": 49.12,
+        "30d": 54.83,
+        "90d": 49.31,
+        "1y": 49.31
       }
     }
   ]

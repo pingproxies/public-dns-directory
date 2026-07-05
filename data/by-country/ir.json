@@ -4,7 +4,7 @@
     "country_name": "Iran",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-05T08:57:32Z",
+    "generated_at": "2026-07-05T18:59:33Z",
     "total_servers": 10
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 89.66,
-        "30d": 91.5,
-        "90d": 74.41,
-        "1y": 74.41
+        "24h": 82.46,
+        "30d": 91.41,
+        "90d": 74.43,
+        "1y": 74.43
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.74,
-        "90d": 97.96,
-        "1y": 97.96
+        "30d": 98.93,
+        "90d": 97.97,
+        "1y": 97.97
       }
     },
     {
@@ -78,15 +78,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.97,
         "1y": 99.97
+      }
+    },
+    {
+      "ip": "194.225.62.80",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TUMS Network",
+      "domain": "ourdns1.tums.ac.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.67,
+        "90d": 99.55,
+        "1y": 99.55
       }
     },
     {
@@ -105,15 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.2,
-        "90d": 99.41,
-        "1y": 99.41
+        "90d": 99.42,
+        "1y": 99.42
       }
     },
     {
@@ -133,14 +160,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.87,
-        "90d": 95.84,
-        "1y": 95.84
+        "90d": 95.89,
+        "1y": 95.89
+      }
+    },
+    {
+      "ip": "2.189.44.44",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Iran Information Technology Company PJSC",
+      "domain": "anycast.ticdns.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 98.67,
+        "90d": 93.17,
+        "1y": 93.17
       }
     },
     {
@@ -160,95 +214,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.1,
-        "30d": 99.0,
-        "90d": 96.59,
-        "1y": 96.59
-      }
-    },
-    {
-      "ip": "194.225.62.80",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TUMS Network",
-      "domain": "ourdns1.tums.ac.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.67,
-        "90d": 99.55,
-        "1y": 99.55
-      }
-    },
-    {
-      "ip": "185.161.112.34",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Parvaz System Information Technology Company (Ltd)",
-      "domain": "fw2.parvazsys.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.34,
-        "90d": 96.75,
-        "1y": 96.75
-      }
-    },
-    {
-      "ip": "2.189.44.44",
-      "version": 4,
-      "country_code": "ir",
-      "country": "Iran",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Iran Information Technology Company PJSC",
-      "domain": "anycast.ticdns.ir",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 98.67,
-        "90d": 93.12,
-        "1y": 93.12
+        "24h": 96.49,
+        "30d": 98.93,
+        "90d": 96.58,
+        "1y": 96.58
       }
     },
     {
@@ -273,9 +246,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.51,
-        "90d": 70.78,
-        "1y": 70.78
+        "30d": 89.67,
+        "90d": 71.01,
+        "1y": 71.01
+      }
+    },
+    {
+      "ip": "185.161.112.34",
+      "version": 4,
+      "country_code": "ir",
+      "country": "Iran",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Parvaz System Information Technology Company (Ltd)",
+      "domain": "fw2.parvazsys.ir",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.33,
+        "90d": 96.79,
+        "1y": 96.79
       }
     }
   ]

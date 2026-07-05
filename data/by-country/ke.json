@@ -4,8 +4,8 @@
     "country_name": "Kenya",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-05T08:57:32Z",
-    "total_servers": 10
+    "generated_at": "2026-07-05T18:59:33Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.49,
+        "30d": 97.34,
+        "90d": 96.33,
+        "1y": 96.33
+      }
+    },
+    {
+      "ip": "197.232.155.47",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Faiba Business",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.41,
-        "90d": 96.37,
-        "1y": 96.37
+        "24h": 40.35,
+        "30d": 66.45,
+        "90d": 59.49,
+        "1y": 59.49
       }
     },
     {
@@ -58,39 +85,39 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.87,
-        "90d": 99.48,
-        "1y": 99.48
+        "90d": 99.49,
+        "1y": 99.49
       }
     },
     {
-      "ip": "197.155.92.21",
+      "ip": "102.217.123.98",
       "version": 4,
       "country_code": "ke",
       "country": "Kenya",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Liquid Telecommunications Operations Limited",
-      "domain": "197.155.92.21.liquidtelecom.net",
+      "organization": "Click-specifics",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 99.97,
-        "1y": 99.97
+        "24h": 15.79,
+        "30d": 10.66,
+        "90d": 9.88,
+        "1y": 9.88
       }
     },
     {
-      "ip": "41.84.143.137",
+      "ip": "41.84.143.206",
       "version": 4,
       "country_code": "ke",
       "country": "Kenya",
@@ -107,13 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 67.24,
-        "30d": 73.04,
-        "90d": 68.22,
-        "1y": 68.22
+        "24h": 80.7,
+        "30d": 78.95,
+        "90d": 72.06,
+        "1y": 72.06
       }
     },
     {
@@ -137,10 +164,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 94.83,
-        "30d": 92.96,
-        "90d": 89.04,
-        "1y": 89.04
+        "24h": 92.98,
+        "30d": 93.8,
+        "90d": 88.98,
+        "1y": 88.98
+      }
+    },
+    {
+      "ip": "41.139.226.83",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "For Converged services",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.6,
+        "90d": 99.28,
+        "1y": 99.28
+      }
+    },
+    {
+      "ip": "102.68.79.77",
+      "version": 4,
+      "country_code": "ke",
+      "country": "Kenya",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Ltd FTTH",
+      "domain": "102.68.79.77.unwired.co.ke",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 96.49,
+        "30d": 99.0,
+        "90d": 98.59,
+        "1y": 98.59
       }
     },
     {
@@ -171,14 +252,14 @@
       }
     },
     {
-      "ip": "102.68.79.77",
+      "ip": "197.155.92.21",
       "version": 4,
       "country_code": "ke",
       "country": "Kenya",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Ltd FTTH",
-      "domain": "102.68.79.77.unwired.co.ke",
+      "organization": "Liquid Telecommunications Operations Limited",
+      "domain": "197.155.92.21.liquidtelecom.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -187,45 +268,18 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 98.28,
-        "30d": 99.07,
-        "90d": 98.62,
-        "1y": 98.62
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 99.97,
+        "1y": 99.97
       }
     },
     {
-      "ip": "197.232.52.61",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Faiba Enterprise",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 79.31,
-        "30d": 58.3,
-        "90d": 61.82,
-        "1y": 61.82
-      }
-    },
-    {
-      "ip": "197.232.21.96",
+      "ip": "197.232.124.205",
       "version": 4,
       "country_code": "ke",
       "country": "Kenya",
@@ -240,42 +294,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 46.55,
-        "30d": 60.16,
-        "90d": 53.39,
-        "1y": 53.39
-      }
-    },
-    {
-      "ip": "41.139.226.83",
-      "version": 4,
-      "country_code": "ke",
-      "country": "Kenya",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "For Converged services",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.54,
-        "90d": 99.27,
-        "1y": 99.27
+        "24h": 29.82,
+        "30d": 73.28,
+        "90d": 67.75,
+        "1y": 67.75
       }
     }
   ]
