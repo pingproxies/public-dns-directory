@@ -4,19 +4,19 @@
     "country_name": "Zimbabwe",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-04T18:54:10Z",
+    "generated_at": "2026-07-05T08:57:32Z",
     "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "196.43.199.60",
+      "ip": "196.27.106.21",
       "version": 4,
       "country_code": "zw",
       "country": "Zimbabwe",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "Zimbabwe Open University",
-      "domain": null,
+      "organization": "ZOL-AFRCOM",
+      "domain": "521243.customer.zol.co.zw",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 76.4,
-        "90d": 56.2,
-        "1y": 56.2
+        "24h": 98.28,
+        "30d": 91.43,
+        "90d": 85.26,
+        "1y": 85.26
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 52.94,
-        "30d": 71.53,
-        "90d": 68.22,
-        "1y": 68.22
+        "24h": 44.83,
+        "30d": 70.85,
+        "90d": 67.91,
+        "1y": 67.91
+      }
+    },
+    {
+      "ip": "196.43.199.60",
+      "version": 4,
+      "country_code": "zw",
+      "country": "Zimbabwe",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Zimbabwe Open University",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 79.79,
+        "90d": 57.56,
+        "1y": 57.56
       }
     },
     {
@@ -83,37 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.04,
+        "24h": 98.28,
         "30d": 89.71,
-        "90d": 78.52,
-        "1y": 78.52
-      }
-    },
-    {
-      "ip": "196.27.106.21",
-      "version": 4,
-      "country_code": "zw",
-      "country": "Zimbabwe",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "ZOL-AFRCOM",
-      "domain": "521243.customer.zol.co.zw",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 91.17,
-        "90d": 85.12,
-        "1y": 85.12
+        "90d": 78.77,
+        "1y": 78.77
       }
     }
   ]
