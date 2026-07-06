@@ -4,35 +4,35 @@
     "country_name": "Cabo Verde",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-05T18:59:33Z",
-    "total_servers": 2
+    "generated_at": "2026-07-06T10:44:25Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "41.221.192.167",
+      "ip": "41.221.203.153",
       "version": 4,
       "country_code": "cv",
       "country": "Cabo Verde",
       "continent_code": "af",
       "continent": "Africa",
-      "organization": "CABO VERDE TELECOM, S.A",
-      "domain": "ns.cvtelecom.cv",
+      "organization": "CVMultimedia",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.34,
-        "90d": 96.95,
-        "1y": 96.95
+        "24h": 32.69,
+        "30d": 25.82,
+        "90d": 20.17,
+        "1y": 20.17
       }
     },
     {
@@ -52,14 +52,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.08,
+        "30d": 90.14,
+        "90d": 79.39,
+        "1y": 79.39
+      }
+    },
+    {
+      "ip": "41.221.192.167",
+      "version": 4,
+      "country_code": "cv",
+      "country": "Cabo Verde",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "CABO VERDE TELECOM, S.A",
+      "domain": "ns.cvtelecom.cv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.23,
-        "90d": 78.23,
-        "1y": 78.23
+        "30d": 97.32,
+        "90d": 96.98,
+        "1y": 96.98
       }
     }
   ]

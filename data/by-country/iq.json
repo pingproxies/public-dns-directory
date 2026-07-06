@@ -4,37 +4,10 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-05T18:59:33Z",
+    "generated_at": "2026-07-06T10:44:25Z",
     "total_servers": 5
   },
   "resolvers": [
-    {
-      "ip": "62.201.217.194",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "BAG",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 26.32,
-        "30d": 25.45,
-        "90d": 23.51,
-        "1y": 23.51
-      }
-    },
     {
       "ip": "212.237.125.216",
       "version": 4,
@@ -48,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 68.42,
-        "30d": 84.14,
-        "90d": 84.15,
-        "1y": 84.15
+        "24h": 69.23,
+        "30d": 83.61,
+        "90d": 83.99,
+        "1y": 83.99
       }
     },
     {
@@ -83,10 +56,64 @@
         "adult": false
       },
       "uptime": {
-        "24h": 89.47,
-        "30d": 79.75,
-        "90d": 76.63,
-        "1y": 76.63
+        "24h": 92.31,
+        "30d": 79.87,
+        "90d": 76.83,
+        "1y": 76.83
+      }
+    },
+    {
+      "ip": "95.170.192.41",
+      "version": 4,
+      "country_code": "iq",
+      "country": "Iraq",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "NT DMZ",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 11.54,
+        "30d": 14.38,
+        "90d": 15.8,
+        "1y": 15.8
+      }
+    },
+    {
+      "ip": "212.237.127.127",
+      "version": 4,
+      "country_code": "iq",
+      "country": "Iraq",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KurDistanNetSubnet5",
+      "domain": "email.crystalcargo.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 99.33,
+        "90d": 99.49,
+        "1y": 99.49
       }
     },
     {
@@ -114,33 +141,6 @@
         "30d": 100.0,
         "90d": 100.0,
         "1y": 100.0
-      }
-    },
-    {
-      "ip": "212.237.127.127",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "KurDistanNetSubnet5",
-      "domain": "email.crystalcargo.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.49,
-        "30d": 99.27,
-        "90d": 99.49,
-        "1y": 99.49
       }
     }
   ]
