@@ -4,8 +4,8 @@
     "country_name": "Armenia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-06T19:33:11Z",
-    "total_servers": 9
+    "generated_at": "2026-07-07T09:49:29Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 98.11,
+        "30d": 91.99,
+        "90d": 94.46,
+        "1y": 94.46
+      }
+    },
+    {
+      "ip": "37.26.170.60",
+      "version": 4,
+      "country_code": "am",
+      "country": "Armenia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Institute Informatics and Automation Problems of National Academy of Sciences of the Republic of Armenia",
+      "domain": "freenet.am",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 98.08,
-        "30d": 92.02,
-        "90d": 94.41,
-        "1y": 94.41
+        "24h": 60.38,
+        "30d": 73.94,
+        "90d": 66.08,
+        "1y": 66.08
       }
     },
     {
@@ -57,20 +84,20 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 71.29,
-        "90d": 53.99,
-        "1y": 53.99
+        "30d": 75.63,
+        "90d": 58.63,
+        "1y": 58.63
       }
     },
     {
-      "ip": "91.103.29.245",
+      "ip": "45.159.75.170",
       "version": 4,
       "country_code": "am",
       "country": "Armenia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Armenian Datacom Company",
-      "domain": "host-91-103-29-245.customers.mts.am",
+      "organization": "Web LLC",
+      "domain": "ip-45.159.75.170.vtelecom.am",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -83,64 +110,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 44.23,
-        "30d": 42.19,
-        "90d": 39.38,
-        "1y": 39.38
-      }
-    },
-    {
-      "ip": "194.31.5.18",
-      "version": 4,
-      "country_code": "am",
-      "country": "Armenia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Achon infrastructure",
-      "domain": "ip-194-31-5-18.achnet.am",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 82.69,
-        "30d": 89.0,
-        "90d": 82.98,
-        "1y": 82.98
-      }
-    },
-    {
-      "ip": "37.186.124.135",
-      "version": 4,
-      "country_code": "am",
-      "country": "Armenia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "GNC",
-      "domain": "ip-37.186.124.135.gnc.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 94.23,
-        "30d": 84.41,
-        "90d": 83.5,
-        "1y": 83.5
+        "24h": 54.72,
+        "30d": 72.39,
+        "90d": 69.55,
+        "1y": 69.55
       }
     },
     {
@@ -161,67 +134,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.76,
-        "1y": 99.76
-      }
-    },
-    {
-      "ip": "45.159.75.122",
-      "version": 4,
-      "country_code": "am",
-      "country": "Armenia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Web LLC",
-      "domain": "ip-45.159.75.122.vtelecom.am",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 67.31,
-        "30d": 72.57,
-        "90d": 68.05,
-        "1y": 68.05
-      }
-    },
-    {
-      "ip": "95.140.203.92",
-      "version": 4,
-      "country_code": "am",
-      "country": "Armenia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "ADC Network",
-      "domain": "host-95-140-203-92.customers.mts.am",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 23.08,
-        "30d": 20.32,
-        "90d": 18.98,
-        "1y": 18.98
+        "90d": 99.77,
+        "1y": 99.77
       }
     },
     {
@@ -241,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 96.15,
-        "30d": 93.09,
-        "90d": 93.43,
-        "1y": 93.43
+        "24h": 96.23,
+        "30d": 93.06,
+        "90d": 93.5,
+        "1y": 93.5
       }
     }
   ]

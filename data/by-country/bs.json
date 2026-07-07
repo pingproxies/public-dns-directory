@@ -4,8 +4,8 @@
     "country_name": "Bahamas",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-07-06T19:33:11Z",
-    "total_servers": 4
+    "generated_at": "2026-07-07T09:49:29Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.6,
-        "90d": 99.49,
-        "1y": 99.49
+        "90d": 99.5,
+        "1y": 99.5
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 94.34,
+        "30d": 94.28,
+        "90d": 91.03,
+        "1y": 91.03
+      }
+    },
+    {
+      "ip": "216.137.13.22",
+      "version": 4,
+      "country_code": "bs",
+      "country": "Bahamas",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "The Bahamas Telecommunications Company, Ltd.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.23,
-        "30d": 94.3,
-        "90d": 90.93,
-        "1y": 90.93
+        "24h": 69.81,
+        "30d": 71.52,
+        "90d": 75.62,
+        "1y": 75.62
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 94.23,
-        "30d": 94.37,
-        "90d": 91.0,
-        "1y": 91.0
+        "24h": 94.34,
+        "30d": 94.34,
+        "90d": 91.09,
+        "1y": 91.09
       }
     },
     {
@@ -110,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 36.54,
-        "30d": 95.52,
-        "90d": 84.6,
-        "1y": 84.6
+        "24h": 84.91,
+        "30d": 95.76,
+        "90d": 84.77,
+        "1y": 84.77
       }
     }
   ]
