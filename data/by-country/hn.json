@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-07-11T08:02:17Z",
-    "total_servers": 4
+    "generated_at": "2026-07-11T18:43:20Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 73.47,
-        "30d": 64.83,
-        "90d": 74.82,
-        "1y": 74.82
+        "24h": 62.5,
+        "30d": 64.76,
+        "90d": 74.79,
+        "1y": 74.79
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 93.88,
-        "30d": 92.48,
-        "90d": 91.97,
-        "1y": 91.97
+        "24h": 89.58,
+        "30d": 92.45,
+        "90d": 91.96,
+        "1y": 91.96
+      }
+    },
+    {
+      "ip": "190.92.7.76",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNIPOLE",
+      "domain": "maicabe.tecnocolor.hn",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 29.17,
+        "30d": 21.94,
+        "90d": 19.86,
+        "1y": 19.86
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.51,
-        "90d": 99.65,
-        "1y": 99.65
+        "90d": 99.66,
+        "1y": 99.66
       }
     },
     {
@@ -105,15 +132,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 65.31,
-        "30d": 60.17,
-        "90d": 55.52,
-        "1y": 55.52
+        "24h": 68.75,
+        "30d": 60.28,
+        "90d": 55.64,
+        "1y": 55.64
+      }
+    },
+    {
+      "ip": "201.190.11.254",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SERCOM de Honduras",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 71.19,
+        "90d": 68.65,
+        "1y": 68.65
       }
     }
   ]
