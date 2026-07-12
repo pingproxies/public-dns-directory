@@ -4,10 +4,37 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-11T18:43:20Z",
-    "total_servers": 2
+    "generated_at": "2026-07-12T08:24:07Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "202.165.94.226",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Telecom International Myanmar Company Limited",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 51.06,
+        "30d": 62.99,
+        "90d": 52.92,
+        "1y": 52.92
+      }
+    },
     {
       "ip": "103.121.228.5",
       "version": 4,
@@ -21,11 +48,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 70.07,
-        "90d": 67.61,
-        "1y": 67.61
+        "24h": 80.85,
+        "30d": 69.99,
+        "90d": 67.76,
+        "1y": 67.76
       }
     }
   ]
