@@ -4,8 +4,8 @@
     "country_name": "Uganda",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-12T08:24:07Z",
-    "total_servers": 1
+    "generated_at": "2026-07-12T18:46:52Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -21,18 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 91.49,
-        "30d": 75.88,
-        "90d": 63.16,
-        "1y": 63.16
+        "24h": 95.65,
+        "30d": 76.35,
+        "90d": 63.35,
+        "1y": 63.35
+      }
+    },
+    {
+      "ip": "81.199.16.1",
+      "version": 4,
+      "country_code": "ug",
+      "country": "Uganda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Gilat Telecom Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 95.65,
+        "30d": 99.79,
+        "90d": 99.82,
+        "1y": 99.82
       }
     }
   ]
