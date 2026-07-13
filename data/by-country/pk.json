@@ -4,8 +4,8 @@
     "country_name": "Pakistan",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-13T09:34:53Z",
-    "total_servers": 34
+    "generated_at": "2026-07-13T19:09:49Z",
+    "total_servers": 36
   },
   "resolvers": [
     {
@@ -26,7 +26,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 65.68,
-        "90d": 69.33,
-        "1y": 69.33
+        "24h": 79.55,
+        "30d": 65.77,
+        "90d": 69.34,
+        "1y": 69.34
       }
     },
     {
@@ -75,18 +75,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 82.22,
-        "30d": 79.32,
-        "90d": 68.86,
-        "1y": 68.86
+        "24h": 88.64,
+        "30d": 79.38,
+        "90d": 68.89,
+        "1y": 68.89
       }
     },
     {
@@ -129,18 +129,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 68.89,
-        "30d": 51.97,
-        "90d": 59.29,
-        "1y": 59.29
+        "24h": 72.73,
+        "30d": 51.94,
+        "90d": 59.34,
+        "1y": 59.34
+      }
+    },
+    {
+      "ip": "180.178.139.210",
+      "version": 4,
+      "country_code": "pk",
+      "country": "Pakistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Sharp Telecom (private) Limited",
+      "domain": "ns2.sharptel.pk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 88.89,
+        "30d": 52.68,
+        "90d": 55.1,
+        "1y": 55.1
       }
     },
     {
@@ -160,14 +187,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.03,
-        "90d": 95.77,
-        "1y": 95.77
+        "90d": 95.79,
+        "1y": 95.79
       }
     },
     {
@@ -186,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 84.44,
-        "30d": 79.11,
-        "90d": 68.84,
-        "1y": 68.84
+        "24h": 81.82,
+        "30d": 79.03,
+        "90d": 68.88,
+        "1y": 68.88
       }
     },
     {
@@ -214,14 +241,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 97.78,
-        "30d": 84.32,
-        "90d": 88.0,
-        "1y": 88.0
+        "24h": 100.0,
+        "30d": 85.23,
+        "90d": 88.16,
+        "1y": 88.16
       }
     },
     {
@@ -240,12 +267,12 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 97.78,
+        "24h": 100.0,
         "30d": 99.37,
         "90d": 99.45,
         "1y": 99.45
@@ -267,15 +294,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 84.44,
-        "30d": 73.35,
+        "24h": 81.82,
+        "30d": 73.12,
         "90d": 69.01,
         "1y": 69.01
+      }
+    },
+    {
+      "ip": "202.63.197.114",
+      "version": 4,
+      "country_code": "pk",
+      "country": "Pakistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CubeXS 197",
+      "domain": "corp-khi-114-197.cubexsweatherly.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 43.98,
+        "90d": 45.69,
+        "1y": 45.69
       }
     },
     {
@@ -290,19 +344,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 92.69,
-        "90d": 92.75,
-        "1y": 92.75
+        "24h": 95.45,
+        "30d": 92.61,
+        "90d": 92.72,
+        "1y": 92.72
       }
     },
     {
@@ -318,16 +372,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 97.96,
+        "24h": 97.73,
+        "30d": 97.89,
         "90d": 93.51,
         "1y": 93.51
       }
@@ -348,7 +402,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -375,15 +429,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 57.78,
-        "30d": 48.97,
-        "90d": 49.87,
-        "1y": 49.87
+        "24h": 63.64,
+        "30d": 49.18,
+        "90d": 49.93,
+        "1y": 49.93
       }
     },
     {
@@ -404,13 +458,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 91.11,
-        "30d": 80.52,
-        "90d": 78.18,
-        "1y": 78.18
+        "24h": 90.91,
+        "30d": 80.58,
+        "90d": 78.17,
+        "1y": 78.17
       }
     },
     {
@@ -435,9 +489,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.28,
-        "90d": 85.31,
-        "1y": 85.31
+        "30d": 91.56,
+        "90d": 85.39,
+        "1y": 85.39
+      }
+    },
+    {
+      "ip": "202.143.118.53",
+      "version": 4,
+      "country_code": "pk",
+      "country": "Pakistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Satcomm (Pvt.) Ltd",
+      "domain": "mail.smgroup.com.pk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 68.18,
+        "30d": 71.34,
+        "90d": 67.23,
+        "1y": 67.23
       }
     },
     {
@@ -456,15 +537,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 62.22,
-        "30d": 50.42,
-        "90d": 51.33,
-        "1y": 51.33
+        "24h": 70.45,
+        "30d": 50.46,
+        "90d": 51.39,
+        "1y": 51.39
       }
     },
     {
@@ -479,19 +560,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": true
+        "aware": true,
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.96,
-        "90d": 97.65,
-        "1y": 97.65
+        "90d": 97.67,
+        "1y": 97.67
       }
     },
     {
@@ -511,14 +592,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 68.89,
-        "30d": 50.42,
-        "90d": 50.99,
-        "1y": 50.99
+        "24h": 72.73,
+        "30d": 50.39,
+        "90d": 51.06,
+        "1y": 51.06
       }
     },
     {
@@ -538,14 +619,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.37,
-        "90d": 99.66,
-        "1y": 99.66
+        "90d": 99.67,
+        "1y": 99.67
       }
     },
     {
@@ -571,8 +652,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.03,
-        "90d": 97.87,
-        "1y": 97.87
+        "90d": 97.88,
+        "1y": 97.88
       }
     },
     {
@@ -588,18 +669,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 82.22,
-        "30d": 79.47,
-        "90d": 69.01,
-        "1y": 69.01
+        "24h": 88.64,
+        "30d": 79.52,
+        "90d": 69.04,
+        "1y": 69.04
       }
     },
     {
@@ -624,9 +705,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 79.13,
-        "90d": 89.53,
-        "1y": 89.53
+        "30d": 79.11,
+        "90d": 89.59,
+        "1y": 89.59
+      }
+    },
+    {
+      "ip": "202.142.157.146",
+      "version": 4,
+      "country_code": "pk",
+      "country": "Pakistan",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Gerrys - TWA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.36,
+        "30d": 35.81,
+        "90d": 39.4,
+        "1y": 39.4
       }
     },
     {
@@ -645,15 +753,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
+        "ads": true,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 48.89,
-        "30d": 31.69,
-        "90d": 30.94,
-        "1y": 30.94
+        "24h": 38.64,
+        "30d": 31.93,
+        "90d": 30.87,
+        "1y": 30.87
       }
     },
     {
@@ -673,14 +781,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 91.11,
-        "30d": 77.07,
-        "90d": 70.89,
-        "1y": 70.89
+        "24h": 100.0,
+        "30d": 77.54,
+        "90d": 71.04,
+        "1y": 71.04
       }
     },
     {
@@ -699,15 +807,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 64.44,
-        "30d": 69.06,
-        "90d": 62.39,
-        "1y": 62.39
+        "24h": 63.64,
+        "30d": 68.82,
+        "90d": 62.42,
+        "1y": 62.42
       }
     },
     {
@@ -723,18 +831,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 84.25,
-        "90d": 71.82,
-        "1y": 71.82
+        "24h": 90.91,
+        "30d": 84.23,
+        "90d": 71.87,
+        "1y": 71.87
       }
     },
     {
@@ -750,16 +858,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 95.64,
+        "24h": 97.73,
+        "30d": 95.71,
         "90d": 94.88,
         "1y": 94.88
       }
@@ -777,16 +885,16 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.17,
+        "24h": 97.73,
+        "30d": 98.1,
         "90d": 93.54,
         "1y": 93.54
       }
@@ -819,33 +927,6 @@
       }
     },
     {
-      "ip": "121.91.48.192",
-      "version": 4,
-      "country_code": "pk",
-      "country": "Pakistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "CMPak IGW PSIPs",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 42.22,
-        "30d": 32.16,
-        "90d": 25.11,
-        "1y": 25.11
-      }
-    },
-    {
       "ip": "203.135.31.114",
       "version": 4,
       "country_code": "pk",
@@ -863,13 +944,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.18,
-        "90d": 92.69,
-        "1y": 92.69
+        "30d": 93.24,
+        "90d": 92.73,
+        "1y": 92.73
       }
     },
     {
@@ -893,37 +974,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 47.34,
+        "24h": 45.45,
+        "30d": 47.33,
         "90d": 43.79,
         "1y": 43.79
-      }
-    },
-    {
-      "ip": "103.152.101.135",
-      "version": 4,
-      "country_code": "pk",
-      "country": "Pakistan",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Homenet Private Limited",
-      "domain": "103.152.101.135-hn.com.pk",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 97.14,
-        "30d": 76.15,
-        "90d": 78.92,
-        "1y": 78.92
       }
     }
   ]
