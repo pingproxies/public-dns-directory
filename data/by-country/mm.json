@@ -4,8 +4,8 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-12T18:46:52Z",
-    "total_servers": 3
+    "generated_at": "2026-07-13T09:34:53Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 47.83,
-        "30d": 63.09,
-        "90d": 52.88,
-        "1y": 52.88
+        "24h": 46.67,
+        "30d": 62.66,
+        "90d": 52.84,
+        "1y": 52.84
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -60,6 +60,33 @@
         "30d": 99.72,
         "90d": 99.45,
         "1y": 99.45
+      }
+    },
+    {
+      "ip": "103.121.228.1",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MyanmarAPN",
+      "domain": "ns1.dns.myanmarapn.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 10.03,
+        "90d": 16.55,
+        "1y": 16.55
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 80.43,
-        "30d": 70.04,
-        "90d": 67.79,
-        "1y": 67.79
+        "24h": 82.22,
+        "30d": 70.11,
+        "90d": 67.97,
+        "1y": 67.97
       }
     }
   ]
