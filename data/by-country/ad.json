@@ -4,8 +4,8 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-07-14T08:13:41Z",
-    "total_servers": 5
+    "generated_at": "2026-07-14T19:00:04Z",
+    "total_servers": 6
   },
   "resolvers": [
     {
@@ -26,13 +26,13 @@
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 90.7,
-        "30d": 79.82,
-        "90d": 77.39,
-        "1y": 77.39
+        "24h": 85.71,
+        "30d": 79.86,
+        "90d": 77.4,
+        "1y": 77.4
       }
     },
     {
@@ -51,13 +51,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 27.91,
-        "30d": 36.98,
+        "24h": 40.48,
+        "30d": 37.24,
         "90d": 51.32,
         "1y": 51.32
       }
@@ -78,13 +78,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 88.37,
-        "30d": 77.91,
+        "24h": 85.71,
+        "30d": 78.02,
         "90d": 77.93,
         "1y": 77.93
       }
@@ -105,15 +105,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.48,
+        "30d": 86.08,
+        "90d": 84.31,
+        "1y": 84.31
+      }
+    },
+    {
+      "ip": "185.132.201.202",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Bitcanal UK",
+      "domain": "static-185.132.201.202.andorpac.ad ",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.35,
-        "30d": 86.03,
-        "90d": 84.34,
-        "1y": 84.34
+        "24h": 35.71,
+        "30d": 36.47,
+        "90d": 33.87,
+        "1y": 33.87
       }
     },
     {
@@ -132,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.93,
-        "90d": 94.77,
-        "1y": 94.77
+        "90d": 94.79,
+        "1y": 94.79
       }
     }
   ]
