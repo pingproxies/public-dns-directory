@@ -4,7 +4,7 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-17T18:51:33Z",
+    "generated_at": "2026-07-18T07:58:12Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 61.7,
-        "30d": 63.4,
-        "90d": 53.57,
-        "1y": 53.57
+        "24h": 76.74,
+        "30d": 63.84,
+        "90d": 53.86,
+        "1y": 53.86
       }
     },
     {
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.65,
-        "90d": 99.45,
-        "1y": 99.45
-      }
-    },
-    {
-      "ip": "103.121.228.1",
-      "version": 4,
-      "country_code": "mm",
-      "country": "Myanmar",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MyanmarAPN",
-      "domain": "ns1.dns.myanmarapn.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 26.09,
-        "30d": 25.94,
-        "90d": 23.09,
-        "1y": 23.09
+        "90d": 99.46,
+        "1y": 99.46
       }
     },
     {
@@ -110,10 +83,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 44.68,
-        "30d": 71.1,
-        "90d": 67.89,
-        "1y": 67.89
+        "24h": 44.19,
+        "30d": 71.2,
+        "90d": 67.73,
+        "1y": 67.73
+      }
+    },
+    {
+      "ip": "121.54.164.130",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "AGB Communication Co.Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 53.49,
+        "30d": 29.47,
+        "90d": 32.63,
+        "1y": 32.63
       }
     }
   ]
