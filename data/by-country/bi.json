@@ -4,7 +4,7 @@
     "country_name": "Burundi",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-18T07:58:12Z",
+    "generated_at": "2026-07-18T18:44:10Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 69.77,
-        "30d": 54.73,
-        "90d": 59.83,
-        "1y": 59.83
+        "24h": 67.5,
+        "30d": 54.74,
+        "90d": 59.82,
+        "1y": 59.82
       }
     }
   ]
