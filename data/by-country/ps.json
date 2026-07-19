@@ -4,10 +4,37 @@
     "country_name": "Palestine",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-19T08:25:00Z",
-    "total_servers": 3
+    "generated_at": "2026-07-19T18:47:34Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "213.6.77.30",
+      "version": 4,
+      "country_code": "ps",
+      "country": "Palestine",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Palestine Telecommunications Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 58.33,
+        "30d": 71.92,
+        "90d": 71.6,
+        "1y": 71.6
+      }
+    },
     {
       "ip": "82.213.32.29",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 89.82,
-        "90d": 80.84,
-        "1y": 80.84
+        "30d": 89.85,
+        "90d": 80.96,
+        "1y": 80.96
       }
     },
     {
@@ -51,13 +78,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 58.14,
-        "30d": 78.79,
+        "24h": 64.58,
+        "30d": 79.06,
         "90d": 72.72,
         "1y": 72.72
       }
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 53.49,
-        "30d": 49.3,
-        "90d": 34.08,
-        "1y": 34.08
+        "24h": 72.92,
+        "30d": 52.97,
+        "90d": 37.54,
+        "1y": 37.54
       }
     }
   ]

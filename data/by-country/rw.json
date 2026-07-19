@@ -4,8 +4,8 @@
     "country_name": "Rwanda",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-19T08:25:00Z",
-    "total_servers": 1
+    "generated_at": "2026-07-19T18:47:34Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -33,6 +33,33 @@
         "30d": 99.65,
         "90d": 99.72,
         "1y": 99.72
+      }
+    },
+    {
+      "ip": "197.243.90.62",
+      "version": 4,
+      "country_code": "rw",
+      "country": "Rwanda",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "BSC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 45.83,
+        "30d": 19.37,
+        "90d": 13.32,
+        "1y": 13.32
       }
     }
   ]
