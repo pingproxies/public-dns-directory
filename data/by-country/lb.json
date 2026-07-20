@@ -4,7 +4,7 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-19T18:47:34Z",
+    "generated_at": "2026-07-20T09:21:52Z",
     "total_servers": 5
   },
   "resolvers": [
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 45.83,
-        "30d": 69.47,
-        "90d": 66.37,
-        "1y": 66.37
+        "24h": 69.39,
+        "30d": 70.42,
+        "90d": 66.57,
+        "1y": 66.57
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 95.83,
-        "30d": 91.11,
-        "90d": 90.22,
-        "1y": 90.22
+        "24h": 95.92,
+        "30d": 91.26,
+        "90d": 90.3,
+        "1y": 90.3
       }
     },
     {
@@ -83,37 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 45.83,
-        "30d": 58.68,
-        "90d": 60.9,
-        "1y": 60.9
-      }
-    },
-    {
-      "ip": "78.108.164.125",
-      "version": 4,
-      "country_code": "lb",
-      "country": "Lebanon",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "TerraNet sal",
-      "domain": "dsl-78-108-164-125.terra.net.lb",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 40.97,
-        "90d": 40.0,
-        "1y": 40.0
+        "24h": 71.43,
+        "30d": 59.23,
+        "90d": 61.1,
+        "1y": 61.1
       }
     },
     {
@@ -134,13 +107,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.93,
         "90d": 99.86,
         "1y": 99.86
+      }
+    },
+    {
+      "ip": "77.42.155.181",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "LIBANTELECOM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 24.49,
+        "30d": 17.33,
+        "90d": 15.17,
+        "1y": 15.17
       }
     }
   ]
