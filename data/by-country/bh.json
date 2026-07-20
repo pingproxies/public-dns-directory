@@ -4,7 +4,7 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-20T09:21:52Z",
+    "generated_at": "2026-07-20T19:23:32Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -20,19 +20,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.25,
-        "90d": 98.91,
-        "1y": 98.91
+        "30d": 98.33,
+        "90d": 98.92,
+        "1y": 98.92
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 78.46,
-        "90d": 71.34,
-        "1y": 71.34
+        "24h": 95.83,
+        "30d": 78.72,
+        "90d": 71.43,
+        "1y": 71.43
       }
     },
     {
@@ -74,19 +74,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 89.8,
-        "30d": 81.05,
-        "90d": 75.21,
-        "1y": 75.21
+        "24h": 77.08,
+        "30d": 80.67,
+        "90d": 75.17,
+        "1y": 75.17
       }
     },
     {
@@ -107,13 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 36.73,
-        "30d": 47.83,
-        "90d": 40.39,
-        "1y": 40.39
+        "24h": 43.75,
+        "30d": 47.94,
+        "90d": 40.47,
+        "1y": 40.47
       }
     }
   ]

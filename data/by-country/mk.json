@@ -4,10 +4,37 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-07-20T09:21:52Z",
+    "generated_at": "2026-07-20T19:23:32Z",
     "total_servers": 7
   },
   "resolvers": [
+    {
+      "ip": "95.156.4.114",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TMMK",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 22.92,
+        "30d": 47.31,
+        "90d": 46.44,
+        "1y": 46.44
+      }
+    },
     {
       "ip": "79.125.163.149",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 61.22,
-        "30d": 47.13,
-        "90d": 55.46,
-        "1y": 55.46
+        "24h": 70.83,
+        "30d": 46.82,
+        "90d": 55.43,
+        "1y": 55.43
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 95.92,
-        "30d": 84.97,
-        "90d": 85.82,
-        "1y": 85.82
+        "24h": 95.83,
+        "30d": 85.62,
+        "90d": 85.9,
+        "1y": 85.9
       }
     },
     {
@@ -79,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 51.03,
-        "90d": 47.49,
-        "1y": 47.49
+        "30d": 54.3,
+        "90d": 48.19,
+        "1y": 48.19
       }
     },
     {
@@ -110,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 83.67,
-        "30d": 83.71,
-        "90d": 83.28,
-        "1y": 83.28
+        "24h": 81.25,
+        "30d": 83.95,
+        "90d": 83.34,
+        "1y": 83.34
       }
     },
     {
@@ -128,46 +155,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 59.18,
-        "30d": 85.38,
-        "90d": 86.65,
-        "1y": 86.65
-      }
-    },
-    {
-      "ip": "95.180.218.10",
-      "version": 4,
-      "country_code": "mk",
-      "country": "North Macedonia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ISP-NEOTEL",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 17.86,
-        "30d": 27.62,
-        "90d": 26.74,
-        "1y": 26.74
+        "24h": 54.17,
+        "30d": 84.72,
+        "90d": 86.42,
+        "1y": 86.42
       }
     },
     {
@@ -187,14 +187,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 69.39,
-        "30d": 72.38,
-        "90d": 69.36,
-        "1y": 69.36
+        "24h": 75.0,
+        "30d": 72.23,
+        "90d": 69.38,
+        "1y": 69.38
       }
     }
   ]
