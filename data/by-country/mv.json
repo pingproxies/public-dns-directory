@@ -4,19 +4,19 @@
     "country_name": "Maldives",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-25T08:11:51Z",
-    "total_servers": 1
+    "generated_at": "2026-07-25T18:49:24Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "123.176.4.227",
+      "ip": "123.176.4.39",
       "version": 4,
       "country_code": "mv",
       "country": "Maldives",
       "continent_code": "as",
       "continent": "Asia",
       "organization": "Dhiraagu",
-      "domain": "123-176-4-227.7642.net.mv",
+      "domain": "123-176-4-39.7642.net.mv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 84.78,
-        "30d": 65.11,
-        "90d": 67.6,
-        "1y": 67.6
+        "24h": 70.45,
+        "30d": 54.86,
+        "90d": 54.1,
+        "1y": 54.1
+      }
+    },
+    {
+      "ip": "216.183.210.171",
+      "version": 4,
+      "country_code": "mv",
+      "country": "Maldives",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Ooredoo Maldives Plc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 18.18,
+        "30d": 17.46,
+        "90d": 24.24,
+        "1y": 24.24
       }
     }
   ]
