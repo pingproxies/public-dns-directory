@@ -4,19 +4,46 @@
     "country_name": "Maldives",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-07-27T09:57:36Z",
-    "total_servers": 1
+    "generated_at": "2026-07-27T19:09:09Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "123.176.31.226",
+      "ip": "216.183.223.168",
       "version": 4,
       "country_code": "mv",
       "country": "Maldives",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Dhiraagu Leased",
-      "domain": "123-176-31-226.dhivehinet.net.mv",
+      "organization": "Ooredoo Maldives Plc",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 56.1,
+        "30d": 33.16,
+        "90d": 28.47,
+        "1y": 28.47
+      }
+    },
+    {
+      "ip": "123.176.4.39",
+      "version": 4,
+      "country_code": "mv",
+      "country": "Maldives",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Dhiraagu",
+      "domain": "123-176-4-39.7642.net.mv",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -29,10 +56,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 14.29,
-        "30d": 13.46,
-        "90d": 15.83,
-        "1y": 15.83
+        "24h": 66.67,
+        "30d": 53.19,
+        "90d": 54.12,
+        "1y": 54.12
+      }
+    },
+    {
+      "ip": "123.176.27.94",
+      "version": 4,
+      "country_code": "mv",
+      "country": "Maldives",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Dhiraagu Leased",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 14.27,
+        "90d": 16.64,
+        "1y": 16.64
       }
     }
   ]
