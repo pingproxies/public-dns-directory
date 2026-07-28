@@ -4,8 +4,8 @@
     "country_name": "French Polynesia",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-07-28T08:40:19Z",
-    "total_servers": 1
+    "generated_at": "2026-07-28T19:05:07Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -25,14 +25,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 85.37,
-        "30d": 69.76,
-        "90d": 78.76,
-        "1y": 78.76
+        "24h": 90.24,
+        "30d": 69.7,
+        "90d": 78.77,
+        "1y": 78.77
+      }
+    },
+    {
+      "ip": "202.3.229.2",
+      "version": 4,
+      "country_code": "pf",
+      "country": "French Polynesia",
+      "continent_code": "oc",
+      "continent": "Oceania",
+      "organization": "ONATI",
+      "domain": "ppp.spt-tahiti.pf",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 90.24,
+        "30d": 69.7,
+        "90d": 78.77,
+        "1y": 78.77
       }
     }
   ]
