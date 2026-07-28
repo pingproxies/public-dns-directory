@@ -4,8 +4,8 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-27T19:09:09Z",
-    "total_servers": 6
+    "generated_at": "2026-07-28T08:40:19Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 29.37,
-        "90d": 16.34,
-        "1y": 16.34
+        "30d": 39.63,
+        "90d": 23.21,
+        "1y": 23.21
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.26,
-        "90d": 98.29,
-        "1y": 98.29
+        "30d": 95.25,
+        "90d": 98.3,
+        "1y": 98.3
       }
     },
     {
@@ -129,7 +129,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -138,9 +138,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.43,
+        "30d": 99.42,
         "90d": 99.77,
         "1y": 99.77
+      }
+    },
+    {
+      "ip": "196.179.250.11",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 36.59,
+        "30d": 47.73,
+        "90d": 46.15,
+        "1y": 46.15
       }
     },
     {
@@ -159,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 34.95,
-        "90d": 28.7,
-        "1y": 28.7
+        "24h": 56.76,
+        "30d": 34.9,
+        "90d": 28.75,
+        "1y": 28.75
       }
     }
   ]

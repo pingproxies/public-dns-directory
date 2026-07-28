@@ -4,10 +4,64 @@
     "country_name": "Ireland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-07-27T19:09:09Z",
-    "total_servers": 3
+    "generated_at": "2026-07-28T08:40:19Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "84.203.162.227",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Viatel Ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 26.83,
+        "30d": 40.24,
+        "90d": 39.34,
+        "1y": 39.34
+      }
+    },
+    {
+      "ip": "88.87.181.244",
+      "version": 4,
+      "country_code": "ie",
+      "country": "Ireland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "EOBO Ltd T/A BBnet",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 48.78,
+        "30d": 54.5,
+        "90d": 56.44,
+        "1y": 56.44
+      }
+    },
     {
       "ip": "78.155.252.220",
       "version": 4,
@@ -24,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.86,
-        "90d": 98.95,
-        "1y": 98.95
+        "90d": 98.96,
+        "1y": 98.96
       }
     },
     {
@@ -52,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.86,
-        "90d": 99.74,
-        "1y": 99.74
+        "90d": 99.75,
+        "1y": 99.75
       }
     },
     {
@@ -75,11 +129,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
