@@ -4,8 +4,8 @@
     "country_name": "Iceland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-07-29T08:46:32Z",
-    "total_servers": 2
+    "generated_at": "2026-07-29T18:54:02Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -21,18 +21,45 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.1,
+        "30d": 95.29,
+        "90d": 87.56,
+        "1y": 87.56
+      }
+    },
+    {
+      "ip": "82.148.69.71",
+      "version": 4,
+      "country_code": "is",
+      "country": "Iceland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Fsnet",
+      "domain": "kvenno-7.fsnet.is",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 90.24,
-        "30d": 95.37,
-        "90d": 87.6,
-        "1y": 87.6
+        "24h": 88.1,
+        "30d": 95.87,
+        "90d": 97.7,
+        "1y": 97.7
       }
     },
     {
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.51,
-        "90d": 82.05,
-        "1y": 82.05
+        "30d": 95.75,
+        "90d": 82.41,
+        "1y": 82.41
       }
     }
   ]
