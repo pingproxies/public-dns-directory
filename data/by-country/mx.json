@@ -4,8 +4,8 @@
     "country_name": "Mexico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-07-30T08:33:04Z",
-    "total_servers": 80
+    "generated_at": "2026-07-30T19:07:37Z",
+    "total_servers": 86
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 68.89,
-        "30d": 85.63,
-        "90d": 76.98,
-        "1y": 76.98
+        "24h": 66.67,
+        "30d": 84.97,
+        "90d": 76.46,
+        "1y": 76.46
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 97.78,
-        "30d": 99.42,
-        "90d": 98.81,
-        "1y": 98.81
+        "24h": 97.92,
+        "30d": 99.35,
+        "90d": 98.79,
+        "1y": 98.79
       }
     },
     {
@@ -132,42 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 75.56,
-        "30d": 72.05,
-        "90d": 71.51,
-        "1y": 71.51
-      }
-    },
-    {
-      "ip": "45.167.92.103",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Lantointernet SA De CV",
-      "domain": "mail.cliente.quattrocom.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 53.51,
-        "90d": 54.34,
-        "1y": 54.34
+        "24h": 75.0,
+        "30d": 71.95,
+        "90d": 71.48,
+        "1y": 71.48
       }
     },
     {
@@ -187,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 98.33,
-        "90d": 94.04,
-        "1y": 94.04
+        "24h": 97.92,
+        "30d": 98.34,
+        "90d": 94.07,
+        "1y": 94.07
       }
     },
     {
@@ -210,18 +183,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.71,
-        "90d": 98.32,
-        "1y": 98.32
+        "90d": 98.33,
+        "1y": 98.33
       }
     },
     {
@@ -241,14 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.11,
-        "90d": 72.82,
-        "1y": 72.82
+        "24h": 97.92,
+        "30d": 91.31,
+        "90d": 73.2,
+        "1y": 73.2
       }
     },
     {
@@ -268,14 +241,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 93.27,
-        "90d": 92.83,
-        "1y": 92.83
+        "24h": 95.83,
+        "30d": 93.2,
+        "90d": 92.82,
+        "1y": 92.82
       }
     },
     {
@@ -295,14 +268,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.64,
-        "90d": 96.72,
-        "1y": 96.72
+        "90d": 96.74,
+        "1y": 96.74
+      }
+    },
+    {
+      "ip": "45.5.94.178",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Señal Interactiva, S.A De C.V",
+      "domain": "slw.nrtmexico.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.0,
+        "30d": 93.71,
+        "90d": 87.55,
+        "1y": 87.55
       }
     },
     {
@@ -321,15 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 96.45,
-        "90d": 95.98,
-        "1y": 95.98
+        "24h": 95.83,
+        "30d": 96.31,
+        "90d": 95.95,
+        "1y": 95.95
       }
     },
     {
@@ -349,14 +349,68 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 35.56,
-        "30d": 50.91,
-        "90d": 53.23,
-        "1y": 53.23
+        "24h": 39.58,
+        "30d": 50.33,
+        "90d": 53.14,
+        "1y": 53.14
+      }
+    },
+    {
+      "ip": "187.190.50.24",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
+      "domain": "fixed-187-190-50-24.totalplay.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.08,
+        "30d": 82.5,
+        "90d": 81.19,
+        "1y": 81.19
+      }
+    },
+    {
+      "ip": "177.241.245.222",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-MCA-STAA-245-222.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 16.67,
+        "30d": 64.64,
+        "90d": 66.44,
+        "1y": 66.44
       }
     },
     {
@@ -380,10 +434,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.89,
+        "24h": 100.0,
         "30d": 95.08,
-        "90d": 96.18,
-        "1y": 96.18
+        "90d": 96.2,
+        "1y": 96.2
       }
     },
     {
@@ -402,15 +456,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.26,
-        "90d": 92.56,
-        "1y": 92.56
+        "90d": 92.6,
+        "1y": 92.6
       }
     },
     {
@@ -457,14 +511,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 8.89,
-        "30d": 25.27,
-        "90d": 26.81,
-        "1y": 26.81
+        "24h": 8.33,
+        "30d": 25.02,
+        "90d": 26.72,
+        "1y": 26.72
       }
     },
     {
@@ -480,18 +534,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 66.67,
-        "30d": 72.92,
-        "90d": 72.25,
-        "1y": 72.25
+        "30d": 72.67,
+        "90d": 72.22,
+        "1y": 72.22
       }
     },
     {
@@ -512,40 +566,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 95.37,
-        "90d": 97.77,
-        "1y": 97.77
-      }
-    },
-    {
-      "ip": "186.96.145.231",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
-      "domain": "fixed-186-96-145-231.totalplay.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 33.33,
-        "30d": 66.91,
-        "90d": 72.7,
-        "1y": 72.7
+        "90d": 97.78,
+        "1y": 97.78
       }
     },
     {
@@ -565,14 +592,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 98.33,
-        "90d": 98.19,
-        "1y": 98.19
+        "24h": 79.17,
+        "30d": 98.34,
+        "90d": 98.2,
+        "1y": 98.2
+      }
+    },
+    {
+      "ip": "201.168.125.171",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "COORDINADORA DE CARRIER'S, S.A. DE C.V",
+      "domain": "ip-201-168-125-171.marcatel.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 66.09,
+        "90d": 72.13,
+        "1y": 72.13
       }
     },
     {
@@ -593,13 +647,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.84,
-        "90d": 98.98,
-        "1y": 98.98
+        "90d": 98.99,
+        "1y": 98.99
       }
     },
     {
@@ -619,14 +673,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.64,
-        "90d": 91.26,
-        "1y": 91.26
+        "90d": 91.32,
+        "1y": 91.32
       }
     },
     {
@@ -646,14 +700,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.15,
-        "90d": 94.86,
-        "1y": 94.86
+        "30d": 90.38,
+        "90d": 94.89,
+        "1y": 94.89
       }
     },
     {
@@ -677,10 +731,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 17.78,
-        "30d": 14.55,
-        "90d": 14.39,
-        "1y": 14.39
+        "24h": 20.83,
+        "30d": 14.61,
+        "90d": 14.42,
+        "1y": 14.42
       }
     },
     {
@@ -700,30 +754,30 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.93,
-        "90d": 99.13,
-        "1y": 99.13
+        "90d": 99.14,
+        "1y": 99.14
       }
     },
     {
-      "ip": "187.190.112.108",
+      "ip": "189.206.218.22",
       "version": 4,
       "country_code": "mx",
       "country": "Mexico",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "TOTAL PLAY TELECOMUNICACIONES, S.A.P.I. DE C.V",
-      "domain": "fixed-187-190-112-108.totalplay.net",
+      "organization": "Alestra, S. de R.L. de C.V",
+      "domain": "static-189.206.218-22.alestra.net.mx",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": true
+        "aware": true,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -731,10 +785,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 31.11,
-        "30d": 63.43,
-        "90d": 71.84,
-        "1y": 71.84
+        "24h": 39.58,
+        "30d": 36.34,
+        "90d": 31.82,
+        "1y": 31.82
       }
     },
     {
@@ -758,7 +812,7 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.11,
+        "24h": 100.0,
         "30d": 99.49,
         "90d": 99.7,
         "1y": 99.7
@@ -785,10 +839,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 91.11,
-        "30d": 90.73,
-        "90d": 89.08,
-        "1y": 89.08
+        "24h": 97.92,
+        "30d": 90.96,
+        "90d": 89.11,
+        "1y": 89.11
       }
     },
     {
@@ -813,9 +867,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 66.55,
-        "90d": 75.93,
-        "1y": 75.93
+        "30d": 67.17,
+        "90d": 76.06,
+        "1y": 76.06
       }
     },
     {
@@ -834,7 +888,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
@@ -861,15 +915,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 97.78,
+        "24h": 100.0,
         "30d": 99.71,
-        "90d": 97.82,
-        "1y": 97.82
+        "90d": 97.83,
+        "1y": 97.83
       }
     },
     {
@@ -888,15 +942,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 91.11,
-        "30d": 92.08,
-        "90d": 95.17,
-        "1y": 95.17
+        "24h": 91.67,
+        "30d": 92.09,
+        "90d": 95.2,
+        "1y": 95.2
       }
     },
     {
@@ -912,18 +966,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 48.44,
-        "90d": 25.1,
-        "1y": 25.1
+        "24h": 85.42,
+        "30d": 49.24,
+        "90d": 25.32,
+        "1y": 25.32
       }
     },
     {
@@ -970,14 +1024,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 97.78,
+        "24h": 97.92,
         "30d": 99.28,
-        "90d": 98.71,
-        "1y": 98.71
+        "90d": 98.69,
+        "1y": 98.69
       }
     },
     {
@@ -1001,37 +1055,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.78,
+        "24h": 100.0,
         "30d": 99.64,
         "90d": 98.81,
         "1y": 98.81
-      }
-    },
-    {
-      "ip": "189.204.252.157",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Operbes, S.A. de C.V",
-      "domain": "157.189-204-252.bestelclientes.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 44.44,
-        "30d": 59.09,
-        "90d": 55.6,
-        "1y": 55.6
       }
     },
     {
@@ -1051,12 +1078,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.62,
+        "30d": 98.77,
         "90d": 98.86,
         "1y": 98.86
       }
@@ -1078,14 +1105,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 97.78,
+        "24h": 100.0,
         "30d": 99.42,
-        "90d": 97.96,
-        "1y": 97.96
+        "90d": 97.98,
+        "1y": 97.98
       }
     },
     {
@@ -1109,10 +1136,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 85.3,
-        "90d": 91.79,
-        "1y": 91.79
+        "24h": 89.58,
+        "30d": 85.14,
+        "90d": 91.75,
+        "1y": 91.75
       }
     },
     {
@@ -1132,8 +1159,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1158,8 +1185,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -1186,14 +1213,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 96.96,
-        "90d": 86.89,
-        "1y": 86.89
+        "24h": 91.67,
+        "30d": 96.74,
+        "90d": 86.84,
+        "1y": 86.84
       }
     },
     {
@@ -1213,14 +1240,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 91.89,
-        "90d": 89.1,
-        "1y": 89.1
+        "24h": 93.75,
+        "30d": 91.83,
+        "90d": 89.09,
+        "1y": 89.09
       }
     },
     {
@@ -1239,15 +1266,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 97.78,
-        "30d": 76.13,
-        "90d": 84.86,
-        "1y": 84.86
+        "24h": 100.0,
+        "30d": 78.07,
+        "90d": 84.94,
+        "1y": 84.94
       }
     },
     {
@@ -1266,9 +1293,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1294,12 +1321,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.04,
+        "30d": 98.05,
         "90d": 98.91,
         "1y": 98.91
       }
@@ -1317,7 +1344,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -1327,8 +1354,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.6,
-        "1y": 99.6
+        "90d": 99.61,
+        "1y": 99.61
       }
     },
     {
@@ -1348,14 +1375,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 81.25,
-        "90d": 80.77,
-        "1y": 80.77
+        "24h": 72.92,
+        "30d": 80.84,
+        "90d": 80.67,
+        "1y": 80.67
       }
     },
     {
@@ -1374,12 +1401,12 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 95.56,
+        "24h": 100.0,
         "30d": 99.42,
         "90d": 99.8,
         "1y": 99.8
@@ -1401,15 +1428,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 97.78,
-        "30d": 98.62,
-        "90d": 97.99,
-        "1y": 97.99
+        "24h": 100.0,
+        "30d": 98.63,
+        "90d": 98.0,
+        "1y": 98.0
       }
     },
     {
@@ -1430,13 +1457,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 97.78,
+        "24h": 100.0,
         "30d": 99.78,
-        "90d": 99.6,
-        "1y": 99.6
+        "90d": 99.61,
+        "1y": 99.61
       }
     },
     {
@@ -1455,9 +1482,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1511,7 +1538,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1533,18 +1560,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 26.67,
-        "30d": 33.31,
-        "90d": 44.79,
-        "1y": 44.79
+        "24h": 41.67,
+        "30d": 33.62,
+        "90d": 44.81,
+        "1y": 44.81
       }
     },
     {
@@ -1560,6 +1587,33 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 64.58,
+        "30d": 48.37,
+        "90d": 31.38,
+        "1y": 31.38
+      }
+    },
+    {
+      "ip": "200.106.167.196",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Cybernetworks S.A De C.V",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": true
       },
       "blocking": {
@@ -1568,10 +1622,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 71.11,
-        "30d": 48.23,
-        "90d": 31.32,
-        "1y": 31.32
+        "24h": 39.58,
+        "30d": 31.81,
+        "90d": 42.89,
+        "1y": 42.89
       }
     },
     {
@@ -1602,6 +1656,33 @@
       }
     },
     {
+      "ip": "189.196.17.222",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "customer-LEON-MCA-17-222.megared.net.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 79.17,
+        "30d": 77.51,
+        "90d": 78.81,
+        "1y": 78.81
+      }
+    },
+    {
       "ip": "207.248.57.11",
       "version": 4,
       "country_code": "mx",
@@ -1619,13 +1700,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.68,
+        "30d": 97.69,
         "90d": 98.91,
         "1y": 98.91
+      }
+    },
+    {
+      "ip": "187.216.41.205",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "customer-187-216-41-205.uninet-ide.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 59.84,
+        "90d": 65.0,
+        "1y": 65.0
       }
     },
     {
@@ -1645,14 +1753,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 91.82,
-        "90d": 77.04,
-        "1y": 77.04
+        "30d": 92.34,
+        "90d": 77.22,
+        "1y": 77.22
       }
     },
     {
@@ -1671,15 +1779,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 69.3,
-        "90d": 72.77,
-        "1y": 72.77
+        "24h": 41.67,
+        "30d": 68.76,
+        "90d": 72.64,
+        "1y": 72.64
       }
     },
     {
@@ -1703,10 +1811,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 98.41,
-        "90d": 96.85,
-        "1y": 96.85
+        "24h": 97.92,
+        "30d": 98.34,
+        "90d": 96.84,
+        "1y": 96.84
       }
     },
     {
@@ -1727,40 +1835,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 95.58,
-        "90d": 94.32,
-        "1y": 94.32
-      }
-    },
-    {
-      "ip": "201.117.254.241",
-      "version": 4,
-      "country_code": "mx",
-      "country": "Mexico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Gestión de direccionamiento UniNet",
-      "domain": "customer-201-117-254-241.uninet-ide.com.mx",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 31.11,
-        "30d": 71.35,
-        "90d": 65.57,
-        "1y": 65.57
+        "24h": 89.58,
+        "30d": 95.44,
+        "90d": 94.3,
+        "1y": 94.3
       }
     },
     {
@@ -1780,14 +1861,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 99.13,
-        "90d": 98.11,
-        "1y": 98.11
+        "24h": 93.75,
+        "30d": 98.92,
+        "90d": 98.05,
+        "1y": 98.05
+      }
+    },
+    {
+      "ip": "38.49.136.214",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IENTC S de RL de CV",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.42,
+        "30d": 83.95,
+        "90d": 72.39,
+        "1y": 72.39
       }
     },
     {
@@ -1808,7 +1916,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1830,7 +1938,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -1838,7 +1946,7 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.78,
+        "24h": 100.0,
         "30d": 99.78,
         "90d": 98.44,
         "1y": 98.44
@@ -1861,14 +1969,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 98.12,
-        "90d": 98.19,
-        "1y": 98.19
+        "24h": 91.67,
+        "30d": 97.9,
+        "90d": 98.12,
+        "1y": 98.12
       }
     },
     {
@@ -1888,14 +1996,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 44.44,
-        "30d": 53.87,
-        "90d": 58.1,
-        "1y": 58.1
+        "24h": 45.83,
+        "30d": 53.36,
+        "90d": 58.0,
+        "1y": 58.0
       }
     },
     {
@@ -1919,10 +2027,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 91.11,
-        "30d": 83.22,
-        "90d": 86.08,
-        "1y": 86.08
+        "24h": 81.25,
+        "30d": 82.87,
+        "90d": 86.0,
+        "1y": 86.0
       }
     },
     {
@@ -1941,9 +2049,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -1968,15 +2076,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 95.8,
-        "90d": 97.92,
-        "1y": 97.92
+        "24h": 95.83,
+        "30d": 95.81,
+        "90d": 97.93,
+        "1y": 97.93
       }
     },
     {
@@ -1995,9 +2103,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -2023,8 +2131,8 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -2055,9 +2163,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.06,
-        "90d": 83.83,
-        "1y": 83.83
+        "30d": 94.07,
+        "90d": 83.93,
+        "1y": 83.93
+      }
+    },
+    {
+      "ip": "148.235.148.162",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "UNINET",
+      "domain": "mail.gitsa.com.mx",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 41.67,
+        "30d": 92.26,
+        "90d": 89.96,
+        "1y": 89.96
       }
     },
     {
@@ -2081,10 +2216,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 31.11,
-        "30d": 57.06,
-        "90d": 65.13,
-        "1y": 65.13
+        "24h": 37.5,
+        "30d": 56.4,
+        "90d": 64.96,
+        "1y": 64.96
       }
     },
     {
@@ -2105,13 +2240,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 37.78,
-        "30d": 65.1,
-        "90d": 66.39,
-        "1y": 66.39
+        "24h": 43.75,
+        "30d": 64.79,
+        "90d": 66.3,
+        "1y": 66.3
       }
     },
     {
@@ -2127,18 +2262,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 73.71,
-        "90d": 72.0,
-        "1y": 72.0
+        "24h": 52.08,
+        "30d": 73.32,
+        "90d": 71.85,
+        "1y": 71.85
+      }
+    },
+    {
+      "ip": "189.196.91.198",
+      "version": 4,
+      "country_code": "mx",
+      "country": "Mexico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Mega Cable, S.A. de C.V",
+      "domain": "venusfreight.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 56.25,
+        "30d": 92.7,
+        "90d": 92.57,
+        "1y": 92.57
       }
     },
     {
@@ -2157,15 +2319,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 35.56,
-        "30d": 47.94,
-        "90d": 28.52,
-        "1y": 28.52
+        "24h": 31.25,
+        "30d": 48.08,
+        "90d": 28.59,
+        "1y": 28.59
       }
     }
   ]
