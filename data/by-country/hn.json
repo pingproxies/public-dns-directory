@@ -4,8 +4,8 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-07-31T08:54:58Z",
-    "total_servers": 4
+    "generated_at": "2026-07-31T19:08:12Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 72.34,
-        "30d": 67.2,
-        "90d": 77.12,
-        "1y": 77.12
+        "24h": 80.43,
+        "30d": 67.1,
+        "90d": 77.08,
+        "1y": 77.08
       }
     },
     {
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
+        "ads": false,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 87.23,
-        "30d": 90.39,
-        "90d": 91.17,
-        "1y": 91.17
+        "24h": 93.48,
+        "30d": 90.46,
+        "90d": 91.18,
+        "1y": 91.18
       }
     },
     {
@@ -102,18 +102,45 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.26,
+        "30d": 63.41,
+        "90d": 57.78,
+        "1y": 57.78
+      }
+    },
+    {
+      "ip": "201.190.11.254",
+      "version": 4,
+      "country_code": "hn",
+      "country": "Honduras",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SERCOM de Honduras",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
         "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 68.09,
-        "30d": 63.29,
-        "90d": 57.73,
-        "1y": 57.73
+        "24h": 86.96,
+        "30d": 70.79,
+        "90d": 69.43,
+        "1y": 69.43
       }
     }
   ]

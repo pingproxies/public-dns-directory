@@ -4,8 +4,8 @@
     "country_name": "Malawi",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-07-31T08:54:58Z",
-    "total_servers": 1
+    "generated_at": "2026-07-31T19:08:12Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": true,
         "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 54.35,
+        "30d": 75.2,
+        "90d": 76.98,
+        "1y": 76.98
+      }
+    },
+    {
+      "ip": "196.216.15.56",
+      "version": 4,
+      "country_code": "mw",
+      "country": "Malawi",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "CentralRegion",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 40.43,
-        "30d": 75.22,
-        "90d": 77.18,
-        "1y": 77.18
+        "24h": 56.52,
+        "30d": 61.82,
+        "90d": 67.67,
+        "1y": 67.67
       }
     }
   ]
