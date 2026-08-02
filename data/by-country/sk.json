@@ -4,8 +4,8 @@
     "country_name": "Slovakia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-02T08:29:08Z",
-    "total_servers": 18
+    "generated_at": "2026-08-02T18:52:40Z",
+    "total_servers": 20
   },
   "resolvers": [
     {
@@ -25,8 +25,8 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 96.15,
@@ -90,6 +90,33 @@
       }
     },
     {
+      "ip": "80.81.232.202",
+      "version": 4,
+      "country_code": "sk",
+      "country": "Slovakia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Zmnet SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.08,
+        "30d": 53.49,
+        "90d": 58.04,
+        "1y": 58.04
+      }
+    },
+    {
       "ip": "217.73.31.10",
       "version": 4,
       "country_code": "sk",
@@ -107,13 +134,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.69,
         "1y": 99.69
+      }
+    },
+    {
+      "ip": "87.197.147.1",
+      "version": 4,
+      "country_code": "sk",
+      "country": "Slovakia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Slovak Telekom, a.s.",
+      "domain": "static-dsl-1.87-197-147.telecom.sk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 88.46,
+        "30d": 99.78,
+        "90d": 98.87,
+        "1y": 98.87
       }
     },
     {
@@ -160,14 +214,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 96.15,
-        "30d": 97.79,
-        "90d": 93.93,
-        "1y": 93.93
+        "30d": 97.77,
+        "90d": 93.96,
+        "1y": 93.96
       }
     },
     {
@@ -192,9 +246,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.12,
-        "90d": 99.44,
-        "1y": 99.44
+        "30d": 99.11,
+        "90d": 99.45,
+        "1y": 99.45
       }
     },
     {
@@ -219,7 +273,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.71,
+        "30d": 99.7,
         "90d": 99.83,
         "1y": 99.83
       }
@@ -237,11 +291,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -267,42 +321,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 80.77,
-        "30d": 77.6,
-        "90d": 83.95,
-        "1y": 83.95
-      }
-    },
-    {
-      "ip": "87.197.121.13",
-      "version": 4,
-      "country_code": "sk",
-      "country": "Slovakia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Slovak Telekom, a.s.",
-      "domain": "static-dsl-13.87-197-121.telecom.sk",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 69.23,
-        "30d": 26.25,
-        "90d": 47.94,
-        "1y": 47.94
+        "30d": 78.12,
+        "90d": 83.96,
+        "1y": 83.96
       }
     },
     {
@@ -327,9 +354,9 @@
       },
       "uptime": {
         "24h": 92.31,
-        "30d": 86.98,
-        "90d": 71.47,
-        "1y": 71.47
+        "30d": 87.37,
+        "90d": 71.91,
+        "1y": 71.91
       }
     },
     {
@@ -349,7 +376,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -381,9 +408,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.32,
-        "90d": 97.8,
-        "1y": 97.8
+        "30d": 96.36,
+        "90d": 97.81,
+        "1y": 97.81
       }
     },
     {
@@ -403,14 +430,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.19,
-        "90d": 99.2,
-        "1y": 99.2
+        "30d": 99.18,
+        "90d": 99.21,
+        "1y": 99.21
+      }
+    },
+    {
+      "ip": "84.47.118.5",
+      "version": 4,
+      "country_code": "sk",
+      "country": "Slovakia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "ST Bipsplitblck Static",
+      "domain": "stip-static-5.84-47-118.telekom.sk",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 11.54,
+        "30d": 16.99,
+        "90d": 21.45,
+        "1y": 21.45
       }
     },
     {
@@ -429,7 +483,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -462,36 +516,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.49,
+        "30d": 98.0,
         "90d": 98.72,
         "1y": 98.72
       }
     },
     {
-      "ip": "90.176.22.74",
+      "ip": "80.81.232.204",
       "version": 4,
       "country_code": "sk",
       "country": "Slovakia",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "O2bs Static",
+      "organization": "Zmnet SA",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 80.77,
-        "30d": 69.93,
-        "90d": 64.39,
-        "1y": 64.39
+        "24h": 73.08,
+        "30d": 55.19,
+        "90d": 60.72,
+        "1y": 60.72
       }
     }
   ]

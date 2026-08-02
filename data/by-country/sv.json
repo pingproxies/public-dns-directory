@@ -4,8 +4,8 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-08-02T08:29:08Z",
-    "total_servers": 2
+    "generated_at": "2026-08-02T18:52:40Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.71,
-        "90d": 97.96,
-        "1y": 97.96
+        "30d": 99.7,
+        "90d": 97.97,
+        "1y": 97.97
+      }
+    },
+    {
+      "ip": "190.86.205.194",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.08,
+        "30d": 79.97,
+        "90d": 72.52,
+        "1y": 72.52
       }
     },
     {
