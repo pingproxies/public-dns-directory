@@ -4,8 +4,8 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-02T18:52:40Z",
-    "total_servers": 4
+    "generated_at": "2026-08-03T09:52:48Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
@@ -51,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.95,
-        "90d": 98.34,
-        "1y": 98.34
+        "30d": 94.91,
+        "90d": 98.35,
+        "1y": 98.35
       }
     },
     {
@@ -114,6 +114,33 @@
         "30d": 99.55,
         "90d": 99.78,
         "1y": 99.78
+      }
+    },
+    {
+      "ip": "196.179.250.93",
+      "version": 4,
+      "country_code": "tn",
+      "country": "Tunisia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ooredoo TN",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 51.72,
+        "30d": 47.27,
+        "90d": 47.87,
+        "1y": 47.87
       }
     }
   ]
