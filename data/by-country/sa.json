@@ -4,7 +4,7 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-04T08:43:22Z",
+    "generated_at": "2026-08-04T19:18:57Z",
     "total_servers": 7
   },
   "resolvers": [
@@ -24,8 +24,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -51,8 +51,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -75,11 +75,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -106,41 +106,41 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.16,
+        "30d": 99.15,
         "90d": 99.74,
         "1y": 99.74
       }
     },
     {
-      "ip": "5.42.248.31",
+      "ip": "86.51.155.82",
       "version": 4,
       "country_code": "sa",
       "country": "Saudi Arabia",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "Xenel Group",
-      "domain": null,
+      "organization": "Etihad Etisalat, a joint stock company",
+      "domain": "static-86-51-155-82.mobily.com.sa",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": false
+        "aware": false,
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 93.1,
-        "30d": 68.64,
-        "90d": 61.13,
-        "1y": 61.13
+        "24h": 35.71,
+        "30d": 44.95,
+        "90d": 45.45,
+        "1y": 45.45
       }
     },
     {
@@ -159,13 +159,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 98.93,
+        "24h": 100.0,
+        "30d": 99.07,
         "90d": 98.88,
         "1y": 98.88
       }

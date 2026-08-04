@@ -4,7 +4,7 @@
     "country_name": "Aruba",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-08-04T08:43:22Z",
+    "generated_at": "2026-08-04T19:18:57Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 79.31,
-        "30d": 75.46,
-        "90d": 73.42,
-        "1y": 73.42
+        "24h": 89.29,
+        "30d": 76.33,
+        "90d": 73.47,
+        "1y": 73.47
       }
     }
   ]
