@@ -4,8 +4,8 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-03T19:17:03Z",
-    "total_servers": 8
+    "generated_at": "2026-08-04T08:43:22Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -24,7 +24,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
@@ -51,7 +51,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -75,7 +75,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -111,36 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.17,
+        "30d": 99.16,
         "90d": 99.74,
         "1y": 99.74
-      }
-    },
-    {
-      "ip": "212.26.7.10",
-      "version": 4,
-      "country_code": "sa",
-      "country": "Saudi Arabia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Security Forces Hospital",
-      "domain": "dns3.sfh.med.sa",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 20.0,
-        "30d": 25.72,
-        "90d": 39.36,
-        "1y": 39.36
       }
     },
     {
@@ -160,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 68.36,
-        "90d": 60.99,
-        "1y": 60.99
+        "24h": 93.1,
+        "30d": 68.64,
+        "90d": 61.13,
+        "1y": 61.13
       }
     },
     {
@@ -186,13 +159,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 98.94,
+        "24h": 96.55,
+        "30d": 98.93,
         "90d": 98.88,
         "1y": 98.88
       }
@@ -213,8 +186,8 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
