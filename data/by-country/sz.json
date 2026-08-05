@@ -4,7 +4,7 @@
     "country_name": "Eswatini",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-05T08:41:42Z",
+    "generated_at": "2026-08-05T18:30:23Z",
     "total_servers": 3
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 96.3,
-        "30d": 90.49,
-        "90d": 87.29,
-        "1y": 87.29
+        "24h": 92.31,
+        "30d": 90.64,
+        "90d": 87.26,
+        "1y": 87.27
       }
     },
     {
@@ -48,17 +48,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 62.28,
-        "90d": 63.2,
+        "24h": 69.23,
+        "30d": 62.58,
+        "90d": 63.22,
         "1y": 63.2
       }
     },
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 51.85,
-        "30d": 57.49,
-        "90d": 53.6,
-        "1y": 53.6
+        "24h": 53.85,
+        "30d": 57.39,
+        "90d": 53.66,
+        "1y": 53.64
       }
     }
   ]

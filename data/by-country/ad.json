@@ -4,24 +4,24 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-05T08:41:42Z",
-    "total_servers": 5
+    "generated_at": "2026-08-05T18:30:23Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
-      "ip": "109.111.112.58",
+      "ip": "91.187.75.18",
       "version": 4,
       "country_code": "ad",
       "country": "Andorra",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "static-109.111.112.58.andorpac.ad",
+      "domain": "static-91-187-75-18.andorpac.ad",
       "trusted": false,
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 37.04,
-        "30d": 37.49,
-        "90d": 48.89,
-        "1y": 48.89
+        "24h": 80.77,
+        "30d": 80.27,
+        "90d": 77.66,
+        "1y": 77.5
       }
     },
     {
@@ -51,14 +51,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
+        "ads": true,
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 92.59,
-        "30d": 81.61,
-        "90d": 78.72,
+        "24h": 92.31,
+        "30d": 81.84,
+        "90d": 78.75,
         "1y": 78.72
       }
     },
@@ -79,41 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.59,
-        "30d": 88.78,
-        "90d": 85.68,
-        "1y": 85.68
-      }
-    },
-    {
-      "ip": "185.132.201.202",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Bitcanal UK",
-      "domain": "static-185.132.201.202.andorpac.ad ",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 25.93,
-        "30d": 30.48,
-        "90d": 32.54,
-        "1y": 32.54
+        "24h": 96.15,
+        "30d": 88.84,
+        "90d": 85.72,
+        "1y": 85.69
       }
     },
     {
@@ -132,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.92,
-        "90d": 95.91,
-        "1y": 95.91
+        "90d": 95.9,
+        "1y": 95.92
       }
     }
   ]
