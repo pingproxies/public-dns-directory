@@ -4,37 +4,10 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-04T19:18:57Z",
+    "generated_at": "2026-08-05T08:41:42Z",
     "total_servers": 5
   },
   "resolvers": [
-    {
-      "ip": "91.187.75.18",
-      "version": 4,
-      "country_code": "ad",
-      "country": "Andorra",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "ANDORRA TELECOM, S.A.U",
-      "domain": "static-91-187-75-18.andorpac.ad",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 89.29,
-        "30d": 79.72,
-        "90d": 77.49,
-        "1y": 77.49
-      }
-    },
     {
       "ip": "109.111.112.58",
       "version": 4,
@@ -48,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 46.43,
-        "30d": 37.47,
-        "90d": 48.92,
-        "1y": 48.92
+        "24h": 37.04,
+        "30d": 37.49,
+        "90d": 48.89,
+        "1y": 48.89
       }
     },
     {
@@ -80,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 89.29,
-        "30d": 81.34,
-        "90d": 78.65,
-        "1y": 78.65
+        "24h": 92.59,
+        "30d": 81.61,
+        "90d": 78.72,
+        "1y": 78.72
       }
     },
     {
@@ -106,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 88.28,
-        "90d": 85.63,
-        "1y": 85.63
+        "24h": 92.59,
+        "30d": 88.78,
+        "90d": 85.68,
+        "1y": 85.68
+      }
+    },
+    {
+      "ip": "185.132.201.202",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Bitcanal UK",
+      "domain": "static-185.132.201.202.andorpac.ad ",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.93,
+        "30d": 30.48,
+        "90d": 32.54,
+        "1y": 32.54
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.92,
-        "90d": 95.89,
-        "1y": 95.89
+        "90d": 95.91,
+        "1y": 95.91
       }
     }
   ]

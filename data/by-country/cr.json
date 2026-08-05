@@ -4,8 +4,8 @@
     "country_name": "Costa Rica",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-08-04T19:18:57Z",
-    "total_servers": 6
+    "generated_at": "2026-08-05T08:41:42Z",
+    "total_servers": 7
   },
   "resolvers": [
     {
@@ -30,9 +30,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.31,
-        "90d": 97.03,
-        "1y": 97.03
+        "30d": 99.3,
+        "90d": 97.04,
+        "1y": 97.04
       }
     },
     {
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.69,
-        "90d": 84.35,
-        "1y": 84.35
+        "90d": 84.42,
+        "1y": 84.42
       }
     },
     {
@@ -78,13 +78,13 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.23,
+        "30d": 99.22,
         "90d": 99.53,
         "1y": 99.53
       }
@@ -102,6 +102,33 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.54,
+        "90d": 89.12,
+        "1y": 89.12
+      }
+    },
+    {
+      "ip": "191.102.56.57",
+      "version": 4,
+      "country_code": "cr",
+      "country": "Costa Rica",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Navegalo S.A",
+      "domain": "ns1.boomerang.cr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -110,37 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.6,
-        "90d": 89.08,
-        "1y": 89.08
-      }
-    },
-    {
-      "ip": "200.105.96.57",
-      "version": 4,
-      "country_code": "cr",
-      "country": "Costa Rica",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Servicios Telematicos De Oriente Sociedad Anonima",
-      "domain": "rev57.96.telecablecr.com",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 57.14,
-        "30d": 42.41,
-        "90d": 59.62,
-        "1y": 59.62
+        "24h": 85.19,
+        "30d": 94.07,
+        "90d": 87.15,
+        "1y": 87.15
       }
     },
     {
@@ -164,10 +164,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 67.86,
-        "30d": 43.72,
-        "90d": 50.44,
-        "1y": 50.44
+        "24h": 62.96,
+        "30d": 44.19,
+        "90d": 50.46,
+        "1y": 50.46
+      }
+    },
+    {
+      "ip": "138.94.56.4",
+      "version": 4,
+      "country_code": "cr",
+      "country": "Costa Rica",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Junta Administrativa del Servicio Eléctrico Municipal de Cartago",
+      "domain": "138-94-56-4.jasec.go.cr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 22.22,
+        "30d": 19.52,
+        "90d": 22.51,
+        "1y": 22.51
       }
     }
   ]

@@ -4,19 +4,46 @@
     "country_name": "Lebanon",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-04T19:18:57Z",
-    "total_servers": 1
+    "generated_at": "2026-08-05T08:41:42Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
-      "ip": "77.42.155.181",
+      "ip": "77.42.220.110",
       "version": 4,
       "country_code": "lb",
       "country": "Lebanon",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "LIBANTELECOM",
+      "organization": "Ogeronet",
       "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 70.37,
+        "30d": 63.83,
+        "90d": 65.43,
+        "1y": 65.43
+      }
+    },
+    {
+      "ip": "78.108.164.125",
+      "version": 4,
+      "country_code": "lb",
+      "country": "Lebanon",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "TerraNet sal",
+      "domain": "dsl-78-108-164-125.terra.net.lb",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -29,10 +56,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 25.54,
-        "90d": 17.95,
-        "1y": 17.95
+        "24h": 33.33,
+        "30d": 39.67,
+        "90d": 40.0,
+        "1y": 40.0
       }
     }
   ]
