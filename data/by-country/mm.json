@@ -4,8 +4,8 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-06T07:01:59Z",
-    "total_servers": 3
+    "generated_at": "2026-08-07T06:30:22Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -20,7 +20,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -29,10 +29,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 26.28,
-        "90d": 65.83,
-        "1y": 66.03
+        "24h": 75.68,
+        "30d": 32.14,
+        "90d": 65.47,
+        "1y": 66.16
       }
     },
     {
@@ -56,10 +56,37 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 98.41,
+        "24h": 100.0,
+        "30d": 98.4,
         "90d": 99.12,
-        "1y": 99.13
+        "1y": 99.14
+      }
+    },
+    {
+      "ip": "103.121.228.1",
+      "version": 4,
+      "country_code": "mm",
+      "country": "Myanmar",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MyanmarAPN",
+      "domain": "ns1.dns.myanmarapn.com",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 26.1,
+        "90d": 21.14,
+        "1y": 20.71
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 37.93,
-        "30d": 40.58,
-        "90d": 34.31,
-        "1y": 34.56
+        "24h": 29.73,
+        "30d": 40.19,
+        "90d": 34.61,
+        "1y": 34.48
       }
     }
   ]
