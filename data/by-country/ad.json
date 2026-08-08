@@ -4,8 +4,8 @@
     "country_name": "Andorra",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-07T18:14:54Z",
-    "total_servers": 4
+    "generated_at": "2026-08-08T06:20:34Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 91.18,
-        "30d": 80.87,
-        "90d": 77.91,
-        "1y": 77.91
+        "24h": 92.86,
+        "30d": 80.82,
+        "90d": 78.1,
+        "1y": 77.93
       }
     },
     {
@@ -51,15 +51,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 44.44,
+        "30d": 38.57,
+        "90d": 47.95,
+        "1y": 48.07
+      }
+    },
+    {
+      "ip": "85.94.179.20",
+      "version": 4,
+      "country_code": "ad",
+      "country": "Andorra",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Andorra Telecom SAU",
+      "domain": "m85-94-179-20.andorpac.ad",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 47.06,
-        "30d": 38.26,
-        "90d": 48.01,
-        "1y": 48.06
+        "24h": 75.0,
+        "30d": 82.68,
+        "90d": 79.3,
+        "1y": 79.1
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.1,
-        "30d": 89.34,
-        "90d": 85.64,
-        "1y": 85.67
+        "24h": 86.67,
+        "30d": 89.65,
+        "90d": 85.65,
+        "1y": 85.68
       }
     },
     {
@@ -107,12 +134,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.92,
-        "90d": 95.85,
+        "90d": 95.82,
         "1y": 95.86
       }
     }

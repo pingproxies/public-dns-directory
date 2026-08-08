@@ -4,10 +4,37 @@
     "country_name": "Peru",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-08-07T18:14:54Z",
-    "total_servers": 13
+    "generated_at": "2026-08-08T06:20:34Z",
+    "total_servers": 16
   },
   "resolvers": [
+    {
+      "ip": "200.37.203.90",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Jaime Mujica Consultores",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 66.67,
+        "30d": 46.92,
+        "90d": 21.77,
+        "1y": 21.6
+      }
+    },
     {
       "ip": "190.81.47.205",
       "version": 4,
@@ -29,9 +56,9 @@
         "adult": true
       },
       "uptime": {
-        "24h": 81.25,
-        "30d": 68.09,
-        "90d": 64.68,
+        "24h": 75.0,
+        "30d": 67.49,
+        "90d": 64.83,
         "1y": 64.72
       }
     },
@@ -52,13 +79,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.95,
-        "90d": 99.09,
+        "30d": 98.94,
+        "90d": 99.08,
         "1y": 99.09
       }
     },
@@ -79,68 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.97,
-        "30d": 99.52,
-        "90d": 90.02,
-        "1y": 90.04
-      }
-    },
-    {
-      "ip": "190.119.105.85",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "America Movil Peru S.A.C",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 70.59,
-        "30d": 69.21,
-        "90d": 79.17,
-        "1y": 79.21
-      }
-    },
-    {
-      "ip": "190.187.243.222",
-      "version": 4,
-      "country_code": "pe",
-      "country": "Peru",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Americatel Peru S.A",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 81.25,
-        "30d": 69.22,
-        "90d": 66.08,
-        "1y": 66.13
+        "24h": 93.75,
+        "30d": 99.51,
+        "90d": 90.12,
+        "1y": 90.05
       }
     },
     {
@@ -159,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.6,
-        "90d": 96.54,
-        "1y": 96.54
+        "30d": 99.59,
+        "90d": 96.62,
+        "1y": 96.55
       }
     },
     {
@@ -187,12 +160,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.68,
+        "30d": 99.67,
         "90d": 99.81,
         "1y": 99.81
       }
@@ -219,9 +192,117 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.27,
+        "30d": 99.26,
         "90d": 99.54,
         "1y": 99.55
+      }
+    },
+    {
+      "ip": "190.187.200.243",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Americatel Peru S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.25,
+        "30d": 93.27,
+        "90d": 90.41,
+        "1y": 90.34
+      }
+    },
+    {
+      "ip": "181.67.191.133",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "INTEGRATEL PERÚ S.A.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 61.4,
+        "90d": 64.32,
+        "1y": 64.11
+      }
+    },
+    {
+      "ip": "191.97.53.229",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "INPECABLE (INTERNET PERU CABLE)",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 56.25,
+        "30d": 59.11,
+        "90d": 27.47,
+        "1y": 27.34
+      }
+    },
+    {
+      "ip": "148.102.51.97",
+      "version": 4,
+      "country_code": "pe",
+      "country": "Peru",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Entel Peru S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 62.5,
+        "30d": 67.16,
+        "90d": 66.11,
+        "1y": 65.87
       }
     },
     {
@@ -246,7 +327,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.27,
+        "30d": 99.26,
         "90d": 99.54,
         "1y": 99.55
       }
@@ -269,12 +350,12 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.94,
-        "30d": 99.76,
-        "90d": 94.6,
+        "24h": 87.5,
+        "30d": 99.75,
+        "90d": 94.68,
         "1y": 94.6
       }
     },
@@ -299,10 +380,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 66.67,
-        "30d": 58.94,
-        "90d": 61.51,
-        "1y": 61.51
+        "24h": 58.82,
+        "30d": 59.31,
+        "90d": 61.6,
+        "1y": 61.54
       }
     },
     {
@@ -326,10 +407,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 55.95,
-        "90d": 26.17,
-        "1y": 26.15
+        "24h": 72.22,
+        "30d": 56.43,
+        "90d": 26.31,
+        "1y": 26.18
       }
     },
     {
@@ -350,13 +431,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.23,
-        "90d": 87.01,
-        "1y": 86.93
+        "30d": 98.2,
+        "90d": 87.5,
+        "1y": 86.94
       }
     }
   ]
