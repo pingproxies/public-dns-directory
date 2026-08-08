@@ -4,8 +4,8 @@
     "country_name": "Iraq",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-08T06:20:34Z",
-    "total_servers": 5
+    "generated_at": "2026-08-08T18:06:34Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 90.54,
-        "90d": 85.86,
-        "1y": 85.94
+        "24h": 85.71,
+        "30d": 90.45,
+        "90d": 85.98,
+        "1y": 85.93
       }
     },
     {
@@ -51,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 44.44,
-        "30d": 79.28,
-        "90d": 78.04,
-        "1y": 77.8
-      }
-    },
-    {
-      "ip": "62.201.217.194",
-      "version": 4,
-      "country_code": "iq",
-      "country": "Iraq",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "BAG",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 65.14,
-        "90d": 36.26,
-        "1y": 36.03
+        "24h": 85.71,
+        "30d": 78.95,
+        "90d": 78.25,
+        "1y": 77.8
       }
     },
     {
@@ -105,14 +78,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.92,
-        "90d": 99.57,
+        "90d": 99.56,
         "1y": 99.57
       }
     },
@@ -129,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,

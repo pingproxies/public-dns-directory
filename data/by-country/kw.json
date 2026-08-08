@@ -4,8 +4,8 @@
     "country_name": "Kuwait",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-08T06:20:34Z",
-    "total_servers": 2
+    "generated_at": "2026-08-08T18:06:34Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,14 +24,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
+        "ads": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.18,
-        "90d": 98.58,
+        "30d": 99.17,
+        "90d": 98.57,
         "1y": 98.54
       }
     },
@@ -53,13 +53,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.84,
-        "90d": 97.88,
+        "30d": 99.83,
+        "90d": 97.92,
         "1y": 97.82
+      }
+    },
+    {
+      "ip": "168.187.161.250",
+      "version": 4,
+      "country_code": "kw",
+      "country": "Kuwait",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "KEMS",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 28.57,
+        "30d": 35.45,
+        "90d": 40.7,
+        "1y": 40.38
       }
     }
   ]
