@@ -4,10 +4,37 @@
     "country_name": "Guinea",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-09T06:20:47Z",
-    "total_servers": 1
+    "generated_at": "2026-08-09T18:07:23Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "41.191.220.77",
+      "version": 4,
+      "country_code": "gn",
+      "country": "Guinea",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "ETI SA",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 64.54,
+        "90d": 61.87,
+        "1y": 60.39
+      }
+    },
     {
       "ip": "41.79.237.84",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 64.16,
-        "90d": 63.4,
-        "1y": 63.75
+        "24h": 64.71,
+        "30d": 63.33,
+        "90d": 63.22,
+        "1y": 63.72
       }
     }
   ]

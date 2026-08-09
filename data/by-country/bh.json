@@ -4,7 +4,7 @@
     "country_name": "Bahrain",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-09T06:20:47Z",
+    "generated_at": "2026-08-09T18:07:23Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.58,
+        "30d": 99.57,
         "90d": 99.02,
-        "1y": 99.04
+        "1y": 99.05
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 86.97,
-        "90d": 75.17,
-        "1y": 74.38
+        "24h": 82.35,
+        "30d": 87.18,
+        "90d": 75.37,
+        "1y": 74.39
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 85.01,
-        "90d": 78.65,
-        "1y": 77.55
+        "30d": 85.37,
+        "90d": 79.08,
+        "1y": 77.62
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 71.43,
-        "30d": 41.16,
-        "90d": 41.13,
-        "1y": 40.45
+        "24h": 41.18,
+        "30d": 41.14,
+        "90d": 41.1,
+        "1y": 40.41
       }
     }
   ]
