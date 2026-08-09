@@ -4,10 +4,37 @@
     "country_name": "Bolivia",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-08-08T18:06:34Z",
-    "total_servers": 5
+    "generated_at": "2026-08-09T06:20:47Z",
+    "total_servers": 7
   },
   "resolvers": [
+    {
+      "ip": "181.114.118.242",
+      "version": 4,
+      "country_code": "bo",
+      "country": "Bolivia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telefónica Celular de Bolivia S.A",
+      "domain": "SCZ-181-114-118-00242.tigo.bo",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 57.14,
+        "30d": 50.55,
+        "90d": 50.73,
+        "1y": 50.29
+      }
+    },
     {
       "ip": "190.181.63.76",
       "version": 4,
@@ -26,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.55,
-        "90d": 83.43,
-        "1y": 82.29
+        "30d": 93.45,
+        "90d": 83.46,
+        "1y": 82.31
       }
     },
     {
@@ -51,53 +78,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.39,
-        "90d": 84.0,
-        "1y": 83.53
+        "30d": 92.83,
+        "90d": 84.51,
+        "1y": 83.55
       }
     },
     {
-      "ip": "200.58.84.94",
+      "ip": "181.177.141.190",
       "version": 4,
       "country_code": "bo",
       "country": "Bolivia",
       "continent_code": "sa",
       "continent": "South America",
       "organization": "Comteco Ltda",
-      "domain": "static-200-58-84-94.supernet.com.bo",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 71.43,
-        "30d": 52.87,
-        "90d": 53.65,
-        "1y": 53.39
-      }
-    },
-    {
-      "ip": "190.186.1.46",
-      "version": 4,
-      "country_code": "bo",
-      "country": "Bolivia",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Cotas Ltda",
-      "domain": "static-ip-adsl-190.186.1.46.cotas.com.bo",
+      "domain": "static-181-177-141-190.supernet.com.bo",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -110,10 +110,64 @@
         "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 73.75,
-        "90d": 71.7,
-        "1y": 71.38
+        "24h": 85.71,
+        "30d": 92.41,
+        "90d": 88.02,
+        "1y": 87.37
+      }
+    },
+    {
+      "ip": "181.115.184.75",
+      "version": 4,
+      "country_code": "bo",
+      "country": "Bolivia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Empresa Nacional De Telecomunicaciones Sociedad Anonima",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.43,
+        "30d": 51.36,
+        "90d": 51.91,
+        "1y": 51.43
+      }
+    },
+    {
+      "ip": "190.186.41.66",
+      "version": 4,
+      "country_code": "bo",
+      "country": "Bolivia",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Cinthia Roxana Chavez",
+      "domain": "static-ip-adsl-190.186.41.66.cotas.com.bo",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 65.16,
+        "90d": 65.06,
+        "1y": 64.92
       }
     },
     {
@@ -132,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 76.57,
-        "90d": 86.25,
-        "1y": 85.97
+        "30d": 75.83,
+        "90d": 86.9,
+        "1y": 85.98
       }
     }
   ]

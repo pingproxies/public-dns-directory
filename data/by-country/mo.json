@@ -4,8 +4,8 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-08T18:06:34Z",
-    "total_servers": 7
+    "generated_at": "2026-08-09T06:20:47Z",
+    "total_servers": 9
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 86.62,
-        "90d": 83.52,
-        "1y": 83.15
+        "30d": 86.55,
+        "90d": 84.01,
+        "1y": 83.17
       }
     },
     {
@@ -48,17 +48,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.0,
-        "90d": 97.98,
+        "30d": 96.93,
+        "90d": 98.11,
         "1y": 97.99
       }
     },
@@ -74,13 +74,13 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
-        "validating": false
+        "aware": true,
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -101,19 +101,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 86.34,
-        "90d": 83.0,
-        "1y": 82.6
+        "30d": 86.46,
+        "90d": 83.52,
+        "1y": 82.62
       }
     },
     {
@@ -128,19 +128,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 90.02,
-        "90d": 86.38,
-        "1y": 86.49
+        "30d": 90.21,
+        "90d": 86.32,
+        "1y": 86.5
       }
     },
     {
@@ -160,14 +160,68 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 96.85,
+        "90d": 97.01,
+        "1y": 97.09
+      }
+    },
+    {
+      "ip": "182.93.25.100",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM Internet Service",
+      "domain": "n18293z25l100.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.84,
-        "90d": 97.04,
-        "1y": 97.08
+        "24h": 85.71,
+        "30d": 85.69,
+        "90d": 83.06,
+        "1y": 82.16
+      }
+    },
+    {
+      "ip": "202.86.149.20",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM",
+      "domain": "n20286z149l20.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 85.6,
+        "90d": 83.08,
+        "1y": 82.19
       }
     },
     {
@@ -192,9 +246,9 @@
       },
       "uptime": {
         "24h": 85.71,
-        "30d": 98.42,
-        "90d": 96.19,
-        "1y": 96.15
+        "30d": 98.38,
+        "90d": 96.21,
+        "1y": 96.16
       }
     }
   ]
