@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-10T18:15:23Z",
-    "total_servers": 10
+    "generated_at": "2026-08-11T06:24:10Z",
+    "total_servers": 11
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.62,
+        "24h": 94.23,
         "30d": 97.59,
         "90d": 98.12,
-        "1y": 97.83
+        "1y": 97.85
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 61.7,
-        "30d": 78.02,
-        "90d": 73.92,
-        "1y": 73.99
+        "24h": 63.46,
+        "30d": 77.92,
+        "90d": 73.89,
+        "1y": 74.09
       }
     },
     {
@@ -78,7 +78,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
@@ -105,15 +105,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 90.0,
-        "90d": 95.82,
-        "1y": 95.55
+        "30d": 90.04,
+        "90d": 95.91,
+        "1y": 95.59
+      }
+    },
+    {
+      "ip": "80.186.145.164",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Elisa Oyj",
+      "domain": "80-186-145-164.elisa-mobile.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.08,
+        "30d": 95.62,
+        "90d": 91.43,
+        "1y": 89.83
       }
     },
     {
@@ -134,7 +161,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -159,15 +186,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 74.47,
-        "30d": 88.63,
-        "90d": 87.15,
-        "1y": 85.5
+        "24h": 78.85,
+        "30d": 88.66,
+        "90d": 87.39,
+        "1y": 85.59
       }
     },
     {
@@ -218,10 +245,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 95.74,
-        "30d": 88.53,
-        "90d": 93.51,
-        "1y": 93.57
+        "24h": 86.54,
+        "30d": 88.14,
+        "90d": 93.36,
+        "1y": 93.47
       }
     },
     {
@@ -240,8 +267,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -273,9 +300,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.06,
-        "90d": 87.17,
-        "1y": 86.45
+        "30d": 99.18,
+        "90d": 87.57,
+        "1y": 86.79
       }
     }
   ]
