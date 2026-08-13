@@ -4,7 +4,7 @@
     "country_name": "Algeria",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-13T06:37:10Z",
+    "generated_at": "2026-08-13T18:16:35Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 77.36,
-        "30d": 86.72,
-        "90d": 85.12,
-        "1y": 84.87
+        "24h": 87.04,
+        "30d": 86.8,
+        "90d": 85.17,
+        "1y": 84.91
       }
     }
   ]
