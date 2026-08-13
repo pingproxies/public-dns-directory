@@ -4,10 +4,37 @@
     "country_name": "North Macedonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-12T18:16:19Z",
-    "total_servers": 3
+    "generated_at": "2026-08-13T06:37:10Z",
+    "total_servers": 5
   },
   "resolvers": [
+    {
+      "ip": "95.156.4.114",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TMMK",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 52.83,
+        "30d": 38.2,
+        "90d": 44.21,
+        "1y": 44.41
+      }
+    },
     {
       "ip": "5.32.183.251",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 9.68,
-        "30d": 87.88,
-        "90d": 86.73,
-        "1y": 86.63
+        "24h": 93.75,
+        "30d": 87.93,
+        "90d": 86.78,
+        "1y": 86.72
       }
     },
     {
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 84.91,
-        "30d": 86.49,
-        "90d": 83.59,
-        "1y": 83.64
+        "24h": 79.25,
+        "30d": 85.96,
+        "90d": 83.49,
+        "1y": 83.54
       }
     },
     {
@@ -74,19 +101,46 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 54.72,
+        "30d": 49.32,
+        "90d": 76.4,
+        "1y": 78.13
+      }
+    },
+    {
+      "ip": "217.16.79.246",
+      "version": 4,
+      "country_code": "mk",
+      "country": "North Macedonia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "On.net ISP",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 56.6,
-        "30d": 49.28,
-        "90d": 76.65,
-        "1y": 78.22
+        "30d": 68.7,
+        "90d": 70.69,
+        "1y": 69.62
       }
     }
   ]
