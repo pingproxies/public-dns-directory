@@ -4,8 +4,8 @@
     "country_name": "Paraguay",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-08-14T06:35:48Z",
-    "total_servers": 8
+    "generated_at": "2026-08-14T18:16:26Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.67,
         "90d": 98.37,
-        "1y": 98.44
+        "1y": 98.45
       }
     },
     {
@@ -48,7 +48,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -56,7 +56,7 @@
         "adult": false
       },
       "uptime": {
-        "24h": 98.15,
+        "24h": 98.11,
         "30d": 99.67,
         "90d": 99.31,
         "1y": 99.37
@@ -83,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.89,
-        "30d": 85.19,
-        "90d": 80.06,
-        "1y": 79.88
+        "24h": 84.91,
+        "30d": 85.08,
+        "90d": 80.0,
+        "1y": 79.86
       }
     },
     {
@@ -107,13 +107,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 98.15,
-        "30d": 97.91,
+        "24h": 100.0,
+        "30d": 98.08,
         "90d": 94.07,
-        "1y": 94.32
+        "1y": 94.35
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 48.15,
-        "30d": 64.02,
-        "90d": 30.64,
-        "1y": 29.49
+        "24h": 37.74,
+        "30d": 63.58,
+        "90d": 30.75,
+        "1y": 29.48
       }
     },
     {
@@ -159,15 +159,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 55.56,
-        "30d": 64.35,
-        "90d": 65.04,
-        "1y": 64.54
+        "24h": 56.6,
+        "30d": 64.0,
+        "90d": 64.97,
+        "1y": 64.43
       }
     },
     {
@@ -186,26 +186,53 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.44,
-        "30d": 90.95,
+        "24h": 92.45,
+        "30d": 91.08,
         "90d": 89.47,
-        "1y": 87.93
+        "1y": 87.98
       }
     },
     {
-      "ip": "190.104.173.150",
+      "ip": "200.85.61.34",
       "version": 4,
       "country_code": "py",
       "country": "Paraguay",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Núcleo S.A",
-      "domain": "host-150.personal.net.py",
+      "organization": "Telecel S.A",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 15.09,
+        "30d": 42.58,
+        "90d": 42.63,
+        "1y": 43.09
+      }
+    },
+    {
+      "ip": "200.85.39.94",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telecel S.A",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -218,10 +245,37 @@
         "adult": true
       },
       "uptime": {
-        "24h": 50.0,
-        "30d": 63.68,
-        "90d": 66.16,
-        "1y": 65.11
+        "24h": 35.85,
+        "30d": 62.83,
+        "90d": 61.8,
+        "1y": 60.39
+      }
+    },
+    {
+      "ip": "190.128.214.90",
+      "version": 4,
+      "country_code": "py",
+      "country": "Paraguay",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telecel S.A",
+      "domain": "pool-90-214-128-190.telecel.com.py",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 39.62,
+        "30d": 69.0,
+        "90d": 73.5,
+        "1y": 73.96
       }
     }
   ]

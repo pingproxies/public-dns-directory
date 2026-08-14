@@ -4,10 +4,37 @@
     "country_name": "Macao",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-14T06:35:48Z",
+    "generated_at": "2026-08-14T18:16:26Z",
     "total_servers": 6
   },
   "resolvers": [
+    {
+      "ip": "202.86.149.18",
+      "version": 4,
+      "country_code": "mo",
+      "country": "Macao",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "CTM",
+      "domain": "n20286z149l18.static.ctmip.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.38,
+        "30d": 83.67,
+        "90d": 84.57,
+        "1y": 82.84
+      }
+    },
     {
       "ip": "45.123.201.235",
       "version": 4,
@@ -21,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.98,
+        "30d": 97.0,
         "90d": 98.12,
-        "1y": 98.11
+        "1y": 98.12
       }
     },
     {
@@ -52,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -60,33 +87,6 @@
         "30d": 99.83,
         "90d": 99.9,
         "1y": 99.91
-      }
-    },
-    {
-      "ip": "202.175.45.2",
-      "version": 4,
-      "country_code": "mo",
-      "country": "Macao",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Leased line - Business",
-      "domain": "ml310.redcross.org.mo",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.89,
-        "30d": 90.13,
-        "90d": 86.19,
-        "1y": 86.69
       }
     },
     {
@@ -111,9 +111,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.66,
+        "30d": 97.75,
         "90d": 97.18,
-        "1y": 97.25
+        "1y": 97.26
       }
     },
     {
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 74.31,
-        "90d": 87.13,
-        "1y": 87.89
+        "24h": 98.11,
+        "30d": 74.33,
+        "90d": 87.1,
+        "1y": 87.93
       }
     },
     {
@@ -164,10 +164,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.59,
-        "30d": 97.24,
-        "90d": 96.42,
-        "1y": 96.05
+        "24h": 92.45,
+        "30d": 96.92,
+        "90d": 96.44,
+        "1y": 95.99
       }
     }
   ]
