@@ -4,7 +4,7 @@
     "country_name": "Venezuela",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-08-15T06:11:35Z",
+    "generated_at": "2026-08-15T18:03:20Z",
     "total_servers": 7
   },
   "resolvers": [
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
+        "ads": true,
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.38,
-        "30d": 92.77,
-        "90d": 91.74,
-        "1y": 91.55
+        "24h": 94.12,
+        "30d": 92.86,
+        "90d": 91.79,
+        "1y": 91.57
       }
     },
     {
@@ -51,7 +51,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -60,6 +60,33 @@
         "30d": 99.58,
         "90d": 99.65,
         "1y": 99.62
+      }
+    },
+    {
+      "ip": "190.94.212.10",
+      "version": 4,
+      "country_code": "ve",
+      "country": "Venezuela",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "IFX Networks Venezuela C.A",
+      "domain": "190-94-212-10.ifxnw.com.ve",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 41.18,
+        "30d": 59.47,
+        "90d": 60.6,
+        "1y": 61.21
       }
     },
     {
@@ -75,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 80.77,
-        "30d": 79.65,
-        "90d": 78.02,
-        "1y": 77.75
+        "24h": 74.51,
+        "30d": 79.57,
+        "90d": 78.01,
+        "1y": 77.73
       }
     },
     {
@@ -101,7 +128,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -110,10 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 61.54,
-        "30d": 33.72,
-        "90d": 33.64,
-        "1y": 31.97
+        "24h": 72.55,
+        "30d": 34.97,
+        "90d": 34.04,
+        "1y": 32.21
       }
     },
     {
@@ -134,13 +161,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 96.15,
-        "30d": 79.81,
-        "90d": 79.81,
-        "1y": 79.81
+        "24h": 90.2,
+        "30d": 79.82,
+        "90d": 79.82,
+        "1y": 79.82
       }
     },
     {
@@ -168,33 +195,6 @@
         "30d": 99.92,
         "90d": 99.26,
         "1y": 99.31
-      }
-    },
-    {
-      "ip": "190.6.31.100",
-      "version": 4,
-      "country_code": "ve",
-      "country": "Venezuela",
-      "continent_code": "sa",
-      "continent": "South America",
-      "organization": "Net Uno, C.A",
-      "domain": "host-190-6-31-100.NET-UNO.NET",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 32.69,
-        "30d": 64.95,
-        "90d": 68.94,
-        "1y": 68.44
       }
     }
   ]
