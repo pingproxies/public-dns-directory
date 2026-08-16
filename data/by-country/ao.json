@@ -4,8 +4,8 @@
     "country_name": "Angola",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-15T18:03:20Z",
-    "total_servers": 2
+    "generated_at": "2026-08-16T06:12:34Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 78.43,
-        "30d": 97.84,
-        "90d": 94.82,
-        "1y": 94.97
+        "24h": 70.59,
+        "30d": 97.26,
+        "90d": 94.67,
+        "1y": 94.84
+      }
+    },
+    {
+      "ip": "196.29.194.146",
+      "version": 4,
+      "country_code": "ao",
+      "country": "Angola",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Dedicated / Leased Line",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.49,
+        "30d": 14.65,
+        "90d": 15.25,
+        "1y": 15.1
       }
     },
     {
