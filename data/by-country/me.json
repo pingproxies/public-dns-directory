@@ -4,7 +4,7 @@
     "country_name": "Montenegro",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-17T06:17:16Z",
+    "generated_at": "2026-08-17T18:06:33Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 81.63,
-        "30d": 61.14,
-        "90d": 60.98,
-        "1y": 61.1
+        "24h": 81.25,
+        "30d": 61.92,
+        "90d": 61.11,
+        "1y": 61.15
       }
     },
     {
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 62.95,
-        "90d": 64.88,
-        "1y": 65.66
+        "30d": 63.08,
+        "90d": 64.92,
+        "1y": 65.84
       }
     }
   ]

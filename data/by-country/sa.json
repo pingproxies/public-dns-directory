@@ -4,7 +4,7 @@
     "country_name": "Saudi Arabia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-17T06:17:16Z",
+    "generated_at": "2026-08-17T18:06:33Z",
     "total_servers": 7
   },
   "resolvers": [
@@ -24,9 +24,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -84,7 +84,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.5,
+        "30d": 99.51,
         "90d": 99.73,
         "1y": 99.76
       }
@@ -105,9 +105,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 50.7,
-        "90d": 35.49,
-        "1y": 43.11
+        "30d": 51.89,
+        "90d": 35.55,
+        "1y": 43.4
       }
     },
     {
@@ -161,13 +161,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.5,
+        "30d": 99.51,
         "90d": 98.86,
-        "1y": 98.93
+        "1y": 98.94
       }
     },
     {
@@ -183,11 +183,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
