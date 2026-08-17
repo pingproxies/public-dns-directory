@@ -4,37 +4,10 @@
     "country_name": "New Zealand",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-08-16T18:03:25Z",
-    "total_servers": 2
+    "generated_at": "2026-08-17T06:17:16Z",
+    "total_servers": 1
   },
   "resolvers": [
-    {
-      "ip": "103.18.138.20",
-      "version": 4,
-      "country_code": "nz",
-      "country": "New Zealand",
-      "continent_code": "oc",
-      "continent": "Oceania",
-      "organization": "The Virus Centre Network",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 35.29,
-        "30d": 82.22,
-        "90d": 93.86,
-        "1y": 94.47
-      }
-    },
     {
       "ip": "203.86.200.253",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 87.92,
-        "90d": 87.23,
-        "1y": 86.27
+        "24h": 94.0,
+        "30d": 87.95,
+        "90d": 87.26,
+        "1y": 86.34
       }
     }
   ]
