@@ -4,8 +4,8 @@
     "country_name": "Croatia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-19T18:05:03Z",
-    "total_servers": 22
+    "generated_at": "2026-08-20T06:13:43Z",
+    "total_servers": 21
   },
   "resolvers": [
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.83,
         "90d": 99.93,
-        "1y": 99.91
+        "1y": 99.92
       }
     },
     {
@@ -112,8 +112,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 98.68,
-        "90d": 98.42,
-        "1y": 98.55
+        "90d": 98.45,
+        "1y": 98.56
       }
     },
     {
@@ -132,7 +132,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
@@ -140,7 +140,7 @@
         "24h": 100.0,
         "30d": 97.93,
         "90d": 97.07,
-        "1y": 96.81
+        "1y": 96.82
       }
     },
     {
@@ -155,7 +155,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
@@ -168,33 +168,6 @@
         "30d": 100.0,
         "90d": 99.98,
         "1y": 99.98
-      }
-    },
-    {
-      "ip": "82.214.100.214",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "AKTON",
-      "domain": "c82-214-100-214.loc.akton.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 45.45,
-        "30d": 64.16,
-        "90d": 67.4,
-        "1y": 66.62
       }
     },
     {
@@ -220,8 +193,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.09,
-        "1y": 98.72
+        "90d": 99.11,
+        "1y": 98.73
       }
     },
     {
@@ -240,8 +213,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -267,8 +240,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -291,7 +264,7 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -299,10 +272,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 82.65,
-        "90d": 67.25,
-        "1y": 64.53
+        "24h": 72.73,
+        "30d": 82.59,
+        "90d": 67.66,
+        "1y": 64.91
       }
     },
     {
@@ -376,14 +349,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.93,
         "90d": 99.11,
-        "1y": 99.21
+        "1y": 99.22
       }
     },
     {
@@ -441,33 +414,6 @@
       }
     },
     {
-      "ip": "195.29.76.12",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Hrvatski Telekom d.d",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 72.73,
-        "30d": 69.45,
-        "90d": 34.28,
-        "1y": 31.59
-      }
-    },
-    {
       "ip": "195.29.38.138",
       "version": 4,
       "country_code": "hr",
@@ -479,7 +425,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -519,6 +465,33 @@
         "30d": 99.92,
         "90d": 99.93,
         "1y": 99.89
+      }
+    },
+    {
+      "ip": "78.134.212.21",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Lumini",
+      "domain": "78.134.212.21-dsl.net.metronet.hr",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 59.09,
+        "30d": 66.14,
+        "90d": 39.98,
+        "1y": 37.48
       }
     },
     {
@@ -597,9 +570,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.85,
+        "30d": 98.02,
         "90d": 94.68,
-        "1y": 95.19
+        "1y": 95.21
       }
     }
   ]
