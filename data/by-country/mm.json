@@ -4,37 +4,10 @@
     "country_name": "Myanmar",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-22T06:11:49Z",
-    "total_servers": 2
+    "generated_at": "2026-08-22T18:03:02Z",
+    "total_servers": 1
   },
   "resolvers": [
-    {
-      "ip": "103.121.228.5",
-      "version": 4,
-      "country_code": "mm",
-      "country": "Myanmar",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "MyanmarAPN",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 97.85,
-        "90d": 99.12,
-        "1y": 99.04
-      }
-    },
     {
       "ip": "65.18.112.106",
       "version": 4,
@@ -51,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 68.4,
-        "90d": 68.62,
-        "1y": 67.83
+        "24h": 75.0,
+        "30d": 68.49,
+        "90d": 68.63,
+        "1y": 67.85
       }
     }
   ]

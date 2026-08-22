@@ -4,7 +4,7 @@
     "country_name": "Estonia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-22T06:11:49Z",
+    "generated_at": "2026-08-22T18:03:02Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
@@ -32,7 +32,7 @@
         "24h": 100.0,
         "30d": 99.67,
         "90d": 99.36,
-        "1y": 99.33
+        "1y": 99.34
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.97,
+        "30d": 95.96,
         "90d": 97.37,
-        "1y": 97.69
+        "1y": 97.7
       }
     },
     {
@@ -78,7 +78,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
@@ -86,7 +86,7 @@
         "24h": 100.0,
         "30d": 99.67,
         "90d": 96.69,
-        "1y": 97.16
+        "1y": 97.18
       }
     },
     {
@@ -105,13 +105,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.67,
+        "30d": 99.75,
         "90d": 99.41,
         "1y": 99.44
       }
