@@ -4,10 +4,37 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-08-21T18:06:29Z",
-    "total_servers": 2
+    "generated_at": "2026-08-22T06:11:49Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "74.120.24.129",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "IP SOLUTIONS, INC.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 15.56,
+        "30d": 16.96,
+        "90d": 16.22,
+        "1y": 15.22
+      }
+    },
     {
       "ip": "204.15.148.186",
       "version": 4,
@@ -25,12 +52,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 95.65,
-        "30d": 93.39,
+        "24h": 93.33,
+        "30d": 93.3,
         "90d": 94.67,
         "1y": 94.05
       }
@@ -52,14 +79,41 @@
       },
       "blocking": {
         "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 79.11,
+        "90d": 56.31,
+        "1y": 52.3
+      }
+    },
+    {
+      "ip": "162.251.158.88",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Smart Networks, LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.56,
-        "30d": 77.63,
-        "90d": 54.14,
-        "1y": 50.22
+        "24h": 60.0,
+        "30d": 92.89,
+        "90d": 94.11,
+        "1y": 93.26
       }
     }
   ]
