@@ -4,7 +4,7 @@
     "country_name": "Honduras",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-08-23T06:12:53Z",
+    "generated_at": "2026-08-23T18:03:26Z",
     "total_servers": 4
   },
   "resolvers": [
@@ -25,13 +25,13 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 79.55,
-        "30d": 82.79,
-        "90d": 76.87,
+        "24h": 80.0,
+        "30d": 82.38,
+        "90d": 76.83,
         "1y": 77.82
       }
     },
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 90.91,
+        "24h": 86.67,
         "30d": 90.44,
-        "90d": 91.41,
-        "1y": 91.32
+        "90d": 91.36,
+        "1y": 91.28
       }
     },
     {
@@ -75,29 +75,29 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 95.45,
-        "30d": 99.5,
-        "90d": 99.68,
-        "1y": 99.65
+        "24h": 86.67,
+        "30d": 99.17,
+        "90d": 99.58,
+        "1y": 99.57
       }
     },
     {
-      "ip": "201.190.11.254",
+      "ip": "190.5.81.230",
       "version": 4,
       "country_code": "hn",
       "country": "Honduras",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "SERCOM de Honduras",
-      "domain": null,
+      "organization": "LIBERTY NETWORKS HONDURAS, SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+      "domain": "190.5.81.230.multidatahn.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -105,15 +105,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 67.33,
-        "90d": 70.12,
-        "1y": 69.0
+        "24h": 42.22,
+        "30d": 61.26,
+        "90d": 60.2,
+        "1y": 58.15
       }
     }
   ]
