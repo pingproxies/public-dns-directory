@@ -4,10 +4,37 @@
     "country_name": "Nepal",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-22T18:03:02Z",
-    "total_servers": 1
+    "generated_at": "2026-08-23T06:12:53Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "103.137.10.193",
+      "version": 4,
+      "country_code": "np",
+      "country": "Nepal",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Prime Network Pvt.ltd",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 43.18,
+        "30d": 61.51,
+        "90d": 32.95,
+        "1y": 30.13
+      }
+    },
     {
       "ip": "182.93.84.123",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.75,
-        "90d": 96.3,
-        "1y": 94.0
+        "90d": 96.37,
+        "1y": 94.05
       }
     }
   ]

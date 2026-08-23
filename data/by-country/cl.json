@@ -4,8 +4,8 @@
     "country_name": "Chile",
     "continent_code": "sa",
     "continent_name": "South America",
-    "generated_at": "2026-08-22T18:03:02Z",
-    "total_servers": 22
+    "generated_at": "2026-08-23T06:12:53Z",
+    "total_servers": 32
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 94.36,
-        "90d": 96.25,
-        "1y": 95.65
+        "24h": 93.18,
+        "30d": 94.1,
+        "90d": 96.17,
+        "1y": 95.61
       }
     },
     {
@@ -53,13 +53,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.83,
         "90d": 86.01,
-        "1y": 87.06
+        "1y": 87.12
       }
     },
     {
@@ -80,7 +80,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 40.91,
-        "30d": 46.93,
-        "90d": 50.44,
-        "1y": 49.98
+        "24h": 59.09,
+        "30d": 47.3,
+        "90d": 50.63,
+        "1y": 50.08
       }
     },
     {
@@ -134,7 +134,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -144,30 +144,30 @@
       }
     },
     {
-      "ip": "190.82.70.214",
+      "ip": "200.113.10.155",
       "version": 4,
       "country_code": "cl",
       "country": "Chile",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "Telefonica Empresas Chile SA",
-      "domain": "190-82-70-214.static.tie.cl",
+      "organization": "Corporacion De Desarrollo Social De Buin",
+      "domain": "200-113-10-155.static.tie.cl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 20.45,
-        "30d": 15.48,
-        "90d": 17.7,
-        "1y": 17.77
+        "24h": 65.91,
+        "30d": 88.12,
+        "90d": 61.89,
+        "1y": 55.26
       }
     },
     {
@@ -188,13 +188,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 95.45,
-        "30d": 95.56,
-        "90d": 95.56,
-        "1y": 95.56
+        "30d": 97.01,
+        "90d": 97.01,
+        "1y": 97.01
       }
     },
     {
@@ -215,13 +215,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 88.64,
-        "30d": 80.93,
+        "30d": 81.21,
         "90d": 80.19,
-        "1y": 80.27
+        "1y": 80.34
+      }
+    },
+    {
+      "ip": "190.13.146.123",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Arteche Telecomunicaciones Ltda",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 79.55,
+        "30d": 63.92,
+        "90d": 66.46,
+        "1y": 65.95
       }
     },
     {
@@ -241,14 +268,68 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.26,
+        "30d": 97.92,
         "90d": 98.72,
-        "1y": 98.53
+        "1y": 98.54
+      }
+    },
+    {
+      "ip": "201.148.107.14",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "HOSTING.CL",
+      "domain": "cloud105200.dedicados.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 97.51,
+        "90d": 97.54,
+        "1y": 97.09
+      }
+    },
+    {
+      "ip": "190.110.164.194",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Pacifico Cable SPA",
+      "domain": "190-110-164-194.pacificored.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 84.09,
+        "30d": 69.66,
+        "90d": 38.3,
+        "1y": 35.76
       }
     },
     {
@@ -272,10 +353,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 75.0,
-        "30d": 85.9,
-        "90d": 49.17,
-        "1y": 45.22
+        "24h": 86.36,
+        "30d": 86.12,
+        "90d": 49.55,
+        "1y": 45.45
       }
     },
     {
@@ -296,7 +377,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
@@ -329,7 +410,61 @@
         "24h": 100.0,
         "30d": 99.83,
         "90d": 96.4,
-        "1y": 97.1
+        "1y": 97.12
+      }
+    },
+    {
+      "ip": "190.96.93.74",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Servicios Compartidos Ticel Ltda",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 95.84,
+        "90d": 89.69,
+        "1y": 90.62
+      }
+    },
+    {
+      "ip": "216.241.25.83",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "IFX Networks Chile S.A",
+      "domain": "host83.216.241.25.ifxnw.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 66.25,
+        "90d": 35.28,
+        "1y": 32.36
       }
     },
     {
@@ -354,9 +489,36 @@
       },
       "uptime": {
         "24h": 97.73,
-        "30d": 85.07,
-        "90d": 78.99,
-        "1y": 78.57
+        "30d": 85.54,
+        "90d": 79.13,
+        "1y": 78.67
+      }
+    },
+    {
+      "ip": "200.68.46.21",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Fca.y Maestranzas Del Ejercito Famae",
+      "domain": "s2t.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 43.18,
+        "30d": 91.35,
+        "90d": 83.3,
+        "1y": 85.12
       }
     },
     {
@@ -375,15 +537,69 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.59,
         "90d": 97.48,
-        "1y": 97.36
+        "1y": 97.37
+      }
+    },
+    {
+      "ip": "181.212.39.92",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Faenadora De Carnes R V Ltda",
+      "domain": "181-212-39-92.baf.movistar.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 39.65,
+        "90d": 38.69,
+        "1y": 38.58
+      }
+    },
+    {
+      "ip": "186.103.175.74",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Telefonica Empresas Chile SA",
+      "domain": "186-103-175-74.static.tie.cl",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 52.27,
+        "30d": 36.82,
+        "90d": 40.07,
+        "1y": 39.55
       }
     },
     {
@@ -402,15 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 88.64,
-        "30d": 64.91,
-        "90d": 61.18,
-        "1y": 62.93
+        "24h": 86.36,
+        "30d": 65.7,
+        "90d": 61.47,
+        "1y": 63.06
       }
     },
     {
@@ -429,42 +645,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 84.09,
-        "30d": 71.39,
+        "24h": 93.18,
+        "30d": 73.23,
         "90d": 67.05,
-        "1y": 71.17
+        "1y": 71.26
       }
     },
     {
-      "ip": "64.76.163.165",
+      "ip": "200.54.51.6",
       "version": 4,
       "country_code": "cl",
       "country": "Chile",
       "continent_code": "sa",
       "continent": "South America",
-      "organization": "ImpSat Chile, Soluziona Chile S.A.",
-      "domain": "64-76-163-165.static.impsat.cl",
+      "organization": "CL-TEEMSR-LACNIC",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 79.55,
-        "30d": 44.35,
-        "90d": 43.65,
-        "1y": 41.09
+        "24h": 68.18,
+        "30d": 62.59,
+        "90d": 67.03,
+        "1y": 66.14
       }
     },
     {
@@ -485,11 +701,11 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.34,
+        "30d": 99.33,
         "90d": 99.44,
         "1y": 99.01
       }
@@ -512,13 +728,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 92.82,
+        "30d": 92.8,
         "90d": 93.05,
-        "1y": 93.3
+        "1y": 93.33
       }
     },
     {
@@ -545,7 +761,34 @@
         "24h": 100.0,
         "30d": 99.75,
         "90d": 99.53,
-        "1y": 99.52
+        "1y": 99.53
+      }
+    },
+    {
+      "ip": "45.7.228.232",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "OPENCLOUD SpA",
+      "domain": "NEG.CAPRICORN.CL",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 90.91,
+        "30d": 97.84,
+        "90d": 91.25,
+        "1y": 90.3
       }
     },
     {
@@ -561,18 +804,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 56.82,
-        "30d": 63.1,
-        "90d": 60.11,
-        "1y": 60.08
+        "24h": 77.27,
+        "30d": 63.26,
+        "90d": 60.43,
+        "1y": 60.22
       }
     },
     {
@@ -592,14 +835,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 88.64,
+        "24h": 97.73,
         "30d": 98.59,
         "90d": 98.82,
-        "1y": 98.53
+        "1y": 98.54
+      }
+    },
+    {
+      "ip": "186.10.6.226",
+      "version": 4,
+      "country_code": "cl",
+      "country": "Chile",
+      "continent_code": "sa",
+      "continent": "South America",
+      "organization": "Entel Chile S.A",
+      "domain": "b6226.entelchile.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 67.58,
+        "90d": 66.03,
+        "1y": 67.69
       }
     }
   ]

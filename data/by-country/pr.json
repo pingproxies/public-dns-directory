@@ -4,10 +4,37 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-08-22T18:03:02Z",
-    "total_servers": 1
+    "generated_at": "2026-08-23T06:12:53Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "204.15.148.186",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "NeptunoMedia Inc.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 86.36,
+        "30d": 93.02,
+        "90d": 94.6,
+        "1y": 93.98
+      }
+    },
     {
       "ip": "38.50.64.40",
       "version": 4,
@@ -20,19 +47,46 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 86.36,
-        "30d": 79.17,
-        "90d": 57.33,
-        "1y": 53.31
+        "30d": 80.45,
+        "90d": 59.26,
+        "1y": 55.17
+      }
+    },
+    {
+      "ip": "162.251.158.88",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Smart Networks, LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 81.82,
+        "30d": 92.35,
+        "90d": 93.91,
+        "1y": 93.16
       }
     }
   ]
