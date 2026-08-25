@@ -4,8 +4,8 @@
     "country_name": "Hungary",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-08-24T18:06:56Z",
-    "total_servers": 45
+    "generated_at": "2026-08-25T06:14:26Z",
+    "total_servers": 48
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 76.74,
-        "30d": 80.45,
-        "90d": 72.38,
-        "1y": 71.7
+        "24h": 78.05,
+        "30d": 80.5,
+        "90d": 72.68,
+        "1y": 71.79
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 93.02,
-        "30d": 91.35,
-        "90d": 91.59,
-        "1y": 90.2
+        "24h": 92.68,
+        "30d": 91.25,
+        "90d": 91.69,
+        "1y": 90.22
       }
     },
     {
@@ -78,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 95.35,
+        "24h": 95.12,
         "30d": 98.75,
-        "90d": 97.8,
-        "1y": 96.78
+        "90d": 97.83,
+        "1y": 96.8
       }
     },
     {
@@ -105,15 +105,96 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 43.9,
+        "30d": 63.08,
+        "90d": 66.12,
+        "1y": 64.88
+      }
+    },
+    {
+      "ip": "94.199.48.243",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "23VNet Kft",
+      "domain": "48-243.oko-pc.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 53.49,
-        "30d": 63.56,
-        "90d": 66.14,
-        "1y": 64.9
+        "24h": 17.07,
+        "30d": 32.23,
+        "90d": 36.41,
+        "1y": 35.35
+      }
+    },
+    {
+      "ip": "91.137.131.25",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Opcnet Business CLI",
+      "domain": "91-137-131-25.opticon.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.98,
+        "30d": 76.17,
+        "90d": 76.25,
+        "1y": 74.86
+      }
+    },
+    {
+      "ip": "85.90.160.69",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Opcnet Core",
+      "domain": "host-160-69.opticon.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 46.34,
+        "30d": 63.58,
+        "90d": 65.39,
+        "1y": 64.82
       }
     },
     {
@@ -132,7 +213,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -140,7 +221,7 @@
         "24h": 100.0,
         "30d": 99.5,
         "90d": 99.75,
-        "1y": 99.61
+        "1y": 99.62
       }
     },
     {
@@ -159,15 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 65.12,
-        "30d": 67.22,
-        "90d": 66.14,
-        "1y": 66.46
+        "24h": 58.54,
+        "30d": 67.17,
+        "90d": 66.45,
+        "1y": 66.5
       }
     },
     {
@@ -183,11 +264,11 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -213,15 +294,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 72.09,
-        "30d": 67.64,
-        "90d": 64.39,
-        "1y": 62.86
+        "24h": 63.41,
+        "30d": 67.5,
+        "90d": 64.69,
+        "1y": 62.91
+      }
+    },
+    {
+      "ip": "92.249.143.119",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "HDSNET",
+      "domain": "92-249-143-119.static.digikabel.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 9.76,
+        "30d": 23.58,
+        "90d": 21.74,
+        "1y": 22.12
       }
     },
     {
@@ -240,15 +348,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 72.09,
-        "30d": 63.39,
-        "90d": 61.87,
-        "1y": 62.89
+        "24h": 68.29,
+        "30d": 64.0,
+        "90d": 62.15,
+        "1y": 62.94
       }
     },
     {
@@ -268,14 +376,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 65.12,
-        "30d": 73.96,
-        "90d": 77.1,
-        "1y": 77.81
+        "24h": 68.29,
+        "30d": 73.92,
+        "90d": 77.36,
+        "1y": 77.84
       }
     },
     {
@@ -299,10 +407,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.67,
-        "30d": 98.84,
-        "90d": 95.51,
-        "1y": 96.06
+        "24h": 97.56,
+        "30d": 98.83,
+        "90d": 95.5,
+        "1y": 96.08
       }
     },
     {
@@ -326,7 +434,7 @@
         "adult": false
       },
       "uptime": {
-        "24h": 97.67,
+        "24h": 100.0,
         "30d": 99.42,
         "90d": 99.78,
         "1y": 99.49
@@ -348,15 +456,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 97.67,
+        "24h": 97.56,
         "30d": 95.67,
-        "90d": 90.61,
-        "1y": 89.38
+        "90d": 90.83,
+        "1y": 89.43
       }
     },
     {
@@ -375,15 +483,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 83.72,
-        "30d": 80.28,
-        "90d": 79.11,
-        "1y": 77.59
+        "24h": 78.05,
+        "30d": 80.08,
+        "90d": 79.35,
+        "1y": 77.64
       }
     },
     {
@@ -402,15 +510,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 90.7,
-        "30d": 84.44,
-        "90d": 79.47,
-        "1y": 77.74
+        "24h": 95.12,
+        "30d": 85.5,
+        "90d": 79.81,
+        "1y": 77.83
       }
     },
     {
@@ -430,14 +538,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 79.07,
-        "30d": 75.21,
-        "90d": 80.65,
-        "1y": 78.83
+        "24h": 82.93,
+        "30d": 75.42,
+        "90d": 80.77,
+        "1y": 78.89
       }
     },
     {
@@ -456,42 +564,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 81.4,
-        "30d": 91.1,
-        "90d": 89.43,
-        "1y": 88.77
-      }
-    },
-    {
-      "ip": "78.131.88.3",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "DIGI",
-      "domain": "78-131-88-3.static.hdsnet.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 18.6,
-        "30d": 39.27,
-        "90d": 64.07,
-        "1y": 64.36
+        "24h": 87.8,
+        "30d": 91.08,
+        "90d": 89.45,
+        "1y": 88.82
       }
     },
     {
@@ -510,15 +591,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.37,
-        "30d": 85.11,
-        "90d": 68.65,
-        "1y": 66.32
+        "24h": 87.8,
+        "30d": 85.33,
+        "90d": 68.95,
+        "1y": 66.46
       }
     },
     {
@@ -537,15 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 76.74,
-        "30d": 82.2,
-        "90d": 83.2,
-        "1y": 79.95
+        "24h": 87.8,
+        "30d": 82.17,
+        "90d": 83.58,
+        "1y": 80.03
       }
     },
     {
@@ -564,15 +645,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 79.07,
-        "30d": 84.11,
-        "90d": 67.24,
-        "1y": 65.18
+        "24h": 82.93,
+        "30d": 84.33,
+        "90d": 67.62,
+        "1y": 65.32
       }
     },
     {
@@ -591,15 +672,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 90.7,
-        "30d": 89.85,
+        "24h": 90.24,
+        "30d": 90.0,
         "90d": 87.88,
-        "1y": 86.27
+        "1y": 86.33
       }
     },
     {
@@ -620,13 +701,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 74.42,
-        "30d": 78.95,
-        "90d": 80.03,
-        "1y": 78.55
+        "24h": 80.49,
+        "30d": 79.08,
+        "90d": 80.43,
+        "1y": 78.61
       }
     },
     {
@@ -642,18 +723,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": false
+        "malware": false,
+        "adult": true
       },
       "uptime": {
-        "24h": 69.77,
-        "30d": 68.97,
-        "90d": 73.12,
-        "1y": 74.56
+        "24h": 70.73,
+        "30d": 69.0,
+        "90d": 73.13,
+        "1y": 74.58
       }
     },
     {
@@ -672,15 +753,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 75.61,
+        "30d": 80.75,
+        "90d": 80.26,
+        "1y": 78.0
+      }
+    },
+    {
+      "ip": "78.131.12.155",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "DIGI",
+      "domain": "78-131-12-155.static.digikabel.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 79.07,
-        "30d": 79.37,
-        "90d": 80.03,
-        "1y": 77.98
+        "24h": 24.39,
+        "30d": 41.5,
+        "90d": 64.27,
+        "1y": 63.54
       }
     },
     {
@@ -727,14 +835,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 81.4,
-        "30d": 81.7,
-        "90d": 74.79,
-        "1y": 72.84
+        "24h": 80.49,
+        "30d": 81.75,
+        "90d": 75.05,
+        "1y": 73.06
       }
     },
     {
@@ -758,21 +866,21 @@
         "adult": false
       },
       "uptime": {
-        "24h": 74.42,
-        "30d": 78.12,
-        "90d": 74.99,
-        "1y": 74.27
+        "24h": 73.17,
+        "30d": 78.17,
+        "90d": 75.17,
+        "1y": 74.36
       }
     },
     {
-      "ip": "92.249.148.88",
+      "ip": "94.21.243.35",
       "version": 4,
       "country_code": "hu",
       "country": "Hungary",
       "continent_code": "eu",
       "continent": "Europe",
       "organization": "Digi",
-      "domain": "92-249-148-88.static.digikabel.hu",
+      "domain": "94-21-243-35.static.digikabel.hu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -780,15 +888,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 18.6,
-        "30d": 19.22,
-        "90d": 22.34,
-        "1y": 21.78
+        "24h": 36.59,
+        "30d": 31.97,
+        "90d": 34.5,
+        "1y": 33.68
+      }
+    },
+    {
+      "ip": "81.182.246.69",
+      "version": 4,
+      "country_code": "hu",
+      "country": "Hungary",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Magyar Telekom",
+      "domain": "dsl51B6F645.fixip.t-online.hu",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 73.17,
+        "30d": 76.5,
+        "90d": 73.59,
+        "1y": 73.99
       }
     },
     {
@@ -807,7 +942,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -819,14 +954,14 @@
       }
     },
     {
-      "ip": "92.249.219.159",
+      "ip": "81.183.215.141",
       "version": 4,
       "country_code": "hu",
       "country": "Hungary",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "HDSNET",
-      "domain": "92-249-219-159.static.hdsnet.hu",
+      "organization": "T-Online Co",
+      "domain": "dsl51B7D78D.fixip.t-online.hu",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -835,14 +970,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 32.56,
-        "30d": 43.68,
-        "90d": 64.78,
-        "1y": 64.02
+        "24h": 75.61,
+        "30d": 74.08,
+        "90d": 70.86,
+        "1y": 70.09
       }
     },
     {
@@ -861,15 +996,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 58.14,
-        "30d": 53.0,
-        "90d": 54.99,
-        "1y": 54.34
+        "24h": 53.66,
+        "30d": 53.42,
+        "90d": 55.1,
+        "1y": 54.44
       }
     },
     {
@@ -893,10 +1028,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 88.37,
-        "30d": 91.1,
-        "90d": 90.24,
-        "1y": 87.92
+        "24h": 90.24,
+        "30d": 91.0,
+        "90d": 90.59,
+        "1y": 87.95
       }
     },
     {
@@ -917,13 +1052,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 44.19,
-        "30d": 49.42,
-        "90d": 50.45,
-        "1y": 49.41
+        "24h": 51.22,
+        "30d": 49.33,
+        "90d": 50.63,
+        "1y": 49.45
       }
     },
     {
@@ -942,7 +1077,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -969,15 +1104,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.42,
-        "90d": 98.9,
-        "1y": 98.92
+        "30d": 99.0,
+        "90d": 98.92,
+        "1y": 98.93
       }
     },
     {
@@ -998,40 +1133,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 72.09,
-        "30d": 72.13,
-        "90d": 70.18,
-        "1y": 69.76
-      }
-    },
-    {
-      "ip": "81.183.224.48",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Magyar Telekom",
-      "domain": "mail.teszt1.hu",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 37.21,
-        "30d": 27.29,
-        "90d": 31.76,
-        "1y": 30.68
+        "24h": 68.29,
+        "30d": 72.58,
+        "90d": 70.42,
+        "1y": 69.78
       }
     },
     {
@@ -1055,10 +1163,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 90.7,
-        "30d": 81.78,
-        "90d": 45.06,
-        "1y": 40.95
+        "24h": 85.37,
+        "30d": 81.58,
+        "90d": 45.29,
+        "1y": 41.17
       }
     },
     {
@@ -1082,10 +1190,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 88.37,
-        "30d": 82.36,
-        "90d": 82.59,
-        "1y": 83.0
+        "24h": 85.37,
+        "30d": 82.58,
+        "90d": 82.62,
+        "1y": 83.05
       }
     },
     {
@@ -1104,42 +1212,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.4,
-        "30d": 69.08,
-        "90d": 63.7,
-        "1y": 65.89
-      }
-    },
-    {
-      "ip": "78.131.11.248",
-      "version": 4,
-      "country_code": "hu",
-      "country": "Hungary",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "DIGI",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 32.56,
-        "30d": 30.37,
-        "90d": 33.01,
-        "1y": 32.11
+        "24h": 85.37,
+        "30d": 69.29,
+        "90d": 63.88,
+        "1y": 66.03
       }
     },
     {
@@ -1158,15 +1239,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 41.86,
-        "30d": 65.14,
-        "90d": 65.96,
-        "1y": 65.2
+        "24h": 39.02,
+        "30d": 64.42,
+        "90d": 65.71,
+        "1y": 65.16
       }
     },
     {
@@ -1190,10 +1271,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 72.09,
-        "30d": 76.87,
+        "24h": 75.61,
+        "30d": 77.17,
         "90d": 79.94,
-        "1y": 81.03
+        "1y": 81.06
       }
     },
     {
@@ -1212,15 +1293,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
+        "ads": false,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.37,
-        "30d": 80.87,
-        "90d": 76.21,
-        "1y": 74.46
+        "24h": 90.24,
+        "30d": 81.0,
+        "90d": 76.44,
+        "1y": 74.54
       }
     }
   ]
