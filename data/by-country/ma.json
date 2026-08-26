@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-26T06:15:32Z",
-    "total_servers": 3
+    "generated_at": "2026-08-26T18:36:07Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 91.18,
-        "30d": 99.16,
-        "90d": 95.02,
-        "1y": 95.82
+        "24h": 94.12,
+        "30d": 98.99,
+        "90d": 94.98,
+        "1y": 95.79
+      }
+    },
+    {
+      "ip": "81.192.7.147",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "LLI ccm",
+      "domain": "srv1-ccm.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 55.88,
+        "30d": 56.79,
+        "90d": 56.04,
+        "1y": 52.58
       }
     },
     {
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 89.11,
-        "90d": 75.57,
-        "1y": 73.81
+        "24h": 94.12,
+        "30d": 89.18,
+        "90d": 75.73,
+        "1y": 73.94
       }
     },
     {
@@ -78,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.75,
         "90d": 98.74,
-        "1y": 98.83
+        "1y": 98.84
       }
     }
   ]
