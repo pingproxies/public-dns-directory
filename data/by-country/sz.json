@@ -4,8 +4,8 @@
     "country_name": "Eswatini",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-26T18:36:07Z",
-    "total_servers": 2
+    "generated_at": "2026-08-27T09:14:34Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 80.0,
+        "30d": 90.04,
+        "90d": 90.26,
+        "1y": 88.16
+      }
+    },
+    {
+      "ip": "69.63.64.12",
+      "version": 4,
+      "country_code": "sz",
+      "country": "Eswatini",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Eswatini PTC - corporate",
+      "domain": "ns1.swazi.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
         "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 88.24,
-        "30d": 90.32,
-        "90d": 90.32,
-        "1y": 88.17
+        "24h": 65.71,
+        "30d": 61.43,
+        "90d": 62.13,
+        "1y": 62.3
       }
     },
     {
@@ -56,10 +83,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 52.94,
-        "30d": 48.45,
-        "90d": 53.53,
-        "1y": 52.2
+        "24h": 57.14,
+        "30d": 48.84,
+        "90d": 53.45,
+        "1y": 52.24
       }
     }
   ]

@@ -4,10 +4,37 @@
     "country_name": "Namibia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-26T18:36:07Z",
+    "generated_at": "2026-08-27T09:14:34Z",
     "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "77.220.1.124",
+      "version": 4,
+      "country_code": "na",
+      "country": "Namibia",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Witel",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 86.75,
+        "90d": 89.98,
+        "1y": 89.98
+      }
+    },
     {
       "ip": "41.218.90.154",
       "version": 4,
@@ -24,42 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 94.12,
-        "30d": 98.15,
+        "24h": 94.29,
+        "30d": 98.14,
         "90d": 95.69,
-        "1y": 95.03
-      }
-    },
-    {
-      "ip": "41.63.240.79",
-      "version": 4,
-      "country_code": "na",
-      "country": "Namibia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "MTC Netman",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 88.24,
-        "30d": 71.3,
-        "90d": 71.26,
-        "1y": 69.69
+        "1y": 95.05
       }
     }
   ]
