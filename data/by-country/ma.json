@@ -4,8 +4,8 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-27T21:10:14Z",
-    "total_servers": 3
+    "generated_at": "2026-08-28T09:18:21Z",
+    "total_servers": 4
   },
   "resolvers": [
     {
@@ -24,15 +24,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.98,
-        "90d": 94.98,
+        "24h": 97.14,
+        "30d": 98.9,
+        "90d": 94.95,
         "1y": 95.82
+      }
+    },
+    {
+      "ip": "81.192.7.147",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "LLI ccm",
+      "domain": "srv1-ccm.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 42.86,
+        "30d": 55.84,
+        "90d": 55.99,
+        "1y": 52.51
       }
     },
     {
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 91.67,
-        "30d": 89.45,
-        "90d": 76.16,
-        "1y": 74.31
+        "24h": 94.29,
+        "30d": 89.37,
+        "90d": 76.34,
+        "1y": 74.51
       }
     },
     {
@@ -80,12 +107,12 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.75,
-        "90d": 98.75,
+        "90d": 98.74,
         "1y": 98.85
       }
     }
