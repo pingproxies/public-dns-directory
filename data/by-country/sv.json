@@ -4,10 +4,37 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-08-29T06:24:00Z",
-    "total_servers": 3
+    "generated_at": "2026-08-29T18:03:47Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "201.247.112.236",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 36.67,
+        "30d": 45.47,
+        "90d": 51.62,
+        "1y": 54.94
+      }
+    },
     {
       "ip": "168.243.48.33",
       "version": 4,
@@ -25,12 +52,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 97.06,
-        "30d": 96.24,
+        "24h": 100.0,
+        "30d": 96.2,
         "90d": 98.69,
         "1y": 97.53
       }
@@ -51,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 70.59,
-        "30d": 71.79,
-        "90d": 70.93,
-        "1y": 72.05
+        "24h": 100.0,
+        "30d": 71.85,
+        "90d": 71.02,
+        "1y": 72.13
       }
     },
     {
@@ -80,7 +107,7 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
