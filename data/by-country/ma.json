@@ -4,10 +4,37 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-08-30T06:24:38Z",
-    "total_servers": 2
+    "generated_at": "2026-08-30T18:03:40Z",
+    "total_servers": 3
   },
   "resolvers": [
+    {
+      "ip": "102.50.253.95",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maroc telecom static ip adress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.33,
+        "30d": 98.69,
+        "90d": 94.89,
+        "1y": 95.84
+      }
+    },
     {
       "ip": "197.230.15.206",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 89.29,
-        "30d": 93.17,
-        "90d": 76.91,
-        "1y": 75.0
+        "24h": 93.33,
+        "30d": 93.35,
+        "90d": 77.13,
+        "1y": 75.19
       }
     },
     {
@@ -52,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.74,
         "90d": 98.74,
-        "1y": 98.86
+        "1y": 98.87
       }
     }
   ]
