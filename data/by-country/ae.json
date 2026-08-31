@@ -4,8 +4,8 @@
     "country_name": "United Arab Emirates",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-30T18:03:40Z",
-    "total_servers": 19
+    "generated_at": "2026-08-31T06:34:54Z",
+    "total_servers": 20
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.95,
         "90d": 98.79,
-        "1y": 99.04
+        "1y": 99.05
       }
     },
     {
@@ -56,8 +56,8 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 98.34,
+        "24h": 100.0,
+        "30d": 98.33,
         "90d": 98.84,
         "1y": 98.48
       }
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 92.04,
-        "90d": 94.72,
-        "1y": 93.96
+        "24h": 100.0,
+        "30d": 92.01,
+        "90d": 94.71,
+        "1y": 93.98
       }
     },
     {
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 92.04,
+        "24h": 96.88,
+        "30d": 92.01,
         "90d": 92.62,
-        "1y": 91.26
+        "1y": 91.29
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 93.62,
-        "90d": 93.62,
-        "1y": 93.62
+        "24h": 93.75,
+        "30d": 94.59,
+        "90d": 94.59,
+        "1y": 94.59
       }
     },
     {
@@ -164,10 +164,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.33,
-        "30d": 96.5,
+        "24h": 96.88,
+        "30d": 96.49,
         "90d": 96.72,
-        "1y": 97.2
+        "1y": 97.21
       }
     },
     {
@@ -186,15 +186,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 83.33,
-        "30d": 92.04,
+        "24h": 93.75,
+        "30d": 92.01,
         "90d": 95.46,
-        "1y": 94.8
+        "1y": 94.82
       }
     },
     {
@@ -213,15 +213,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 86.7,
-        "90d": 81.58,
-        "1y": 81.1
+        "24h": 87.5,
+        "30d": 86.65,
+        "90d": 81.57,
+        "1y": 81.17
       }
     },
     {
@@ -240,15 +240,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 90.03,
-        "90d": 88.55,
-        "1y": 83.66
+        "24h": 84.38,
+        "30d": 89.73,
+        "90d": 88.47,
+        "1y": 83.65
       }
     },
     {
@@ -264,7 +264,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -273,9 +273,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.68,
+        "30d": 96.66,
         "90d": 95.83,
-        "1y": 95.43
+        "1y": 95.44
       }
     },
     {
@@ -294,15 +294,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.85,
-        "90d": 98.3,
-        "1y": 97.73
+        "30d": 96.84,
+        "90d": 98.35,
+        "1y": 97.74
+      }
+    },
+    {
+      "ip": "5.32.90.30",
+      "version": 4,
+      "country_code": "ae",
+      "country": "United Arab Emirates",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Emirates Integrated Telecommunications Company PJSC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.62,
+        "30d": 67.43,
+        "90d": 71.05,
+        "1y": 69.43
       }
     },
     {
@@ -322,41 +349,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 86.67,
-        "30d": 85.91,
-        "90d": 92.03,
-        "1y": 90.99
-      }
-    },
-    {
-      "ip": "91.73.236.195",
-      "version": 4,
-      "country_code": "ae",
-      "country": "United Arab Emirates",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Emirates Integrated Telecommunications Company",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 14.29,
-        "30d": 75.93,
-        "90d": 83.54,
-        "1y": 82.31
+        "24h": 78.12,
+        "30d": 85.43,
+        "90d": 91.9,
+        "1y": 90.92
       }
     },
     {
@@ -375,15 +375,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 90.55,
+        "24h": 90.62,
+        "30d": 90.52,
         "90d": 95.33,
-        "1y": 94.49
+        "1y": 94.51
+      }
+    },
+    {
+      "ip": "94.205.52.106",
+      "version": 4,
+      "country_code": "ae",
+      "country": "United Arab Emirates",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Emirates Integrated Telecommunications Company",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 71.88,
+        "30d": 63.3,
+        "90d": 66.93,
+        "1y": 67.43
       }
     },
     {
@@ -404,13 +431,13 @@
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 73.33,
-        "30d": 81.63,
-        "90d": 85.29,
-        "1y": 84.13
+        "24h": 84.38,
+        "30d": 81.74,
+        "90d": 85.23,
+        "1y": 84.14
       }
     },
     {
@@ -434,10 +461,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 86.67,
-        "30d": 89.41,
-        "90d": 88.2,
-        "1y": 86.96
+        "24h": 93.75,
+        "30d": 89.46,
+        "90d": 88.19,
+        "1y": 87.01
       }
     },
     {
@@ -461,10 +488,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 70.0,
-        "30d": 66.75,
-        "90d": 66.28,
-        "1y": 64.35
+        "24h": 62.5,
+        "30d": 66.11,
+        "90d": 66.26,
+        "1y": 64.33
       }
     },
     {
@@ -483,15 +510,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 80.0,
-        "30d": 83.73,
-        "90d": 90.59,
-        "1y": 87.98
+        "24h": 84.38,
+        "30d": 83.58,
+        "90d": 90.57,
+        "1y": 88.0
       }
     },
     {
@@ -515,10 +542,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.0,
-        "30d": 94.4,
+        "24h": 90.62,
+        "30d": 94.29,
         "90d": 91.9,
-        "1y": 92.22
+        "1y": 92.23
       }
     }
   ]
