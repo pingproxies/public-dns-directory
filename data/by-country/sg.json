@@ -4,8 +4,8 @@
     "country_name": "Singapore",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-31T18:04:04Z",
-    "total_servers": 53
+    "generated_at": "2026-09-01T06:28:57Z",
+    "total_servers": 50
   },
   "resolvers": [
     {
@@ -21,45 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.67,
-        "90d": 96.96,
-        "1y": 97.14
-      }
-    },
-    {
-      "ip": "203.125.83.122",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SingNet Pte Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 41.94,
-        "30d": 24.28,
-        "90d": 21.1,
-        "1y": 20.63
+        "30d": 96.76,
+        "90d": 96.95,
+        "1y": 97.15
       }
     },
     {
@@ -75,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.77,
+        "30d": 98.86,
         "90d": 98.86,
-        "1y": 98.89
+        "1y": 98.9
       }
     },
     {
@@ -110,10 +83,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 80.65,
-        "30d": 78.51,
-        "90d": 76.4,
-        "1y": 75.79
+        "24h": 82.76,
+        "30d": 78.63,
+        "90d": 76.76,
+        "1y": 75.84
       }
     },
     {
@@ -137,10 +110,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 41.94,
-        "30d": 51.75,
-        "90d": 53.89,
-        "1y": 54.98
+        "24h": 44.83,
+        "30d": 52.06,
+        "90d": 53.99,
+        "1y": 55.01
       }
     },
     {
@@ -160,13 +133,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 93.56,
-        "90d": 98.11,
+        "30d": 93.57,
+        "90d": 98.1,
         "1y": 98.46
       }
     },
@@ -186,15 +159,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.91,
-        "90d": 96.47,
-        "1y": 94.44
+        "90d": 96.54,
+        "1y": 94.48
       }
     },
     {
@@ -214,14 +187,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.63,
-        "90d": 97.75,
-        "1y": 97.8
+        "30d": 97.64,
+        "90d": 97.74,
+        "1y": 97.81
       }
     },
     {
@@ -236,7 +209,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -245,10 +218,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 64.52,
-        "30d": 64.65,
-        "90d": 64.71,
-        "1y": 64.99
+        "24h": 55.17,
+        "30d": 64.62,
+        "90d": 64.61,
+        "1y": 64.96
       }
     },
     {
@@ -268,13 +241,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.84,
-        "90d": 97.01,
+        "30d": 96.94,
+        "90d": 97.0,
         "1y": 97.09
       }
     },
@@ -300,9 +273,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 96.49,
-        "90d": 96.66,
-        "1y": 96.44
+        "30d": 96.58,
+        "90d": 96.67,
+        "1y": 96.45
+      }
+    },
+    {
+      "ip": "111.223.91.163",
+      "version": 4,
+      "country_code": "sg",
+      "country": "Singapore",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Starhub Ltd.",
+      "domain": "111.223.91-163.unknown.starhub.net.sg",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 72.41,
+        "30d": 81.52,
+        "90d": 88.38,
+        "1y": 87.54
       }
     },
     {
@@ -326,10 +326,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 86.36,
-        "30d": 92.41,
+        "24h": 89.66,
+        "30d": 92.51,
         "90d": 95.5,
-        "1y": 95.37
+        "1y": 95.39
       }
     },
     {
@@ -356,7 +356,7 @@
         "24h": 100.0,
         "30d": 98.69,
         "90d": 99.43,
-        "1y": 99.51
+        "1y": 99.52
       }
     },
     {
@@ -376,13 +376,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.51,
-        "90d": 98.62,
+        "90d": 98.63,
         "1y": 98.41
       }
     },
@@ -407,10 +407,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.86,
-        "90d": 99.18,
-        "1y": 98.81
+        "24h": 96.55,
+        "30d": 98.77,
+        "90d": 99.16,
+        "1y": 98.8
       }
     },
     {
@@ -426,18 +426,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.32,
-        "30d": 94.3,
-        "90d": 96.66,
-        "1y": 96.77
+        "24h": 89.66,
+        "30d": 94.4,
+        "90d": 96.67,
+        "1y": 96.78
       }
     },
     {
@@ -453,18 +453,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 96.77,
+        "24h": 96.55,
         "30d": 95.53,
-        "90d": 95.35,
-        "1y": 95.18
+        "90d": 95.33,
+        "1y": 95.19
       }
     },
     {
@@ -484,14 +484,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 67.74,
-        "30d": 66.32,
-        "90d": 62.6,
-        "1y": 62.61
+        "24h": 72.41,
+        "30d": 66.2,
+        "90d": 62.9,
+        "1y": 62.68
       }
     },
     {
@@ -507,18 +507,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.16,
+        "30d": 98.25,
         "90d": 98.29,
-        "1y": 98.19
+        "1y": 98.2
       }
     },
     {
@@ -544,7 +544,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.39,
-        "90d": 99.46,
+        "90d": 99.45,
         "1y": 99.38
       }
     },
@@ -592,13 +592,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.56,
-        "90d": 98.84,
+        "90d": 98.86,
         "1y": 98.62
       }
     },
@@ -625,7 +625,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.65,
-        "90d": 99.46,
+        "90d": 99.45,
         "1y": 99.42
       }
     },
@@ -647,13 +647,13 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.27,
+        "30d": 95.36,
         "90d": 95.13,
-        "1y": 95.38
+        "1y": 95.39
       }
     },
     {
@@ -679,7 +679,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.74,
-        "90d": 99.56,
+        "90d": 99.55,
         "1y": 99.48
       }
     },
@@ -704,10 +704,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 90.32,
-        "30d": 87.37,
-        "90d": 88.9,
-        "1y": 87.43
+        "24h": 86.21,
+        "30d": 87.39,
+        "90d": 88.88,
+        "1y": 87.45
       }
     },
     {
@@ -731,10 +731,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.77,
-        "30d": 95.62,
-        "90d": 95.87,
-        "1y": 96.17
+        "24h": 96.55,
+        "30d": 95.71,
+        "90d": 95.85,
+        "1y": 96.18
       }
     },
     {
@@ -750,17 +750,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.74,
-        "90d": 99.43,
+        "90d": 99.45,
         "1y": 99.32
       }
     },
@@ -781,14 +781,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.42,
-        "90d": 91.94,
-        "1y": 92.44
+        "90d": 92.53,
+        "1y": 92.46
       }
     },
     {
@@ -804,18 +804,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": true,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.86,
-        "90d": 98.84,
-        "1y": 98.83
+        "30d": 98.95,
+        "90d": 98.83,
+        "1y": 98.84
       }
     },
     {
@@ -839,10 +839,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.77,
+        "24h": 96.55,
         "30d": 98.25,
-        "90d": 98.29,
-        "1y": 98.04
+        "90d": 98.26,
+        "1y": 98.02
       }
     },
     {
@@ -861,7 +861,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -900,33 +900,6 @@
       }
     },
     {
-      "ip": "202.136.180.57",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "NTT Singapore Pte Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 54.84,
-        "30d": 47.46,
-        "90d": 51.46,
-        "1y": 50.05
-      }
-    },
-    {
       "ip": "42.61.104.115",
       "version": 4,
       "country_code": "sg",
@@ -944,13 +917,13 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 96.67,
-        "30d": 94.18,
-        "90d": 96.77,
-        "1y": 96.03
+        "24h": 100.0,
+        "30d": 94.19,
+        "90d": 96.75,
+        "1y": 96.04
       }
     },
     {
@@ -969,15 +942,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 77.42,
-        "30d": 76.74,
-        "90d": 78.9,
-        "1y": 77.07
+        "24h": 75.86,
+        "30d": 76.68,
+        "90d": 78.98,
+        "1y": 77.08
       }
     },
     {
@@ -993,18 +966,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.4,
-        "90d": 96.56,
-        "1y": 96.5
+        "24h": 96.55,
+        "30d": 96.41,
+        "90d": 96.52,
+        "1y": 96.49
       }
     },
     {
@@ -1028,10 +1001,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 41.94,
-        "30d": 40.44,
+        "24h": 51.72,
+        "30d": 40.54,
         "90d": 43.85,
-        "1y": 43.66
+        "1y": 43.7
       }
     },
     {
@@ -1058,34 +1031,7 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.85,
-        "1y": 98.91
-      }
-    },
-    {
-      "ip": "118.201.80.227",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "SingNet Pte Ltd",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 70.97,
-        "30d": 75.99,
-        "90d": 77.29,
-        "1y": 76.27
+        "1y": 98.92
       }
     },
     {
@@ -1106,40 +1052,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 95.79,
-        "90d": 84.16,
-        "1y": 79.54
+        "30d": 95.88,
+        "90d": 84.43,
+        "1y": 79.6
       }
     },
     {
-      "ip": "206.189.92.228",
+      "ip": "20.212.94.189",
       "version": 4,
       "country_code": "sg",
       "country": "Singapore",
       "continent_code": "as",
       "continent": "Asia",
-      "organization": "DigitalOcean, LLC",
+      "organization": "Microsoft Azure Cloud (southeastasia)",
       "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 90.32,
-        "30d": 90.97,
-        "90d": 94.96,
-        "1y": 94.37
+        "24h": 65.52,
+        "30d": 59.02,
+        "90d": 60.59,
+        "1y": 58.43
       }
     },
     {
@@ -1170,33 +1116,6 @@
       }
     },
     {
-      "ip": "124.66.128.198",
-      "version": 4,
-      "country_code": "sg",
-      "country": "Singapore",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Singtel",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 19.35,
-        "30d": 59.04,
-        "90d": 83.91,
-        "1y": 85.95
-      }
-    },
-    {
       "ip": "174.138.21.128",
       "version": 4,
       "country_code": "sg",
@@ -1220,7 +1139,7 @@
         "24h": 100.0,
         "30d": 99.47,
         "90d": 99.7,
-        "1y": 99.51
+        "1y": 99.52
       }
     },
     {
@@ -1246,8 +1165,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.21,
-        "90d": 93.95,
-        "1y": 92.77
+        "90d": 94.02,
+        "1y": 92.79
       }
     },
     {
@@ -1262,19 +1181,19 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
+        "aware": false,
         "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 25.81,
+        "24h": 58.62,
         "30d": 46.32,
-        "90d": 28.98,
-        "1y": 28.8
+        "90d": 29.27,
+        "1y": 28.93
       }
     },
     {
@@ -1294,12 +1213,12 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.95,
+        "30d": 99.04,
         "90d": 98.34,
         "1y": 98.1
       }
@@ -1320,15 +1239,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 93.55,
-        "30d": 75.72,
-        "90d": 72.71,
-        "1y": 70.72
+        "24h": 93.1,
+        "30d": 75.83,
+        "90d": 72.86,
+        "1y": 70.8
       }
     },
     {
@@ -1352,10 +1271,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 96.77,
-        "30d": 96.05,
-        "90d": 95.38,
-        "1y": 89.71
+        "24h": 96.55,
+        "30d": 96.06,
+        "90d": 95.36,
+        "1y": 89.74
       }
     },
     {
@@ -1374,15 +1293,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 95.71,
         "90d": 98.29,
-        "1y": 98.54
+        "1y": 98.55
       }
     },
     {
@@ -1398,18 +1317,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 93.55,
-        "30d": 96.67,
-        "90d": 97.18,
-        "1y": 96.95
+        "24h": 96.55,
+        "30d": 96.85,
+        "90d": 97.17,
+        "1y": 96.96
       }
     },
     {
@@ -1428,12 +1347,12 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 96.77,
+        "24h": 96.55,
         "30d": 98.95,
         "90d": 99.16,
         "1y": 99.32

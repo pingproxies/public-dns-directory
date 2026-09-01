@@ -4,8 +4,8 @@
     "country_name": "Mongolia",
     "continent_code": "as",
     "continent_name": "Asia",
-    "generated_at": "2026-08-31T18:04:04Z",
-    "total_servers": 12
+    "generated_at": "2026-09-01T06:28:57Z",
+    "total_servers": 14
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.47,
-        "90d": 97.86,
-        "1y": 96.2
+        "90d": 97.94,
+        "1y": 96.22
       }
     },
     {
@@ -53,13 +53,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.53,
         "1y": 99.32
+      }
+    },
+    {
+      "ip": "202.131.254.166",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "MOBINET-LL",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 86.21,
+        "30d": 94.4,
+        "90d": 95.61,
+        "1y": 95.04
       }
     },
     {
@@ -78,8 +105,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": true
       },
       "uptime": {
@@ -106,41 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 90.32,
-        "30d": 94.21,
-        "90d": 97.18,
+        "24h": 100.0,
+        "30d": 94.22,
+        "90d": 97.17,
         "1y": 97.69
-      }
-    },
-    {
-      "ip": "103.9.88.154",
-      "version": 4,
-      "country_code": "mn",
-      "country": "Mongolia",
-      "continent_code": "as",
-      "continent": "Asia",
-      "organization": "Network fist",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 51.61,
-        "30d": 56.49,
-        "90d": 61.81,
-        "1y": 61.82
       }
     },
     {
@@ -160,13 +160,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.51,
-        "90d": 99.36,
+        "90d": 99.35,
         "1y": 99.42
       }
     },
@@ -187,14 +187,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
-        "adult": true
+        "malware": false,
+        "adult": false
       },
       "uptime": {
-        "24h": 96.77,
+        "24h": 96.55,
         "30d": 99.56,
-        "90d": 89.26,
-        "1y": 91.1
+        "90d": 89.21,
+        "1y": 91.13
       }
     },
     {
@@ -210,18 +210,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.82,
-        "90d": 94.12,
-        "1y": 95.34
+        "90d": 94.74,
+        "1y": 95.35
       }
     },
     {
@@ -237,6 +237,33 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 100.0,
+        "30d": 94.89,
+        "90d": 63.32,
+        "1y": 64.72
+      }
+    },
+    {
+      "ip": "203.169.48.10",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "DIGICOM",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -246,9 +273,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 94.55,
-        "90d": 61.35,
-        "1y": 64.29
+        "30d": 82.37,
+        "90d": 95.05,
+        "1y": 96.13
       }
     },
     {
@@ -268,14 +295,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.77,
-        "90d": 96.96,
-        "1y": 96.33
+        "90d": 96.95,
+        "1y": 96.34
+      }
+    },
+    {
+      "ip": "202.21.116.206",
+      "version": 4,
+      "country_code": "mn",
+      "country": "Mongolia",
+      "continent_code": "as",
+      "continent": "Asia",
+      "organization": "Mobinet LLC",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 93.1,
+        "30d": 94.75,
+        "90d": 90.49,
+        "1y": 91.09
       }
     },
     {
@@ -295,7 +349,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -326,10 +380,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.77,
-        "30d": 97.02,
-        "90d": 99.11,
-        "1y": 99.26
+        "24h": 93.1,
+        "30d": 96.94,
+        "90d": 99.08,
+        "1y": 99.24
       }
     }
   ]
