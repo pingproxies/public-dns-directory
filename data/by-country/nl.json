@@ -4,8 +4,8 @@
     "country_name": "The Netherlands",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-01T06:28:57Z",
-    "total_servers": 51
+    "generated_at": "2026-09-01T18:04:19Z",
+    "total_servers": 38
   },
   "resolvers": [
     {
@@ -25,14 +25,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 98.43,
-        "90d": 86.1,
-        "1y": 86.38
+        "30d": 98.55,
+        "90d": 86.21,
+        "1y": 86.44
       }
     },
     {
@@ -48,18 +48,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 98.95,
-        "90d": 99.21,
-        "1y": 99.19
+        "24h": 89.29,
+        "30d": 98.78,
+        "90d": 99.18,
+        "1y": 99.13
       }
     },
     {
@@ -78,26 +78,26 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 93.1,
-        "30d": 98.42,
-        "90d": 97.86,
-        "1y": 98.29
+        "24h": 96.43,
+        "30d": 98.51,
+        "90d": 97.85,
+        "1y": 98.3
       }
     },
     {
-      "ip": "81.4.104.170",
+      "ip": "136.244.97.119",
       "version": 4,
       "country_code": "nl",
       "country": "The Netherlands",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "WeservIT",
-      "domain": "epsys35a.epsys.nl",
+      "organization": "Vultr Holdings, LLC",
+      "domain": "136.244.97.119.vultrusercontent.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 72.41,
-        "30d": 73.99,
-        "90d": 57.97,
-        "1y": 52.28
+        "24h": 78.57,
+        "30d": 93.26,
+        "90d": 94.99,
+        "1y": 91.3
       }
     },
     {
@@ -123,35 +123,8 @@
       "country": "The Netherlands",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Falco Networks B.V",
+      "organization": "Falco IPR BV",
       "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 99.98
-      }
-    },
-    {
-      "ip": "213.34.140.206",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "WSC",
-      "domain": "static-206-140-34-213.thenetworkfactory.nl",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -165,90 +138,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 88.18,
-        "90d": 87.02,
-        "1y": 85.82
-      }
-    },
-    {
-      "ip": "178.62.197.147",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Digital Ocean",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.55,
-        "30d": 88.27,
-        "90d": 86.32,
-        "1y": 84.0
-      }
-    },
-    {
-      "ip": "52.233.186.232",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Microsoft Azure Cloud (westeurope)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 96.55,
-        "30d": 95.8,
-        "90d": 97.49,
-        "1y": 97.56
-      }
-    },
-    {
-      "ip": "87.213.68.130",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Shunter B.V.",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 68.97,
-        "30d": 75.13,
-        "90d": 80.73,
-        "1y": 77.95
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 99.98
       }
     },
     {
@@ -267,15 +159,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.04,
-        "90d": 98.88,
-        "1y": 98.37
+        "30d": 99.21,
+        "90d": 99.0,
+        "1y": 98.38
       }
     },
     {
@@ -299,64 +191,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 93.1,
-        "30d": 87.65,
-        "90d": 90.04,
-        "1y": 85.45
-      }
-    },
-    {
-      "ip": "213.124.39.21",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Stichting Katholiek Onderwijs Het Groene Lint",
-      "domain": "D57C2715.static.ziggozakelijk.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 89.66,
-        "30d": 81.42,
-        "90d": 80.69,
-        "1y": 78.92
-      }
-    },
-    {
-      "ip": "13.95.90.89",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Microsoft Azure Cloud (westeurope)",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 96.07,
-        "90d": 98.85,
-        "1y": 99.09
+        "24h": 92.86,
+        "30d": 88.36,
+        "90d": 90.27,
+        "1y": 85.49
       }
     },
     {
@@ -381,36 +219,9 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.82,
+        "30d": 99.83,
         "90d": 99.9,
         "1y": 99.88
-      }
-    },
-    {
-      "ip": "5.178.114.78",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Digiglas B.V",
-      "domain": "dhcp-5-178-114-78.digiglas.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 75.86,
-        "30d": 77.41,
-        "90d": 70.5,
-        "1y": 66.21
       }
     },
     {
@@ -430,14 +241,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
+        "24h": 96.43,
         "30d": 99.04,
-        "90d": 99.38,
-        "1y": 99.23
+        "90d": 99.5,
+        "1y": 99.21
       }
     },
     {
@@ -456,42 +267,69 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 86.21,
-        "30d": 87.13,
-        "90d": 87.56,
-        "1y": 85.35
+        "24h": 92.86,
+        "30d": 87.58,
+        "90d": 87.88,
+        "1y": 85.39
       }
     },
     {
-      "ip": "87.213.16.123",
+      "ip": "95.179.143.35",
       "version": 4,
       "country_code": "nl",
       "country": "The Netherlands",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Versatel",
-      "domain": null,
+      "organization": "Vultr Holdings LLC Amsterdam",
+      "domain": "95.179.143.35.vultrusercontent.com",
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 46.96,
+        "90d": 55.67,
+        "1y": 53.35
+      }
+    },
+    {
+      "ip": "91.232.105.138",
+      "version": 4,
+      "country_code": "nl",
+      "country": "The Netherlands",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "WorldStream B.V",
+      "domain": "91-232-105-138.hosted-by-worldstream.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
         "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 94.05,
-        "90d": 96.92,
-        "1y": 97.21
+        "24h": 96.43,
+        "30d": 99.21,
+        "90d": 99.58,
+        "1y": 99.56
       }
     },
     {
@@ -511,11 +349,11 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.55,
+        "24h": 96.43,
         "30d": 98.86,
         "90d": 99.35,
         "1y": 99.09
@@ -544,8 +382,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 96.28,
-        "1y": 94.83
+        "90d": 96.51,
+        "1y": 94.84
       }
     },
     {
@@ -561,18 +399,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 93.1,
-        "30d": 89.49,
-        "90d": 65.52,
-        "1y": 58.42
+        "24h": 96.43,
+        "30d": 89.85,
+        "90d": 65.85,
+        "1y": 58.51
       }
     },
     {
@@ -592,14 +430,41 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.82,
+        "30d": 99.83,
         "90d": 99.58,
         "1y": 99.63
+      }
+    },
+    {
+      "ip": "84.243.192.88",
+      "version": 4,
+      "country_code": "nl",
+      "country": "The Netherlands",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Redhosting B.V.",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 25.0,
+        "30d": 12.33,
+        "90d": 13.24,
+        "1y": 12.19
       }
     },
     {
@@ -619,14 +484,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 96.94,
-        "90d": 88.18,
-        "1y": 90.05
+        "24h": 96.43,
+        "30d": 97.11,
+        "90d": 88.1,
+        "1y": 90.06
       }
     },
     {
@@ -646,14 +511,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.91,
-        "90d": 99.9,
-        "1y": 96.98
+        "24h": 96.43,
+        "30d": 99.83,
+        "90d": 99.88,
+        "1y": 96.97
       }
     },
     {
@@ -669,17 +534,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 97.37,
-        "90d": 97.44,
+        "24h": 100.0,
+        "30d": 97.38,
+        "90d": 97.43,
         "1y": 97.62
       }
     },
@@ -699,9 +564,9 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -726,15 +591,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 83.89,
-        "90d": 92.3,
-        "1y": 93.34
+        "24h": 96.43,
+        "30d": 84.25,
+        "90d": 92.29,
+        "1y": 93.35
       }
     },
     {
@@ -781,14 +646,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 99.74,
-        "90d": 99.83,
-        "1y": 99.81
+        "24h": 96.43,
+        "30d": 99.65,
+        "90d": 99.8,
+        "1y": 99.79
       }
     },
     {
@@ -812,7 +677,7 @@
         "adult": false
       },
       "uptime": {
-        "24h": 96.55,
+        "24h": 96.43,
         "30d": 98.51,
         "90d": 98.78,
         "1y": 98.76
@@ -835,122 +700,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.35,
+        "90d": 99.78,
         "1y": 99.5
-      }
-    },
-    {
-      "ip": "212.78.216.109",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Vandenbrink Onroerend Goed Bedrijven B.V.",
-      "domain": "static-109-216-78-212.thenetworkfactory.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 79.31,
-        "30d": 61.56,
-        "90d": 67.37,
-        "1y": 67.73
-      }
-    },
-    {
-      "ip": "185.81.9.44",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Dataplace B.V",
-      "domain": "ip-by.netlan.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 93.1,
-        "30d": 75.92,
-        "90d": 74.87,
-        "1y": 75.09
-      }
-    },
-    {
-      "ip": "95.97.113.102",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "UPC NL",
-      "domain": "095-097-113-102.static.chello.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 89.66,
-        "30d": 78.29,
-        "90d": 81.2,
-        "1y": 72.9
-      }
-    },
-    {
-      "ip": "80.242.237.178",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Vodafone Ziggo",
-      "domain": "50F2EDB2.static.ziggozakelijk.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 86.21,
-        "30d": 95.45,
-        "90d": 93.27,
-        "1y": 92.35
       }
     },
     {
@@ -997,14 +754,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": false
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 97.72,
-        "90d": 97.02,
-        "1y": 96.65
+        "24h": 92.86,
+        "30d": 97.81,
+        "90d": 97.06,
+        "1y": 96.62
       }
     },
     {
@@ -1030,8 +787,8 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 96.3,
-        "1y": 94.12
+        "90d": 96.36,
+        "1y": 94.15
       }
     },
     {
@@ -1041,35 +798,8 @@
       "country": "The Netherlands",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Falco Networks B.V",
+      "organization": "Falco IPR BV",
       "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 100.0,
-        "90d": 100.0,
-        "1y": 100.0
-      }
-    },
-    {
-      "ip": "87.213.72.41",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Shunter B.V.",
-      "domain": "unlabelled-41.72.213.87.alphyra.versatel.net",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -1077,15 +807,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 86.21,
-        "30d": 73.99,
-        "90d": 81.01,
-        "1y": 78.22
+        "24h": 100.0,
+        "30d": 100.0,
+        "90d": 100.0,
+        "1y": 100.0
       }
     },
     {
@@ -1104,7 +834,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -1113,33 +843,6 @@
         "30d": 99.65,
         "90d": 99.88,
         "1y": 99.07
-      }
-    },
-    {
-      "ip": "91.201.25.124",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "On-line Data LTD",
-      "domain": "vm3904711.25ssd.had.wf",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 48.28,
-        "30d": 34.5,
-        "90d": 53.07,
-        "1y": 56.1
       }
     },
     {
@@ -1155,45 +858,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 93.1,
-        "30d": 91.94,
-        "90d": 89.47,
-        "1y": 87.85
-      }
-    },
-    {
-      "ip": "81.173.126.239",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "Pocos B.V",
-      "domain": "a81-173-126-239.dsl.pocosnet.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 89.66,
-        "30d": 79.42,
-        "90d": 81.53,
-        "1y": 79.15
+        "24h": 92.86,
+        "30d": 91.95,
+        "90d": 89.65,
+        "1y": 87.86
       }
     },
     {
@@ -1212,15 +888,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 96.55,
-        "30d": 97.55,
-        "90d": 98.31,
-        "1y": 97.44
+        "24h": 89.29,
+        "30d": 97.29,
+        "90d": 98.25,
+        "1y": 97.39
       }
     },
     {
@@ -1300,7 +976,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.56,
-        "90d": 98.56,
+        "90d": 98.6,
         "1y": 98.88
       }
     },
@@ -1326,8 +1002,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.82,
-        "90d": 99.8,
+        "30d": 99.83,
+        "90d": 99.88,
         "1y": 99.48
       }
     },
@@ -1347,42 +1023,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 100.0,
-        "30d": 99.82,
-        "90d": 96.1,
-        "1y": 94.3
-      }
-    },
-    {
-      "ip": "185.50.209.49",
-      "version": 4,
-      "country_code": "nl",
-      "country": "The Netherlands",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "MATRIXDATA FTTx GBA",
-      "domain": "185-50-209-49.imatrix.nl",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
         "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 93.1,
-        "30d": 91.16,
-        "90d": 89.67,
-        "1y": 87.19
+        "24h": 100.0,
+        "30d": 99.83,
+        "90d": 96.43,
+        "1y": 94.32
       }
     }
   ]
