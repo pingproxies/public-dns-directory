@@ -4,37 +4,10 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-02T06:32:16Z",
+    "generated_at": "2026-09-02T18:04:12Z",
     "total_servers": 4
   },
   "resolvers": [
-    {
-      "ip": "201.247.112.236",
-      "version": 4,
-      "country_code": "sv",
-      "country": "El Salvador",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 64.29,
-        "30d": 47.77,
-        "90d": 51.1,
-        "1y": 54.83
-      }
-    },
     {
       "ip": "168.243.48.33",
       "version": 4,
@@ -53,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 95.71,
-        "90d": 98.55,
-        "1y": 97.47
+        "24h": 84.62,
+        "30d": 95.35,
+        "90d": 98.44,
+        "1y": 97.39
+      }
+    },
+    {
+      "ip": "190.86.205.194",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
+      "domain": "ns1.coopex.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 53.85,
+        "30d": 71.58,
+        "90d": 71.7,
+        "1y": 72.31
       }
     },
     {
@@ -79,7 +79,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -106,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 73.05,
-        "90d": 48.83,
-        "1y": 42.69
+        "24h": 92.31,
+        "30d": 73.51,
+        "90d": 50.0,
+        "1y": 43.78
       }
     }
   ]

@@ -4,10 +4,37 @@
     "country_name": "Nicaragua",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-02T06:32:16Z",
-    "total_servers": 1
+    "generated_at": "2026-09-02T18:04:12Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "45.170.224.187",
+      "version": 4,
+      "country_code": "ni",
+      "country": "Nicaragua",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "EMPRESA NACIONAL DE TRANSMISIÓN ELÉCTRICA",
+      "domain": "dns1.energias-renovables.gob.ni",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 65.38,
+        "30d": 67.54,
+        "90d": 86.94,
+        "1y": 90.02
+      }
+    },
     {
       "ip": "190.124.39.34",
       "version": 4,
@@ -25,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 89.29,
-        "30d": 84.05,
-        "90d": 87.0,
-        "1y": 85.87
+        "24h": 88.46,
+        "30d": 84.11,
+        "90d": 86.94,
+        "1y": 85.86
       }
     }
   ]
