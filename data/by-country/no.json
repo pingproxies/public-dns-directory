@@ -4,8 +4,8 @@
     "country_name": "Norway",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-01T18:04:19Z",
-    "total_servers": 18
+    "generated_at": "2026-09-02T06:32:16Z",
+    "total_servers": 20
   },
   "resolvers": [
     {
@@ -24,15 +24,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 92.86,
-        "30d": 97.38,
+        "30d": 97.37,
         "90d": 98.45,
-        "1y": 97.95
+        "1y": 97.96
       }
     },
     {
@@ -57,7 +57,7 @@
       },
       "uptime": {
         "24h": 96.43,
-        "30d": 99.13,
+        "30d": 99.12,
         "90d": 99.75,
         "1y": 99.77
       }
@@ -79,13 +79,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.98,
+        "90d": 99.97,
         "1y": 99.94
       }
     },
@@ -111,7 +111,7 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.83,
+        "30d": 99.82,
         "90d": 99.95,
         "1y": 99.96
       }
@@ -137,10 +137,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 82.14,
-        "30d": 82.06,
-        "90d": 77.7,
-        "1y": 76.66
+        "24h": 67.86,
+        "30d": 81.68,
+        "90d": 77.52,
+        "1y": 76.64
       }
     },
     {
@@ -159,15 +159,42 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 86.79,
-        "90d": 81.12,
-        "1y": 81.16
+        "24h": 85.71,
+        "30d": 86.77,
+        "90d": 81.06,
+        "1y": 81.17
+      }
+    },
+    {
+      "ip": "77.222.170.103",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eltele customers Alta FTTH",
+      "domain": "eltele-alta-103.ftth.trollnet.no",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 91.85,
+        "90d": 94.79,
+        "1y": 93.18
       }
     },
     {
@@ -213,15 +240,42 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 98.78,
-        "90d": 99.35,
-        "1y": 99.34
+        "24h": 85.71,
+        "30d": 98.6,
+        "90d": 99.3,
+        "1y": 99.31
+      }
+    },
+    {
+      "ip": "77.106.181.58",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Eidsiva",
+      "domain": "58.181.eidsiva.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 76.86,
+        "90d": 83.84,
+        "1y": 79.53
       }
     },
     {
@@ -246,20 +300,47 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 58.18,
-        "90d": 94.49,
-        "1y": 96.21
+        "30d": 63.41,
+        "90d": 94.45,
+        "1y": 96.22
       }
     },
     {
-      "ip": "193.19.64.88",
+      "ip": "94.127.59.14",
       "version": 4,
       "country_code": "no",
       "country": "Norway",
       "continent_code": "eu",
       "continent": "Europe",
-      "organization": "Itera Norge",
-      "domain": null,
+      "organization": "Mnemonic OSL",
+      "domain": "osl-securedns3.mnemonic.no",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 89.29,
+        "30d": 99.39,
+        "90d": 99.8,
+        "1y": 99.79
+      }
+    },
+    {
+      "ip": "85.200.209.58",
+      "version": 4,
+      "country_code": "no",
+      "country": "Norway",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "BKKB",
+      "domain": "58.85-200-209.bkkb.no",
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -272,10 +353,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 100.0,
-        "30d": 91.36,
-        "90d": 97.02,
-        "1y": 97.19
+        "24h": 57.14,
+        "30d": 68.97,
+        "90d": 66.73,
+        "1y": 66.08
       }
     },
     {
@@ -306,33 +387,6 @@
       }
     },
     {
-      "ip": "77.88.105.215",
-      "version": 4,
-      "country_code": "no",
-      "country": "Norway",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "GLOBALCONNECT AS",
-      "domain": "cD769584D.static.as2116.net",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": true,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 60.71,
-        "30d": 67.02,
-        "90d": 70.02,
-        "1y": 70.07
-      }
-    },
-    {
       "ip": "94.127.63.6",
       "version": 4,
       "country_code": "no",
@@ -354,8 +408,8 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.83,
-        "90d": 99.93,
+        "30d": 99.82,
+        "90d": 99.92,
         "1y": 99.94
       }
     },
@@ -382,7 +436,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.56,
-        "90d": 99.83,
+        "90d": 99.82,
         "1y": 99.85
       }
     },
@@ -403,13 +457,13 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.65,
-        "90d": 99.88,
+        "90d": 99.87,
         "1y": 99.9
       }
     },
@@ -426,17 +480,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 96.43,
         "30d": 99.21,
-        "90d": 99.78,
+        "90d": 99.77,
         "1y": 99.83
       }
     },
@@ -456,14 +510,14 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.91,
-        "90d": 99.98,
+        "90d": 99.97,
         "1y": 99.98
       }
     },

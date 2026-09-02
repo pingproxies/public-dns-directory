@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-01T18:04:19Z",
-    "total_servers": 8
+    "generated_at": "2026-09-02T06:32:16Z",
+    "total_servers": 9
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -29,10 +29,10 @@
         "adult": false
       },
       "uptime": {
-        "24h": 92.86,
-        "30d": 97.9,
-        "90d": 98.18,
-        "1y": 97.91
+        "24h": 89.29,
+        "30d": 97.81,
+        "90d": 98.15,
+        "1y": 97.9
       }
     },
     {
@@ -52,14 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 64.29,
+        "24h": 46.43,
         "30d": 54.16,
-        "90d": 55.64,
-        "1y": 54.16
+        "90d": 55.6,
+        "1y": 54.15
       }
     },
     {
@@ -111,9 +111,36 @@
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.55,
-        "90d": 97.1,
-        "1y": 96.45
+        "30d": 99.64,
+        "90d": 97.08,
+        "1y": 96.46
+      }
+    },
+    {
+      "ip": "80.186.145.164",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Elisa Oyj",
+      "domain": "80-186-145-164.elisa-mobile.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 87.38,
+        "90d": 92.76,
+        "1y": 89.17
       }
     },
     {
@@ -132,7 +159,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -140,7 +167,34 @@
         "24h": 100.0,
         "30d": 99.91,
         "90d": 99.45,
-        "1y": 99.57
+        "1y": 99.58
+      }
+    },
+    {
+      "ip": "89.236.106.156",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TNNet Oy",
+      "domain": "59ec6a9c.adsl.tnnet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 78.57,
+        "30d": 86.15,
+        "90d": 88.62,
+        "1y": 85.58
       }
     },
     {
@@ -171,33 +225,6 @@
       }
     },
     {
-      "ip": "195.140.195.21",
-      "version": 4,
-      "country_code": "fi",
-      "country": "Finland",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "TREX Regional Exchanges Oy",
-      "domain": "resolver1.dns.trex.fi",
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 89.29,
-        "30d": 88.98,
-        "90d": 92.27,
-        "1y": 92.99
-      }
-    },
-    {
       "ip": "65.108.195.182",
       "version": 4,
       "country_code": "fi",
@@ -221,7 +248,7 @@
         "24h": 100.0,
         "30d": 100.0,
         "90d": 99.85,
-        "1y": 99.86
+        "1y": 99.87
       }
     }
   ]

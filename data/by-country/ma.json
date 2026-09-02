@@ -4,10 +4,64 @@
     "country_name": "Morocco",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-01T18:04:19Z",
-    "total_servers": 2
+    "generated_at": "2026-09-02T06:32:16Z",
+    "total_servers": 4
   },
   "resolvers": [
+    {
+      "ip": "102.50.253.95",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "Maroc telecom static ip adress",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 85.71,
+        "30d": 98.33,
+        "90d": 94.84,
+        "1y": 95.82
+      }
+    },
+    {
+      "ip": "81.192.7.147",
+      "version": 4,
+      "country_code": "ma",
+      "country": "Morocco",
+      "continent_code": "af",
+      "continent": "Africa",
+      "organization": "LLI ccm",
+      "domain": "srv1-ccm.ma",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 60.71,
+        "30d": 54.52,
+        "90d": 55.5,
+        "1y": 52.42
+      }
+    },
     {
       "ip": "197.230.15.206",
       "version": 4,
@@ -24,15 +78,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
+        "ads": false,
+        "malware": false,
+        "adult": false
       },
       "uptime": {
         "24h": 89.29,
-        "30d": 93.61,
-        "90d": 77.72,
-        "1y": 75.67
+        "30d": 93.6,
+        "90d": 77.96,
+        "1y": 75.84
       }
     },
     {
@@ -52,14 +106,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 92.86,
-        "30d": 99.65,
+        "30d": 99.56,
         "90d": 98.85,
-        "1y": 98.84
+        "1y": 98.82
       }
     }
   ]
