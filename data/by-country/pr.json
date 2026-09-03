@@ -4,8 +4,8 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-02T18:04:12Z",
-    "total_servers": 3
+    "generated_at": "2026-09-03T06:27:11Z",
+    "total_servers": 2
   },
   "resolvers": [
     {
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 84.62,
-        "30d": 53.57,
-        "90d": 44.01,
-        "1y": 40.06
+        "30d": 58.4,
+        "90d": 45.34,
+        "1y": 41.29
       }
     },
     {
@@ -52,41 +52,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 73.08,
-        "30d": 78.49,
-        "90d": 66.34,
-        "1y": 62.07
-      }
-    },
-    {
-      "ip": "162.251.158.88",
-      "version": 4,
-      "country_code": "pr",
-      "country": "Puerto Rico",
-      "continent_code": "na",
-      "continent": "North America",
-      "organization": "Smart Networks, LLC",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": true
-      },
-      "blocking": {
-        "ads": true,
-        "malware": true,
-        "adult": true
-      },
-      "uptime": {
-        "24h": 61.54,
-        "30d": 90.18,
-        "90d": 93.68,
-        "1y": 92.79
+        "30d": 78.74,
+        "90d": 66.75,
+        "1y": 62.44
       }
     }
   ]
