@@ -4,8 +4,8 @@
     "country_name": "Tunisia",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-03T18:04:07Z",
-    "total_servers": 6
+    "generated_at": "2026-09-04T06:26:45Z",
+    "total_servers": 5
   },
   "resolvers": [
     {
@@ -21,7 +21,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
@@ -79,14 +79,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 92.59,
-        "30d": 96.93,
-        "90d": 97.36,
-        "1y": 97.99
+        "30d": 96.92,
+        "90d": 97.35,
+        "1y": 98.0
       }
     },
     {
@@ -102,7 +102,7 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
@@ -112,12 +112,12 @@
       "uptime": {
         "24h": 100.0,
         "30d": 99.91,
-        "90d": 99.75,
+        "90d": 99.74,
         "1y": 99.81
       }
     },
     {
-      "ip": "196.179.250.93",
+      "ip": "196.179.250.11",
       "version": 4,
       "country_code": "tn",
       "country": "Tunisia",
@@ -128,8 +128,8 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": true,
-        "validating": true
+        "aware": false,
+        "validating": false
       },
       "blocking": {
         "ads": true,
@@ -137,37 +137,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 51.85,
-        "30d": 51.36,
-        "90d": 51.78,
-        "1y": 49.13
-      }
-    },
-    {
-      "ip": "197.15.25.175",
-      "version": 4,
-      "country_code": "tn",
-      "country": "Tunisia",
-      "continent_code": "af",
-      "continent": "Africa",
-      "organization": "Globalnet",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": true,
-        "validating": true
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 66.67,
-        "30d": 3.06,
-        "90d": 2.4,
-        "1y": 2.4
+        "24h": 40.74,
+        "30d": 47.01,
+        "90d": 49.89,
+        "1y": 47.19
       }
     }
   ]

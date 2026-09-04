@@ -4,10 +4,37 @@
     "country_name": "Puerto Rico",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-03T18:04:07Z",
-    "total_servers": 1
+    "generated_at": "2026-09-04T06:26:45Z",
+    "total_servers": 2
   },
   "resolvers": [
+    {
+      "ip": "38.50.64.40",
+      "version": 4,
+      "country_code": "pr",
+      "country": "Puerto Rico",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "Aeronet Broadband",
+      "domain": null,
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": false,
+        "malware": false,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 92.59,
+        "30d": 79.34,
+        "90d": 67.76,
+        "1y": 63.3
+      }
+    },
     {
       "ip": "162.251.158.88",
       "version": 4,
@@ -24,15 +51,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 74.07,
-        "30d": 89.55,
-        "90d": 93.47,
-        "1y": 92.69
+        "24h": 88.89,
+        "30d": 89.54,
+        "90d": 93.49,
+        "1y": 92.71
       }
     }
   ]
