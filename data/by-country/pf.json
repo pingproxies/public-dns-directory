@@ -4,7 +4,7 @@
     "country_name": "French Polynesia",
     "continent_code": "oc",
     "continent_name": "Oceania",
-    "generated_at": "2026-09-05T06:24:11Z",
+    "generated_at": "2026-09-05T18:03:29Z",
     "total_servers": 1
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
         "ads": false,
-        "malware": false,
-        "adult": true
+        "malware": true,
+        "adult": false
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 67.78,
-        "90d": 76.31,
-        "1y": 76.57
+        "24h": 62.96,
+        "30d": 68.05,
+        "90d": 76.4,
+        "1y": 76.62
       }
     }
   ]
