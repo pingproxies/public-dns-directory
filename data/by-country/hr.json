@@ -4,7 +4,7 @@
     "country_name": "Croatia",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-06T06:24:21Z",
+    "generated_at": "2026-09-06T18:03:48Z",
     "total_servers": 26
   },
   "resolvers": [
@@ -24,8 +24,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": false,
+        "ads": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -51,13 +51,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.64,
+        "30d": 99.65,
         "90d": 99.87,
         "1y": 99.89
       }
@@ -102,18 +102,18 @@
       "anycast": false,
       "dnssec": {
         "aware": false,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 65.38,
-        "30d": 63.91,
-        "90d": 47.78,
-        "1y": 41.55
+        "24h": 75.0,
+        "30d": 64.01,
+        "90d": 47.95,
+        "1y": 41.63
       }
     },
     {
@@ -133,14 +133,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.76,
-        "90d": 98.7,
-        "1y": 98.6
+        "90d": 98.69,
+        "1y": 98.61
       }
     },
     {
@@ -160,14 +160,14 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
-        "24h": 59.26,
-        "30d": 93.87,
-        "90d": 95.43,
-        "1y": 95.88
+        "24h": 82.14,
+        "30d": 93.88,
+        "90d": 95.4,
+        "1y": 95.89
       }
     },
     {
@@ -182,7 +182,7 @@
       "trusted": false,
       "anycast": false,
       "dnssec": {
-        "aware": false,
+        "aware": true,
         "validating": false
       },
       "blocking": {
@@ -195,6 +195,33 @@
         "30d": 100.0,
         "90d": 99.97,
         "1y": 99.98
+      }
+    },
+    {
+      "ip": "82.214.100.214",
+      "version": 4,
+      "country_code": "hr",
+      "country": "Croatia",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "Akton",
+      "domain": "c82-214-100-214.loc.akton.net",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": false,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": true,
+        "adult": true
+      },
+      "uptime": {
+        "24h": 50.0,
+        "30d": 61.35,
+        "90d": 67.85,
+        "1y": 66.94
       }
     },
     {
@@ -220,7 +247,7 @@
       "uptime": {
         "24h": 100.0,
         "30d": 100.0,
-        "90d": 99.45,
+        "90d": 99.53,
         "1y": 98.87
       }
     },
@@ -240,15 +267,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 34.62,
-        "30d": 38.81,
-        "90d": 44.02,
-        "1y": 40.6
+        "24h": 39.29,
+        "30d": 39.18,
+        "90d": 44.17,
+        "1y": 40.63
       }
     },
     {
@@ -268,14 +295,14 @@
       },
       "blocking": {
         "ads": true,
-        "malware": true,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 62.96,
-        "30d": 65.51,
-        "90d": 47.06,
-        "1y": 41.27
+        "24h": 60.71,
+        "30d": 65.43,
+        "90d": 47.39,
+        "1y": 41.36
       }
     },
     {
@@ -294,8 +321,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -330,33 +357,6 @@
         "30d": 100.0,
         "90d": 99.95,
         "1y": 99.96
-      }
-    },
-    {
-      "ip": "85.114.61.206",
-      "version": 4,
-      "country_code": "hr",
-      "country": "Croatia",
-      "continent_code": "eu",
-      "continent": "Europe",
-      "organization": "OT - OPTIMA TELEKOM d.d",
-      "domain": null,
-      "trusted": false,
-      "anycast": false,
-      "dnssec": {
-        "aware": false,
-        "validating": false
-      },
-      "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
-      },
-      "uptime": {
-        "24h": 81.48,
-        "30d": 80.41,
-        "90d": 71.75,
-        "1y": 68.14
       }
     },
     {
@@ -402,7 +402,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -429,15 +429,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
+        "ads": true,
         "malware": true,
         "adult": true
       },
       "uptime": {
-        "24h": 40.74,
-        "30d": 45.65,
-        "90d": 49.66,
-        "1y": 49.67
+        "24h": 60.71,
+        "30d": 45.57,
+        "90d": 49.56,
+        "1y": 49.68
       }
     },
     {
@@ -456,15 +456,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.47,
         "90d": 99.09,
-        "1y": 99.24
+        "1y": 99.25
       }
     },
     {
@@ -483,7 +483,7 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
@@ -491,7 +491,7 @@
         "24h": 100.0,
         "30d": 99.91,
         "90d": 99.43,
-        "1y": 99.58
+        "1y": 99.59
       }
     },
     {
@@ -510,8 +510,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
+        "ads": true,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -537,15 +537,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 77.78,
-        "30d": 63.82,
-        "90d": 43.18,
-        "1y": 35.21
+        "24h": 78.57,
+        "30d": 63.98,
+        "90d": 43.49,
+        "1y": 35.34
       }
     },
     {
@@ -592,7 +592,7 @@
       },
       "blocking": {
         "ads": false,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
@@ -618,15 +618,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": true
       },
       "uptime": {
-        "24h": 62.96,
-        "30d": 64.53,
-        "90d": 48.12,
-        "1y": 40.97
+        "24h": 64.29,
+        "30d": 64.6,
+        "90d": 48.37,
+        "1y": 41.03
       }
     },
     {
@@ -645,13 +645,13 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 97.6,
+        "30d": 97.61,
         "90d": 99.14,
         "1y": 99.06
       }
@@ -699,15 +699,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 98.76,
         "90d": 94.44,
-        "1y": 95.66
+        "1y": 95.67
       }
     }
   ]

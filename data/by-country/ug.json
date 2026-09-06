@@ -4,7 +4,7 @@
     "country_name": "Uganda",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-06T06:24:21Z",
+    "generated_at": "2026-09-06T18:03:48Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,18 +21,18 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": false
+        "validating": true
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 84.55,
-        "90d": 79.31,
-        "1y": 71.87
+        "30d": 84.57,
+        "90d": 79.74,
+        "1y": 71.94
       }
     },
     {
@@ -53,12 +53,12 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.73,
-        "90d": 99.82,
+        "90d": 99.84,
         "1y": 99.83
       }
     }

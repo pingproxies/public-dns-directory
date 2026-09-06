@@ -4,8 +4,8 @@
     "country_name": "Finland",
     "continent_code": "eu",
     "continent_name": "Europe",
-    "generated_at": "2026-09-06T06:24:21Z",
-    "total_servers": 9
+    "generated_at": "2026-09-06T18:03:48Z",
+    "total_servers": 10
   },
   "resolvers": [
     {
@@ -21,17 +21,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": true,
-        "malware": false,
+        "malware": true,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 97.87,
-        "90d": 98.05,
+        "90d": 98.07,
         "1y": 97.87
       }
     },
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 46.15,
-        "30d": 72.53,
-        "90d": 74.55,
-        "1y": 73.72
+        "24h": 53.57,
+        "30d": 72.49,
+        "90d": 74.47,
+        "1y": 73.73
       }
     },
     {
@@ -80,7 +80,7 @@
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": true
+        "adult": false
       },
       "uptime": {
         "24h": 100.0,
@@ -105,15 +105,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
         "24h": 100.0,
         "30d": 99.38,
-        "90d": 96.89,
-        "1y": 96.47
+        "90d": 96.87,
+        "1y": 96.49
       }
     },
     {
@@ -132,15 +132,15 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": false,
         "adult": false
       },
       "uptime": {
-        "24h": 96.3,
-        "30d": 85.79,
-        "90d": 92.72,
-        "1y": 89.06
+        "24h": 85.71,
+        "30d": 85.73,
+        "90d": 92.77,
+        "1y": 89.03
       }
     },
     {
@@ -159,7 +159,7 @@
         "validating": true
       },
       "blocking": {
-        "ads": true,
+        "ads": false,
         "malware": true,
         "adult": false
       },
@@ -167,7 +167,34 @@
         "24h": 100.0,
         "30d": 99.91,
         "90d": 99.95,
-        "1y": 99.58
+        "1y": 99.59
+      }
+    },
+    {
+      "ip": "89.236.106.156",
+      "version": 4,
+      "country_code": "fi",
+      "country": "Finland",
+      "continent_code": "eu",
+      "continent": "Europe",
+      "organization": "TNNet Oy",
+      "domain": "59ec6a9c.adsl.tnnet.fi",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": true
+      },
+      "blocking": {
+        "ads": false,
+        "malware": true,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 82.14,
+        "30d": 85.46,
+        "90d": 88.72,
+        "1y": 85.56
       }
     },
     {
@@ -186,8 +213,8 @@
         "validating": false
       },
       "blocking": {
-        "ads": true,
-        "malware": true,
+        "ads": false,
+        "malware": false,
         "adult": false
       },
       "uptime": {
@@ -218,10 +245,10 @@
         "adult": true
       },
       "uptime": {
-        "24h": 81.48,
-        "30d": 89.78,
-        "90d": 91.68,
-        "1y": 92.76
+        "24h": 92.86,
+        "30d": 89.8,
+        "90d": 91.65,
+        "1y": 92.78
       }
     },
     {

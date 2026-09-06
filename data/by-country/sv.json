@@ -4,19 +4,19 @@
     "country_name": "El Salvador",
     "continent_code": "na",
     "continent_name": "North America",
-    "generated_at": "2026-09-06T06:24:21Z",
-    "total_servers": 2
+    "generated_at": "2026-09-06T18:03:48Z",
+    "total_servers": 3
   },
   "resolvers": [
     {
-      "ip": "190.86.205.194",
+      "ip": "201.247.112.236",
       "version": 4,
       "country_code": "sv",
       "country": "El Salvador",
       "continent_code": "na",
       "continent": "North America",
-      "organization": "Sociedad Cooperativa EX Banco Cuscatlan. De R.L",
-      "domain": "ns1.coopex.com.sv",
+      "organization": "LAB. PAILL DIV. DE GRUPO PAILL, S.A. DE C.V",
+      "domain": null,
       "trusted": false,
       "anycast": false,
       "dnssec": {
@@ -26,13 +26,40 @@
       "blocking": {
         "ads": false,
         "malware": true,
-        "adult": true
+        "adult": false
       },
       "uptime": {
-        "24h": 81.48,
-        "30d": 72.27,
-        "90d": 72.06,
-        "1y": 72.51
+        "24h": 42.86,
+        "30d": 47.61,
+        "90d": 49.77,
+        "1y": 54.54
+      }
+    },
+    {
+      "ip": "168.243.48.33",
+      "version": 4,
+      "country_code": "sv",
+      "country": "El Salvador",
+      "continent_code": "na",
+      "continent": "North America",
+      "organization": "SVNet",
+      "domain": "ns.telecam.com.sv",
+      "trusted": false,
+      "anycast": false,
+      "dnssec": {
+        "aware": true,
+        "validating": false
+      },
+      "blocking": {
+        "ads": true,
+        "malware": false,
+        "adult": false
+      },
+      "uptime": {
+        "24h": 92.86,
+        "30d": 94.24,
+        "90d": 98.02,
+        "1y": 97.16
       }
     },
     {
