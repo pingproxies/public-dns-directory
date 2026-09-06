@@ -4,7 +4,7 @@
     "country_name": "Rwanda",
     "continent_code": "af",
     "continent_name": "Africa",
-    "generated_at": "2026-09-05T18:03:29Z",
+    "generated_at": "2026-09-06T06:24:21Z",
     "total_servers": 2
   },
   "resolvers": [
@@ -21,17 +21,17 @@
       "anycast": false,
       "dnssec": {
         "aware": true,
-        "validating": true
+        "validating": false
       },
       "blocking": {
         "ads": false,
         "malware": false,
-        "adult": false
+        "adult": true
       },
       "uptime": {
         "24h": 100.0,
-        "30d": 99.03,
-        "90d": 99.33,
+        "30d": 99.02,
+        "90d": 99.32,
         "1y": 99.47
       }
     },
@@ -51,15 +51,15 @@
         "validating": false
       },
       "blocking": {
-        "ads": false,
-        "malware": false,
-        "adult": false
+        "ads": true,
+        "malware": true,
+        "adult": true
       },
       "uptime": {
-        "24h": 33.33,
-        "30d": 46.55,
-        "90d": 36.14,
-        "1y": 29.16
+        "24h": 29.63,
+        "30d": 46.31,
+        "90d": 36.45,
+        "1y": 29.17
       }
     }
   ]
